@@ -1,9 +1,501 @@
-﻿id,type,english,chinese,difficulty
-1,sentence,May I see the menu?,我可以看菜單嗎?,medium
-2,sentence,I would like a glass of water.,我想要一杯水。,medium
-3,sentence,I would like to order now.,我現在想點餐。,medium
-4,sentence,What do you recommend?,你推薦什麼?,medium
-5,sentence,"Could we have the bill, please?",可以給我們帳單嗎?,medium
-6,sentence,This soup is too salty for me.,這碗湯對我來說太鹹了。,medium
-7,sentence,Could you make this dish less spicy?,這道菜可以做得不那麼辣嗎?,medium
-8,sentence,We have a reservation under the name Chen.,我們有用陳這個名字訂位。,medium
+﻿id,type,english,chinese,difficulty,topic,keywords
+1,sentence,May I see the menu?,我可以看菜單嗎？,medium,Restaurant-常用3000單,menu
+2,sentence,I need a table.,我需要一張桌子。,medium,Restaurant-常用3000單,table
+3,sentence,This table is clean.,這張桌子很乾淨。,medium,Restaurant-常用3000單,table
+4,sentence,The chair is comfortable.,這張椅子很舒服。,medium,Restaurant-常用3000單,chair
+5,sentence,The soup is hot.,這碗湯很熱。,medium,Restaurant-常用3000單,soup
+6,sentence,The soup is salty.,這碗湯很鹹。,medium,Restaurant-常用3000單,soup
+7,sentence,The dessert is sweet.,這份甜點很甜。,medium,Restaurant-常用3000單,dessert
+8,sentence,The coffee is cold.,這杯咖啡冷了。,medium,Restaurant-常用3000單,coffee
+9,sentence,The tea is warm.,這杯茶是溫的。,medium,Restaurant-常用3000單,tea
+10,sentence,The rice is ready.,飯準備好了。,medium,Restaurant-常用3000單,rice
+11,sentence,The fish tastes fresh.,這條魚吃起來很新鮮。,medium,Restaurant-常用3000單,fish
+12,sentence,The chicken smells good.,這份雞肉聞起來很香。,medium,Restaurant-常用3000單,chicken
+13,sentence,The salad looks fresh.,這份沙拉看起來很新鮮。,medium,Restaurant-常用3000單,salad
+14,sentence,Please bring some water.,請拿一些水來。,medium,Restaurant-常用3000單,water
+15,sentence,Please bring the bill.,請拿帳單來。,medium,Restaurant-常用3000單,bill
+16,sentence,I want more rice.,我想要更多飯。,medium,Restaurant-常用3000單,rice
+17,sentence,I want more soup.,我想要更多湯。,medium,Restaurant-常用3000單,soup
+18,sentence,I want some dessert.,我想要一些甜點。,medium,Restaurant-常用3000單,dessert
+19,sentence,Can I order now?,我現在可以點餐嗎？,medium,Restaurant-常用3000單,order
+20,sentence,Can we sit here?,我們可以坐這裡嗎？,medium,Restaurant-常用3000單,sit
+21,sentence,This meal is delicious.,這餐很好吃。,medium,Restaurant-常用3000單,meal
+22,sentence,This dish is simple.,這道菜很簡單。,medium,Restaurant-常用3000單,dish
+23,sentence,This dish is spicy.,這道菜很辣。,medium,Restaurant-常用3000單,dish
+24,sentence,This food is healthy.,這些食物很健康。,medium,Restaurant-常用3000單,food
+25,sentence,The cook is busy.,廚師很忙。,medium,Restaurant-常用3000單,cook
+26,sentence,The chef is friendly.,主廚很友善。,medium,Restaurant-常用3000單,chef
+27,sentence,The service is quick.,服務很快速。,medium,Restaurant-常用3000單,service
+28,sentence,The customer is hungry.,顧客餓了。,medium,Restaurant-常用3000單,customer
+29,sentence,My appetite is good.,我的食慾很好。,medium,Restaurant-常用3000單,appetite
+30,sentence,This restaurant is quiet.,這家餐廳很安靜。,medium,Restaurant-常用3000單,restaurant
+31,sentence,This restaurant is crowded.,這家餐廳很擁擠。,medium,Restaurant-常用3000單,restaurant
+32,sentence,The kitchen is clean.,廚房很乾淨。,medium,Restaurant-常用3000單,kitchen
+33,sentence,The counter is over there.,櫃檯在那邊。,medium,Restaurant-常用3000單,counter
+34,sentence,Please wait a minute.,請等一下。,medium,Restaurant-常用3000單,wait
+35,sentence,I need a fork.,我需要一支叉子。,medium,Restaurant-常用3000單,fork
+36,sentence,I need a spoon.,我需要一支湯匙。,medium,Restaurant-常用3000單,spoon
+37,sentence,I need a knife.,我需要一把刀。,medium,Restaurant-常用3000單,knife
+38,sentence,The plate is clean.,盤子很乾淨。,medium,Restaurant-常用3000單,plate
+39,sentence,The glass is empty.,杯子空了。,medium,Restaurant-常用3000單,glass
+40,sentence,The bottle is full.,瓶子是滿的。,medium,Restaurant-常用3000單,bottle
+41,sentence,This bread is fresh.,這個麵包很新鮮。,medium,Restaurant-常用3000單,bread
+42,sentence,The butter is soft.,奶油很軟。,medium,Restaurant-常用3000單,butter
+43,sentence,The cake is beautiful.,蛋糕很漂亮。,medium,Restaurant-常用3000單,cake
+44,sentence,The fruit is fresh.,水果很新鮮。,medium,Restaurant-常用3000單,fruit
+45,sentence,The juice is cold.,果汁很冰。,medium,Restaurant-常用3000單,juice
+46,sentence,The milk is warm.,牛奶是溫的。,medium,Restaurant-常用3000單,milk
+47,sentence,The egg is small.,這顆蛋很小。,medium,Restaurant-常用3000單,egg
+48,sentence,The beef is tender.,牛肉很嫩。,medium,Restaurant-常用3000單,beef
+49,sentence,The pork is salty.,豬肉很鹹。,medium,Restaurant-常用3000單,pork
+50,sentence,The vegetable is fresh.,蔬菜很新鮮。,medium,Restaurant-常用3000單,vegetable
+51,sentence,I like this taste.,我喜歡這個味道。,medium,Restaurant-常用3000單,taste
+52,sentence,I dislike this smell.,我不喜歡這個味道。,medium,Restaurant-常用3000單,smell
+53,sentence,Please lower the price.,請降低價格。,medium,Restaurant-常用3000單,price
+54,sentence,The price is fair.,價格很合理。,medium,Restaurant-常用3000單,price
+55,sentence,This bill is correct.,這張帳單是正確的。,medium,Restaurant-常用3000單,bill
+56,sentence,This bill is wrong.,這張帳單是錯的。,medium,Restaurant-常用3000單,bill
+57,sentence,Can I pay now?,我現在可以付款嗎？,medium,Restaurant-常用3000單,pay
+58,sentence,I will pay cash.,我會付現金。,medium,Restaurant-常用3000單,cash
+59,sentence,I will use credit.,我會使用信用付款。,medium,Restaurant-常用3000單,credit
+60,sentence,Please check the account.,請檢查帳目。,medium,Restaurant-常用3000單,account
+61,sentence,We need another cup.,我們需要另一個杯子。,medium,Restaurant-常用3000單,cup
+62,sentence,We need another plate.,我們需要另一個盤子。,medium,Restaurant-常用3000單,plate
+63,sentence,We need another chair.,我們需要另一張椅子。,medium,Restaurant-常用3000單,chair
+64,sentence,The table is near.,桌子很近。,medium,Restaurant-常用3000單,table
+65,sentence,The table is far.,桌子很遠。,medium,Restaurant-常用3000單,table
+66,sentence,The music is soft.,音樂很柔和。,medium,Restaurant-常用3000單,music
+67,sentence,The room is bright.,房間很明亮。,medium,Restaurant-常用3000單,room
+68,sentence,The room is dark.,房間很暗。,medium,Restaurant-常用3000單,room
+69,sentence,The light is strong.,燈光很強。,medium,Restaurant-常用3000單,light
+70,sentence,The air is fresh.,空氣很新鮮。,medium,Restaurant-常用3000單,air
+71,sentence,The line is long.,隊伍很長。,medium,Restaurant-常用3000單,line
+72,sentence,The wait is short.,等待時間很短。,medium,Restaurant-常用3000單,wait
+73,sentence,This seat is taken.,這個座位有人了。,medium,Restaurant-常用3000單,seat
+74,sentence,This seat is free.,這個座位是空的。,medium,Restaurant-常用3000單,seat
+75,sentence,Can you help me?,你可以幫我嗎？,medium,Restaurant-常用3000單,help
+76,sentence,Please help my father.,請幫我父親。,medium,Restaurant-常用3000單,help
+77,sentence,My mother likes soup.,我媽媽喜歡湯。,medium,Restaurant-常用3000單,mother;soup
+78,sentence,My father likes coffee.,我爸爸喜歡咖啡。,medium,Restaurant-常用3000單,father;coffee
+79,sentence,My sister wants dessert.,我妹妹想要甜點。,medium,Restaurant-常用3000單,sister;dessert
+80,sentence,My brother wants rice.,我兄弟想要飯。,medium,Restaurant-常用3000單,brother;rice
+81,sentence,The family is eating.,這家人正在吃飯。,medium,Restaurant-常用3000單,family
+82,sentence,The friends are talking.,朋友們正在聊天。,medium,Restaurant-常用3000單,friends
+83,sentence,The children are hungry.,孩子們餓了。,medium,Restaurant-常用3000單,children
+84,sentence,The man ordered fish.,那位男士點了魚。,medium,Restaurant-常用3000單,man;fish
+85,sentence,The woman ordered tea.,那位女士點了茶。,medium,Restaurant-常用3000單,woman;tea
+86,sentence,The doctor ordered salad.,醫生點了沙拉。,medium,Restaurant-常用3000單,doctor;salad
+87,sentence,The student ordered noodles.,學生點了麵。,medium,Restaurant-常用3000單,student;noodles
+88,sentence,The teacher ordered coffee.,老師點了咖啡。,medium,Restaurant-常用3000單,teacher;coffee
+89,sentence,The owner is kind.,老闆很親切。,medium,Restaurant-常用3000單,owner
+90,sentence,The waiter is polite.,服務生很有禮貌。,medium,Restaurant-常用3000單,waiter
+91,sentence,The waitress is quick.,女服務生很迅速。,medium,Restaurant-常用3000單,waitress
+92,sentence,The restaurant opens early.,餐廳很早開門。,medium,Restaurant-常用3000單,restaurant
+93,sentence,The restaurant closes late.,餐廳很晚關門。,medium,Restaurant-常用3000單,restaurant
+94,sentence,The meal starts soon.,餐點很快開始。,medium,Restaurant-常用3000單,meal
+95,sentence,The party is tonight.,聚會在今晚。,medium,Restaurant-常用3000單,party
+96,sentence,The banquet is formal.,宴會很正式。,medium,Restaurant-常用3000單,banquet
+97,sentence,The coffee shop is small.,這家咖啡店很小。,medium,Restaurant-常用3000單,coffee shop
+98,sentence,The regular table is ready.,固定桌已經準備好了。,medium,Restaurant-常用3000單,regular table
+99,sentence,The menu has pictures.,菜單有圖片。,medium,Restaurant-常用3000單,menu
+100,sentence,The dessert has fruit.,甜點有水果。,medium,Restaurant-常用3000單,dessert;fruit
+101,sentence,The customer asked for a bowl of hot soup at the clean table.,顧客在乾淨的桌邊要求一碗熱湯。,medium,Restaurant-常用3000單,customer;ask;soup;table
+102,sentence,My mother asked for a plate of fresh fish at the clean table.,我媽媽在乾淨的桌邊要求一盤新鮮魚。,medium,Restaurant-常用3000單,mother;ask;fish;table
+103,sentence,My father asked for a cup of warm tea near the counter.,我爸爸在櫃檯附近要求一杯溫茶。,medium,Restaurant-常用3000單,father;ask;tea;counter
+104,sentence,The teacher asked for a glass of cold water near the counter.,老師在櫃檯附近要求一杯冷水。,medium,Restaurant-常用3000單,teacher;ask;water;counter
+105,sentence,The student asked for a piece of sweet cake inside the quiet restaurant.,學生在安靜的餐廳裡要求一塊甜蛋糕。,medium,Restaurant-常用3000單,student;ask;cake;restaurant
+106,sentence,The family asked for a simple rice dish inside the quiet restaurant.,這家人在安靜的餐廳裡要求一道簡單的飯類料理。,medium,Restaurant-常用3000單,family;ask;rice;restaurant
+107,sentence,The old man asked for a healthy vegetable salad beside the bright window.,那位老人在明亮的窗邊要求一份健康蔬菜沙拉。,medium,Restaurant-常用3000單,old man;ask;salad;window
+108,sentence,The young woman asked for a large chicken meal beside the bright window.,那位年輕女士在明亮的窗邊要求一份大份雞肉餐。,medium,Restaurant-常用3000單,young woman;ask;chicken;window
+109,sentence,The doctor asked for a small dessert plate after reading the menu.,醫生看完菜單後要求一小盤甜點。,medium,Restaurant-常用3000單,doctor;ask;dessert;menu
+110,sentence,The group asked for a bottle of fresh juice after reading the menu.,這群人看完菜單後要求一瓶新鮮果汁。,medium,Restaurant-常用3000單,group;ask;juice;menu
+111,sentence,The customer ordered a bowl of hot soup at the clean table.,顧客在乾淨的桌邊點了一碗熱湯。,medium,Restaurant-常用3000單,customer;order;soup;table
+112,sentence,My mother ordered a plate of fresh fish at the clean table.,我媽媽在乾淨的桌邊點了一盤新鮮魚。,medium,Restaurant-常用3000單,mother;order;fish;table
+113,sentence,My father ordered a cup of warm tea near the counter.,我爸爸在櫃檯附近點了一杯溫茶。,medium,Restaurant-常用3000單,father;order;tea;counter
+114,sentence,The teacher ordered a glass of cold water near the counter.,老師在櫃檯附近點了一杯冷水。,medium,Restaurant-常用3000單,teacher;order;water;counter
+115,sentence,The student ordered a piece of sweet cake inside the quiet restaurant.,學生在安靜的餐廳裡點了一塊甜蛋糕。,medium,Restaurant-常用3000單,student;order;cake;restaurant
+116,sentence,The family ordered a simple rice dish inside the quiet restaurant.,這家人在安靜的餐廳裡點了一道簡單的飯類料理。,medium,Restaurant-常用3000單,family;order;rice;restaurant
+117,sentence,The old man ordered a healthy vegetable salad beside the bright window.,那位老人在明亮的窗邊點了一份健康蔬菜沙拉。,medium,Restaurant-常用3000單,old man;order;salad;window
+118,sentence,The young woman ordered a large chicken meal beside the bright window.,那位年輕女士在明亮的窗邊點了一份大份雞肉餐。,medium,Restaurant-常用3000單,young woman;order;chicken;window
+119,sentence,The doctor ordered a small dessert plate after reading the menu.,醫生看完菜單後點了一小盤甜點。,medium,Restaurant-常用3000單,doctor;order;dessert;menu
+120,sentence,The group ordered a bottle of fresh juice after reading the menu.,這群人看完菜單後點了一瓶新鮮果汁。,medium,Restaurant-常用3000單,group;order;juice;menu
+121,sentence,The customer waited for a bowl of hot soup at the clean table.,顧客在乾淨的桌邊等待一碗熱湯。,medium,Restaurant-常用3000單,customer;wait;soup;table
+122,sentence,My mother waited for a plate of fresh fish at the clean table.,我媽媽在乾淨的桌邊等待一盤新鮮魚。,medium,Restaurant-常用3000單,mother;wait;fish;table
+123,sentence,My father waited for a cup of warm tea near the counter.,我爸爸在櫃檯附近等待一杯溫茶。,medium,Restaurant-常用3000單,father;wait;tea;counter
+124,sentence,The teacher waited for a glass of cold water near the counter.,老師在櫃檯附近等待一杯冷水。,medium,Restaurant-常用3000單,teacher;wait;water;counter
+125,sentence,The student waited for a piece of sweet cake inside the quiet restaurant.,學生在安靜的餐廳裡等待一塊甜蛋糕。,medium,Restaurant-常用3000單,student;wait;cake;restaurant
+126,sentence,The family waited for a simple rice dish inside the quiet restaurant.,這家人在安靜的餐廳裡等待一道簡單的飯類料理。,medium,Restaurant-常用3000單,family;wait;rice;restaurant
+127,sentence,The old man waited for a healthy vegetable salad beside the bright window.,那位老人在明亮的窗邊等待一份健康蔬菜沙拉。,medium,Restaurant-常用3000單,old man;wait;salad;window
+128,sentence,The young woman waited for a large chicken meal beside the bright window.,那位年輕女士在明亮的窗邊等待一份大份雞肉餐。,medium,Restaurant-常用3000單,young woman;wait;chicken;window
+129,sentence,The doctor waited for a small dessert plate after reading the menu.,醫生看完菜單後等待一小盤甜點。,medium,Restaurant-常用3000單,doctor;wait;dessert;menu
+130,sentence,The group waited for a bottle of fresh juice after reading the menu.,這群人看完菜單後等待一瓶新鮮果汁。,medium,Restaurant-常用3000單,group;wait;juice;menu
+131,sentence,The customer looked at a bowl of hot soup at the clean table.,顧客在乾淨的桌邊看了一碗熱湯。,medium,Restaurant-常用3000單,customer;look;soup;table
+132,sentence,My mother looked at a plate of fresh fish at the clean table.,我媽媽在乾淨的桌邊看了一盤新鮮魚。,medium,Restaurant-常用3000單,mother;look;fish;table
+133,sentence,My father looked at a cup of warm tea near the counter.,我爸爸在櫃檯附近看了一杯溫茶。,medium,Restaurant-常用3000單,father;look;tea;counter
+134,sentence,The teacher looked at a glass of cold water near the counter.,老師在櫃檯附近看了一杯冷水。,medium,Restaurant-常用3000單,teacher;look;water;counter
+135,sentence,The student looked at a piece of sweet cake inside the quiet restaurant.,學生在安靜的餐廳裡看了一塊甜蛋糕。,medium,Restaurant-常用3000單,student;look;cake;restaurant
+136,sentence,The family looked at a simple rice dish inside the quiet restaurant.,這家人在安靜的餐廳裡看了一道簡單的飯類料理。,medium,Restaurant-常用3000單,family;look;rice;restaurant
+137,sentence,The old man looked at a healthy vegetable salad beside the bright window.,那位老人在明亮的窗邊看了一份健康蔬菜沙拉。,medium,Restaurant-常用3000單,old man;look;salad;window
+138,sentence,The young woman looked at a large chicken meal beside the bright window.,那位年輕女士在明亮的窗邊看了一份大份雞肉餐。,medium,Restaurant-常用3000單,young woman;look;chicken;window
+139,sentence,The doctor looked at a small dessert plate after reading the menu.,醫生看完菜單後看了一小盤甜點。,medium,Restaurant-常用3000單,doctor;look;dessert;menu
+140,sentence,The group looked at a bottle of fresh juice after reading the menu.,這群人看完菜單後看了一瓶新鮮果汁。,medium,Restaurant-常用3000單,group;look;juice;menu
+141,sentence,The customer paid for a bowl of hot soup at the clean table.,顧客在乾淨的桌邊支付了一碗熱湯。,medium,Restaurant-常用3000單,customer;pay;soup;table
+142,sentence,My mother paid for a plate of fresh fish at the clean table.,我媽媽在乾淨的桌邊支付了一盤新鮮魚。,medium,Restaurant-常用3000單,mother;pay;fish;table
+143,sentence,My father paid for a cup of warm tea near the counter.,我爸爸在櫃檯附近支付了一杯溫茶。,medium,Restaurant-常用3000單,father;pay;tea;counter
+144,sentence,The teacher paid for a glass of cold water near the counter.,老師在櫃檯附近支付了一杯冷水。,medium,Restaurant-常用3000單,teacher;pay;water;counter
+145,sentence,The student paid for a piece of sweet cake inside the quiet restaurant.,學生在安靜的餐廳裡支付了一塊甜蛋糕。,medium,Restaurant-常用3000單,student;pay;cake;restaurant
+146,sentence,The family paid for a simple rice dish inside the quiet restaurant.,這家人在安靜的餐廳裡支付了一道簡單的飯類料理。,medium,Restaurant-常用3000單,family;pay;rice;restaurant
+147,sentence,The old man paid for a healthy vegetable salad beside the bright window.,那位老人在明亮的窗邊支付了一份健康蔬菜沙拉。,medium,Restaurant-常用3000單,old man;pay;salad;window
+148,sentence,The young woman paid for a large chicken meal beside the bright window.,那位年輕女士在明亮的窗邊支付了一份大份雞肉餐。,medium,Restaurant-常用3000單,young woman;pay;chicken;window
+149,sentence,The doctor paid for a small dessert plate after reading the menu.,醫生看完菜單後支付了一小盤甜點。,medium,Restaurant-常用3000單,doctor;pay;dessert;menu
+150,sentence,The group paid for a bottle of fresh juice after reading the menu.,這群人看完菜單後支付了一瓶新鮮果汁。,medium,Restaurant-常用3000單,group;pay;juice;menu
+151,sentence,"Today, the customer asked for a bowl of hot soup at the clean table.",今天，顧客在乾淨的桌邊要求一碗熱湯。,medium,Restaurant-常用3000單,customer;ask;soup;table
+152,sentence,"Today, my mother asked for a plate of fresh fish at the clean table.",今天，我媽媽在乾淨的桌邊要求一盤新鮮魚。,medium,Restaurant-常用3000單,mother;ask;fish;table
+153,sentence,"Today, my father asked for a cup of warm tea near the counter.",今天，我爸爸在櫃檯附近要求一杯溫茶。,medium,Restaurant-常用3000單,father;ask;tea;counter
+154,sentence,"Today, the teacher asked for a glass of cold water near the counter.",今天，老師在櫃檯附近要求一杯冷水。,medium,Restaurant-常用3000單,teacher;ask;water;counter
+155,sentence,"Today, the student asked for a piece of sweet cake inside the quiet restaurant.",今天，學生在安靜的餐廳裡要求一塊甜蛋糕。,medium,Restaurant-常用3000單,student;ask;cake;restaurant
+156,sentence,"Today, the family asked for a simple rice dish inside the quiet restaurant.",今天，這家人在安靜的餐廳裡要求一道簡單的飯類料理。,medium,Restaurant-常用3000單,family;ask;rice;restaurant
+157,sentence,"Today, the old man asked for a healthy vegetable salad beside the bright window.",今天，那位老人在明亮的窗邊要求一份健康蔬菜沙拉。,medium,Restaurant-常用3000單,old man;ask;salad;window
+158,sentence,"Today, the young woman asked for a large chicken meal beside the bright window.",今天，那位年輕女士在明亮的窗邊要求一份大份雞肉餐。,medium,Restaurant-常用3000單,young woman;ask;chicken;window
+159,sentence,"Today, the doctor asked for a small dessert plate after reading the menu.",今天，醫生看完菜單後要求一小盤甜點。,medium,Restaurant-常用3000單,doctor;ask;dessert;menu
+160,sentence,"Today, the group asked for a bottle of fresh juice after reading the menu.",今天，這群人看完菜單後要求一瓶新鮮果汁。,medium,Restaurant-常用3000單,group;ask;juice;menu
+161,sentence,"Today, the customer ordered a bowl of hot soup at the clean table.",今天，顧客在乾淨的桌邊點了一碗熱湯。,medium,Restaurant-常用3000單,customer;order;soup;table
+162,sentence,"Today, my mother ordered a plate of fresh fish at the clean table.",今天，我媽媽在乾淨的桌邊點了一盤新鮮魚。,medium,Restaurant-常用3000單,mother;order;fish;table
+163,sentence,"Today, my father ordered a cup of warm tea near the counter.",今天，我爸爸在櫃檯附近點了一杯溫茶。,medium,Restaurant-常用3000單,father;order;tea;counter
+164,sentence,"Today, the teacher ordered a glass of cold water near the counter.",今天，老師在櫃檯附近點了一杯冷水。,medium,Restaurant-常用3000單,teacher;order;water;counter
+165,sentence,"Today, the student ordered a piece of sweet cake inside the quiet restaurant.",今天，學生在安靜的餐廳裡點了一塊甜蛋糕。,medium,Restaurant-常用3000單,student;order;cake;restaurant
+166,sentence,"Today, the family ordered a simple rice dish inside the quiet restaurant.",今天，這家人在安靜的餐廳裡點了一道簡單的飯類料理。,medium,Restaurant-常用3000單,family;order;rice;restaurant
+167,sentence,"Today, the old man ordered a healthy vegetable salad beside the bright window.",今天，那位老人在明亮的窗邊點了一份健康蔬菜沙拉。,medium,Restaurant-常用3000單,old man;order;salad;window
+168,sentence,"Today, the young woman ordered a large chicken meal beside the bright window.",今天，那位年輕女士在明亮的窗邊點了一份大份雞肉餐。,medium,Restaurant-常用3000單,young woman;order;chicken;window
+169,sentence,"Today, the doctor ordered a small dessert plate after reading the menu.",今天，醫生看完菜單後點了一小盤甜點。,medium,Restaurant-常用3000單,doctor;order;dessert;menu
+170,sentence,"Today, the group ordered a bottle of fresh juice after reading the menu.",今天，這群人看完菜單後點了一瓶新鮮果汁。,medium,Restaurant-常用3000單,group;order;juice;menu
+171,sentence,"Today, the customer waited for a bowl of hot soup at the clean table.",今天，顧客在乾淨的桌邊等待一碗熱湯。,medium,Restaurant-常用3000單,customer;wait;soup;table
+172,sentence,"Today, my mother waited for a plate of fresh fish at the clean table.",今天，我媽媽在乾淨的桌邊等待一盤新鮮魚。,medium,Restaurant-常用3000單,mother;wait;fish;table
+173,sentence,"Today, my father waited for a cup of warm tea near the counter.",今天，我爸爸在櫃檯附近等待一杯溫茶。,medium,Restaurant-常用3000單,father;wait;tea;counter
+174,sentence,"Today, the teacher waited for a glass of cold water near the counter.",今天，老師在櫃檯附近等待一杯冷水。,medium,Restaurant-常用3000單,teacher;wait;water;counter
+175,sentence,"Today, the student waited for a piece of sweet cake inside the quiet restaurant.",今天，學生在安靜的餐廳裡等待一塊甜蛋糕。,medium,Restaurant-常用3000單,student;wait;cake;restaurant
+176,sentence,"Today, the family waited for a simple rice dish inside the quiet restaurant.",今天，這家人在安靜的餐廳裡等待一道簡單的飯類料理。,medium,Restaurant-常用3000單,family;wait;rice;restaurant
+177,sentence,"Today, the old man waited for a healthy vegetable salad beside the bright window.",今天，那位老人在明亮的窗邊等待一份健康蔬菜沙拉。,medium,Restaurant-常用3000單,old man;wait;salad;window
+178,sentence,"Today, the young woman waited for a large chicken meal beside the bright window.",今天，那位年輕女士在明亮的窗邊等待一份大份雞肉餐。,medium,Restaurant-常用3000單,young woman;wait;chicken;window
+179,sentence,"Today, the doctor waited for a small dessert plate after reading the menu.",今天，醫生看完菜單後等待一小盤甜點。,medium,Restaurant-常用3000單,doctor;wait;dessert;menu
+180,sentence,"Today, the group waited for a bottle of fresh juice after reading the menu.",今天，這群人看完菜單後等待一瓶新鮮果汁。,medium,Restaurant-常用3000單,group;wait;juice;menu
+181,sentence,"Today, the customer looked at a bowl of hot soup at the clean table.",今天，顧客在乾淨的桌邊看了一碗熱湯。,medium,Restaurant-常用3000單,customer;look;soup;table
+182,sentence,"Today, my mother looked at a plate of fresh fish at the clean table.",今天，我媽媽在乾淨的桌邊看了一盤新鮮魚。,medium,Restaurant-常用3000單,mother;look;fish;table
+183,sentence,"Today, my father looked at a cup of warm tea near the counter.",今天，我爸爸在櫃檯附近看了一杯溫茶。,medium,Restaurant-常用3000單,father;look;tea;counter
+184,sentence,"Today, the teacher looked at a glass of cold water near the counter.",今天，老師在櫃檯附近看了一杯冷水。,medium,Restaurant-常用3000單,teacher;look;water;counter
+185,sentence,"Today, the student looked at a piece of sweet cake inside the quiet restaurant.",今天，學生在安靜的餐廳裡看了一塊甜蛋糕。,medium,Restaurant-常用3000單,student;look;cake;restaurant
+186,sentence,"Today, the family looked at a simple rice dish inside the quiet restaurant.",今天，這家人在安靜的餐廳裡看了一道簡單的飯類料理。,medium,Restaurant-常用3000單,family;look;rice;restaurant
+187,sentence,"Today, the old man looked at a healthy vegetable salad beside the bright window.",今天，那位老人在明亮的窗邊看了一份健康蔬菜沙拉。,medium,Restaurant-常用3000單,old man;look;salad;window
+188,sentence,"Today, the young woman looked at a large chicken meal beside the bright window.",今天，那位年輕女士在明亮的窗邊看了一份大份雞肉餐。,medium,Restaurant-常用3000單,young woman;look;chicken;window
+189,sentence,"Today, the doctor looked at a small dessert plate after reading the menu.",今天，醫生看完菜單後看了一小盤甜點。,medium,Restaurant-常用3000單,doctor;look;dessert;menu
+190,sentence,"Today, the group looked at a bottle of fresh juice after reading the menu.",今天，這群人看完菜單後看了一瓶新鮮果汁。,medium,Restaurant-常用3000單,group;look;juice;menu
+191,sentence,"Today, the customer paid for a bowl of hot soup at the clean table.",今天，顧客在乾淨的桌邊支付了一碗熱湯。,medium,Restaurant-常用3000單,customer;pay;soup;table
+192,sentence,"Today, my mother paid for a plate of fresh fish at the clean table.",今天，我媽媽在乾淨的桌邊支付了一盤新鮮魚。,medium,Restaurant-常用3000單,mother;pay;fish;table
+193,sentence,"Today, my father paid for a cup of warm tea near the counter.",今天，我爸爸在櫃檯附近支付了一杯溫茶。,medium,Restaurant-常用3000單,father;pay;tea;counter
+194,sentence,"Today, the teacher paid for a glass of cold water near the counter.",今天，老師在櫃檯附近支付了一杯冷水。,medium,Restaurant-常用3000單,teacher;pay;water;counter
+195,sentence,"Today, the student paid for a piece of sweet cake inside the quiet restaurant.",今天，學生在安靜的餐廳裡支付了一塊甜蛋糕。,medium,Restaurant-常用3000單,student;pay;cake;restaurant
+196,sentence,"Today, the family paid for a simple rice dish inside the quiet restaurant.",今天，這家人在安靜的餐廳裡支付了一道簡單的飯類料理。,medium,Restaurant-常用3000單,family;pay;rice;restaurant
+197,sentence,"Today, the old man paid for a healthy vegetable salad beside the bright window.",今天，那位老人在明亮的窗邊支付了一份健康蔬菜沙拉。,medium,Restaurant-常用3000單,old man;pay;salad;window
+198,sentence,"Today, the young woman paid for a large chicken meal beside the bright window.",今天，那位年輕女士在明亮的窗邊支付了一份大份雞肉餐。,medium,Restaurant-常用3000單,young woman;pay;chicken;window
+199,sentence,"Today, the doctor paid for a small dessert plate after reading the menu.",今天，醫生看完菜單後支付了一小盤甜點。,medium,Restaurant-常用3000單,doctor;pay;dessert;menu
+200,sentence,"Today, the group paid for a bottle of fresh juice after reading the menu.",今天，這群人看完菜單後支付了一瓶新鮮果汁。,medium,Restaurant-常用3000單,group;pay;juice;menu
+201,sentence,"Because the soup was too salty, we asked the waiter to bring another plate before the meal started.",因為湯太鹹，我們請服務生再拿一個盤子在用餐開始前。,medium,Restaurant-常用3000單,soup;waiter;plate;meal
+202,sentence,"Because the coffee was already cold, we asked the waiter to bring another plate before the meal started.",因為咖啡已經冷了，我們請服務生再拿一個盤子在用餐開始前。,medium,Restaurant-常用3000單,coffee;waiter;plate;meal
+203,sentence,"Because the table was not clean, we asked the waiter to bring another plate before the restaurant became full.",因為桌子不乾淨，我們請服務生再拿一個盤子在餐廳坐滿前。,medium,Restaurant-常用3000單,table;waiter;plate;restaurant
+204,sentence,"Because the bill was not correct, we asked the waiter to bring another plate before the restaurant became full.",因為帳單不正確，我們請服務生再拿一個盤子在餐廳坐滿前。,medium,Restaurant-常用3000單,bill;waiter;plate;restaurant
+205,sentence,"Because the restaurant was crowded, we asked the waiter to bring another plate during the busy lunch hour.",因為餐廳很擁擠，我們請服務生再拿一個盤子在忙碌的午餐時間。,medium,Restaurant-常用3000單,restaurant;waiter;plate;lunch
+206,sentence,"After we looked at the menu, we asked the waiter to bring another plate during the busy lunch hour.",我們看完菜單後，我們請服務生再拿一個盤子在忙碌的午餐時間。,medium,Restaurant-常用3000單,menu;waiter;plate;lunch
+207,sentence,"After the chef finished the dish, we asked the waiter to bring another plate after a short wait.",主廚完成那道菜後，我們請服務生再拿一個盤子在短暫等待後。,medium,Restaurant-常用3000單,chef;waiter;plate;wait
+208,sentence,"After the customer paid the bill, we asked the waiter to bring another plate after a short wait.",顧客付完帳單後，我們請服務生再拿一個盤子在短暫等待後。,medium,Restaurant-常用3000單,customer;waiter;plate;wait
+209,sentence,"When my father felt hungry, we asked the waiter to bring another plate with a friendly smile.",當我爸爸覺得餓時，我們請服務生再拿一個盤子帶著友善的微笑。,medium,Restaurant-常用3000單,father;waiter;plate;friendly
+210,sentence,"When my sister wanted dessert, we asked the waiter to bring another plate with a friendly smile.",當我妹妹想要甜點時，我們請服務生再拿一個盤子帶著友善的微笑。,medium,Restaurant-常用3000單,sister;waiter;plate;friendly
+211,sentence,"Because the soup was too salty, the customer asked the cook to make a new bowl before the meal started.",因為湯太鹹，顧客請廚師做一碗新的在用餐開始前。,medium,Restaurant-常用3000單,soup;customer;cook;meal
+212,sentence,"Because the coffee was already cold, the customer asked the cook to make a new bowl before the meal started.",因為咖啡已經冷了，顧客請廚師做一碗新的在用餐開始前。,medium,Restaurant-常用3000單,coffee;customer;cook;meal
+213,sentence,"Because the table was not clean, the customer asked the cook to make a new bowl before the restaurant became full.",因為桌子不乾淨，顧客請廚師做一碗新的在餐廳坐滿前。,medium,Restaurant-常用3000單,table;customer;cook;restaurant
+214,sentence,"Because the bill was not correct, the customer asked the cook to make a new bowl before the restaurant became full.",因為帳單不正確，顧客請廚師做一碗新的在餐廳坐滿前。,medium,Restaurant-常用3000單,bill;customer;cook;restaurant
+215,sentence,"Because the restaurant was crowded, the customer asked the cook to make a new bowl during the busy lunch hour.",因為餐廳很擁擠，顧客請廚師做一碗新的在忙碌的午餐時間。,medium,Restaurant-常用3000單,restaurant;customer;cook;lunch
+216,sentence,"After we looked at the menu, the customer asked the cook to make a new bowl during the busy lunch hour.",我們看完菜單後，顧客請廚師做一碗新的在忙碌的午餐時間。,medium,Restaurant-常用3000單,menu;customer;cook;lunch
+217,sentence,"After the chef finished the dish, the customer asked the cook to make a new bowl after a short wait.",主廚完成那道菜後，顧客請廚師做一碗新的在短暫等待後。,medium,Restaurant-常用3000單,chef;customer;cook;wait
+218,sentence,"After the customer paid the bill, the customer asked the cook to make a new bowl after a short wait.",顧客付完帳單後，顧客請廚師做一碗新的在短暫等待後。,medium,Restaurant-常用3000單,customer;customer;cook;wait
+219,sentence,"When my father felt hungry, the customer asked the cook to make a new bowl with a friendly smile.",當我爸爸覺得餓時，顧客請廚師做一碗新的帶著友善的微笑。,medium,Restaurant-常用3000單,father;customer;cook;friendly
+220,sentence,"When my sister wanted dessert, the customer asked the cook to make a new bowl with a friendly smile.",當我妹妹想要甜點時，顧客請廚師做一碗新的帶著友善的微笑。,medium,Restaurant-常用3000單,sister;customer;cook;friendly
+221,sentence,"Because the soup was too salty, my mother asked for some warm water before the meal started.",因為湯太鹹，我媽媽要了一些溫水在用餐開始前。,medium,Restaurant-常用3000單,soup;mother;water;meal
+222,sentence,"Because the coffee was already cold, my mother asked for some warm water before the meal started.",因為咖啡已經冷了，我媽媽要了一些溫水在用餐開始前。,medium,Restaurant-常用3000單,coffee;mother;water;meal
+223,sentence,"Because the table was not clean, my mother asked for some warm water before the restaurant became full.",因為桌子不乾淨，我媽媽要了一些溫水在餐廳坐滿前。,medium,Restaurant-常用3000單,table;mother;water;restaurant
+224,sentence,"Because the bill was not correct, my mother asked for some warm water before the restaurant became full.",因為帳單不正確，我媽媽要了一些溫水在餐廳坐滿前。,medium,Restaurant-常用3000單,bill;mother;water;restaurant
+225,sentence,"Because the restaurant was crowded, my mother asked for some warm water during the busy lunch hour.",因為餐廳很擁擠，我媽媽要了一些溫水在忙碌的午餐時間。,medium,Restaurant-常用3000單,restaurant;mother;water;lunch
+226,sentence,"After we looked at the menu, my mother asked for some warm water during the busy lunch hour.",我們看完菜單後，我媽媽要了一些溫水在忙碌的午餐時間。,medium,Restaurant-常用3000單,menu;mother;water;lunch
+227,sentence,"After the chef finished the dish, my mother asked for some warm water after a short wait.",主廚完成那道菜後，我媽媽要了一些溫水在短暫等待後。,medium,Restaurant-常用3000單,chef;mother;water;wait
+228,sentence,"After the customer paid the bill, my mother asked for some warm water after a short wait.",顧客付完帳單後，我媽媽要了一些溫水在短暫等待後。,medium,Restaurant-常用3000單,customer;mother;water;wait
+229,sentence,"When my father felt hungry, my mother asked for some warm water with a friendly smile.",當我爸爸覺得餓時，我媽媽要了一些溫水帶著友善的微笑。,medium,Restaurant-常用3000單,father;mother;water;friendly
+230,sentence,"When my sister wanted dessert, my mother asked for some warm water with a friendly smile.",當我妹妹想要甜點時，我媽媽要了一些溫水帶著友善的微笑。,medium,Restaurant-常用3000單,sister;mother;water;friendly
+231,sentence,"Because the soup was too salty, the family decided to order a simple meal before the meal started.",因為湯太鹹，這家人決定點一份簡單的餐在用餐開始前。,medium,Restaurant-常用3000單,soup;family;meal;meal
+232,sentence,"Because the coffee was already cold, the family decided to order a simple meal before the meal started.",因為咖啡已經冷了，這家人決定點一份簡單的餐在用餐開始前。,medium,Restaurant-常用3000單,coffee;family;meal;meal
+233,sentence,"Because the table was not clean, the family decided to order a simple meal before the restaurant became full.",因為桌子不乾淨，這家人決定點一份簡單的餐在餐廳坐滿前。,medium,Restaurant-常用3000單,table;family;meal;restaurant
+234,sentence,"Because the bill was not correct, the family decided to order a simple meal before the restaurant became full.",因為帳單不正確，這家人決定點一份簡單的餐在餐廳坐滿前。,medium,Restaurant-常用3000單,bill;family;meal;restaurant
+235,sentence,"Because the restaurant was crowded, the family decided to order a simple meal during the busy lunch hour.",因為餐廳很擁擠，這家人決定點一份簡單的餐在忙碌的午餐時間。,medium,Restaurant-常用3000單,restaurant;family;meal;lunch
+236,sentence,"After we looked at the menu, the family decided to order a simple meal during the busy lunch hour.",我們看完菜單後，這家人決定點一份簡單的餐在忙碌的午餐時間。,medium,Restaurant-常用3000單,menu;family;meal;lunch
+237,sentence,"After the chef finished the dish, the family decided to order a simple meal after a short wait.",主廚完成那道菜後，這家人決定點一份簡單的餐在短暫等待後。,medium,Restaurant-常用3000單,chef;family;meal;wait
+238,sentence,"After the customer paid the bill, the family decided to order a simple meal after a short wait.",顧客付完帳單後，這家人決定點一份簡單的餐在短暫等待後。,medium,Restaurant-常用3000單,customer;family;meal;wait
+239,sentence,"When my father felt hungry, the family decided to order a simple meal with a friendly smile.",當我爸爸覺得餓時，這家人決定點一份簡單的餐帶著友善的微笑。,medium,Restaurant-常用3000單,father;family;meal;friendly
+240,sentence,"When my sister wanted dessert, the family decided to order a simple meal with a friendly smile.",當我妹妹想要甜點時，這家人決定點一份簡單的餐帶著友善的微笑。,medium,Restaurant-常用3000單,sister;family;meal;friendly
+241,sentence,"Because the soup was too salty, the teacher called the waiter politely before the meal started.",因為湯太鹹，老師有禮貌地叫服務生在用餐開始前。,medium,Restaurant-常用3000單,soup;teacher;waiter;meal
+242,sentence,"Because the coffee was already cold, the teacher called the waiter politely before the meal started.",因為咖啡已經冷了，老師有禮貌地叫服務生在用餐開始前。,medium,Restaurant-常用3000單,coffee;teacher;waiter;meal
+243,sentence,"Because the table was not clean, the teacher called the waiter politely before the restaurant became full.",因為桌子不乾淨，老師有禮貌地叫服務生在餐廳坐滿前。,medium,Restaurant-常用3000單,table;teacher;waiter;restaurant
+244,sentence,"Because the bill was not correct, the teacher called the waiter politely before the restaurant became full.",因為帳單不正確，老師有禮貌地叫服務生在餐廳坐滿前。,medium,Restaurant-常用3000單,bill;teacher;waiter;restaurant
+245,sentence,"Because the restaurant was crowded, the teacher called the waiter politely during the busy lunch hour.",因為餐廳很擁擠，老師有禮貌地叫服務生在忙碌的午餐時間。,medium,Restaurant-常用3000單,restaurant;teacher;waiter;lunch
+246,sentence,"After we looked at the menu, the teacher called the waiter politely during the busy lunch hour.",我們看完菜單後，老師有禮貌地叫服務生在忙碌的午餐時間。,medium,Restaurant-常用3000單,menu;teacher;waiter;lunch
+247,sentence,"After the chef finished the dish, the teacher called the waiter politely after a short wait.",主廚完成那道菜後，老師有禮貌地叫服務生在短暫等待後。,medium,Restaurant-常用3000單,chef;teacher;waiter;wait
+248,sentence,"After the customer paid the bill, the teacher called the waiter politely after a short wait.",顧客付完帳單後，老師有禮貌地叫服務生在短暫等待後。,medium,Restaurant-常用3000單,customer;teacher;waiter;wait
+249,sentence,"When my father felt hungry, the teacher called the waiter politely with a friendly smile.",當我爸爸覺得餓時，老師有禮貌地叫服務生帶著友善的微笑。,medium,Restaurant-常用3000單,father;teacher;waiter;friendly
+250,sentence,"When my sister wanted dessert, the teacher called the waiter politely with a friendly smile.",當我妹妹想要甜點時，老師有禮貌地叫服務生帶著友善的微笑。,medium,Restaurant-常用3000單,sister;teacher;waiter;friendly
+251,sentence,"Because the soup was too salty, the student checked the price on the menu before the meal started.",因為湯太鹹，學生查看菜單上的價格在用餐開始前。,medium,Restaurant-常用3000單,soup;student;price;meal
+252,sentence,"Because the coffee was already cold, the student checked the price on the menu before the meal started.",因為咖啡已經冷了，學生查看菜單上的價格在用餐開始前。,medium,Restaurant-常用3000單,coffee;student;price;meal
+253,sentence,"Because the table was not clean, the student checked the price on the menu before the restaurant became full.",因為桌子不乾淨，學生查看菜單上的價格在餐廳坐滿前。,medium,Restaurant-常用3000單,table;student;price;restaurant
+254,sentence,"Because the bill was not correct, the student checked the price on the menu before the restaurant became full.",因為帳單不正確，學生查看菜單上的價格在餐廳坐滿前。,medium,Restaurant-常用3000單,bill;student;price;restaurant
+255,sentence,"Because the restaurant was crowded, the student checked the price on the menu during the busy lunch hour.",因為餐廳很擁擠，學生查看菜單上的價格在忙碌的午餐時間。,medium,Restaurant-常用3000單,restaurant;student;price;lunch
+256,sentence,"After we looked at the menu, the student checked the price on the menu during the busy lunch hour.",我們看完菜單後，學生查看菜單上的價格在忙碌的午餐時間。,medium,Restaurant-常用3000單,menu;student;price;lunch
+257,sentence,"After the chef finished the dish, the student checked the price on the menu after a short wait.",主廚完成那道菜後，學生查看菜單上的價格在短暫等待後。,medium,Restaurant-常用3000單,chef;student;price;wait
+258,sentence,"After the customer paid the bill, the student checked the price on the menu after a short wait.",顧客付完帳單後，學生查看菜單上的價格在短暫等待後。,medium,Restaurant-常用3000單,customer;student;price;wait
+259,sentence,"When my father felt hungry, the student checked the price on the menu with a friendly smile.",當我爸爸覺得餓時，學生查看菜單上的價格帶著友善的微笑。,medium,Restaurant-常用3000單,father;student;price;friendly
+260,sentence,"When my sister wanted dessert, the student checked the price on the menu with a friendly smile.",當我妹妹想要甜點時，學生查看菜單上的價格帶著友善的微笑。,medium,Restaurant-常用3000單,sister;student;price;friendly
+261,sentence,"Because the soup was too salty, the doctor chose a healthy vegetable salad before the meal started.",因為湯太鹹，醫生選了一份健康蔬菜沙拉在用餐開始前。,medium,Restaurant-常用3000單,soup;doctor;salad;meal
+262,sentence,"Because the coffee was already cold, the doctor chose a healthy vegetable salad before the meal started.",因為咖啡已經冷了，醫生選了一份健康蔬菜沙拉在用餐開始前。,medium,Restaurant-常用3000單,coffee;doctor;salad;meal
+263,sentence,"Because the table was not clean, the doctor chose a healthy vegetable salad before the restaurant became full.",因為桌子不乾淨，醫生選了一份健康蔬菜沙拉在餐廳坐滿前。,medium,Restaurant-常用3000單,table;doctor;salad;restaurant
+264,sentence,"Because the bill was not correct, the doctor chose a healthy vegetable salad before the restaurant became full.",因為帳單不正確，醫生選了一份健康蔬菜沙拉在餐廳坐滿前。,medium,Restaurant-常用3000單,bill;doctor;salad;restaurant
+265,sentence,"Because the restaurant was crowded, the doctor chose a healthy vegetable salad during the busy lunch hour.",因為餐廳很擁擠，醫生選了一份健康蔬菜沙拉在忙碌的午餐時間。,medium,Restaurant-常用3000單,restaurant;doctor;salad;lunch
+266,sentence,"After we looked at the menu, the doctor chose a healthy vegetable salad during the busy lunch hour.",我們看完菜單後，醫生選了一份健康蔬菜沙拉在忙碌的午餐時間。,medium,Restaurant-常用3000單,menu;doctor;salad;lunch
+267,sentence,"After the chef finished the dish, the doctor chose a healthy vegetable salad after a short wait.",主廚完成那道菜後，醫生選了一份健康蔬菜沙拉在短暫等待後。,medium,Restaurant-常用3000單,chef;doctor;salad;wait
+268,sentence,"After the customer paid the bill, the doctor chose a healthy vegetable salad after a short wait.",顧客付完帳單後，醫生選了一份健康蔬菜沙拉在短暫等待後。,medium,Restaurant-常用3000單,customer;doctor;salad;wait
+269,sentence,"When my father felt hungry, the doctor chose a healthy vegetable salad with a friendly smile.",當我爸爸覺得餓時，醫生選了一份健康蔬菜沙拉帶著友善的微笑。,medium,Restaurant-常用3000單,father;doctor;salad;friendly
+270,sentence,"When my sister wanted dessert, the doctor chose a healthy vegetable salad with a friendly smile.",當我妹妹想要甜點時，醫生選了一份健康蔬菜沙拉帶著友善的微笑。,medium,Restaurant-常用3000單,sister;doctor;salad;friendly
+271,sentence,"Because the soup was too salty, the woman asked for a quiet seat before the meal started.",因為湯太鹹，女士要了一個安靜的座位在用餐開始前。,medium,Restaurant-常用3000單,soup;woman;seat;meal
+272,sentence,"Because the coffee was already cold, the woman asked for a quiet seat before the meal started.",因為咖啡已經冷了，女士要了一個安靜的座位在用餐開始前。,medium,Restaurant-常用3000單,coffee;woman;seat;meal
+273,sentence,"Because the table was not clean, the woman asked for a quiet seat before the restaurant became full.",因為桌子不乾淨，女士要了一個安靜的座位在餐廳坐滿前。,medium,Restaurant-常用3000單,table;woman;seat;restaurant
+274,sentence,"Because the bill was not correct, the woman asked for a quiet seat before the restaurant became full.",因為帳單不正確，女士要了一個安靜的座位在餐廳坐滿前。,medium,Restaurant-常用3000單,bill;woman;seat;restaurant
+275,sentence,"Because the restaurant was crowded, the woman asked for a quiet seat during the busy lunch hour.",因為餐廳很擁擠，女士要了一個安靜的座位在忙碌的午餐時間。,medium,Restaurant-常用3000單,restaurant;woman;seat;lunch
+276,sentence,"After we looked at the menu, the woman asked for a quiet seat during the busy lunch hour.",我們看完菜單後，女士要了一個安靜的座位在忙碌的午餐時間。,medium,Restaurant-常用3000單,menu;woman;seat;lunch
+277,sentence,"After the chef finished the dish, the woman asked for a quiet seat after a short wait.",主廚完成那道菜後，女士要了一個安靜的座位在短暫等待後。,medium,Restaurant-常用3000單,chef;woman;seat;wait
+278,sentence,"After the customer paid the bill, the woman asked for a quiet seat after a short wait.",顧客付完帳單後，女士要了一個安靜的座位在短暫等待後。,medium,Restaurant-常用3000單,customer;woman;seat;wait
+279,sentence,"When my father felt hungry, the woman asked for a quiet seat with a friendly smile.",當我爸爸覺得餓時，女士要了一個安靜的座位帶著友善的微笑。,medium,Restaurant-常用3000單,father;woman;seat;friendly
+280,sentence,"When my sister wanted dessert, the woman asked for a quiet seat with a friendly smile.",當我妹妹想要甜點時，女士要了一個安靜的座位帶著友善的微笑。,medium,Restaurant-常用3000單,sister;woman;seat;friendly
+281,sentence,"Because the soup was too salty, the man waited near the counter before the meal started.",因為湯太鹹，男士在櫃檯附近等待在用餐開始前。,medium,Restaurant-常用3000單,soup;man;counter;meal
+282,sentence,"Because the coffee was already cold, the man waited near the counter before the meal started.",因為咖啡已經冷了，男士在櫃檯附近等待在用餐開始前。,medium,Restaurant-常用3000單,coffee;man;counter;meal
+283,sentence,"Because the table was not clean, the man waited near the counter before the restaurant became full.",因為桌子不乾淨，男士在櫃檯附近等待在餐廳坐滿前。,medium,Restaurant-常用3000單,table;man;counter;restaurant
+284,sentence,"Because the bill was not correct, the man waited near the counter before the restaurant became full.",因為帳單不正確，男士在櫃檯附近等待在餐廳坐滿前。,medium,Restaurant-常用3000單,bill;man;counter;restaurant
+285,sentence,"Because the restaurant was crowded, the man waited near the counter during the busy lunch hour.",因為餐廳很擁擠，男士在櫃檯附近等待在忙碌的午餐時間。,medium,Restaurant-常用3000單,restaurant;man;counter;lunch
+286,sentence,"After we looked at the menu, the man waited near the counter during the busy lunch hour.",我們看完菜單後，男士在櫃檯附近等待在忙碌的午餐時間。,medium,Restaurant-常用3000單,menu;man;counter;lunch
+287,sentence,"After the chef finished the dish, the man waited near the counter after a short wait.",主廚完成那道菜後，男士在櫃檯附近等待在短暫等待後。,medium,Restaurant-常用3000單,chef;man;counter;wait
+288,sentence,"After the customer paid the bill, the man waited near the counter after a short wait.",顧客付完帳單後，男士在櫃檯附近等待在短暫等待後。,medium,Restaurant-常用3000單,customer;man;counter;wait
+289,sentence,"When my father felt hungry, the man waited near the counter with a friendly smile.",當我爸爸覺得餓時，男士在櫃檯附近等待帶著友善的微笑。,medium,Restaurant-常用3000單,father;man;counter;friendly
+290,sentence,"When my sister wanted dessert, the man waited near the counter with a friendly smile.",當我妹妹想要甜點時，男士在櫃檯附近等待帶著友善的微笑。,medium,Restaurant-常用3000單,sister;man;counter;friendly
+291,sentence,"Because the soup was too salty, the owner gave us better service before the meal started.",因為湯太鹹，老闆給我們更好的服務在用餐開始前。,medium,Restaurant-常用3000單,soup;owner;service;meal
+292,sentence,"Because the coffee was already cold, the owner gave us better service before the meal started.",因為咖啡已經冷了，老闆給我們更好的服務在用餐開始前。,medium,Restaurant-常用3000單,coffee;owner;service;meal
+293,sentence,"Because the table was not clean, the owner gave us better service before the restaurant became full.",因為桌子不乾淨，老闆給我們更好的服務在餐廳坐滿前。,medium,Restaurant-常用3000單,table;owner;service;restaurant
+294,sentence,"Because the bill was not correct, the owner gave us better service before the restaurant became full.",因為帳單不正確，老闆給我們更好的服務在餐廳坐滿前。,medium,Restaurant-常用3000單,bill;owner;service;restaurant
+295,sentence,"Because the restaurant was crowded, the owner gave us better service during the busy lunch hour.",因為餐廳很擁擠，老闆給我們更好的服務在忙碌的午餐時間。,medium,Restaurant-常用3000單,restaurant;owner;service;lunch
+296,sentence,"After we looked at the menu, the owner gave us better service during the busy lunch hour.",我們看完菜單後，老闆給我們更好的服務在忙碌的午餐時間。,medium,Restaurant-常用3000單,menu;owner;service;lunch
+297,sentence,"After the chef finished the dish, the owner gave us better service after a short wait.",主廚完成那道菜後，老闆給我們更好的服務在短暫等待後。,medium,Restaurant-常用3000單,chef;owner;service;wait
+298,sentence,"After the customer paid the bill, the owner gave us better service after a short wait.",顧客付完帳單後，老闆給我們更好的服務在短暫等待後。,medium,Restaurant-常用3000單,customer;owner;service;wait
+299,sentence,"When my father felt hungry, the owner gave us better service with a friendly smile.",當我爸爸覺得餓時，老闆給我們更好的服務帶著友善的微笑。,medium,Restaurant-常用3000單,father;owner;service;friendly
+300,sentence,"When my sister wanted dessert, the owner gave us better service with a friendly smile.",當我妹妹想要甜點時，老闆給我們更好的服務帶著友善的微笑。,medium,Restaurant-常用3000單,sister;owner;service;friendly
+301,sentence,"The customer was hungry after work and ordered soup, rice, and fresh fish because everyone wanted a simple dinner.",顧客下班後很餓，並點了湯、飯和新鮮魚，因為每個人都想吃簡單晚餐。,medium,Restaurant-常用3000單,customer;work;soup;rice;fish;dinner
+302,sentence,"My family arrived at the restaurant early and ordered soup, rice, and fresh fish because everyone wanted a simple dinner.",我的家人很早到餐廳，並點了湯、飯和新鮮魚，因為每個人都想吃簡單晚餐。,medium,Restaurant-常用3000單,family;restaurant;soup;rice;fish;dinner
+303,sentence,"The students sat at a long table and ordered soup, rice, and fresh fish because the room was bright and comfortable.",學生們坐在一張長桌旁，並點了湯、飯和新鮮魚，因為房間明亮又舒服。,medium,Restaurant-常用3000單,student;table;soup;rice;fish;room
+304,sentence,"The teacher wanted a quiet place and ordered soup, rice, and fresh fish because the room was bright and comfortable.",老師想要一個安靜的位置，並點了湯、飯和新鮮魚，因為房間明亮又舒服。,medium,Restaurant-常用3000單,teacher;quiet;soup;rice;fish;room
+305,sentence,"The old man had a good appetite and ordered soup, rice, and fresh fish because the restaurant was famous for dessert.",那位老人食慾很好，並點了湯、飯和新鮮魚，因為這家餐廳以甜點聞名。,medium,Restaurant-常用3000單,old man;appetite;soup;rice;fish;restaurant;dessert
+306,sentence,"The young woman read the menu carefully and ordered soup, rice, and fresh fish because the restaurant was famous for dessert.",年輕女士仔細看菜單，並點了湯、飯和新鮮魚，因為這家餐廳以甜點聞名。,medium,Restaurant-常用3000單,young woman;menu;soup;rice;fish;restaurant;dessert
+307,sentence,"The chef came out of the kitchen and ordered soup, rice, and fresh fish because the menu had many healthy options.",主廚從廚房走出來，並點了湯、飯和新鮮魚，因為菜單有很多健康選擇。,medium,Restaurant-常用3000單,chef;kitchen;soup;rice;fish;menu;option
+308,sentence,"The waiter cleaned the small table and ordered soup, rice, and fresh fish because the menu had many healthy options.",服務生清理小桌子，並點了湯、飯和新鮮魚，因為菜單有很多健康選擇。,medium,Restaurant-常用3000單,waiter;table;soup;rice;fish;menu;option
+309,sentence,"The owner stood beside the counter and ordered soup, rice, and fresh fish because the service was friendly and quick.",老闆站在櫃檯旁，並點了湯、飯和新鮮魚，因為服務友善又快速。,medium,Restaurant-常用3000單,owner;counter;soup;rice;fish;service
+310,sentence,"The children looked at the dessert case and ordered soup, rice, and fresh fish because the service was friendly and quick.",孩子們看著甜點櫃，並點了湯、飯和新鮮魚，因為服務友善又快速。,medium,Restaurant-常用3000單,children;dessert;soup;rice;fish;service
+311,sentence,The customer was hungry after work and asked the waiter for warm tea because the kitchen was very busy.,顧客下班後很餓，並向服務生要溫茶，因為廚房非常忙碌。,medium,Restaurant-常用3000單,customer;work;waiter;tea;kitchen
+312,sentence,My family arrived at the restaurant early and asked the waiter for warm tea because the kitchen was very busy.,我的家人很早到餐廳，並向服務生要溫茶，因為廚房非常忙碌。,medium,Restaurant-常用3000單,family;restaurant;waiter;tea;kitchen
+313,sentence,The students sat at a long table and asked the waiter for warm tea because the table near the window was free.,學生們坐在一張長桌旁，並向服務生要溫茶，因為窗邊的桌子是空的。,medium,Restaurant-常用3000單,student;table;waiter;tea;table;window
+314,sentence,The teacher wanted a quiet place and asked the waiter for warm tea because the table near the window was free.,老師想要一個安靜的位置，並向服務生要溫茶，因為窗邊的桌子是空的。,medium,Restaurant-常用3000單,teacher;quiet;waiter;tea;table;window
+315,sentence,The old man had a good appetite and asked the waiter for warm tea because the price seemed fair today.,那位老人食慾很好，並向服務生要溫茶，因為今天價格似乎合理。,medium,Restaurant-常用3000單,old man;appetite;waiter;tea;price
+316,sentence,The young woman read the menu carefully and asked the waiter for warm tea because the price seemed fair today.,年輕女士仔細看菜單，並向服務生要溫茶，因為今天價格似乎合理。,medium,Restaurant-常用3000單,young woman;menu;waiter;tea;price
+317,sentence,The chef came out of the kitchen and asked the waiter for warm tea because the children were still hungry.,主廚從廚房走出來，並向服務生要溫茶，因為孩子們仍然餓。,medium,Restaurant-常用3000單,chef;kitchen;waiter;tea;children
+318,sentence,The waiter cleaned the small table and asked the waiter for warm tea because the children were still hungry.,服務生清理小桌子，並向服務生要溫茶，因為孩子們仍然餓。,medium,Restaurant-常用3000單,waiter;table;waiter;tea;children
+319,sentence,The owner stood beside the counter and asked the waiter for warm tea because the family needed more water.,老闆站在櫃檯旁，並向服務生要溫茶，因為這家人需要更多水。,medium,Restaurant-常用3000單,owner;counter;waiter;tea;family;water
+320,sentence,The children looked at the dessert case and asked the waiter for warm tea because the family needed more water.,孩子們看著甜點櫃，並向服務生要溫茶，因為這家人需要更多水。,medium,Restaurant-常用3000單,children;dessert;waiter;tea;family;water
+321,sentence,The customer was hungry after work and chose chicken with vegetable salad because everyone wanted a simple dinner.,顧客下班後很餓，並選了雞肉配蔬菜沙拉，因為每個人都想吃簡單晚餐。,medium,Restaurant-常用3000單,customer;work;chicken;salad;dinner
+322,sentence,My family arrived at the restaurant early and chose chicken with vegetable salad because everyone wanted a simple dinner.,我的家人很早到餐廳，並選了雞肉配蔬菜沙拉，因為每個人都想吃簡單晚餐。,medium,Restaurant-常用3000單,family;restaurant;chicken;salad;dinner
+323,sentence,The students sat at a long table and chose chicken with vegetable salad because the room was bright and comfortable.,學生們坐在一張長桌旁，並選了雞肉配蔬菜沙拉，因為房間明亮又舒服。,medium,Restaurant-常用3000單,student;table;chicken;salad;room
+324,sentence,The teacher wanted a quiet place and chose chicken with vegetable salad because the room was bright and comfortable.,老師想要一個安靜的位置，並選了雞肉配蔬菜沙拉，因為房間明亮又舒服。,medium,Restaurant-常用3000單,teacher;quiet;chicken;salad;room
+325,sentence,The old man had a good appetite and chose chicken with vegetable salad because the restaurant was famous for dessert.,那位老人食慾很好，並選了雞肉配蔬菜沙拉，因為這家餐廳以甜點聞名。,medium,Restaurant-常用3000單,old man;appetite;chicken;salad;restaurant;dessert
+326,sentence,The young woman read the menu carefully and chose chicken with vegetable salad because the restaurant was famous for dessert.,年輕女士仔細看菜單，並選了雞肉配蔬菜沙拉，因為這家餐廳以甜點聞名。,medium,Restaurant-常用3000單,young woman;menu;chicken;salad;restaurant;dessert
+327,sentence,The chef came out of the kitchen and chose chicken with vegetable salad because the menu had many healthy options.,主廚從廚房走出來，並選了雞肉配蔬菜沙拉，因為菜單有很多健康選擇。,medium,Restaurant-常用3000單,chef;kitchen;chicken;salad;menu;option
+328,sentence,The waiter cleaned the small table and chose chicken with vegetable salad because the menu had many healthy options.,服務生清理小桌子，並選了雞肉配蔬菜沙拉，因為菜單有很多健康選擇。,medium,Restaurant-常用3000單,waiter;table;chicken;salad;menu;option
+329,sentence,The owner stood beside the counter and chose chicken with vegetable salad because the service was friendly and quick.,老闆站在櫃檯旁，並選了雞肉配蔬菜沙拉，因為服務友善又快速。,medium,Restaurant-常用3000單,owner;counter;chicken;salad;service
+330,sentence,The children looked at the dessert case and chose chicken with vegetable salad because the service was friendly and quick.,孩子們看著甜點櫃，並選了雞肉配蔬菜沙拉，因為服務友善又快速。,medium,Restaurant-常用3000單,children;dessert;chicken;salad;service
+331,sentence,The customer was hungry after work and asked about the price of the meal because the kitchen was very busy.,顧客下班後很餓，並詢問這餐的價格，因為廚房非常忙碌。,medium,Restaurant-常用3000單,customer;work;price;meal;kitchen
+332,sentence,My family arrived at the restaurant early and asked about the price of the meal because the kitchen was very busy.,我的家人很早到餐廳，並詢問這餐的價格，因為廚房非常忙碌。,medium,Restaurant-常用3000單,family;restaurant;price;meal;kitchen
+333,sentence,The students sat at a long table and asked about the price of the meal because the table near the window was free.,學生們坐在一張長桌旁，並詢問這餐的價格，因為窗邊的桌子是空的。,medium,Restaurant-常用3000單,student;table;price;meal;table;window
+334,sentence,The teacher wanted a quiet place and asked about the price of the meal because the table near the window was free.,老師想要一個安靜的位置，並詢問這餐的價格，因為窗邊的桌子是空的。,medium,Restaurant-常用3000單,teacher;quiet;price;meal;table;window
+335,sentence,The old man had a good appetite and asked about the price of the meal because the price seemed fair today.,那位老人食慾很好，並詢問這餐的價格，因為今天價格似乎合理。,medium,Restaurant-常用3000單,old man;appetite;price;meal;price
+336,sentence,The young woman read the menu carefully and asked about the price of the meal because the price seemed fair today.,年輕女士仔細看菜單，並詢問這餐的價格，因為今天價格似乎合理。,medium,Restaurant-常用3000單,young woman;menu;price;meal;price
+337,sentence,The chef came out of the kitchen and asked about the price of the meal because the children were still hungry.,主廚從廚房走出來，並詢問這餐的價格，因為孩子們仍然餓。,medium,Restaurant-常用3000單,chef;kitchen;price;meal;children
+338,sentence,The waiter cleaned the small table and asked about the price of the meal because the children were still hungry.,服務生清理小桌子，並詢問這餐的價格，因為孩子們仍然餓。,medium,Restaurant-常用3000單,waiter;table;price;meal;children
+339,sentence,The owner stood beside the counter and asked about the price of the meal because the family needed more water.,老闆站在櫃檯旁，並詢問這餐的價格，因為這家人需要更多水。,medium,Restaurant-常用3000單,owner;counter;price;meal;family;water
+340,sentence,The children looked at the dessert case and asked about the price of the meal because the family needed more water.,孩子們看著甜點櫃，並詢問這餐的價格，因為這家人需要更多水。,medium,Restaurant-常用3000單,children;dessert;price;meal;family;water
+341,sentence,The customer was hungry after work and waited for coffee and sweet cake because everyone wanted a simple dinner.,顧客下班後很餓，並等待咖啡和甜蛋糕，因為每個人都想吃簡單晚餐。,medium,Restaurant-常用3000單,customer;work;coffee;cake;dinner
+342,sentence,My family arrived at the restaurant early and waited for coffee and sweet cake because everyone wanted a simple dinner.,我的家人很早到餐廳，並等待咖啡和甜蛋糕，因為每個人都想吃簡單晚餐。,medium,Restaurant-常用3000單,family;restaurant;coffee;cake;dinner
+343,sentence,The students sat at a long table and waited for coffee and sweet cake because the room was bright and comfortable.,學生們坐在一張長桌旁，並等待咖啡和甜蛋糕，因為房間明亮又舒服。,medium,Restaurant-常用3000單,student;table;coffee;cake;room
+344,sentence,The teacher wanted a quiet place and waited for coffee and sweet cake because the room was bright and comfortable.,老師想要一個安靜的位置，並等待咖啡和甜蛋糕，因為房間明亮又舒服。,medium,Restaurant-常用3000單,teacher;quiet;coffee;cake;room
+345,sentence,The old man had a good appetite and waited for coffee and sweet cake because the restaurant was famous for dessert.,那位老人食慾很好，並等待咖啡和甜蛋糕，因為這家餐廳以甜點聞名。,medium,Restaurant-常用3000單,old man;appetite;coffee;cake;restaurant;dessert
+346,sentence,The young woman read the menu carefully and waited for coffee and sweet cake because the restaurant was famous for dessert.,年輕女士仔細看菜單，並等待咖啡和甜蛋糕，因為這家餐廳以甜點聞名。,medium,Restaurant-常用3000單,young woman;menu;coffee;cake;restaurant;dessert
+347,sentence,The chef came out of the kitchen and waited for coffee and sweet cake because the menu had many healthy options.,主廚從廚房走出來，並等待咖啡和甜蛋糕，因為菜單有很多健康選擇。,medium,Restaurant-常用3000單,chef;kitchen;coffee;cake;menu;option
+348,sentence,The waiter cleaned the small table and waited for coffee and sweet cake because the menu had many healthy options.,服務生清理小桌子，並等待咖啡和甜蛋糕，因為菜單有很多健康選擇。,medium,Restaurant-常用3000單,waiter;table;coffee;cake;menu;option
+349,sentence,The owner stood beside the counter and waited for coffee and sweet cake because the service was friendly and quick.,老闆站在櫃檯旁，並等待咖啡和甜蛋糕，因為服務友善又快速。,medium,Restaurant-常用3000單,owner;counter;coffee;cake;service
+350,sentence,The children looked at the dessert case and waited for coffee and sweet cake because the service was friendly and quick.,孩子們看著甜點櫃，並等待咖啡和甜蛋糕，因為服務友善又快速。,medium,Restaurant-常用3000單,children;dessert;coffee;cake;service
+351,sentence,The customer was hungry after work and asked for a clean plate and cup because the kitchen was very busy.,顧客下班後很餓，並要一個乾淨盤子和杯子，因為廚房非常忙碌。,medium,Restaurant-常用3000單,customer;work;plate;cup;kitchen
+352,sentence,My family arrived at the restaurant early and asked for a clean plate and cup because the kitchen was very busy.,我的家人很早到餐廳，並要一個乾淨盤子和杯子，因為廚房非常忙碌。,medium,Restaurant-常用3000單,family;restaurant;plate;cup;kitchen
+353,sentence,The students sat at a long table and asked for a clean plate and cup because the table near the window was free.,學生們坐在一張長桌旁，並要一個乾淨盤子和杯子，因為窗邊的桌子是空的。,medium,Restaurant-常用3000單,student;table;plate;cup;table;window
+354,sentence,The teacher wanted a quiet place and asked for a clean plate and cup because the table near the window was free.,老師想要一個安靜的位置，並要一個乾淨盤子和杯子，因為窗邊的桌子是空的。,medium,Restaurant-常用3000單,teacher;quiet;plate;cup;table;window
+355,sentence,The old man had a good appetite and asked for a clean plate and cup because the price seemed fair today.,那位老人食慾很好，並要一個乾淨盤子和杯子，因為今天價格似乎合理。,medium,Restaurant-常用3000單,old man;appetite;plate;cup;price
+356,sentence,The young woman read the menu carefully and asked for a clean plate and cup because the price seemed fair today.,年輕女士仔細看菜單，並要一個乾淨盤子和杯子，因為今天價格似乎合理。,medium,Restaurant-常用3000單,young woman;menu;plate;cup;price
+357,sentence,The chef came out of the kitchen and asked for a clean plate and cup because the children were still hungry.,主廚從廚房走出來，並要一個乾淨盤子和杯子，因為孩子們仍然餓。,medium,Restaurant-常用3000單,chef;kitchen;plate;cup;children
+358,sentence,The waiter cleaned the small table and asked for a clean plate and cup because the children were still hungry.,服務生清理小桌子，並要一個乾淨盤子和杯子，因為孩子們仍然餓。,medium,Restaurant-常用3000單,waiter;table;plate;cup;children
+359,sentence,The owner stood beside the counter and asked for a clean plate and cup because the family needed more water.,老闆站在櫃檯旁，並要一個乾淨盤子和杯子，因為這家人需要更多水。,medium,Restaurant-常用3000單,owner;counter;plate;cup;family;water
+360,sentence,The children looked at the dessert case and asked for a clean plate and cup because the family needed more water.,孩子們看著甜點櫃，並要一個乾淨盤子和杯子，因為這家人需要更多水。,medium,Restaurant-常用3000單,children;dessert;plate;cup;family;water
+361,sentence,The customer was hungry after work and decided to share a large dessert because everyone wanted a simple dinner.,顧客下班後很餓，並決定分享一份大甜點，因為每個人都想吃簡單晚餐。,medium,Restaurant-常用3000單,customer;work;dessert;dinner
+362,sentence,My family arrived at the restaurant early and decided to share a large dessert because everyone wanted a simple dinner.,我的家人很早到餐廳，並決定分享一份大甜點，因為每個人都想吃簡單晚餐。,medium,Restaurant-常用3000單,family;restaurant;dessert;dinner
+363,sentence,The students sat at a long table and decided to share a large dessert because the room was bright and comfortable.,學生們坐在一張長桌旁，並決定分享一份大甜點，因為房間明亮又舒服。,medium,Restaurant-常用3000單,student;table;dessert;room
+364,sentence,The teacher wanted a quiet place and decided to share a large dessert because the room was bright and comfortable.,老師想要一個安靜的位置，並決定分享一份大甜點，因為房間明亮又舒服。,medium,Restaurant-常用3000單,teacher;quiet;dessert;room
+365,sentence,The old man had a good appetite and decided to share a large dessert because the restaurant was famous for dessert.,那位老人食慾很好，並決定分享一份大甜點，因為這家餐廳以甜點聞名。,medium,Restaurant-常用3000單,old man;appetite;dessert;restaurant;dessert
+366,sentence,The young woman read the menu carefully and decided to share a large dessert because the restaurant was famous for dessert.,年輕女士仔細看菜單，並決定分享一份大甜點，因為這家餐廳以甜點聞名。,medium,Restaurant-常用3000單,young woman;menu;dessert;restaurant;dessert
+367,sentence,The chef came out of the kitchen and decided to share a large dessert because the menu had many healthy options.,主廚從廚房走出來，並決定分享一份大甜點，因為菜單有很多健康選擇。,medium,Restaurant-常用3000單,chef;kitchen;dessert;menu;option
+368,sentence,The waiter cleaned the small table and decided to share a large dessert because the menu had many healthy options.,服務生清理小桌子，並決定分享一份大甜點，因為菜單有很多健康選擇。,medium,Restaurant-常用3000單,waiter;table;dessert;menu;option
+369,sentence,The owner stood beside the counter and decided to share a large dessert because the service was friendly and quick.,老闆站在櫃檯旁，並決定分享一份大甜點，因為服務友善又快速。,medium,Restaurant-常用3000單,owner;counter;dessert;service
+370,sentence,The children looked at the dessert case and decided to share a large dessert because the service was friendly and quick.,孩子們看著甜點櫃，並決定分享一份大甜點，因為服務友善又快速。,medium,Restaurant-常用3000單,children;dessert;dessert;service
+371,sentence,The customer was hungry after work and checked the bill before paying because the kitchen was very busy.,顧客下班後很餓，並在付款前檢查帳單，因為廚房非常忙碌。,medium,Restaurant-常用3000單,customer;work;bill;pay;kitchen
+372,sentence,My family arrived at the restaurant early and checked the bill before paying because the kitchen was very busy.,我的家人很早到餐廳，並在付款前檢查帳單，因為廚房非常忙碌。,medium,Restaurant-常用3000單,family;restaurant;bill;pay;kitchen
+373,sentence,The students sat at a long table and checked the bill before paying because the table near the window was free.,學生們坐在一張長桌旁，並在付款前檢查帳單，因為窗邊的桌子是空的。,medium,Restaurant-常用3000單,student;table;bill;pay;table;window
+374,sentence,The teacher wanted a quiet place and checked the bill before paying because the table near the window was free.,老師想要一個安靜的位置，並在付款前檢查帳單，因為窗邊的桌子是空的。,medium,Restaurant-常用3000單,teacher;quiet;bill;pay;table;window
+375,sentence,The old man had a good appetite and checked the bill before paying because the price seemed fair today.,那位老人食慾很好，並在付款前檢查帳單，因為今天價格似乎合理。,medium,Restaurant-常用3000單,old man;appetite;bill;pay;price
+376,sentence,The young woman read the menu carefully and checked the bill before paying because the price seemed fair today.,年輕女士仔細看菜單，並在付款前檢查帳單，因為今天價格似乎合理。,medium,Restaurant-常用3000單,young woman;menu;bill;pay;price
+377,sentence,The chef came out of the kitchen and checked the bill before paying because the children were still hungry.,主廚從廚房走出來，並在付款前檢查帳單，因為孩子們仍然餓。,medium,Restaurant-常用3000單,chef;kitchen;bill;pay;children
+378,sentence,The waiter cleaned the small table and checked the bill before paying because the children were still hungry.,服務生清理小桌子，並在付款前檢查帳單，因為孩子們仍然餓。,medium,Restaurant-常用3000單,waiter;table;bill;pay;children
+379,sentence,The owner stood beside the counter and checked the bill before paying because the family needed more water.,老闆站在櫃檯旁，並在付款前檢查帳單，因為這家人需要更多水。,medium,Restaurant-常用3000單,owner;counter;bill;pay;family;water
+380,sentence,The children looked at the dessert case and checked the bill before paying because the family needed more water.,孩子們看著甜點櫃，並在付款前檢查帳單，因為這家人需要更多水。,medium,Restaurant-常用3000單,children;dessert;bill;pay;family;water
+381,sentence,The customer was hungry after work and thanked the cook for the food because everyone wanted a simple dinner.,顧客下班後很餓，並感謝廚師做的食物，因為每個人都想吃簡單晚餐。,medium,Restaurant-常用3000單,customer;work;cook;food;dinner
+382,sentence,My family arrived at the restaurant early and thanked the cook for the food because everyone wanted a simple dinner.,我的家人很早到餐廳，並感謝廚師做的食物，因為每個人都想吃簡單晚餐。,medium,Restaurant-常用3000單,family;restaurant;cook;food;dinner
+383,sentence,The students sat at a long table and thanked the cook for the food because the room was bright and comfortable.,學生們坐在一張長桌旁，並感謝廚師做的食物，因為房間明亮又舒服。,medium,Restaurant-常用3000單,student;table;cook;food;room
+384,sentence,The teacher wanted a quiet place and thanked the cook for the food because the room was bright and comfortable.,老師想要一個安靜的位置，並感謝廚師做的食物，因為房間明亮又舒服。,medium,Restaurant-常用3000單,teacher;quiet;cook;food;room
+385,sentence,The old man had a good appetite and thanked the cook for the food because the restaurant was famous for dessert.,那位老人食慾很好，並感謝廚師做的食物，因為這家餐廳以甜點聞名。,medium,Restaurant-常用3000單,old man;appetite;cook;food;restaurant;dessert
+386,sentence,The young woman read the menu carefully and thanked the cook for the food because the restaurant was famous for dessert.,年輕女士仔細看菜單，並感謝廚師做的食物，因為這家餐廳以甜點聞名。,medium,Restaurant-常用3000單,young woman;menu;cook;food;restaurant;dessert
+387,sentence,The chef came out of the kitchen and thanked the cook for the food because the menu had many healthy options.,主廚從廚房走出來，並感謝廚師做的食物，因為菜單有很多健康選擇。,medium,Restaurant-常用3000單,chef;kitchen;cook;food;menu;option
+388,sentence,The waiter cleaned the small table and thanked the cook for the food because the menu had many healthy options.,服務生清理小桌子，並感謝廚師做的食物，因為菜單有很多健康選擇。,medium,Restaurant-常用3000單,waiter;table;cook;food;menu;option
+389,sentence,The owner stood beside the counter and thanked the cook for the food because the service was friendly and quick.,老闆站在櫃檯旁，並感謝廚師做的食物，因為服務友善又快速。,medium,Restaurant-常用3000單,owner;counter;cook;food;service
+390,sentence,The children looked at the dessert case and thanked the cook for the food because the service was friendly and quick.,孩子們看著甜點櫃，並感謝廚師做的食物，因為服務友善又快速。,medium,Restaurant-常用3000單,children;dessert;cook;food;service
+391,sentence,The customer was hungry after work and asked for better service at the table because the kitchen was very busy.,顧客下班後很餓，並要求桌邊有更好的服務，因為廚房非常忙碌。,medium,Restaurant-常用3000單,customer;work;service;table;kitchen
+392,sentence,My family arrived at the restaurant early and asked for better service at the table because the kitchen was very busy.,我的家人很早到餐廳，並要求桌邊有更好的服務，因為廚房非常忙碌。,medium,Restaurant-常用3000單,family;restaurant;service;table;kitchen
+393,sentence,The students sat at a long table and asked for better service at the table because the table near the window was free.,學生們坐在一張長桌旁，並要求桌邊有更好的服務，因為窗邊的桌子是空的。,medium,Restaurant-常用3000單,student;table;service;table;table;window
+394,sentence,The teacher wanted a quiet place and asked for better service at the table because the table near the window was free.,老師想要一個安靜的位置，並要求桌邊有更好的服務，因為窗邊的桌子是空的。,medium,Restaurant-常用3000單,teacher;quiet;service;table;table;window
+395,sentence,The old man had a good appetite and asked for better service at the table because the price seemed fair today.,那位老人食慾很好，並要求桌邊有更好的服務，因為今天價格似乎合理。,medium,Restaurant-常用3000單,old man;appetite;service;table;price
+396,sentence,The young woman read the menu carefully and asked for better service at the table because the price seemed fair today.,年輕女士仔細看菜單，並要求桌邊有更好的服務，因為今天價格似乎合理。,medium,Restaurant-常用3000單,young woman;menu;service;table;price
+397,sentence,The chef came out of the kitchen and asked for better service at the table because the children were still hungry.,主廚從廚房走出來，並要求桌邊有更好的服務，因為孩子們仍然餓。,medium,Restaurant-常用3000單,chef;kitchen;service;table;children
+398,sentence,The waiter cleaned the small table and asked for better service at the table because the children were still hungry.,服務生清理小桌子，並要求桌邊有更好的服務，因為孩子們仍然餓。,medium,Restaurant-常用3000單,waiter;table;service;table;children
+399,sentence,The owner stood beside the counter and asked for better service at the table because the family needed more water.,老闆站在櫃檯旁，並要求桌邊有更好的服務，因為這家人需要更多水。,medium,Restaurant-常用3000單,owner;counter;service;table;family;water
+400,sentence,The children looked at the dessert case and asked for better service at the table because the family needed more water.,孩子們看著甜點櫃，並要求桌邊有更好的服務，因為這家人需要更多水。,medium,Restaurant-常用3000單,children;dessert;service;table;family;water
+401,sentence,"After the family entered the crowded restaurant and found their regular table, we ordered vegetable salad, chicken, and a bottle of fresh juice, so everyone felt comfortable during the whole meal.",這家人走進擁擠的餐廳並找到固定桌位後，我們點了蔬菜沙拉、雞肉和一瓶新鮮果汁，所以每個人在整個用餐過程中都感到舒服。,medium,Restaurant-常用3000單,family;restaurant;regular table;salad;chicken;juice;comfortable;meal
+402,sentence,"When the customer finished reading the long menu near the counter, we ordered vegetable salad, chicken, and a bottle of fresh juice, so everyone felt comfortable during the whole meal.",顧客在櫃檯附近看完長菜單時，我們點了蔬菜沙拉、雞肉和一瓶新鮮果汁，所以每個人在整個用餐過程中都感到舒服。,medium,Restaurant-常用3000單,customer;menu;counter;salad;chicken;juice;comfortable;meal
+403,sentence,"Because the children were hungry after school and wanted a warm meal, we ordered vegetable salad, chicken, and a bottle of fresh juice, before we left the restaurant and walked home together.",因為孩子們放學後餓了並想吃一份熱餐，我們點了蔬菜沙拉、雞肉和一瓶新鮮果汁，在我們離開餐廳並一起走回家前。,medium,Restaurant-常用3000單,children;school;meal;salad;chicken;juice;restaurant;home
+404,sentence,"Before my father paid the bill with his credit card, we ordered vegetable salad, chicken, and a bottle of fresh juice, before we left the restaurant and walked home together.",在我爸爸用信用卡付帳單之前，我們點了蔬菜沙拉、雞肉和一瓶新鮮果汁，在我們離開餐廳並一起走回家前。,medium,Restaurant-常用3000單,father;bill;credit;salad;chicken;juice;restaurant;home
+405,sentence,"Although the coffee shop was small and the line was long, we ordered vegetable salad, chicken, and a bottle of fresh juice, because good service can make a simple meal special.",雖然這家咖啡店很小且隊伍很長，我們點了蔬菜沙拉、雞肉和一瓶新鮮果汁，因為好的服務能讓簡單的一餐變得特別。,medium,Restaurant-常用3000單,coffee shop;line;salad;chicken;juice;service;meal
+406,sentence,"After the chef served fish, rice, soup, and dessert, we ordered vegetable salad, chicken, and a bottle of fresh juice, because good service can make a simple meal special.",主廚送上魚、飯、湯和甜點後，我們點了蔬菜沙拉、雞肉和一瓶新鮮果汁，因為好的服務能讓簡單的一餐變得特別。,medium,Restaurant-常用3000單,chef;fish;rice;soup;dessert;salad;chicken;juice;service;meal
+407,sentence,"When the teacher brought the students to the restaurant for lunch, we ordered vegetable salad, chicken, and a bottle of fresh juice, while the music played softly in the bright room.",老師帶學生們到餐廳吃午餐時，我們點了蔬菜沙拉、雞肉和一瓶新鮮果汁，當音樂在明亮房間裡柔和播放時。,medium,Restaurant-常用3000單,teacher;student;restaurant;lunch;salad;chicken;juice;music;room
+408,sentence,"Because the old man had a strong appetite and liked simple food, we ordered vegetable salad, chicken, and a bottle of fresh juice, while the music played softly in the bright room.",因為老人食慾很好且喜歡簡單食物，我們點了蔬菜沙拉、雞肉和一瓶新鮮果汁，當音樂在明亮房間裡柔和播放時。,medium,Restaurant-常用3000單,old man;appetite;food;salad;chicken;juice;music;room
+409,sentence,"After the waiter cleaned the table and brought new plates, we ordered vegetable salad, chicken, and a bottle of fresh juice, and this made the regular customers happy.",服務生清理桌子並拿來新盤子後，我們點了蔬菜沙拉、雞肉和一瓶新鮮果汁，而這讓固定顧客感到高興。,medium,Restaurant-常用3000單,waiter;table;plate;salad;chicken;juice;regular customer;happy
+410,sentence,"When the owner noticed that the customer looked unhappy, we ordered vegetable salad, chicken, and a bottle of fresh juice, and this made the regular customers happy.",當老闆注意到顧客看起來不開心時，我們點了蔬菜沙拉、雞肉和一瓶新鮮果汁，而這讓固定顧客感到高興。,medium,Restaurant-常用3000單,owner;customer;unhappy;salad;chicken;juice;regular customer;happy
+411,sentence,"After the family entered the crowded restaurant and found their regular table, she asked whether the cook could make the soup less salty, because the family wanted to remember the pleasant lunch.",這家人走進擁擠的餐廳並找到固定桌位後，她詢問廚師是否能把湯做得不那麼鹹，因為這家人想記住這頓愉快的午餐。,medium,Restaurant-常用3000單,family;restaurant;regular table;cook;soup;salty;family;lunch
+412,sentence,"When the customer finished reading the long menu near the counter, she asked whether the cook could make the soup less salty, because the family wanted to remember the pleasant lunch.",顧客在櫃檯附近看完長菜單時，她詢問廚師是否能把湯做得不那麼鹹，因為這家人想記住這頓愉快的午餐。,medium,Restaurant-常用3000單,customer;menu;counter;cook;soup;salty;family;lunch
+413,sentence,"Because the children were hungry after school and wanted a warm meal, she asked whether the cook could make the soup less salty, after a short conversation with the friendly owner.",因為孩子們放學後餓了並想吃一份熱餐，她詢問廚師是否能把湯做得不那麼鹹，在與友善老闆短暫交談後。,medium,Restaurant-常用3000單,children;school;meal;cook;soup;salty;conversation;owner
+414,sentence,"Before my father paid the bill with his credit card, she asked whether the cook could make the soup less salty, after a short conversation with the friendly owner.",在我爸爸用信用卡付帳單之前，她詢問廚師是否能把湯做得不那麼鹹，在與友善老闆短暫交談後。,medium,Restaurant-常用3000單,father;bill;credit;cook;soup;salty;conversation;owner
+415,sentence,"Although the coffee shop was small and the line was long, she asked whether the cook could make the soup less salty, even though the restaurant was busy that evening.",雖然這家咖啡店很小且隊伍很長，她詢問廚師是否能把湯做得不那麼鹹，即使那天晚上餐廳很忙。,medium,Restaurant-常用3000單,coffee shop;line;cook;soup;salty;restaurant;evening
+416,sentence,"After the chef served fish, rice, soup, and dessert, she asked whether the cook could make the soup less salty, even though the restaurant was busy that evening.",主廚送上魚、飯、湯和甜點後，她詢問廚師是否能把湯做得不那麼鹹，即使那天晚上餐廳很忙。,medium,Restaurant-常用3000單,chef;fish;rice;soup;dessert;cook;soup;salty;restaurant;evening
+417,sentence,"When the teacher brought the students to the restaurant for lunch, she asked whether the cook could make the soup less salty, so the children learned how to order politely.",老師帶學生們到餐廳吃午餐時，她詢問廚師是否能把湯做得不那麼鹹，所以孩子們學會如何有禮貌地點餐。,medium,Restaurant-常用3000單,teacher;student;restaurant;lunch;cook;soup;salty;children;order
+418,sentence,"Because the old man had a strong appetite and liked simple food, she asked whether the cook could make the soup less salty, so the children learned how to order politely.",因為老人食慾很好且喜歡簡單食物，她詢問廚師是否能把湯做得不那麼鹹，所以孩子們學會如何有禮貌地點餐。,medium,Restaurant-常用3000單,old man;appetite;food;cook;soup;salty;children;order
+419,sentence,"After the waiter cleaned the table and brought new plates, she asked whether the cook could make the soup less salty, because the correct bill showed a fair charge.",服務生清理桌子並拿來新盤子後，她詢問廚師是否能把湯做得不那麼鹹，因為正確帳單顯示合理費用。,medium,Restaurant-常用3000單,waiter;table;plate;cook;soup;salty;bill;charge
+420,sentence,"When the owner noticed that the customer looked unhappy, she asked whether the cook could make the soup less salty, because the correct bill showed a fair charge.",當老闆注意到顧客看起來不開心時，她詢問廚師是否能把湯做得不那麼鹹，因為正確帳單顯示合理費用。,medium,Restaurant-常用3000單,owner;customer;unhappy;cook;soup;salty;bill;charge
+421,sentence,"After the family entered the crowded restaurant and found their regular table, they chose a quiet seat and asked for water before dinner, so everyone felt comfortable during the whole meal.",這家人走進擁擠的餐廳並找到固定桌位後，他們選了一個安靜座位並在晚餐前要水，所以每個人在整個用餐過程中都感到舒服。,medium,Restaurant-常用3000單,family;restaurant;regular table;seat;water;dinner;comfortable;meal
+422,sentence,"When the customer finished reading the long menu near the counter, they chose a quiet seat and asked for water before dinner, so everyone felt comfortable during the whole meal.",顧客在櫃檯附近看完長菜單時，他們選了一個安靜座位並在晚餐前要水，所以每個人在整個用餐過程中都感到舒服。,medium,Restaurant-常用3000單,customer;menu;counter;seat;water;dinner;comfortable;meal
+423,sentence,"Because the children were hungry after school and wanted a warm meal, they chose a quiet seat and asked for water before dinner, before we left the restaurant and walked home together.",因為孩子們放學後餓了並想吃一份熱餐，他們選了一個安靜座位並在晚餐前要水，在我們離開餐廳並一起走回家前。,medium,Restaurant-常用3000單,children;school;meal;seat;water;dinner;restaurant;home
+424,sentence,"Before my father paid the bill with his credit card, they chose a quiet seat and asked for water before dinner, before we left the restaurant and walked home together.",在我爸爸用信用卡付帳單之前，他們選了一個安靜座位並在晚餐前要水，在我們離開餐廳並一起走回家前。,medium,Restaurant-常用3000單,father;bill;credit;seat;water;dinner;restaurant;home
+425,sentence,"Although the coffee shop was small and the line was long, they chose a quiet seat and asked for water before dinner, because good service can make a simple meal special.",雖然這家咖啡店很小且隊伍很長，他們選了一個安靜座位並在晚餐前要水，因為好的服務能讓簡單的一餐變得特別。,medium,Restaurant-常用3000單,coffee shop;line;seat;water;dinner;service;meal
+426,sentence,"After the chef served fish, rice, soup, and dessert, they chose a quiet seat and asked for water before dinner, because good service can make a simple meal special.",主廚送上魚、飯、湯和甜點後，他們選了一個安靜座位並在晚餐前要水，因為好的服務能讓簡單的一餐變得特別。,medium,Restaurant-常用3000單,chef;fish;rice;soup;dessert;seat;water;dinner;service;meal
+427,sentence,"When the teacher brought the students to the restaurant for lunch, they chose a quiet seat and asked for water before dinner, while the music played softly in the bright room.",老師帶學生們到餐廳吃午餐時，他們選了一個安靜座位並在晚餐前要水，當音樂在明亮房間裡柔和播放時。,medium,Restaurant-常用3000單,teacher;student;restaurant;lunch;seat;water;dinner;music;room
+428,sentence,"Because the old man had a strong appetite and liked simple food, they chose a quiet seat and asked for water before dinner, while the music played softly in the bright room.",因為老人食慾很好且喜歡簡單食物，他們選了一個安靜座位並在晚餐前要水，當音樂在明亮房間裡柔和播放時。,medium,Restaurant-常用3000單,old man;appetite;food;seat;water;dinner;music;room
+429,sentence,"After the waiter cleaned the table and brought new plates, they chose a quiet seat and asked for water before dinner, and this made the regular customers happy.",服務生清理桌子並拿來新盤子後，他們選了一個安靜座位並在晚餐前要水，而這讓固定顧客感到高興。,medium,Restaurant-常用3000單,waiter;table;plate;seat;water;dinner;regular customer;happy
+430,sentence,"When the owner noticed that the customer looked unhappy, they chose a quiet seat and asked for water before dinner, and this made the regular customers happy.",當老闆注意到顧客看起來不開心時，他們選了一個安靜座位並在晚餐前要水，而這讓固定顧客感到高興。,medium,Restaurant-常用3000單,owner;customer;unhappy;seat;water;dinner;regular customer;happy
+431,sentence,"After the family entered the crowded restaurant and found their regular table, he checked the price of every dish and counted the money carefully, because the family wanted to remember the pleasant lunch.",這家人走進擁擠的餐廳並找到固定桌位後，他檢查每道菜的價格並仔細數錢，因為這家人想記住這頓愉快的午餐。,medium,Restaurant-常用3000單,family;restaurant;regular table;price;dish;money;family;lunch
+432,sentence,"When the customer finished reading the long menu near the counter, he checked the price of every dish and counted the money carefully, because the family wanted to remember the pleasant lunch.",顧客在櫃檯附近看完長菜單時，他檢查每道菜的價格並仔細數錢，因為這家人想記住這頓愉快的午餐。,medium,Restaurant-常用3000單,customer;menu;counter;price;dish;money;family;lunch
+433,sentence,"Because the children were hungry after school and wanted a warm meal, he checked the price of every dish and counted the money carefully, after a short conversation with the friendly owner.",因為孩子們放學後餓了並想吃一份熱餐，他檢查每道菜的價格並仔細數錢，在與友善老闆短暫交談後。,medium,Restaurant-常用3000單,children;school;meal;price;dish;money;conversation;owner
+434,sentence,"Before my father paid the bill with his credit card, he checked the price of every dish and counted the money carefully, after a short conversation with the friendly owner.",在我爸爸用信用卡付帳單之前，他檢查每道菜的價格並仔細數錢，在與友善老闆短暫交談後。,medium,Restaurant-常用3000單,father;bill;credit;price;dish;money;conversation;owner
+435,sentence,"Although the coffee shop was small and the line was long, he checked the price of every dish and counted the money carefully, even though the restaurant was busy that evening.",雖然這家咖啡店很小且隊伍很長，他檢查每道菜的價格並仔細數錢，即使那天晚上餐廳很忙。,medium,Restaurant-常用3000單,coffee shop;line;price;dish;money;restaurant;evening
+436,sentence,"After the chef served fish, rice, soup, and dessert, he checked the price of every dish and counted the money carefully, even though the restaurant was busy that evening.",主廚送上魚、飯、湯和甜點後，他檢查每道菜的價格並仔細數錢，即使那天晚上餐廳很忙。,medium,Restaurant-常用3000單,chef;fish;rice;soup;dessert;price;dish;money;restaurant;evening
+437,sentence,"When the teacher brought the students to the restaurant for lunch, he checked the price of every dish and counted the money carefully, so the children learned how to order politely.",老師帶學生們到餐廳吃午餐時，他檢查每道菜的價格並仔細數錢，所以孩子們學會如何有禮貌地點餐。,medium,Restaurant-常用3000單,teacher;student;restaurant;lunch;price;dish;money;children;order
+438,sentence,"Because the old man had a strong appetite and liked simple food, he checked the price of every dish and counted the money carefully, so the children learned how to order politely.",因為老人食慾很好且喜歡簡單食物，他檢查每道菜的價格並仔細數錢，所以孩子們學會如何有禮貌地點餐。,medium,Restaurant-常用3000單,old man;appetite;food;price;dish;money;children;order
+439,sentence,"After the waiter cleaned the table and brought new plates, he checked the price of every dish and counted the money carefully, because the correct bill showed a fair charge.",服務生清理桌子並拿來新盤子後，他檢查每道菜的價格並仔細數錢，因為正確帳單顯示合理費用。,medium,Restaurant-常用3000單,waiter;table;plate;price;dish;money;bill;charge
+440,sentence,"When the owner noticed that the customer looked unhappy, he checked the price of every dish and counted the money carefully, because the correct bill showed a fair charge.",當老闆注意到顧客看起來不開心時，他檢查每道菜的價格並仔細數錢，因為正確帳單顯示合理費用。,medium,Restaurant-常用3000單,owner;customer;unhappy;price;dish;money;bill;charge
+441,sentence,"After the family entered the crowded restaurant and found their regular table, we still waited politely because the service was friendly, so everyone felt comfortable during the whole meal.",這家人走進擁擠的餐廳並找到固定桌位後，我們仍然有禮貌地等待，因為服務很友善，所以每個人在整個用餐過程中都感到舒服。,medium,Restaurant-常用3000單,family;restaurant;regular table;wait;service;friendly;comfortable;meal
+442,sentence,"When the customer finished reading the long menu near the counter, we still waited politely because the service was friendly, so everyone felt comfortable during the whole meal.",顧客在櫃檯附近看完長菜單時，我們仍然有禮貌地等待，因為服務很友善，所以每個人在整個用餐過程中都感到舒服。,medium,Restaurant-常用3000單,customer;menu;counter;wait;service;friendly;comfortable;meal
+443,sentence,"Because the children were hungry after school and wanted a warm meal, we still waited politely because the service was friendly, before we left the restaurant and walked home together.",因為孩子們放學後餓了並想吃一份熱餐，我們仍然有禮貌地等待，因為服務很友善，在我們離開餐廳並一起走回家前。,medium,Restaurant-常用3000單,children;school;meal;wait;service;friendly;restaurant;home
+444,sentence,"Before my father paid the bill with his credit card, we still waited politely because the service was friendly, before we left the restaurant and walked home together.",在我爸爸用信用卡付帳單之前，我們仍然有禮貌地等待，因為服務很友善，在我們離開餐廳並一起走回家前。,medium,Restaurant-常用3000單,father;bill;credit;wait;service;friendly;restaurant;home
+445,sentence,"Although the coffee shop was small and the line was long, we still waited politely because the service was friendly, because good service can make a simple meal special.",雖然這家咖啡店很小且隊伍很長，我們仍然有禮貌地等待，因為服務很友善，因為好的服務能讓簡單的一餐變得特別。,medium,Restaurant-常用3000單,coffee shop;line;wait;service;friendly;service;meal
+446,sentence,"After the chef served fish, rice, soup, and dessert, we still waited politely because the service was friendly, because good service can make a simple meal special.",主廚送上魚、飯、湯和甜點後，我們仍然有禮貌地等待，因為服務很友善，因為好的服務能讓簡單的一餐變得特別。,medium,Restaurant-常用3000單,chef;fish;rice;soup;dessert;wait;service;friendly;service;meal
+447,sentence,"When the teacher brought the students to the restaurant for lunch, we still waited politely because the service was friendly, while the music played softly in the bright room.",老師帶學生們到餐廳吃午餐時，我們仍然有禮貌地等待，因為服務很友善，當音樂在明亮房間裡柔和播放時。,medium,Restaurant-常用3000單,teacher;student;restaurant;lunch;wait;service;friendly;music;room
+448,sentence,"Because the old man had a strong appetite and liked simple food, we still waited politely because the service was friendly, while the music played softly in the bright room.",因為老人食慾很好且喜歡簡單食物，我們仍然有禮貌地等待，因為服務很友善，當音樂在明亮房間裡柔和播放時。,medium,Restaurant-常用3000單,old man;appetite;food;wait;service;friendly;music;room
+449,sentence,"After the waiter cleaned the table and brought new plates, we still waited politely because the service was friendly, and this made the regular customers happy.",服務生清理桌子並拿來新盤子後，我們仍然有禮貌地等待，因為服務很友善，而這讓固定顧客感到高興。,medium,Restaurant-常用3000單,waiter;table;plate;wait;service;friendly;regular customer;happy
+450,sentence,"When the owner noticed that the customer looked unhappy, we still waited politely because the service was friendly, and this made the regular customers happy.",當老闆注意到顧客看起來不開心時，我們仍然有禮貌地等待，因為服務很友善，而這讓固定顧客感到高興。,medium,Restaurant-常用3000單,owner;customer;unhappy;wait;service;friendly;regular customer;happy
+451,sentence,"After the family entered the crowded restaurant and found their regular table, my sister asked for cake while my brother asked for more rice, because the family wanted to remember the pleasant lunch.",這家人走進擁擠的餐廳並找到固定桌位後，我妹妹要蛋糕，而我兄弟要更多飯，因為這家人想記住這頓愉快的午餐。,medium,Restaurant-常用3000單,family;restaurant;regular table;sister;cake;brother;rice;family;lunch
+452,sentence,"When the customer finished reading the long menu near the counter, my sister asked for cake while my brother asked for more rice, because the family wanted to remember the pleasant lunch.",顧客在櫃檯附近看完長菜單時，我妹妹要蛋糕，而我兄弟要更多飯，因為這家人想記住這頓愉快的午餐。,medium,Restaurant-常用3000單,customer;menu;counter;sister;cake;brother;rice;family;lunch
+453,sentence,"Because the children were hungry after school and wanted a warm meal, my sister asked for cake while my brother asked for more rice, after a short conversation with the friendly owner.",因為孩子們放學後餓了並想吃一份熱餐，我妹妹要蛋糕，而我兄弟要更多飯，在與友善老闆短暫交談後。,medium,Restaurant-常用3000單,children;school;meal;sister;cake;brother;rice;conversation;owner
+454,sentence,"Before my father paid the bill with his credit card, my sister asked for cake while my brother asked for more rice, after a short conversation with the friendly owner.",在我爸爸用信用卡付帳單之前，我妹妹要蛋糕，而我兄弟要更多飯，在與友善老闆短暫交談後。,medium,Restaurant-常用3000單,father;bill;credit;sister;cake;brother;rice;conversation;owner
+455,sentence,"Although the coffee shop was small and the line was long, my sister asked for cake while my brother asked for more rice, even though the restaurant was busy that evening.",雖然這家咖啡店很小且隊伍很長，我妹妹要蛋糕，而我兄弟要更多飯，即使那天晚上餐廳很忙。,medium,Restaurant-常用3000單,coffee shop;line;sister;cake;brother;rice;restaurant;evening
+456,sentence,"After the chef served fish, rice, soup, and dessert, my sister asked for cake while my brother asked for more rice, even though the restaurant was busy that evening.",主廚送上魚、飯、湯和甜點後，我妹妹要蛋糕，而我兄弟要更多飯，即使那天晚上餐廳很忙。,medium,Restaurant-常用3000單,chef;fish;rice;soup;dessert;sister;cake;brother;rice;restaurant;evening
+457,sentence,"When the teacher brought the students to the restaurant for lunch, my sister asked for cake while my brother asked for more rice, so the children learned how to order politely.",老師帶學生們到餐廳吃午餐時，我妹妹要蛋糕，而我兄弟要更多飯，所以孩子們學會如何有禮貌地點餐。,medium,Restaurant-常用3000單,teacher;student;restaurant;lunch;sister;cake;brother;rice;children;order
+458,sentence,"Because the old man had a strong appetite and liked simple food, my sister asked for cake while my brother asked for more rice, so the children learned how to order politely.",因為老人食慾很好且喜歡簡單食物，我妹妹要蛋糕，而我兄弟要更多飯，所以孩子們學會如何有禮貌地點餐。,medium,Restaurant-常用3000單,old man;appetite;food;sister;cake;brother;rice;children;order
+459,sentence,"After the waiter cleaned the table and brought new plates, my sister asked for cake while my brother asked for more rice, because the correct bill showed a fair charge.",服務生清理桌子並拿來新盤子後，我妹妹要蛋糕，而我兄弟要更多飯，因為正確帳單顯示合理費用。,medium,Restaurant-常用3000單,waiter;table;plate;sister;cake;brother;rice;bill;charge
+460,sentence,"When the owner noticed that the customer looked unhappy, my sister asked for cake while my brother asked for more rice, because the correct bill showed a fair charge.",當老闆注意到顧客看起來不開心時，我妹妹要蛋糕，而我兄弟要更多飯，因為正確帳單顯示合理費用。,medium,Restaurant-常用3000單,owner;customer;unhappy;sister;cake;brother;rice;bill;charge
+461,sentence,"After the family entered the crowded restaurant and found their regular table, the students practiced ordering food and asking questions in English, so everyone felt comfortable during the whole meal.",這家人走進擁擠的餐廳並找到固定桌位後，學生們練習用英文點食物和問問題，所以每個人在整個用餐過程中都感到舒服。,medium,Restaurant-常用3000單,family;restaurant;regular table;student;food;English;comfortable;meal
+462,sentence,"When the customer finished reading the long menu near the counter, the students practiced ordering food and asking questions in English, so everyone felt comfortable during the whole meal.",顧客在櫃檯附近看完長菜單時，學生們練習用英文點食物和問問題，所以每個人在整個用餐過程中都感到舒服。,medium,Restaurant-常用3000單,customer;menu;counter;student;food;English;comfortable;meal
+463,sentence,"Because the children were hungry after school and wanted a warm meal, the students practiced ordering food and asking questions in English, before we left the restaurant and walked home together.",因為孩子們放學後餓了並想吃一份熱餐，學生們練習用英文點食物和問問題，在我們離開餐廳並一起走回家前。,medium,Restaurant-常用3000單,children;school;meal;student;food;English;restaurant;home
+464,sentence,"Before my father paid the bill with his credit card, the students practiced ordering food and asking questions in English, before we left the restaurant and walked home together.",在我爸爸用信用卡付帳單之前，學生們練習用英文點食物和問問題，在我們離開餐廳並一起走回家前。,medium,Restaurant-常用3000單,father;bill;credit;student;food;English;restaurant;home
+465,sentence,"Although the coffee shop was small and the line was long, the students practiced ordering food and asking questions in English, because good service can make a simple meal special.",雖然這家咖啡店很小且隊伍很長，學生們練習用英文點食物和問問題，因為好的服務能讓簡單的一餐變得特別。,medium,Restaurant-常用3000單,coffee shop;line;student;food;English;service;meal
+466,sentence,"After the chef served fish, rice, soup, and dessert, the students practiced ordering food and asking questions in English, because good service can make a simple meal special.",主廚送上魚、飯、湯和甜點後，學生們練習用英文點食物和問問題，因為好的服務能讓簡單的一餐變得特別。,medium,Restaurant-常用3000單,chef;fish;rice;soup;dessert;student;food;English;service;meal
+467,sentence,"When the teacher brought the students to the restaurant for lunch, the students practiced ordering food and asking questions in English, while the music played softly in the bright room.",老師帶學生們到餐廳吃午餐時，學生們練習用英文點食物和問問題，當音樂在明亮房間裡柔和播放時。,medium,Restaurant-常用3000單,teacher;student;restaurant;lunch;student;food;English;music;room
+468,sentence,"Because the old man had a strong appetite and liked simple food, the students practiced ordering food and asking questions in English, while the music played softly in the bright room.",因為老人食慾很好且喜歡簡單食物，學生們練習用英文點食物和問問題，當音樂在明亮房間裡柔和播放時。,medium,Restaurant-常用3000單,old man;appetite;food;student;food;English;music;room
+469,sentence,"After the waiter cleaned the table and brought new plates, the students practiced ordering food and asking questions in English, and this made the regular customers happy.",服務生清理桌子並拿來新盤子後，學生們練習用英文點食物和問問題，而這讓固定顧客感到高興。,medium,Restaurant-常用3000單,waiter;table;plate;student;food;English;regular customer;happy
+470,sentence,"When the owner noticed that the customer looked unhappy, the students practiced ordering food and asking questions in English, and this made the regular customers happy.",當老闆注意到顧客看起來不開心時，學生們練習用英文點食物和問問題，而這讓固定顧客感到高興。,medium,Restaurant-常用3000單,owner;customer;unhappy;student;food;English;regular customer;happy
+471,sentence,"After the family entered the crowded restaurant and found their regular table, he asked the waiter to recommend a healthy dish without too much oil, because the family wanted to remember the pleasant lunch.",這家人走進擁擠的餐廳並找到固定桌位後，他請服務生推薦一道不要太油的健康料理，因為這家人想記住這頓愉快的午餐。,medium,Restaurant-常用3000單,family;restaurant;regular table;waiter;recommend;healthy;dish;family;lunch
+472,sentence,"When the customer finished reading the long menu near the counter, he asked the waiter to recommend a healthy dish without too much oil, because the family wanted to remember the pleasant lunch.",顧客在櫃檯附近看完長菜單時，他請服務生推薦一道不要太油的健康料理，因為這家人想記住這頓愉快的午餐。,medium,Restaurant-常用3000單,customer;menu;counter;waiter;recommend;healthy;dish;family;lunch
+473,sentence,"Because the children were hungry after school and wanted a warm meal, he asked the waiter to recommend a healthy dish without too much oil, after a short conversation with the friendly owner.",因為孩子們放學後餓了並想吃一份熱餐，他請服務生推薦一道不要太油的健康料理，在與友善老闆短暫交談後。,medium,Restaurant-常用3000單,children;school;meal;waiter;recommend;healthy;dish;conversation;owner
+474,sentence,"Before my father paid the bill with his credit card, he asked the waiter to recommend a healthy dish without too much oil, after a short conversation with the friendly owner.",在我爸爸用信用卡付帳單之前，他請服務生推薦一道不要太油的健康料理，在與友善老闆短暫交談後。,medium,Restaurant-常用3000單,father;bill;credit;waiter;recommend;healthy;dish;conversation;owner
+475,sentence,"Although the coffee shop was small and the line was long, he asked the waiter to recommend a healthy dish without too much oil, even though the restaurant was busy that evening.",雖然這家咖啡店很小且隊伍很長，他請服務生推薦一道不要太油的健康料理，即使那天晚上餐廳很忙。,medium,Restaurant-常用3000單,coffee shop;line;waiter;recommend;healthy;dish;restaurant;evening
+476,sentence,"After the chef served fish, rice, soup, and dessert, he asked the waiter to recommend a healthy dish without too much oil, even though the restaurant was busy that evening.",主廚送上魚、飯、湯和甜點後，他請服務生推薦一道不要太油的健康料理，即使那天晚上餐廳很忙。,medium,Restaurant-常用3000單,chef;fish;rice;soup;dessert;waiter;recommend;healthy;dish;restaurant;evening
+477,sentence,"When the teacher brought the students to the restaurant for lunch, he asked the waiter to recommend a healthy dish without too much oil, so the children learned how to order politely.",老師帶學生們到餐廳吃午餐時，他請服務生推薦一道不要太油的健康料理，所以孩子們學會如何有禮貌地點餐。,medium,Restaurant-常用3000單,teacher;student;restaurant;lunch;waiter;recommend;healthy;dish;children;order
+478,sentence,"Because the old man had a strong appetite and liked simple food, he asked the waiter to recommend a healthy dish without too much oil, so the children learned how to order politely.",因為老人食慾很好且喜歡簡單食物，他請服務生推薦一道不要太油的健康料理，所以孩子們學會如何有禮貌地點餐。,medium,Restaurant-常用3000單,old man;appetite;food;waiter;recommend;healthy;dish;children;order
+479,sentence,"After the waiter cleaned the table and brought new plates, he asked the waiter to recommend a healthy dish without too much oil, because the correct bill showed a fair charge.",服務生清理桌子並拿來新盤子後，他請服務生推薦一道不要太油的健康料理，因為正確帳單顯示合理費用。,medium,Restaurant-常用3000單,waiter;table;plate;waiter;recommend;healthy;dish;bill;charge
+480,sentence,"When the owner noticed that the customer looked unhappy, he asked the waiter to recommend a healthy dish without too much oil, because the correct bill showed a fair charge.",當老闆注意到顧客看起來不開心時，他請服務生推薦一道不要太油的健康料理，因為正確帳單顯示合理費用。,medium,Restaurant-常用3000單,owner;customer;unhappy;waiter;recommend;healthy;dish;bill;charge
+481,sentence,"After the family entered the crowded restaurant and found their regular table, the family thanked the chef because the dessert tasted beautiful and sweet, so everyone felt comfortable during the whole meal.",這家人走進擁擠的餐廳並找到固定桌位後，這家人感謝主廚，因為甜點吃起來美味又甜，所以每個人在整個用餐過程中都感到舒服。,medium,Restaurant-常用3000單,family;restaurant;regular table;family;chef;dessert;sweet;comfortable;meal
+482,sentence,"When the customer finished reading the long menu near the counter, the family thanked the chef because the dessert tasted beautiful and sweet, so everyone felt comfortable during the whole meal.",顧客在櫃檯附近看完長菜單時，這家人感謝主廚，因為甜點吃起來美味又甜，所以每個人在整個用餐過程中都感到舒服。,medium,Restaurant-常用3000單,customer;menu;counter;family;chef;dessert;sweet;comfortable;meal
+483,sentence,"Because the children were hungry after school and wanted a warm meal, the family thanked the chef because the dessert tasted beautiful and sweet, before we left the restaurant and walked home together.",因為孩子們放學後餓了並想吃一份熱餐，這家人感謝主廚，因為甜點吃起來美味又甜，在我們離開餐廳並一起走回家前。,medium,Restaurant-常用3000單,children;school;meal;family;chef;dessert;sweet;restaurant;home
+484,sentence,"Before my father paid the bill with his credit card, the family thanked the chef because the dessert tasted beautiful and sweet, before we left the restaurant and walked home together.",在我爸爸用信用卡付帳單之前，這家人感謝主廚，因為甜點吃起來美味又甜，在我們離開餐廳並一起走回家前。,medium,Restaurant-常用3000單,father;bill;credit;family;chef;dessert;sweet;restaurant;home
+485,sentence,"Although the coffee shop was small and the line was long, the family thanked the chef because the dessert tasted beautiful and sweet, because good service can make a simple meal special.",雖然這家咖啡店很小且隊伍很長，這家人感謝主廚，因為甜點吃起來美味又甜，因為好的服務能讓簡單的一餐變得特別。,medium,Restaurant-常用3000單,coffee shop;line;family;chef;dessert;sweet;service;meal
+486,sentence,"After the chef served fish, rice, soup, and dessert, the family thanked the chef because the dessert tasted beautiful and sweet, because good service can make a simple meal special.",主廚送上魚、飯、湯和甜點後，這家人感謝主廚，因為甜點吃起來美味又甜，因為好的服務能讓簡單的一餐變得特別。,medium,Restaurant-常用3000單,chef;fish;rice;soup;dessert;family;chef;dessert;sweet;service;meal
+487,sentence,"When the teacher brought the students to the restaurant for lunch, the family thanked the chef because the dessert tasted beautiful and sweet, while the music played softly in the bright room.",老師帶學生們到餐廳吃午餐時，這家人感謝主廚，因為甜點吃起來美味又甜，當音樂在明亮房間裡柔和播放時。,medium,Restaurant-常用3000單,teacher;student;restaurant;lunch;family;chef;dessert;sweet;music;room
+488,sentence,"Because the old man had a strong appetite and liked simple food, the family thanked the chef because the dessert tasted beautiful and sweet, while the music played softly in the bright room.",因為老人食慾很好且喜歡簡單食物，這家人感謝主廚，因為甜點吃起來美味又甜，當音樂在明亮房間裡柔和播放時。,medium,Restaurant-常用3000單,old man;appetite;food;family;chef;dessert;sweet;music;room
+489,sentence,"After the waiter cleaned the table and brought new plates, the family thanked the chef because the dessert tasted beautiful and sweet, and this made the regular customers happy.",服務生清理桌子並拿來新盤子後，這家人感謝主廚，因為甜點吃起來美味又甜，而這讓固定顧客感到高興。,medium,Restaurant-常用3000單,waiter;table;plate;family;chef;dessert;sweet;regular customer;happy
+490,sentence,"When the owner noticed that the customer looked unhappy, the family thanked the chef because the dessert tasted beautiful and sweet, and this made the regular customers happy.",當老闆注意到顧客看起來不開心時，這家人感謝主廚，因為甜點吃起來美味又甜，而這讓固定顧客感到高興。,medium,Restaurant-常用3000單,owner;customer;unhappy;family;chef;dessert;sweet;regular customer;happy
+491,sentence,"After the family entered the crowded restaurant and found their regular table, the owner gave another bowl of soup and corrected the bill, because the family wanted to remember the pleasant lunch.",這家人走進擁擠的餐廳並找到固定桌位後，老闆又給了一碗湯並更正帳單，因為這家人想記住這頓愉快的午餐。,medium,Restaurant-常用3000單,family;restaurant;regular table;owner;soup;bill;family;lunch
+492,sentence,"When the customer finished reading the long menu near the counter, the owner gave another bowl of soup and corrected the bill, because the family wanted to remember the pleasant lunch.",顧客在櫃檯附近看完長菜單時，老闆又給了一碗湯並更正帳單，因為這家人想記住這頓愉快的午餐。,medium,Restaurant-常用3000單,customer;menu;counter;owner;soup;bill;family;lunch
+493,sentence,"Because the children were hungry after school and wanted a warm meal, the owner gave another bowl of soup and corrected the bill, after a short conversation with the friendly owner.",因為孩子們放學後餓了並想吃一份熱餐，老闆又給了一碗湯並更正帳單，在與友善老闆短暫交談後。,medium,Restaurant-常用3000單,children;school;meal;owner;soup;bill;conversation;owner
+494,sentence,"Before my father paid the bill with his credit card, the owner gave another bowl of soup and corrected the bill, after a short conversation with the friendly owner.",在我爸爸用信用卡付帳單之前，老闆又給了一碗湯並更正帳單，在與友善老闆短暫交談後。,medium,Restaurant-常用3000單,father;bill;credit;owner;soup;bill;conversation;owner
+495,sentence,"Although the coffee shop was small and the line was long, the owner gave another bowl of soup and corrected the bill, even though the restaurant was busy that evening.",雖然這家咖啡店很小且隊伍很長，老闆又給了一碗湯並更正帳單，即使那天晚上餐廳很忙。,medium,Restaurant-常用3000單,coffee shop;line;owner;soup;bill;restaurant;evening
+496,sentence,"After the chef served fish, rice, soup, and dessert, the owner gave another bowl of soup and corrected the bill, even though the restaurant was busy that evening.",主廚送上魚、飯、湯和甜點後，老闆又給了一碗湯並更正帳單，即使那天晚上餐廳很忙。,medium,Restaurant-常用3000單,chef;fish;rice;soup;dessert;owner;soup;bill;restaurant;evening
+497,sentence,"When the teacher brought the students to the restaurant for lunch, the owner gave another bowl of soup and corrected the bill, so the children learned how to order politely.",老師帶學生們到餐廳吃午餐時，老闆又給了一碗湯並更正帳單，所以孩子們學會如何有禮貌地點餐。,medium,Restaurant-常用3000單,teacher;student;restaurant;lunch;owner;soup;bill;children;order
+498,sentence,"Because the old man had a strong appetite and liked simple food, the owner gave another bowl of soup and corrected the bill, so the children learned how to order politely.",因為老人食慾很好且喜歡簡單食物，老闆又給了一碗湯並更正帳單，所以孩子們學會如何有禮貌地點餐。,medium,Restaurant-常用3000單,old man;appetite;food;owner;soup;bill;children;order
+499,sentence,"After the waiter cleaned the table and brought new plates, the owner gave another bowl of soup and corrected the bill, because the correct bill showed a fair charge.",服務生清理桌子並拿來新盤子後，老闆又給了一碗湯並更正帳單，因為正確帳單顯示合理費用。,medium,Restaurant-常用3000單,waiter;table;plate;owner;soup;bill;bill;charge
+500,sentence,"When the owner noticed that the customer looked unhappy, the owner gave another bowl of soup and corrected the bill, because the correct bill showed a fair charge.",當老闆注意到顧客看起來不開心時，老闆又給了一碗湯並更正帳單，因為正確帳單顯示合理費用。,medium,Restaurant-常用3000單,owner;customer;unhappy;owner;soup;bill;bill;charge
