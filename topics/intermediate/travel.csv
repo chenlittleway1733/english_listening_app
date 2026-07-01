@@ -1,9 +1,501 @@
-﻿id,type,english,chinese,difficulty
-1,sentence,Where is the train station?,火車站在哪裡?,medium
-2,sentence,I would like to buy a ticket.,我想買一張票。,medium
-3,sentence,Can you show me the way?,你可以告訴我怎麼走嗎?,medium
-4,sentence,How long does it take to get there?,到那裡要多久?,medium
-5,sentence,We are looking for a hotel near here.,我們在找這附近的飯店。,medium
-6,sentence,Is this seat taken?,這個座位有人坐嗎?,medium
-7,sentence,Could you tell me which platform the train leaves from?,你可以告訴我火車從哪個月台出發嗎?,medium
-8,sentence,I missed my bus and need to change my plan.,我錯過了公車，需要更改計畫。,medium
+﻿id,type,english,chinese,difficulty,topic,keywords
+1,sentence,Where is the train station?,火車站在哪裡？,medium,Travel-常用3000單,station
+2,sentence,Where is the bus station?,公車站在哪裡？,medium,Travel-常用3000單,station
+3,sentence,Where is the airport?,機場在哪裡？,medium,Travel-常用3000單,airport
+4,sentence,Where is the hotel?,飯店在哪裡？,medium,Travel-常用3000單,hotel
+5,sentence,Where is the museum?,博物館在哪裡？,medium,Travel-常用3000單,museum
+6,sentence,Where is the market?,市場在哪裡？,medium,Travel-常用3000單,market
+7,sentence,Where is the park?,公園在哪裡？,medium,Travel-常用3000單,park
+8,sentence,Where is the bank?,銀行在哪裡？,medium,Travel-常用3000單,bank
+9,sentence,Where is the restroom?,洗手間在哪裡？,medium,Travel-常用3000單,restroom
+10,sentence,Where is the exit?,出口在哪裡？,medium,Travel-常用3000單,exit
+11,sentence,Where is the entrance?,入口在哪裡？,medium,Travel-常用3000單,entrance
+12,sentence,Where is the ticket counter?,售票櫃檯在哪裡？,medium,Travel-常用3000單,ticket;counter
+13,sentence,Where is the information desk?,服務台在哪裡？,medium,Travel-常用3000單,information
+14,sentence,Where is the platform?,月台在哪裡？,medium,Travel-常用3000單,platform
+15,sentence,Where is the gate?,登機門在哪裡？,medium,Travel-常用3000單,gate
+16,sentence,Where is the city center?,市中心在哪裡？,medium,Travel-常用3000單,city
+17,sentence,Where is the subway station?,地鐵站在哪裡？,medium,Travel-常用3000單,station
+18,sentence,Where is the harbor?,港口在哪裡？,medium,Travel-常用3000單,harbor
+19,sentence,Where is the avenue?,大街在哪裡？,medium,Travel-常用3000單,avenue
+20,sentence,Where is the bridge?,橋在哪裡？,medium,Travel-常用3000單,bridge
+21,sentence,I need the train station.,我需要火車站。,medium,Travel-常用3000單,station
+22,sentence,I need the bus station.,我需要公車站。,medium,Travel-常用3000單,station
+23,sentence,I need the airport.,我需要機場。,medium,Travel-常用3000單,airport
+24,sentence,I need the hotel.,我需要飯店。,medium,Travel-常用3000單,hotel
+25,sentence,I need the museum.,我需要博物館。,medium,Travel-常用3000單,museum
+26,sentence,I need the market.,我需要市場。,medium,Travel-常用3000單,market
+27,sentence,I need the park.,我需要公園。,medium,Travel-常用3000單,park
+28,sentence,I need the bank.,我需要銀行。,medium,Travel-常用3000單,bank
+29,sentence,I need the restroom.,我需要洗手間。,medium,Travel-常用3000單,restroom
+30,sentence,I need the exit.,我需要出口。,medium,Travel-常用3000單,exit
+31,sentence,I need the entrance.,我需要入口。,medium,Travel-常用3000單,entrance
+32,sentence,I need the ticket counter.,我需要售票櫃檯。,medium,Travel-常用3000單,ticket;counter
+33,sentence,I need the information desk.,我需要服務台。,medium,Travel-常用3000單,information
+34,sentence,I need the platform.,我需要月台。,medium,Travel-常用3000單,platform
+35,sentence,I need the gate.,我需要登機門。,medium,Travel-常用3000單,gate
+36,sentence,I need the city center.,我需要市中心。,medium,Travel-常用3000單,city
+37,sentence,I need the subway station.,我需要地鐵站。,medium,Travel-常用3000單,station
+38,sentence,I need the harbor.,我需要港口。,medium,Travel-常用3000單,harbor
+39,sentence,I need the avenue.,我需要大街。,medium,Travel-常用3000單,avenue
+40,sentence,I need the bridge.,我需要橋。,medium,Travel-常用3000單,bridge
+41,sentence,This train station is nearby.,這個火車站在附近。,medium,Travel-常用3000單,station
+42,sentence,This bus station is nearby.,這個公車站在附近。,medium,Travel-常用3000單,station
+43,sentence,This airport is nearby.,這個機場在附近。,medium,Travel-常用3000單,airport
+44,sentence,This hotel is nearby.,這個飯店在附近。,medium,Travel-常用3000單,hotel
+45,sentence,This museum is nearby.,這個博物館在附近。,medium,Travel-常用3000單,museum
+46,sentence,This market is nearby.,這個市場在附近。,medium,Travel-常用3000單,market
+47,sentence,This park is nearby.,這個公園在附近。,medium,Travel-常用3000單,park
+48,sentence,This bank is nearby.,這個銀行在附近。,medium,Travel-常用3000單,bank
+49,sentence,This restroom is nearby.,這個洗手間在附近。,medium,Travel-常用3000單,restroom
+50,sentence,This exit is nearby.,這個出口在附近。,medium,Travel-常用3000單,exit
+51,sentence,This entrance is nearby.,這個入口在附近。,medium,Travel-常用3000單,entrance
+52,sentence,This ticket counter is nearby.,這個售票櫃檯在附近。,medium,Travel-常用3000單,ticket;counter
+53,sentence,This information desk is nearby.,這個服務台在附近。,medium,Travel-常用3000單,information
+54,sentence,This platform is nearby.,這個月台在附近。,medium,Travel-常用3000單,platform
+55,sentence,This gate is nearby.,這個登機門在附近。,medium,Travel-常用3000單,gate
+56,sentence,This city center is nearby.,這個市中心在附近。,medium,Travel-常用3000單,city
+57,sentence,This subway station is nearby.,這個地鐵站在附近。,medium,Travel-常用3000單,station
+58,sentence,This harbor is nearby.,這個港口在附近。,medium,Travel-常用3000單,harbor
+59,sentence,This avenue is nearby.,這個大街在附近。,medium,Travel-常用3000單,avenue
+60,sentence,This bridge is nearby.,這個橋在附近。,medium,Travel-常用3000單,bridge
+61,sentence,Please show me the train station.,請告訴我火車站在哪裡。,medium,Travel-常用3000單,station
+62,sentence,Please show me the bus station.,請告訴我公車站在哪裡。,medium,Travel-常用3000單,station
+63,sentence,Please show me the airport.,請告訴我機場在哪裡。,medium,Travel-常用3000單,airport
+64,sentence,Please show me the hotel.,請告訴我飯店在哪裡。,medium,Travel-常用3000單,hotel
+65,sentence,Please show me the museum.,請告訴我博物館在哪裡。,medium,Travel-常用3000單,museum
+66,sentence,Please show me the market.,請告訴我市場在哪裡。,medium,Travel-常用3000單,market
+67,sentence,Please show me the park.,請告訴我公園在哪裡。,medium,Travel-常用3000單,park
+68,sentence,Please show me the bank.,請告訴我銀行在哪裡。,medium,Travel-常用3000單,bank
+69,sentence,Please show me the restroom.,請告訴我洗手間在哪裡。,medium,Travel-常用3000單,restroom
+70,sentence,Please show me the exit.,請告訴我出口在哪裡。,medium,Travel-常用3000單,exit
+71,sentence,Please show me the entrance.,請告訴我入口在哪裡。,medium,Travel-常用3000單,entrance
+72,sentence,Please show me the ticket counter.,請告訴我售票櫃檯在哪裡。,medium,Travel-常用3000單,ticket;counter
+73,sentence,Please show me the information desk.,請告訴我服務台在哪裡。,medium,Travel-常用3000單,information
+74,sentence,Please show me the platform.,請告訴我月台在哪裡。,medium,Travel-常用3000單,platform
+75,sentence,Please show me the gate.,請告訴我登機門在哪裡。,medium,Travel-常用3000單,gate
+76,sentence,Please show me the city center.,請告訴我市中心在哪裡。,medium,Travel-常用3000單,city
+77,sentence,Please show me the subway station.,請告訴我地鐵站在哪裡。,medium,Travel-常用3000單,station
+78,sentence,Please show me the harbor.,請告訴我港口在哪裡。,medium,Travel-常用3000單,harbor
+79,sentence,Please show me the avenue.,請告訴我大街在哪裡。,medium,Travel-常用3000單,avenue
+80,sentence,Please show me the bridge.,請告訴我橋在哪裡。,medium,Travel-常用3000單,bridge
+81,sentence,Is this the train station?,這是火車站嗎？,medium,Travel-常用3000單,station
+82,sentence,Is this the bus station?,這是公車站嗎？,medium,Travel-常用3000單,station
+83,sentence,Is this the airport?,這是機場嗎？,medium,Travel-常用3000單,airport
+84,sentence,Is this the hotel?,這是飯店嗎？,medium,Travel-常用3000單,hotel
+85,sentence,Is this the museum?,這是博物館嗎？,medium,Travel-常用3000單,museum
+86,sentence,Is this the market?,這是市場嗎？,medium,Travel-常用3000單,market
+87,sentence,Is this the park?,這是公園嗎？,medium,Travel-常用3000單,park
+88,sentence,Is this the bank?,這是銀行嗎？,medium,Travel-常用3000單,bank
+89,sentence,Is this the restroom?,這是洗手間嗎？,medium,Travel-常用3000單,restroom
+90,sentence,Is this the exit?,這是出口嗎？,medium,Travel-常用3000單,exit
+91,sentence,Is this the entrance?,這是入口嗎？,medium,Travel-常用3000單,entrance
+92,sentence,Is this the ticket counter?,這是售票櫃檯嗎？,medium,Travel-常用3000單,ticket;counter
+93,sentence,Is this the information desk?,這是服務台嗎？,medium,Travel-常用3000單,information
+94,sentence,Is this the platform?,這是月台嗎？,medium,Travel-常用3000單,platform
+95,sentence,Is this the gate?,這是登機門嗎？,medium,Travel-常用3000單,gate
+96,sentence,Is this the city center?,這是市中心嗎？,medium,Travel-常用3000單,city
+97,sentence,Is this the subway station?,這是地鐵站嗎？,medium,Travel-常用3000單,station
+98,sentence,Is this the harbor?,這是港口嗎？,medium,Travel-常用3000單,harbor
+99,sentence,Is this the avenue?,這是大街嗎？,medium,Travel-常用3000單,avenue
+100,sentence,Is this the bridge?,這是橋嗎？,medium,Travel-常用3000單,bridge
+101,sentence,I would like to find the train station before noon.,我想在中午前找到火車站。,medium,Travel-常用3000單,station
+102,sentence,I would like to find the airport before noon.,我想在中午前找到機場。,medium,Travel-常用3000單,airport
+103,sentence,I would like to find the hotel before noon.,我想在中午前找到飯店。,medium,Travel-常用3000單,hotel
+104,sentence,I would like to find the ticket counter before noon.,我想在中午前找到售票櫃檯。,medium,Travel-常用3000單,ticket;counter
+105,sentence,I would like to find the information desk before noon.,我想在中午前找到服務台。,medium,Travel-常用3000單,information
+106,sentence,I would like to find the platform before noon.,我想在中午前找到月台。,medium,Travel-常用3000單,platform
+107,sentence,I would like to find the gate before noon.,我想在中午前找到登機門。,medium,Travel-常用3000單,gate
+108,sentence,I would like to find the city center before noon.,我想在中午前找到市中心。,medium,Travel-常用3000單,city
+109,sentence,I would like to find the museum before noon.,我想在中午前找到博物館。,medium,Travel-常用3000單,museum
+110,sentence,I would like to find the market before noon.,我想在中午前找到市場。,medium,Travel-常用3000單,market
+111,sentence,Can you tell me the route to the train station?,你可以告訴我去火車站的路線嗎？,medium,Travel-常用3000單,station
+112,sentence,Can you tell me the route to the airport?,你可以告訴我去機場的路線嗎？,medium,Travel-常用3000單,airport
+113,sentence,Can you tell me the route to the hotel?,你可以告訴我去飯店的路線嗎？,medium,Travel-常用3000單,hotel
+114,sentence,Can you tell me the route to the ticket counter?,你可以告訴我去售票櫃檯的路線嗎？,medium,Travel-常用3000單,ticket;counter
+115,sentence,Can you tell me the route to the information desk?,你可以告訴我去服務台的路線嗎？,medium,Travel-常用3000單,information
+116,sentence,Can you tell me the route to the platform?,你可以告訴我去月台的路線嗎？,medium,Travel-常用3000單,platform
+117,sentence,Can you tell me the route to the gate?,你可以告訴我去登機門的路線嗎？,medium,Travel-常用3000單,gate
+118,sentence,Can you tell me the route to the city center?,你可以告訴我去市中心的路線嗎？,medium,Travel-常用3000單,city
+119,sentence,Can you tell me the route to the museum?,你可以告訴我去博物館的路線嗎？,medium,Travel-常用3000單,museum
+120,sentence,Can you tell me the route to the market?,你可以告訴我去市場的路線嗎？,medium,Travel-常用3000單,market
+121,sentence,The passenger walked slowly toward the train station.,這位乘客慢慢走向火車站。,medium,Travel-常用3000單,station
+122,sentence,The passenger walked slowly toward the airport.,這位乘客慢慢走向機場。,medium,Travel-常用3000單,airport
+123,sentence,The passenger walked slowly toward the hotel.,這位乘客慢慢走向飯店。,medium,Travel-常用3000單,hotel
+124,sentence,The passenger walked slowly toward the ticket counter.,這位乘客慢慢走向售票櫃檯。,medium,Travel-常用3000單,ticket;counter
+125,sentence,The passenger walked slowly toward the information desk.,這位乘客慢慢走向服務台。,medium,Travel-常用3000單,information
+126,sentence,The passenger walked slowly toward the platform.,這位乘客慢慢走向月台。,medium,Travel-常用3000單,platform
+127,sentence,The passenger walked slowly toward the gate.,這位乘客慢慢走向登機門。,medium,Travel-常用3000單,gate
+128,sentence,The passenger walked slowly toward the city center.,這位乘客慢慢走向市中心。,medium,Travel-常用3000單,city
+129,sentence,The passenger walked slowly toward the museum.,這位乘客慢慢走向博物館。,medium,Travel-常用3000單,museum
+130,sentence,The passenger walked slowly toward the market.,這位乘客慢慢走向市場。,medium,Travel-常用3000單,market
+131,sentence,Please wait for me near the train station.,請在火車站附近等我。,medium,Travel-常用3000單,station
+132,sentence,Please wait for me near the airport.,請在機場附近等我。,medium,Travel-常用3000單,airport
+133,sentence,Please wait for me near the hotel.,請在飯店附近等我。,medium,Travel-常用3000單,hotel
+134,sentence,Please wait for me near the ticket counter.,請在售票櫃檯附近等我。,medium,Travel-常用3000單,ticket;counter
+135,sentence,Please wait for me near the information desk.,請在服務台附近等我。,medium,Travel-常用3000單,information
+136,sentence,Please wait for me near the platform.,請在月台附近等我。,medium,Travel-常用3000單,platform
+137,sentence,Please wait for me near the gate.,請在登機門附近等我。,medium,Travel-常用3000單,gate
+138,sentence,Please wait for me near the city center.,請在市中心附近等我。,medium,Travel-常用3000單,city
+139,sentence,Please wait for me near the museum.,請在博物館附近等我。,medium,Travel-常用3000單,museum
+140,sentence,Please wait for me near the market.,請在市場附近等我。,medium,Travel-常用3000單,market
+141,sentence,We need to arrive at the train station on time.,我們需要準時到達火車站。,medium,Travel-常用3000單,station
+142,sentence,We need to arrive at the airport on time.,我們需要準時到達機場。,medium,Travel-常用3000單,airport
+143,sentence,We need to arrive at the hotel on time.,我們需要準時到達飯店。,medium,Travel-常用3000單,hotel
+144,sentence,We need to arrive at the ticket counter on time.,我們需要準時到達售票櫃檯。,medium,Travel-常用3000單,ticket;counter
+145,sentence,We need to arrive at the information desk on time.,我們需要準時到達服務台。,medium,Travel-常用3000單,information
+146,sentence,We need to arrive at the platform on time.,我們需要準時到達月台。,medium,Travel-常用3000單,platform
+147,sentence,We need to arrive at the gate on time.,我們需要準時到達登機門。,medium,Travel-常用3000單,gate
+148,sentence,We need to arrive at the city center on time.,我們需要準時到達市中心。,medium,Travel-常用3000單,city
+149,sentence,We need to arrive at the museum on time.,我們需要準時到達博物館。,medium,Travel-常用3000單,museum
+150,sentence,We need to arrive at the market on time.,我們需要準時到達市場。,medium,Travel-常用3000單,market
+151,sentence,The traveler asked a local person about the train station.,這位旅客向當地人詢問火車站。,medium,Travel-常用3000單,station
+152,sentence,The traveler asked a local person about the airport.,這位旅客向當地人詢問機場。,medium,Travel-常用3000單,airport
+153,sentence,The traveler asked a local person about the hotel.,這位旅客向當地人詢問飯店。,medium,Travel-常用3000單,hotel
+154,sentence,The traveler asked a local person about the ticket counter.,這位旅客向當地人詢問售票櫃檯。,medium,Travel-常用3000單,ticket;counter
+155,sentence,The traveler asked a local person about the information desk.,這位旅客向當地人詢問服務台。,medium,Travel-常用3000單,information
+156,sentence,The traveler asked a local person about the platform.,這位旅客向當地人詢問月台。,medium,Travel-常用3000單,platform
+157,sentence,The traveler asked a local person about the gate.,這位旅客向當地人詢問登機門。,medium,Travel-常用3000單,gate
+158,sentence,The traveler asked a local person about the city center.,這位旅客向當地人詢問市中心。,medium,Travel-常用3000單,city
+159,sentence,The traveler asked a local person about the museum.,這位旅客向當地人詢問博物館。,medium,Travel-常用3000單,museum
+160,sentence,The traveler asked a local person about the market.,這位旅客向當地人詢問市場。,medium,Travel-常用3000單,market
+161,sentence,Our guide will meet us at the train station.,我們的導遊會在火車站和我們會合。,medium,Travel-常用3000單,station
+162,sentence,Our guide will meet us at the airport.,我們的導遊會在機場和我們會合。,medium,Travel-常用3000單,airport
+163,sentence,Our guide will meet us at the hotel.,我們的導遊會在飯店和我們會合。,medium,Travel-常用3000單,hotel
+164,sentence,Our guide will meet us at the ticket counter.,我們的導遊會在售票櫃檯和我們會合。,medium,Travel-常用3000單,ticket;counter
+165,sentence,Our guide will meet us at the information desk.,我們的導遊會在服務台和我們會合。,medium,Travel-常用3000單,information
+166,sentence,Our guide will meet us at the platform.,我們的導遊會在月台和我們會合。,medium,Travel-常用3000單,platform
+167,sentence,Our guide will meet us at the gate.,我們的導遊會在登機門和我們會合。,medium,Travel-常用3000單,gate
+168,sentence,Our guide will meet us at the city center.,我們的導遊會在市中心和我們會合。,medium,Travel-常用3000單,city
+169,sentence,Our guide will meet us at the museum.,我們的導遊會在博物館和我們會合。,medium,Travel-常用3000單,museum
+170,sentence,Our guide will meet us at the market.,我們的導遊會在市場和我們會合。,medium,Travel-常用3000單,market
+171,sentence,I lost my way near the train station.,我在火車站附近迷路了。,medium,Travel-常用3000單,station
+172,sentence,I lost my way near the airport.,我在機場附近迷路了。,medium,Travel-常用3000單,airport
+173,sentence,I lost my way near the hotel.,我在飯店附近迷路了。,medium,Travel-常用3000單,hotel
+174,sentence,I lost my way near the ticket counter.,我在售票櫃檯附近迷路了。,medium,Travel-常用3000單,ticket;counter
+175,sentence,I lost my way near the information desk.,我在服務台附近迷路了。,medium,Travel-常用3000單,information
+176,sentence,I lost my way near the platform.,我在月台附近迷路了。,medium,Travel-常用3000單,platform
+177,sentence,I lost my way near the gate.,我在登機門附近迷路了。,medium,Travel-常用3000單,gate
+178,sentence,I lost my way near the city center.,我在市中心附近迷路了。,medium,Travel-常用3000單,city
+179,sentence,I lost my way near the museum.,我在博物館附近迷路了。,medium,Travel-常用3000單,museum
+180,sentence,I lost my way near the market.,我在市場附近迷路了。,medium,Travel-常用3000單,market
+181,sentence,The map shows a direct route to the train station.,地圖顯示有一條直接到火車站的路線。,medium,Travel-常用3000單,station
+182,sentence,The map shows a direct route to the airport.,地圖顯示有一條直接到機場的路線。,medium,Travel-常用3000單,airport
+183,sentence,The map shows a direct route to the hotel.,地圖顯示有一條直接到飯店的路線。,medium,Travel-常用3000單,hotel
+184,sentence,The map shows a direct route to the ticket counter.,地圖顯示有一條直接到售票櫃檯的路線。,medium,Travel-常用3000單,ticket;counter
+185,sentence,The map shows a direct route to the information desk.,地圖顯示有一條直接到服務台的路線。,medium,Travel-常用3000單,information
+186,sentence,The map shows a direct route to the platform.,地圖顯示有一條直接到月台的路線。,medium,Travel-常用3000單,platform
+187,sentence,The map shows a direct route to the gate.,地圖顯示有一條直接到登機門的路線。,medium,Travel-常用3000單,gate
+188,sentence,The map shows a direct route to the city center.,地圖顯示有一條直接到市中心的路線。,medium,Travel-常用3000單,city
+189,sentence,The map shows a direct route to the museum.,地圖顯示有一條直接到博物館的路線。,medium,Travel-常用3000單,museum
+190,sentence,The map shows a direct route to the market.,地圖顯示有一條直接到市場的路線。,medium,Travel-常用3000單,market
+191,sentence,We took a taxi from the train station yesterday.,我們昨天從火車站搭計程車。,medium,Travel-常用3000單,station
+192,sentence,We took a taxi from the airport yesterday.,我們昨天從機場搭計程車。,medium,Travel-常用3000單,airport
+193,sentence,We took a taxi from the hotel yesterday.,我們昨天從飯店搭計程車。,medium,Travel-常用3000單,hotel
+194,sentence,We took a taxi from the ticket counter yesterday.,我們昨天從售票櫃檯搭計程車。,medium,Travel-常用3000單,ticket;counter
+195,sentence,We took a taxi from the information desk yesterday.,我們昨天從服務台搭計程車。,medium,Travel-常用3000單,information
+196,sentence,We took a taxi from the platform yesterday.,我們昨天從月台搭計程車。,medium,Travel-常用3000單,platform
+197,sentence,We took a taxi from the gate yesterday.,我們昨天從登機門搭計程車。,medium,Travel-常用3000單,gate
+198,sentence,We took a taxi from the city center yesterday.,我們昨天從市中心搭計程車。,medium,Travel-常用3000單,city
+199,sentence,We took a taxi from the museum yesterday.,我們昨天從博物館搭計程車。,medium,Travel-常用3000單,museum
+200,sentence,We took a taxi from the market yesterday.,我們昨天從市場搭計程車。,medium,Travel-常用3000單,market
+201,sentence,The passenger checked the passport carefully before leaving the hotel this morning.,這位乘客今天早上離開飯店前仔細檢查護照。,medium,Travel-常用3000單,passport
+202,sentence,The passenger checked the ticket carefully before leaving the hotel this morning.,這位乘客今天早上離開飯店前仔細檢查票。,medium,Travel-常用3000單,ticket
+203,sentence,The passenger checked the reservation carefully before leaving the hotel this morning.,這位乘客今天早上離開飯店前仔細檢查預約。,medium,Travel-常用3000單,reservation
+204,sentence,The passenger checked the suitcase carefully before leaving the hotel this morning.,這位乘客今天早上離開飯店前仔細檢查行李箱。,medium,Travel-常用3000單,suitcase
+205,sentence,The passenger checked the baggage carefully before leaving the hotel this morning.,這位乘客今天早上離開飯店前仔細檢查行李。,medium,Travel-常用3000單,baggage
+206,sentence,The passenger checked the route carefully before leaving the hotel this morning.,這位乘客今天早上離開飯店前仔細檢查路線。,medium,Travel-常用3000單,route
+207,sentence,The passenger checked the airline carefully before leaving the hotel this morning.,這位乘客今天早上離開飯店前仔細檢查航空公司。,medium,Travel-常用3000單,airline
+208,sentence,The passenger checked the airplane carefully before leaving the hotel this morning.,這位乘客今天早上離開飯店前仔細檢查飛機。,medium,Travel-常用3000單,airplane
+209,sentence,The passenger checked the train station carefully before leaving the hotel this morning.,這位乘客今天早上離開飯店前仔細檢查火車站。,medium,Travel-常用3000單,station
+210,sentence,The passenger checked the hotel room carefully before leaving the hotel this morning.,這位乘客今天早上離開飯店前仔細檢查飯店房間。,medium,Travel-常用3000單,hotel;room
+211,sentence,I need to confirm the passport because our travel plan changed last night.,我需要確認護照，因為我們的旅行計畫昨晚改變了。,medium,Travel-常用3000單,passport
+212,sentence,I need to confirm the ticket because our travel plan changed last night.,我需要確認票，因為我們的旅行計畫昨晚改變了。,medium,Travel-常用3000單,ticket
+213,sentence,I need to confirm the reservation because our travel plan changed last night.,我需要確認預約，因為我們的旅行計畫昨晚改變了。,medium,Travel-常用3000單,reservation
+214,sentence,I need to confirm the suitcase because our travel plan changed last night.,我需要確認行李箱，因為我們的旅行計畫昨晚改變了。,medium,Travel-常用3000單,suitcase
+215,sentence,I need to confirm the baggage because our travel plan changed last night.,我需要確認行李，因為我們的旅行計畫昨晚改變了。,medium,Travel-常用3000單,baggage
+216,sentence,I need to confirm the route because our travel plan changed last night.,我需要確認路線，因為我們的旅行計畫昨晚改變了。,medium,Travel-常用3000單,route
+217,sentence,I need to confirm the airline because our travel plan changed last night.,我需要確認航空公司，因為我們的旅行計畫昨晚改變了。,medium,Travel-常用3000單,airline
+218,sentence,I need to confirm the airplane because our travel plan changed last night.,我需要確認飛機，因為我們的旅行計畫昨晚改變了。,medium,Travel-常用3000單,airplane
+219,sentence,I need to confirm the train station because our travel plan changed last night.,我需要確認火車站，因為我們的旅行計畫昨晚改變了。,medium,Travel-常用3000單,station
+220,sentence,I need to confirm the hotel room because our travel plan changed last night.,我需要確認飯店房間，因為我們的旅行計畫昨晚改變了。,medium,Travel-常用3000單,hotel;room
+221,sentence,Please keep your passport in a safe place during the whole trip.,請在整趟旅程中把護照放在安全的地方。,medium,Travel-常用3000單,passport
+222,sentence,Please keep your ticket in a safe place during the whole trip.,請在整趟旅程中把票放在安全的地方。,medium,Travel-常用3000單,ticket
+223,sentence,Please keep your reservation in a safe place during the whole trip.,請在整趟旅程中把預約放在安全的地方。,medium,Travel-常用3000單,reservation
+224,sentence,Please keep your suitcase in a safe place during the whole trip.,請在整趟旅程中把行李箱放在安全的地方。,medium,Travel-常用3000單,suitcase
+225,sentence,Please keep your baggage in a safe place during the whole trip.,請在整趟旅程中把行李放在安全的地方。,medium,Travel-常用3000單,baggage
+226,sentence,Please keep your route in a safe place during the whole trip.,請在整趟旅程中把路線放在安全的地方。,medium,Travel-常用3000單,route
+227,sentence,Please keep your airline in a safe place during the whole trip.,請在整趟旅程中把航空公司放在安全的地方。,medium,Travel-常用3000單,airline
+228,sentence,Please keep your airplane in a safe place during the whole trip.,請在整趟旅程中把飛機放在安全的地方。,medium,Travel-常用3000單,airplane
+229,sentence,Please keep your train station in a safe place during the whole trip.,請在整趟旅程中把火車站放在安全的地方。,medium,Travel-常用3000單,station
+230,sentence,Please keep your hotel room in a safe place during the whole trip.,請在整趟旅程中把飯店房間放在安全的地方。,medium,Travel-常用3000單,hotel;room
+231,sentence,The guide explained the passport to every traveler before we left the station.,導遊在我們離開車站前向每位旅客說明護照。,medium,Travel-常用3000單,passport
+232,sentence,The guide explained the ticket to every traveler before we left the station.,導遊在我們離開車站前向每位旅客說明票。,medium,Travel-常用3000單,ticket
+233,sentence,The guide explained the reservation to every traveler before we left the station.,導遊在我們離開車站前向每位旅客說明預約。,medium,Travel-常用3000單,reservation
+234,sentence,The guide explained the suitcase to every traveler before we left the station.,導遊在我們離開車站前向每位旅客說明行李箱。,medium,Travel-常用3000單,suitcase
+235,sentence,The guide explained the baggage to every traveler before we left the station.,導遊在我們離開車站前向每位旅客說明行李。,medium,Travel-常用3000單,baggage
+236,sentence,The guide explained the route to every traveler before we left the station.,導遊在我們離開車站前向每位旅客說明路線。,medium,Travel-常用3000單,route
+237,sentence,The guide explained the airline to every traveler before we left the station.,導遊在我們離開車站前向每位旅客說明航空公司。,medium,Travel-常用3000單,airline
+238,sentence,The guide explained the airplane to every traveler before we left the station.,導遊在我們離開車站前向每位旅客說明飛機。,medium,Travel-常用3000單,airplane
+239,sentence,The guide explained the train station to every traveler before we left the station.,導遊在我們離開車站前向每位旅客說明火車站。,medium,Travel-常用3000單,station
+240,sentence,The guide explained the hotel room to every traveler before we left the station.,導遊在我們離開車站前向每位旅客說明飯店房間。,medium,Travel-常用3000單,hotel;room
+241,sentence,My father asked me to check the passport again before we entered the gate.,爸爸要我在進入登機門前再次檢查護照。,medium,Travel-常用3000單,passport
+242,sentence,My father asked me to check the ticket again before we entered the gate.,爸爸要我在進入登機門前再次檢查票。,medium,Travel-常用3000單,ticket
+243,sentence,My father asked me to check the reservation again before we entered the gate.,爸爸要我在進入登機門前再次檢查預約。,medium,Travel-常用3000單,reservation
+244,sentence,My father asked me to check the suitcase again before we entered the gate.,爸爸要我在進入登機門前再次檢查行李箱。,medium,Travel-常用3000單,suitcase
+245,sentence,My father asked me to check the baggage again before we entered the gate.,爸爸要我在進入登機門前再次檢查行李。,medium,Travel-常用3000單,baggage
+246,sentence,My father asked me to check the route again before we entered the gate.,爸爸要我在進入登機門前再次檢查路線。,medium,Travel-常用3000單,route
+247,sentence,My father asked me to check the airline again before we entered the gate.,爸爸要我在進入登機門前再次檢查航空公司。,medium,Travel-常用3000單,airline
+248,sentence,My father asked me to check the airplane again before we entered the gate.,爸爸要我在進入登機門前再次檢查飛機。,medium,Travel-常用3000單,airplane
+249,sentence,My father asked me to check the train station again before we entered the gate.,爸爸要我在進入登機門前再次檢查火車站。,medium,Travel-常用3000單,station
+250,sentence,My father asked me to check the hotel room again before we entered the gate.,爸爸要我在進入登機門前再次檢查飯店房間。,medium,Travel-常用3000單,hotel;room
+251,sentence,We had to wait in line because the passport was not ready yet.,我們必須排隊等候，因為護照還沒準備好。,medium,Travel-常用3000單,passport
+252,sentence,We had to wait in line because the ticket was not ready yet.,我們必須排隊等候，因為票還沒準備好。,medium,Travel-常用3000單,ticket
+253,sentence,We had to wait in line because the reservation was not ready yet.,我們必須排隊等候，因為預約還沒準備好。,medium,Travel-常用3000單,reservation
+254,sentence,We had to wait in line because the suitcase was not ready yet.,我們必須排隊等候，因為行李箱還沒準備好。,medium,Travel-常用3000單,suitcase
+255,sentence,We had to wait in line because the baggage was not ready yet.,我們必須排隊等候，因為行李還沒準備好。,medium,Travel-常用3000單,baggage
+256,sentence,We had to wait in line because the route was not ready yet.,我們必須排隊等候，因為路線還沒準備好。,medium,Travel-常用3000單,route
+257,sentence,We had to wait in line because the airline was not ready yet.,我們必須排隊等候，因為航空公司還沒準備好。,medium,Travel-常用3000單,airline
+258,sentence,We had to wait in line because the airplane was not ready yet.,我們必須排隊等候，因為飛機還沒準備好。,medium,Travel-常用3000單,airplane
+259,sentence,We had to wait in line because the train station was not ready yet.,我們必須排隊等候，因為火車站還沒準備好。,medium,Travel-常用3000單,station
+260,sentence,We had to wait in line because the hotel room was not ready yet.,我們必須排隊等候，因為飯店房間還沒準備好。,medium,Travel-常用3000單,hotel;room
+261,sentence,The local officer looked at my passport and gave me clear directions.,當地人員看了我的護照後，給了我清楚的方向。,medium,Travel-常用3000單,passport
+262,sentence,The local officer looked at my ticket and gave me clear directions.,當地人員看了我的票後，給了我清楚的方向。,medium,Travel-常用3000單,ticket
+263,sentence,The local officer looked at my reservation and gave me clear directions.,當地人員看了我的預約後，給了我清楚的方向。,medium,Travel-常用3000單,reservation
+264,sentence,The local officer looked at my suitcase and gave me clear directions.,當地人員看了我的行李箱後，給了我清楚的方向。,medium,Travel-常用3000單,suitcase
+265,sentence,The local officer looked at my baggage and gave me clear directions.,當地人員看了我的行李後，給了我清楚的方向。,medium,Travel-常用3000單,baggage
+266,sentence,The local officer looked at my route and gave me clear directions.,當地人員看了我的路線後，給了我清楚的方向。,medium,Travel-常用3000單,route
+267,sentence,The local officer looked at my airline and gave me clear directions.,當地人員看了我的航空公司後，給了我清楚的方向。,medium,Travel-常用3000單,airline
+268,sentence,The local officer looked at my airplane and gave me clear directions.,當地人員看了我的飛機後，給了我清楚的方向。,medium,Travel-常用3000單,airplane
+269,sentence,The local officer looked at my train station and gave me clear directions.,當地人員看了我的火車站後，給了我清楚的方向。,medium,Travel-常用3000單,station
+270,sentence,The local officer looked at my hotel room and gave me clear directions.,當地人員看了我的飯店房間後，給了我清楚的方向。,medium,Travel-常用3000單,hotel;room
+271,sentence,Our teacher said the passport was important for this educational trip.,老師說護照對這次教育旅行很重要。,medium,Travel-常用3000單,passport
+272,sentence,Our teacher said the ticket was important for this educational trip.,老師說票對這次教育旅行很重要。,medium,Travel-常用3000單,ticket
+273,sentence,Our teacher said the reservation was important for this educational trip.,老師說預約對這次教育旅行很重要。,medium,Travel-常用3000單,reservation
+274,sentence,Our teacher said the suitcase was important for this educational trip.,老師說行李箱對這次教育旅行很重要。,medium,Travel-常用3000單,suitcase
+275,sentence,Our teacher said the baggage was important for this educational trip.,老師說行李對這次教育旅行很重要。,medium,Travel-常用3000單,baggage
+276,sentence,Our teacher said the route was important for this educational trip.,老師說路線對這次教育旅行很重要。,medium,Travel-常用3000單,route
+277,sentence,Our teacher said the airline was important for this educational trip.,老師說航空公司對這次教育旅行很重要。,medium,Travel-常用3000單,airline
+278,sentence,Our teacher said the airplane was important for this educational trip.,老師說飛機對這次教育旅行很重要。,medium,Travel-常用3000單,airplane
+279,sentence,Our teacher said the train station was important for this educational trip.,老師說火車站對這次教育旅行很重要。,medium,Travel-常用3000單,station
+280,sentence,Our teacher said the hotel room was important for this educational trip.,老師說飯店房間對這次教育旅行很重要。,medium,Travel-常用3000單,hotel;room
+281,sentence,The traveler compared the passport with the information on the notice board.,旅客把護照和公告欄上的資訊做比較。,medium,Travel-常用3000單,passport
+282,sentence,The traveler compared the ticket with the information on the notice board.,旅客把票和公告欄上的資訊做比較。,medium,Travel-常用3000單,ticket
+283,sentence,The traveler compared the reservation with the information on the notice board.,旅客把預約和公告欄上的資訊做比較。,medium,Travel-常用3000單,reservation
+284,sentence,The traveler compared the suitcase with the information on the notice board.,旅客把行李箱和公告欄上的資訊做比較。,medium,Travel-常用3000單,suitcase
+285,sentence,The traveler compared the baggage with the information on the notice board.,旅客把行李和公告欄上的資訊做比較。,medium,Travel-常用3000單,baggage
+286,sentence,The traveler compared the route with the information on the notice board.,旅客把路線和公告欄上的資訊做比較。,medium,Travel-常用3000單,route
+287,sentence,The traveler compared the airline with the information on the notice board.,旅客把航空公司和公告欄上的資訊做比較。,medium,Travel-常用3000單,airline
+288,sentence,The traveler compared the airplane with the information on the notice board.,旅客把飛機和公告欄上的資訊做比較。,medium,Travel-常用3000單,airplane
+289,sentence,The traveler compared the train station with the information on the notice board.,旅客把火車站和公告欄上的資訊做比較。,medium,Travel-常用3000單,station
+290,sentence,The traveler compared the hotel room with the information on the notice board.,旅客把飯店房間和公告欄上的資訊做比較。,medium,Travel-常用3000單,hotel;room
+291,sentence,Please do not forget the passport when you get off the train.,下火車時，請不要忘記護照。,medium,Travel-常用3000單,passport
+292,sentence,Please do not forget the ticket when you get off the train.,下火車時，請不要忘記票。,medium,Travel-常用3000單,ticket
+293,sentence,Please do not forget the reservation when you get off the train.,下火車時，請不要忘記預約。,medium,Travel-常用3000單,reservation
+294,sentence,Please do not forget the suitcase when you get off the train.,下火車時，請不要忘記行李箱。,medium,Travel-常用3000單,suitcase
+295,sentence,Please do not forget the baggage when you get off the train.,下火車時，請不要忘記行李。,medium,Travel-常用3000單,baggage
+296,sentence,Please do not forget the route when you get off the train.,下火車時，請不要忘記路線。,medium,Travel-常用3000單,route
+297,sentence,Please do not forget the airline when you get off the train.,下火車時，請不要忘記航空公司。,medium,Travel-常用3000單,airline
+298,sentence,Please do not forget the airplane when you get off the train.,下火車時，請不要忘記飛機。,medium,Travel-常用3000單,airplane
+299,sentence,Please do not forget the train station when you get off the train.,下火車時，請不要忘記火車站。,medium,Travel-常用3000單,station
+300,sentence,Please do not forget the hotel room when you get off the train.,下火車時，請不要忘記飯店房間。,medium,Travel-常用3000單,hotel;room
+301,sentence,"Before the class trip began, every student checked the passport and ticket so that nobody would miss the schedule.",班級旅行開始前，每位學生都檢查護照和車票，這樣才沒有人會錯過行程。,medium,Travel-常用3000單,passport;ticket
+302,sentence,"Before the class trip began, every student checked the suitcase and baggage so that nobody would miss the schedule.",班級旅行開始前，每位學生都檢查行李箱和行李，這樣才沒有人會錯過行程。,medium,Travel-常用3000單,suitcase;baggage
+303,sentence,"Before the class trip began, every student checked the reservation and route so that nobody would miss the schedule.",班級旅行開始前，每位學生都檢查預約和路線，這樣才沒有人會錯過行程。,medium,Travel-常用3000單,reservation;route
+304,sentence,"Before the class trip began, every student checked the airline and airplane so that nobody would miss the schedule.",班級旅行開始前，每位學生都檢查航空公司和飛機，這樣才沒有人會錯過行程。,medium,Travel-常用3000單,airline;airplane
+305,sentence,"Before the class trip began, every student checked the station and platform so that nobody would miss the schedule.",班級旅行開始前，每位學生都檢查車站和月台，這樣才沒有人會錯過行程。,medium,Travel-常用3000單,station;platform
+306,sentence,"Before the class trip began, every student checked the hotel and city center so that nobody would miss the schedule.",班級旅行開始前，每位學生都檢查飯店和市中心，這樣才沒有人會錯過行程。,medium,Travel-常用3000單,hotel;city
+307,sentence,"Before the class trip began, every student checked the guide and map so that nobody would miss the schedule.",班級旅行開始前，每位學生都檢查導遊和地圖，這樣才沒有人會錯過行程。,medium,Travel-常用3000單,guide;map
+308,sentence,"Before the class trip began, every student checked the railroad and train station so that nobody would miss the schedule.",班級旅行開始前，每位學生都檢查鐵路和火車站，這樣才沒有人會錯過行程。,medium,Travel-常用3000單,railroad;station
+309,sentence,"Before the class trip began, every student checked the country and city so that nobody would miss the schedule.",班級旅行開始前，每位學生都檢查國家和城市，這樣才沒有人會錯過行程。,medium,Travel-常用3000單,country;city
+310,sentence,"Before the class trip began, every student checked the souvenir and photo so that nobody would miss the schedule.",班級旅行開始前，每位學生都檢查紀念品和照片，這樣才沒有人會錯過行程。,medium,Travel-常用3000單,souvenir;photo
+311,sentence,"When we arrived in the new city, the guide used the passport and ticket to explain our first stop.",當我們抵達新的城市時，導遊使用護照和車票來說明我們的第一站。,medium,Travel-常用3000單,passport;ticket
+312,sentence,"When we arrived in the new city, the guide used the suitcase and baggage to explain our first stop.",當我們抵達新的城市時，導遊使用行李箱和行李來說明我們的第一站。,medium,Travel-常用3000單,suitcase;baggage
+313,sentence,"When we arrived in the new city, the guide used the reservation and route to explain our first stop.",當我們抵達新的城市時，導遊使用預約和路線來說明我們的第一站。,medium,Travel-常用3000單,reservation;route
+314,sentence,"When we arrived in the new city, the guide used the airline and airplane to explain our first stop.",當我們抵達新的城市時，導遊使用航空公司和飛機來說明我們的第一站。,medium,Travel-常用3000單,airline;airplane
+315,sentence,"When we arrived in the new city, the guide used the station and platform to explain our first stop.",當我們抵達新的城市時，導遊使用車站和月台來說明我們的第一站。,medium,Travel-常用3000單,station;platform
+316,sentence,"When we arrived in the new city, the guide used the hotel and city center to explain our first stop.",當我們抵達新的城市時，導遊使用飯店和市中心來說明我們的第一站。,medium,Travel-常用3000單,hotel;city
+317,sentence,"When we arrived in the new city, the guide used the guide and map to explain our first stop.",當我們抵達新的城市時，導遊使用導遊和地圖來說明我們的第一站。,medium,Travel-常用3000單,guide;map
+318,sentence,"When we arrived in the new city, the guide used the railroad and train station to explain our first stop.",當我們抵達新的城市時，導遊使用鐵路和火車站來說明我們的第一站。,medium,Travel-常用3000單,railroad;station
+319,sentence,"When we arrived in the new city, the guide used the country and city to explain our first stop.",當我們抵達新的城市時，導遊使用國家和城市來說明我們的第一站。,medium,Travel-常用3000單,country;city
+320,sentence,"When we arrived in the new city, the guide used the souvenir and photo to explain our first stop.",當我們抵達新的城市時，導遊使用紀念品和照片來說明我們的第一站。,medium,Travel-常用3000單,souvenir;photo
+321,sentence,The traveler became anxious because the passport and ticket was different from the information on the website.,旅客變得焦慮，因為護照和車票和網站上的資訊不同。,medium,Travel-常用3000單,passport;ticket
+322,sentence,The traveler became anxious because the suitcase and baggage was different from the information on the website.,旅客變得焦慮，因為行李箱和行李和網站上的資訊不同。,medium,Travel-常用3000單,suitcase;baggage
+323,sentence,The traveler became anxious because the reservation and route was different from the information on the website.,旅客變得焦慮，因為預約和路線和網站上的資訊不同。,medium,Travel-常用3000單,reservation;route
+324,sentence,The traveler became anxious because the airline and airplane was different from the information on the website.,旅客變得焦慮，因為航空公司和飛機和網站上的資訊不同。,medium,Travel-常用3000單,airline;airplane
+325,sentence,The traveler became anxious because the station and platform was different from the information on the website.,旅客變得焦慮，因為車站和月台和網站上的資訊不同。,medium,Travel-常用3000單,station;platform
+326,sentence,The traveler became anxious because the hotel and city center was different from the information on the website.,旅客變得焦慮，因為飯店和市中心和網站上的資訊不同。,medium,Travel-常用3000單,hotel;city
+327,sentence,The traveler became anxious because the guide and map was different from the information on the website.,旅客變得焦慮，因為導遊和地圖和網站上的資訊不同。,medium,Travel-常用3000單,guide;map
+328,sentence,The traveler became anxious because the railroad and train station was different from the information on the website.,旅客變得焦慮，因為鐵路和火車站和網站上的資訊不同。,medium,Travel-常用3000單,railroad;station
+329,sentence,The traveler became anxious because the country and city was different from the information on the website.,旅客變得焦慮，因為國家和城市和網站上的資訊不同。,medium,Travel-常用3000單,country;city
+330,sentence,The traveler became anxious because the souvenir and photo was different from the information on the website.,旅客變得焦慮，因為紀念品和照片和網站上的資訊不同。,medium,Travel-常用3000單,souvenir;photo
+331,sentence,My sister asked a local citizen about the passport and ticket because our phone had no signal.,妹妹向當地市民詢問護照和車票，因為我們的手機沒有訊號。,medium,Travel-常用3000單,passport;ticket
+332,sentence,My sister asked a local citizen about the suitcase and baggage because our phone had no signal.,妹妹向當地市民詢問行李箱和行李，因為我們的手機沒有訊號。,medium,Travel-常用3000單,suitcase;baggage
+333,sentence,My sister asked a local citizen about the reservation and route because our phone had no signal.,妹妹向當地市民詢問預約和路線，因為我們的手機沒有訊號。,medium,Travel-常用3000單,reservation;route
+334,sentence,My sister asked a local citizen about the airline and airplane because our phone had no signal.,妹妹向當地市民詢問航空公司和飛機，因為我們的手機沒有訊號。,medium,Travel-常用3000單,airline;airplane
+335,sentence,My sister asked a local citizen about the station and platform because our phone had no signal.,妹妹向當地市民詢問車站和月台，因為我們的手機沒有訊號。,medium,Travel-常用3000單,station;platform
+336,sentence,My sister asked a local citizen about the hotel and city center because our phone had no signal.,妹妹向當地市民詢問飯店和市中心，因為我們的手機沒有訊號。,medium,Travel-常用3000單,hotel;city
+337,sentence,My sister asked a local citizen about the guide and map because our phone had no signal.,妹妹向當地市民詢問導遊和地圖，因為我們的手機沒有訊號。,medium,Travel-常用3000單,guide;map
+338,sentence,My sister asked a local citizen about the railroad and train station because our phone had no signal.,妹妹向當地市民詢問鐵路和火車站，因為我們的手機沒有訊號。,medium,Travel-常用3000單,railroad;station
+339,sentence,My sister asked a local citizen about the country and city because our phone had no signal.,妹妹向當地市民詢問國家和城市，因為我們的手機沒有訊號。,medium,Travel-常用3000單,country;city
+340,sentence,My sister asked a local citizen about the souvenir and photo because our phone had no signal.,妹妹向當地市民詢問紀念品和照片，因為我們的手機沒有訊號。,medium,Travel-常用3000單,souvenir;photo
+341,sentence,"During the family trip, my mother wrote down the passport and ticket in a small notebook.",在家庭旅行中，媽媽把護照和車票寫在一本小筆記本裡。,medium,Travel-常用3000單,passport;ticket
+342,sentence,"During the family trip, my mother wrote down the suitcase and baggage in a small notebook.",在家庭旅行中，媽媽把行李箱和行李寫在一本小筆記本裡。,medium,Travel-常用3000單,suitcase;baggage
+343,sentence,"During the family trip, my mother wrote down the reservation and route in a small notebook.",在家庭旅行中，媽媽把預約和路線寫在一本小筆記本裡。,medium,Travel-常用3000單,reservation;route
+344,sentence,"During the family trip, my mother wrote down the airline and airplane in a small notebook.",在家庭旅行中，媽媽把航空公司和飛機寫在一本小筆記本裡。,medium,Travel-常用3000單,airline;airplane
+345,sentence,"During the family trip, my mother wrote down the station and platform in a small notebook.",在家庭旅行中，媽媽把車站和月台寫在一本小筆記本裡。,medium,Travel-常用3000單,station;platform
+346,sentence,"During the family trip, my mother wrote down the hotel and city center in a small notebook.",在家庭旅行中，媽媽把飯店和市中心寫在一本小筆記本裡。,medium,Travel-常用3000單,hotel;city
+347,sentence,"During the family trip, my mother wrote down the guide and map in a small notebook.",在家庭旅行中，媽媽把導遊和地圖寫在一本小筆記本裡。,medium,Travel-常用3000單,guide;map
+348,sentence,"During the family trip, my mother wrote down the railroad and train station in a small notebook.",在家庭旅行中，媽媽把鐵路和火車站寫在一本小筆記本裡。,medium,Travel-常用3000單,railroad;station
+349,sentence,"During the family trip, my mother wrote down the country and city in a small notebook.",在家庭旅行中，媽媽把國家和城市寫在一本小筆記本裡。,medium,Travel-常用3000單,country;city
+350,sentence,"During the family trip, my mother wrote down the souvenir and photo in a small notebook.",在家庭旅行中，媽媽把紀念品和照片寫在一本小筆記本裡。,medium,Travel-常用3000單,souvenir;photo
+351,sentence,The passenger was relieved when the officer found the passport and ticket near the information desk.,當人員在服務台附近找到護照和車票時，這位乘客鬆了一口氣。,medium,Travel-常用3000單,passport;ticket
+352,sentence,The passenger was relieved when the officer found the suitcase and baggage near the information desk.,當人員在服務台附近找到行李箱和行李時，這位乘客鬆了一口氣。,medium,Travel-常用3000單,suitcase;baggage
+353,sentence,The passenger was relieved when the officer found the reservation and route near the information desk.,當人員在服務台附近找到預約和路線時，這位乘客鬆了一口氣。,medium,Travel-常用3000單,reservation;route
+354,sentence,The passenger was relieved when the officer found the airline and airplane near the information desk.,當人員在服務台附近找到航空公司和飛機時，這位乘客鬆了一口氣。,medium,Travel-常用3000單,airline;airplane
+355,sentence,The passenger was relieved when the officer found the station and platform near the information desk.,當人員在服務台附近找到車站和月台時，這位乘客鬆了一口氣。,medium,Travel-常用3000單,station;platform
+356,sentence,The passenger was relieved when the officer found the hotel and city center near the information desk.,當人員在服務台附近找到飯店和市中心時，這位乘客鬆了一口氣。,medium,Travel-常用3000單,hotel;city
+357,sentence,The passenger was relieved when the officer found the guide and map near the information desk.,當人員在服務台附近找到導遊和地圖時，這位乘客鬆了一口氣。,medium,Travel-常用3000單,guide;map
+358,sentence,The passenger was relieved when the officer found the railroad and train station near the information desk.,當人員在服務台附近找到鐵路和火車站時，這位乘客鬆了一口氣。,medium,Travel-常用3000單,railroad;station
+359,sentence,The passenger was relieved when the officer found the country and city near the information desk.,當人員在服務台附近找到國家和城市時，這位乘客鬆了一口氣。,medium,Travel-常用3000單,country;city
+360,sentence,The passenger was relieved when the officer found the souvenir and photo near the information desk.,當人員在服務台附近找到紀念品和照片時，這位乘客鬆了一口氣。,medium,Travel-常用3000單,souvenir;photo
+361,sentence,Our group discussed the passport and ticket before deciding whether to take the early train.,我們小組在決定是否搭早班火車前討論了護照和車票。,medium,Travel-常用3000單,passport;ticket
+362,sentence,Our group discussed the suitcase and baggage before deciding whether to take the early train.,我們小組在決定是否搭早班火車前討論了行李箱和行李。,medium,Travel-常用3000單,suitcase;baggage
+363,sentence,Our group discussed the reservation and route before deciding whether to take the early train.,我們小組在決定是否搭早班火車前討論了預約和路線。,medium,Travel-常用3000單,reservation;route
+364,sentence,Our group discussed the airline and airplane before deciding whether to take the early train.,我們小組在決定是否搭早班火車前討論了航空公司和飛機。,medium,Travel-常用3000單,airline;airplane
+365,sentence,Our group discussed the station and platform before deciding whether to take the early train.,我們小組在決定是否搭早班火車前討論了車站和月台。,medium,Travel-常用3000單,station;platform
+366,sentence,Our group discussed the hotel and city center before deciding whether to take the early train.,我們小組在決定是否搭早班火車前討論了飯店和市中心。,medium,Travel-常用3000單,hotel;city
+367,sentence,Our group discussed the guide and map before deciding whether to take the early train.,我們小組在決定是否搭早班火車前討論了導遊和地圖。,medium,Travel-常用3000單,guide;map
+368,sentence,Our group discussed the railroad and train station before deciding whether to take the early train.,我們小組在決定是否搭早班火車前討論了鐵路和火車站。,medium,Travel-常用3000單,railroad;station
+369,sentence,Our group discussed the country and city before deciding whether to take the early train.,我們小組在決定是否搭早班火車前討論了國家和城市。,medium,Travel-常用3000單,country;city
+370,sentence,Our group discussed the souvenir and photo before deciding whether to take the early train.,我們小組在決定是否搭早班火車前討論了紀念品和照片。,medium,Travel-常用3000單,souvenir;photo
+371,sentence,The teacher reminded us to protect the passport and ticket while walking through the crowded market.,老師提醒我們穿過擁擠的市場時要保護好護照和車票。,medium,Travel-常用3000單,passport;ticket
+372,sentence,The teacher reminded us to protect the suitcase and baggage while walking through the crowded market.,老師提醒我們穿過擁擠的市場時要保護好行李箱和行李。,medium,Travel-常用3000單,suitcase;baggage
+373,sentence,The teacher reminded us to protect the reservation and route while walking through the crowded market.,老師提醒我們穿過擁擠的市場時要保護好預約和路線。,medium,Travel-常用3000單,reservation;route
+374,sentence,The teacher reminded us to protect the airline and airplane while walking through the crowded market.,老師提醒我們穿過擁擠的市場時要保護好航空公司和飛機。,medium,Travel-常用3000單,airline;airplane
+375,sentence,The teacher reminded us to protect the station and platform while walking through the crowded market.,老師提醒我們穿過擁擠的市場時要保護好車站和月台。,medium,Travel-常用3000單,station;platform
+376,sentence,The teacher reminded us to protect the hotel and city center while walking through the crowded market.,老師提醒我們穿過擁擠的市場時要保護好飯店和市中心。,medium,Travel-常用3000單,hotel;city
+377,sentence,The teacher reminded us to protect the guide and map while walking through the crowded market.,老師提醒我們穿過擁擠的市場時要保護好導遊和地圖。,medium,Travel-常用3000單,guide;map
+378,sentence,The teacher reminded us to protect the railroad and train station while walking through the crowded market.,老師提醒我們穿過擁擠的市場時要保護好鐵路和火車站。,medium,Travel-常用3000單,railroad;station
+379,sentence,The teacher reminded us to protect the country and city while walking through the crowded market.,老師提醒我們穿過擁擠的市場時要保護好國家和城市。,medium,Travel-常用3000單,country;city
+380,sentence,The teacher reminded us to protect the souvenir and photo while walking through the crowded market.,老師提醒我們穿過擁擠的市場時要保護好紀念品和照片。,medium,Travel-常用3000單,souvenir;photo
+381,sentence,"After we passed the bridge, the guide compared the passport and ticket with the old travel plan.",我們過橋後，導遊把護照和車票和舊的旅行計畫做比較。,medium,Travel-常用3000單,passport;ticket
+382,sentence,"After we passed the bridge, the guide compared the suitcase and baggage with the old travel plan.",我們過橋後，導遊把行李箱和行李和舊的旅行計畫做比較。,medium,Travel-常用3000單,suitcase;baggage
+383,sentence,"After we passed the bridge, the guide compared the reservation and route with the old travel plan.",我們過橋後，導遊把預約和路線和舊的旅行計畫做比較。,medium,Travel-常用3000單,reservation;route
+384,sentence,"After we passed the bridge, the guide compared the airline and airplane with the old travel plan.",我們過橋後，導遊把航空公司和飛機和舊的旅行計畫做比較。,medium,Travel-常用3000單,airline;airplane
+385,sentence,"After we passed the bridge, the guide compared the station and platform with the old travel plan.",我們過橋後，導遊把車站和月台和舊的旅行計畫做比較。,medium,Travel-常用3000單,station;platform
+386,sentence,"After we passed the bridge, the guide compared the hotel and city center with the old travel plan.",我們過橋後，導遊把飯店和市中心和舊的旅行計畫做比較。,medium,Travel-常用3000單,hotel;city
+387,sentence,"After we passed the bridge, the guide compared the guide and map with the old travel plan.",我們過橋後，導遊把導遊和地圖和舊的旅行計畫做比較。,medium,Travel-常用3000單,guide;map
+388,sentence,"After we passed the bridge, the guide compared the railroad and train station with the old travel plan.",我們過橋後，導遊把鐵路和火車站和舊的旅行計畫做比較。,medium,Travel-常用3000單,railroad;station
+389,sentence,"After we passed the bridge, the guide compared the country and city with the old travel plan.",我們過橋後，導遊把國家和城市和舊的旅行計畫做比較。,medium,Travel-常用3000單,country;city
+390,sentence,"After we passed the bridge, the guide compared the souvenir and photo with the old travel plan.",我們過橋後，導遊把紀念品和照片和舊的旅行計畫做比較。,medium,Travel-常用3000單,souvenir;photo
+391,sentence,The hotel clerk patiently checked the passport and ticket before giving us the room key.,飯店櫃檯人員在給我們房間鑰匙前，耐心地檢查護照和車票。,medium,Travel-常用3000單,passport;ticket
+392,sentence,The hotel clerk patiently checked the suitcase and baggage before giving us the room key.,飯店櫃檯人員在給我們房間鑰匙前，耐心地檢查行李箱和行李。,medium,Travel-常用3000單,suitcase;baggage
+393,sentence,The hotel clerk patiently checked the reservation and route before giving us the room key.,飯店櫃檯人員在給我們房間鑰匙前，耐心地檢查預約和路線。,medium,Travel-常用3000單,reservation;route
+394,sentence,The hotel clerk patiently checked the airline and airplane before giving us the room key.,飯店櫃檯人員在給我們房間鑰匙前，耐心地檢查航空公司和飛機。,medium,Travel-常用3000單,airline;airplane
+395,sentence,The hotel clerk patiently checked the station and platform before giving us the room key.,飯店櫃檯人員在給我們房間鑰匙前，耐心地檢查車站和月台。,medium,Travel-常用3000單,station;platform
+396,sentence,The hotel clerk patiently checked the hotel and city center before giving us the room key.,飯店櫃檯人員在給我們房間鑰匙前，耐心地檢查飯店和市中心。,medium,Travel-常用3000單,hotel;city
+397,sentence,The hotel clerk patiently checked the guide and map before giving us the room key.,飯店櫃檯人員在給我們房間鑰匙前，耐心地檢查導遊和地圖。,medium,Travel-常用3000單,guide;map
+398,sentence,The hotel clerk patiently checked the railroad and train station before giving us the room key.,飯店櫃檯人員在給我們房間鑰匙前，耐心地檢查鐵路和火車站。,medium,Travel-常用3000單,railroad;station
+399,sentence,The hotel clerk patiently checked the country and city before giving us the room key.,飯店櫃檯人員在給我們房間鑰匙前，耐心地檢查國家和城市。,medium,Travel-常用3000單,country;city
+400,sentence,The hotel clerk patiently checked the souvenir and photo before giving us the room key.,飯店櫃檯人員在給我們房間鑰匙前，耐心地檢查紀念品和照片。,medium,Travel-常用3000單,souvenir;photo
+401,sentence,"Before we left for the educational trip, our teacher asked every student to check the passport, ticket, and reservation and report any problem immediately.",在我們出發去教育旅行前，老師要求每位學生檢查護照、票和預約，並立刻回報任何問題。,medium,Travel-常用3000單,passport;ticket;reservation
+402,sentence,"Before we left for the educational trip, our teacher asked every student to check the suitcase, baggage, and travel map and report any problem immediately.",在我們出發去教育旅行前，老師要求每位學生檢查行李箱、行李和旅行地圖，並立刻回報任何問題。,medium,Travel-常用3000單,suitcase;baggage;map
+403,sentence,"Before we left for the educational trip, our teacher asked every student to check the airline, airplane, and departure gate and report any problem immediately.",在我們出發去教育旅行前，老師要求每位學生檢查航空公司、飛機和出發登機門，並立刻回報任何問題。,medium,Travel-常用3000單,airline;airplane;gate
+404,sentence,"Before we left for the educational trip, our teacher asked every student to check the train station, platform, and route and report any problem immediately.",在我們出發去教育旅行前，老師要求每位學生檢查火車站、月台和路線，並立刻回報任何問題。,medium,Travel-常用3000單,station;platform;route
+405,sentence,"Before we left for the educational trip, our teacher asked every student to check the hotel room, city center, and local market and report any problem immediately.",在我們出發去教育旅行前，老師要求每位學生檢查飯店房間、市中心和當地市場，並立刻回報任何問題。,medium,Travel-常用3000單,hotel;city;market
+406,sentence,"Before we left for the educational trip, our teacher asked every student to check the guide, museum, and historical district and report any problem immediately.",在我們出發去教育旅行前，老師要求每位學生檢查導遊、博物館和歷史區，並立刻回報任何問題。,medium,Travel-常用3000單,guide;museum;district
+407,sentence,"Before we left for the educational trip, our teacher asked every student to check the railroad, passenger, and information desk and report any problem immediately.",在我們出發去教育旅行前，老師要求每位學生檢查鐵路、乘客和服務台，並立刻回報任何問題。,medium,Travel-常用3000單,railroad;passenger;information
+408,sentence,"Before we left for the educational trip, our teacher asked every student to check the country, city, and cultural environment and report any problem immediately.",在我們出發去教育旅行前，老師要求每位學生檢查國家、城市和文化環境，並立刻回報任何問題。,medium,Travel-常用3000單,country;city;environment
+409,sentence,"Before we left for the educational trip, our teacher asked every student to check the souvenir, photo, and pleasant memory and report any problem immediately.",在我們出發去教育旅行前，老師要求每位學生檢查紀念品、照片和愉快回憶，並立刻回報任何問題。,medium,Travel-常用3000單,souvenir;photo;pleasant
+410,sentence,"Before we left for the educational trip, our teacher asked every student to check the taxi, bridge, and quiet avenue and report any problem immediately.",在我們出發去教育旅行前，老師要求每位學生檢查計程車、橋和安靜的大街，並立刻回報任何問題。,medium,Travel-常用3000單,taxi;bridge;avenue
+411,sentence,"Although the weather changed suddenly, the guide calmly explained the passport, ticket, and reservation and helped the passengers continue their journey safely.",雖然天氣突然改變，導遊仍冷靜地說明護照、票和預約，並幫助乘客安全地繼續旅程。,medium,Travel-常用3000單,passport;ticket;reservation
+412,sentence,"Although the weather changed suddenly, the guide calmly explained the suitcase, baggage, and travel map and helped the passengers continue their journey safely.",雖然天氣突然改變，導遊仍冷靜地說明行李箱、行李和旅行地圖，並幫助乘客安全地繼續旅程。,medium,Travel-常用3000單,suitcase;baggage;map
+413,sentence,"Although the weather changed suddenly, the guide calmly explained the airline, airplane, and departure gate and helped the passengers continue their journey safely.",雖然天氣突然改變，導遊仍冷靜地說明航空公司、飛機和出發登機門，並幫助乘客安全地繼續旅程。,medium,Travel-常用3000單,airline;airplane;gate
+414,sentence,"Although the weather changed suddenly, the guide calmly explained the train station, platform, and route and helped the passengers continue their journey safely.",雖然天氣突然改變，導遊仍冷靜地說明火車站、月台和路線，並幫助乘客安全地繼續旅程。,medium,Travel-常用3000單,station;platform;route
+415,sentence,"Although the weather changed suddenly, the guide calmly explained the hotel room, city center, and local market and helped the passengers continue their journey safely.",雖然天氣突然改變，導遊仍冷靜地說明飯店房間、市中心和當地市場，並幫助乘客安全地繼續旅程。,medium,Travel-常用3000單,hotel;city;market
+416,sentence,"Although the weather changed suddenly, the guide calmly explained the guide, museum, and historical district and helped the passengers continue their journey safely.",雖然天氣突然改變，導遊仍冷靜地說明導遊、博物館和歷史區，並幫助乘客安全地繼續旅程。,medium,Travel-常用3000單,guide;museum;district
+417,sentence,"Although the weather changed suddenly, the guide calmly explained the railroad, passenger, and information desk and helped the passengers continue their journey safely.",雖然天氣突然改變，導遊仍冷靜地說明鐵路、乘客和服務台，並幫助乘客安全地繼續旅程。,medium,Travel-常用3000單,railroad;passenger;information
+418,sentence,"Although the weather changed suddenly, the guide calmly explained the country, city, and cultural environment and helped the passengers continue their journey safely.",雖然天氣突然改變，導遊仍冷靜地說明國家、城市和文化環境，並幫助乘客安全地繼續旅程。,medium,Travel-常用3000單,country;city;environment
+419,sentence,"Although the weather changed suddenly, the guide calmly explained the souvenir, photo, and pleasant memory and helped the passengers continue their journey safely.",雖然天氣突然改變，導遊仍冷靜地說明紀念品、照片和愉快回憶，並幫助乘客安全地繼續旅程。,medium,Travel-常用3000單,souvenir;photo;pleasant
+420,sentence,"Although the weather changed suddenly, the guide calmly explained the taxi, bridge, and quiet avenue and helped the passengers continue their journey safely.",雖然天氣突然改變，導遊仍冷靜地說明計程車、橋和安靜的大街，並幫助乘客安全地繼續旅程。,medium,Travel-常用3000單,taxi;bridge;avenue
+421,sentence,"When our family arrived in the strange city, we compared the passport, ticket, and reservation with the schedule before choosing our next activity.",當我們一家人抵達陌生城市時，我們先把護照、票和預約和行程表比較，再選擇下一個活動。,medium,Travel-常用3000單,passport;ticket;reservation
+422,sentence,"When our family arrived in the strange city, we compared the suitcase, baggage, and travel map with the schedule before choosing our next activity.",當我們一家人抵達陌生城市時，我們先把行李箱、行李和旅行地圖和行程表比較，再選擇下一個活動。,medium,Travel-常用3000單,suitcase;baggage;map
+423,sentence,"When our family arrived in the strange city, we compared the airline, airplane, and departure gate with the schedule before choosing our next activity.",當我們一家人抵達陌生城市時，我們先把航空公司、飛機和出發登機門和行程表比較，再選擇下一個活動。,medium,Travel-常用3000單,airline;airplane;gate
+424,sentence,"When our family arrived in the strange city, we compared the train station, platform, and route with the schedule before choosing our next activity.",當我們一家人抵達陌生城市時，我們先把火車站、月台和路線和行程表比較，再選擇下一個活動。,medium,Travel-常用3000單,station;platform;route
+425,sentence,"When our family arrived in the strange city, we compared the hotel room, city center, and local market with the schedule before choosing our next activity.",當我們一家人抵達陌生城市時，我們先把飯店房間、市中心和當地市場和行程表比較，再選擇下一個活動。,medium,Travel-常用3000單,hotel;city;market
+426,sentence,"When our family arrived in the strange city, we compared the guide, museum, and historical district with the schedule before choosing our next activity.",當我們一家人抵達陌生城市時，我們先把導遊、博物館和歷史區和行程表比較，再選擇下一個活動。,medium,Travel-常用3000單,guide;museum;district
+427,sentence,"When our family arrived in the strange city, we compared the railroad, passenger, and information desk with the schedule before choosing our next activity.",當我們一家人抵達陌生城市時，我們先把鐵路、乘客和服務台和行程表比較，再選擇下一個活動。,medium,Travel-常用3000單,railroad;passenger;information
+428,sentence,"When our family arrived in the strange city, we compared the country, city, and cultural environment with the schedule before choosing our next activity.",當我們一家人抵達陌生城市時，我們先把國家、城市和文化環境和行程表比較，再選擇下一個活動。,medium,Travel-常用3000單,country;city;environment
+429,sentence,"When our family arrived in the strange city, we compared the souvenir, photo, and pleasant memory with the schedule before choosing our next activity.",當我們一家人抵達陌生城市時，我們先把紀念品、照片和愉快回憶和行程表比較，再選擇下一個活動。,medium,Travel-常用3000單,souvenir;photo;pleasant
+430,sentence,"When our family arrived in the strange city, we compared the taxi, bridge, and quiet avenue with the schedule before choosing our next activity.",當我們一家人抵達陌生城市時，我們先把計程車、橋和安靜的大街和行程表比較，再選擇下一個活動。,medium,Travel-常用3000單,taxi;bridge;avenue
+431,sentence,"The traveler was nervous at first, but the local officer checked the passport, ticket, and reservation and gave him clear directions to the station.",這位旅客一開始很緊張，但當地人員檢查護照、票和預約後，給了他前往車站的清楚方向。,medium,Travel-常用3000單,passport;ticket;reservation
+432,sentence,"The traveler was nervous at first, but the local officer checked the suitcase, baggage, and travel map and gave him clear directions to the station.",這位旅客一開始很緊張，但當地人員檢查行李箱、行李和旅行地圖後，給了他前往車站的清楚方向。,medium,Travel-常用3000單,suitcase;baggage;map
+433,sentence,"The traveler was nervous at first, but the local officer checked the airline, airplane, and departure gate and gave him clear directions to the station.",這位旅客一開始很緊張，但當地人員檢查航空公司、飛機和出發登機門後，給了他前往車站的清楚方向。,medium,Travel-常用3000單,airline;airplane;gate
+434,sentence,"The traveler was nervous at first, but the local officer checked the train station, platform, and route and gave him clear directions to the station.",這位旅客一開始很緊張，但當地人員檢查火車站、月台和路線後，給了他前往車站的清楚方向。,medium,Travel-常用3000單,station;platform;route
+435,sentence,"The traveler was nervous at first, but the local officer checked the hotel room, city center, and local market and gave him clear directions to the station.",這位旅客一開始很緊張，但當地人員檢查飯店房間、市中心和當地市場後，給了他前往車站的清楚方向。,medium,Travel-常用3000單,hotel;city;market
+436,sentence,"The traveler was nervous at first, but the local officer checked the guide, museum, and historical district and gave him clear directions to the station.",這位旅客一開始很緊張，但當地人員檢查導遊、博物館和歷史區後，給了他前往車站的清楚方向。,medium,Travel-常用3000單,guide;museum;district
+437,sentence,"The traveler was nervous at first, but the local officer checked the railroad, passenger, and information desk and gave him clear directions to the station.",這位旅客一開始很緊張，但當地人員檢查鐵路、乘客和服務台後，給了他前往車站的清楚方向。,medium,Travel-常用3000單,railroad;passenger;information
+438,sentence,"The traveler was nervous at first, but the local officer checked the country, city, and cultural environment and gave him clear directions to the station.",這位旅客一開始很緊張，但當地人員檢查國家、城市和文化環境後，給了他前往車站的清楚方向。,medium,Travel-常用3000單,country;city;environment
+439,sentence,"The traveler was nervous at first, but the local officer checked the souvenir, photo, and pleasant memory and gave him clear directions to the station.",這位旅客一開始很緊張，但當地人員檢查紀念品、照片和愉快回憶後，給了他前往車站的清楚方向。,medium,Travel-常用3000單,souvenir;photo;pleasant
+440,sentence,"The traveler was nervous at first, but the local officer checked the taxi, bridge, and quiet avenue and gave him clear directions to the station.",這位旅客一開始很緊張，但當地人員檢查計程車、橋和安靜的大街後，給了他前往車站的清楚方向。,medium,Travel-常用3000單,taxi;bridge;avenue
+441,sentence,"During the long weekend trip, my sister kept the passport, ticket, and reservation in her bag because she was responsible for our group.",在漫長的週末旅行中，妹妹把護照、票和預約放在包包裡，因為她負責我們這一組。,medium,Travel-常用3000單,passport;ticket;reservation
+442,sentence,"During the long weekend trip, my sister kept the suitcase, baggage, and travel map in her bag because she was responsible for our group.",在漫長的週末旅行中，妹妹把行李箱、行李和旅行地圖放在包包裡，因為她負責我們這一組。,medium,Travel-常用3000單,suitcase;baggage;map
+443,sentence,"During the long weekend trip, my sister kept the airline, airplane, and departure gate in her bag because she was responsible for our group.",在漫長的週末旅行中，妹妹把航空公司、飛機和出發登機門放在包包裡，因為她負責我們這一組。,medium,Travel-常用3000單,airline;airplane;gate
+444,sentence,"During the long weekend trip, my sister kept the train station, platform, and route in her bag because she was responsible for our group.",在漫長的週末旅行中，妹妹把火車站、月台和路線放在包包裡，因為她負責我們這一組。,medium,Travel-常用3000單,station;platform;route
+445,sentence,"During the long weekend trip, my sister kept the hotel room, city center, and local market in her bag because she was responsible for our group.",在漫長的週末旅行中，妹妹把飯店房間、市中心和當地市場放在包包裡，因為她負責我們這一組。,medium,Travel-常用3000單,hotel;city;market
+446,sentence,"During the long weekend trip, my sister kept the guide, museum, and historical district in her bag because she was responsible for our group.",在漫長的週末旅行中，妹妹把導遊、博物館和歷史區放在包包裡，因為她負責我們這一組。,medium,Travel-常用3000單,guide;museum;district
+447,sentence,"During the long weekend trip, my sister kept the railroad, passenger, and information desk in her bag because she was responsible for our group.",在漫長的週末旅行中，妹妹把鐵路、乘客和服務台放在包包裡，因為她負責我們這一組。,medium,Travel-常用3000單,railroad;passenger;information
+448,sentence,"During the long weekend trip, my sister kept the country, city, and cultural environment in her bag because she was responsible for our group.",在漫長的週末旅行中，妹妹把國家、城市和文化環境放在包包裡，因為她負責我們這一組。,medium,Travel-常用3000單,country;city;environment
+449,sentence,"During the long weekend trip, my sister kept the souvenir, photo, and pleasant memory in her bag because she was responsible for our group.",在漫長的週末旅行中，妹妹把紀念品、照片和愉快回憶放在包包裡，因為她負責我們這一組。,medium,Travel-常用3000單,souvenir;photo;pleasant
+450,sentence,"During the long weekend trip, my sister kept the taxi, bridge, and quiet avenue in her bag because she was responsible for our group.",在漫長的週末旅行中，妹妹把計程車、橋和安靜的大街放在包包裡，因為她負責我們這一組。,medium,Travel-常用3000單,taxi;bridge;avenue
+451,sentence,"After we reached the city center, the guide used the passport, ticket, and reservation to introduce the background of the place in simple English.",我們到達市中心後，導遊用護照、票和預約來用簡單英文介紹這個地方的背景。,medium,Travel-常用3000單,passport;ticket;reservation
+452,sentence,"After we reached the city center, the guide used the suitcase, baggage, and travel map to introduce the background of the place in simple English.",我們到達市中心後，導遊用行李箱、行李和旅行地圖來用簡單英文介紹這個地方的背景。,medium,Travel-常用3000單,suitcase;baggage;map
+453,sentence,"After we reached the city center, the guide used the airline, airplane, and departure gate to introduce the background of the place in simple English.",我們到達市中心後，導遊用航空公司、飛機和出發登機門來用簡單英文介紹這個地方的背景。,medium,Travel-常用3000單,airline;airplane;gate
+454,sentence,"After we reached the city center, the guide used the train station, platform, and route to introduce the background of the place in simple English.",我們到達市中心後，導遊用火車站、月台和路線來用簡單英文介紹這個地方的背景。,medium,Travel-常用3000單,station;platform;route
+455,sentence,"After we reached the city center, the guide used the hotel room, city center, and local market to introduce the background of the place in simple English.",我們到達市中心後，導遊用飯店房間、市中心和當地市場來用簡單英文介紹這個地方的背景。,medium,Travel-常用3000單,hotel;city;market
+456,sentence,"After we reached the city center, the guide used the guide, museum, and historical district to introduce the background of the place in simple English.",我們到達市中心後，導遊用導遊、博物館和歷史區來用簡單英文介紹這個地方的背景。,medium,Travel-常用3000單,guide;museum;district
+457,sentence,"After we reached the city center, the guide used the railroad, passenger, and information desk to introduce the background of the place in simple English.",我們到達市中心後，導遊用鐵路、乘客和服務台來用簡單英文介紹這個地方的背景。,medium,Travel-常用3000單,railroad;passenger;information
+458,sentence,"After we reached the city center, the guide used the country, city, and cultural environment to introduce the background of the place in simple English.",我們到達市中心後，導遊用國家、城市和文化環境來用簡單英文介紹這個地方的背景。,medium,Travel-常用3000單,country;city;environment
+459,sentence,"After we reached the city center, the guide used the souvenir, photo, and pleasant memory to introduce the background of the place in simple English.",我們到達市中心後，導遊用紀念品、照片和愉快回憶來用簡單英文介紹這個地方的背景。,medium,Travel-常用3000單,souvenir;photo;pleasant
+460,sentence,"After we reached the city center, the guide used the taxi, bridge, and quiet avenue to introduce the background of the place in simple English.",我們到達市中心後，導遊用計程車、橋和安靜的大街來用簡單英文介紹這個地方的背景。,medium,Travel-常用3000單,taxi;bridge;avenue
+461,sentence,"The passenger asked for help because the passport, ticket, and reservation did not match the information printed on the notice board.",這位乘客請求協助，因為護照、票和預約和公告欄上印出的資訊不一致。,medium,Travel-常用3000單,passport;ticket;reservation
+462,sentence,"The passenger asked for help because the suitcase, baggage, and travel map did not match the information printed on the notice board.",這位乘客請求協助，因為行李箱、行李和旅行地圖和公告欄上印出的資訊不一致。,medium,Travel-常用3000單,suitcase;baggage;map
+463,sentence,"The passenger asked for help because the airline, airplane, and departure gate did not match the information printed on the notice board.",這位乘客請求協助，因為航空公司、飛機和出發登機門和公告欄上印出的資訊不一致。,medium,Travel-常用3000單,airline;airplane;gate
+464,sentence,"The passenger asked for help because the train station, platform, and route did not match the information printed on the notice board.",這位乘客請求協助，因為火車站、月台和路線和公告欄上印出的資訊不一致。,medium,Travel-常用3000單,station;platform;route
+465,sentence,"The passenger asked for help because the hotel room, city center, and local market did not match the information printed on the notice board.",這位乘客請求協助，因為飯店房間、市中心和當地市場和公告欄上印出的資訊不一致。,medium,Travel-常用3000單,hotel;city;market
+466,sentence,"The passenger asked for help because the guide, museum, and historical district did not match the information printed on the notice board.",這位乘客請求協助，因為導遊、博物館和歷史區和公告欄上印出的資訊不一致。,medium,Travel-常用3000單,guide;museum;district
+467,sentence,"The passenger asked for help because the railroad, passenger, and information desk did not match the information printed on the notice board.",這位乘客請求協助，因為鐵路、乘客和服務台和公告欄上印出的資訊不一致。,medium,Travel-常用3000單,railroad;passenger;information
+468,sentence,"The passenger asked for help because the country, city, and cultural environment did not match the information printed on the notice board.",這位乘客請求協助，因為國家、城市和文化環境和公告欄上印出的資訊不一致。,medium,Travel-常用3000單,country;city;environment
+469,sentence,"The passenger asked for help because the souvenir, photo, and pleasant memory did not match the information printed on the notice board.",這位乘客請求協助，因為紀念品、照片和愉快回憶和公告欄上印出的資訊不一致。,medium,Travel-常用3000單,souvenir;photo;pleasant
+470,sentence,"The passenger asked for help because the taxi, bridge, and quiet avenue did not match the information printed on the notice board.",這位乘客請求協助，因為計程車、橋和安靜的大街和公告欄上印出的資訊不一致。,medium,Travel-常用3000單,taxi;bridge;avenue
+471,sentence,"Before entering the crowded market, my father reminded us to protect the passport, ticket, and reservation and stay close to one another.",在進入擁擠的市場前，爸爸提醒我們保護好護照、票和預約，並彼此保持靠近。,medium,Travel-常用3000單,passport;ticket;reservation
+472,sentence,"Before entering the crowded market, my father reminded us to protect the suitcase, baggage, and travel map and stay close to one another.",在進入擁擠的市場前，爸爸提醒我們保護好行李箱、行李和旅行地圖，並彼此保持靠近。,medium,Travel-常用3000單,suitcase;baggage;map
+473,sentence,"Before entering the crowded market, my father reminded us to protect the airline, airplane, and departure gate and stay close to one another.",在進入擁擠的市場前，爸爸提醒我們保護好航空公司、飛機和出發登機門，並彼此保持靠近。,medium,Travel-常用3000單,airline;airplane;gate
+474,sentence,"Before entering the crowded market, my father reminded us to protect the train station, platform, and route and stay close to one another.",在進入擁擠的市場前，爸爸提醒我們保護好火車站、月台和路線，並彼此保持靠近。,medium,Travel-常用3000單,station;platform;route
+475,sentence,"Before entering the crowded market, my father reminded us to protect the hotel room, city center, and local market and stay close to one another.",在進入擁擠的市場前，爸爸提醒我們保護好飯店房間、市中心和當地市場，並彼此保持靠近。,medium,Travel-常用3000單,hotel;city;market
+476,sentence,"Before entering the crowded market, my father reminded us to protect the guide, museum, and historical district and stay close to one another.",在進入擁擠的市場前，爸爸提醒我們保護好導遊、博物館和歷史區，並彼此保持靠近。,medium,Travel-常用3000單,guide;museum;district
+477,sentence,"Before entering the crowded market, my father reminded us to protect the railroad, passenger, and information desk and stay close to one another.",在進入擁擠的市場前，爸爸提醒我們保護好鐵路、乘客和服務台，並彼此保持靠近。,medium,Travel-常用3000單,railroad;passenger;information
+478,sentence,"Before entering the crowded market, my father reminded us to protect the country, city, and cultural environment and stay close to one another.",在進入擁擠的市場前，爸爸提醒我們保護好國家、城市和文化環境，並彼此保持靠近。,medium,Travel-常用3000單,country;city;environment
+479,sentence,"Before entering the crowded market, my father reminded us to protect the souvenir, photo, and pleasant memory and stay close to one another.",在進入擁擠的市場前，爸爸提醒我們保護好紀念品、照片和愉快回憶，並彼此保持靠近。,medium,Travel-常用3000單,souvenir;photo;pleasant
+480,sentence,"Before entering the crowded market, my father reminded us to protect the taxi, bridge, and quiet avenue and stay close to one another.",在進入擁擠的市場前，爸爸提醒我們保護好計程車、橋和安靜的大街，並彼此保持靠近。,medium,Travel-常用3000單,taxi;bridge;avenue
+481,sentence,"Our group had to change plans when the passport, ticket, and reservation became unavailable, so we chose another route through the city.",當護照、票和預約無法使用時，我們小組必須改變計畫，所以選了另一條穿過城市的路線。,medium,Travel-常用3000單,passport;ticket;reservation
+482,sentence,"Our group had to change plans when the suitcase, baggage, and travel map became unavailable, so we chose another route through the city.",當行李箱、行李和旅行地圖無法使用時，我們小組必須改變計畫，所以選了另一條穿過城市的路線。,medium,Travel-常用3000單,suitcase;baggage;map
+483,sentence,"Our group had to change plans when the airline, airplane, and departure gate became unavailable, so we chose another route through the city.",當航空公司、飛機和出發登機門無法使用時，我們小組必須改變計畫，所以選了另一條穿過城市的路線。,medium,Travel-常用3000單,airline;airplane;gate
+484,sentence,"Our group had to change plans when the train station, platform, and route became unavailable, so we chose another route through the city.",當火車站、月台和路線無法使用時，我們小組必須改變計畫，所以選了另一條穿過城市的路線。,medium,Travel-常用3000單,station;platform;route
+485,sentence,"Our group had to change plans when the hotel room, city center, and local market became unavailable, so we chose another route through the city.",當飯店房間、市中心和當地市場無法使用時，我們小組必須改變計畫，所以選了另一條穿過城市的路線。,medium,Travel-常用3000單,hotel;city;market
+486,sentence,"Our group had to change plans when the guide, museum, and historical district became unavailable, so we chose another route through the city.",當導遊、博物館和歷史區無法使用時，我們小組必須改變計畫，所以選了另一條穿過城市的路線。,medium,Travel-常用3000單,guide;museum;district
+487,sentence,"Our group had to change plans when the railroad, passenger, and information desk became unavailable, so we chose another route through the city.",當鐵路、乘客和服務台無法使用時，我們小組必須改變計畫，所以選了另一條穿過城市的路線。,medium,Travel-常用3000單,railroad;passenger;information
+488,sentence,"Our group had to change plans when the country, city, and cultural environment became unavailable, so we chose another route through the city.",當國家、城市和文化環境無法使用時，我們小組必須改變計畫，所以選了另一條穿過城市的路線。,medium,Travel-常用3000單,country;city;environment
+489,sentence,"Our group had to change plans when the souvenir, photo, and pleasant memory became unavailable, so we chose another route through the city.",當紀念品、照片和愉快回憶無法使用時，我們小組必須改變計畫，所以選了另一條穿過城市的路線。,medium,Travel-常用3000單,souvenir;photo;pleasant
+490,sentence,"Our group had to change plans when the taxi, bridge, and quiet avenue became unavailable, so we chose another route through the city.",當計程車、橋和安靜的大街無法使用時，我們小組必須改變計畫，所以選了另一條穿過城市的路線。,medium,Travel-常用3000單,taxi;bridge;avenue
+491,sentence,"At the end of the trip, every student wrote a short reflection about the passport, ticket, and reservation and what they had learned.",旅行結束時，每位學生都寫了一篇關於護照、票和預約以及自己學到什麼的短文反思。,medium,Travel-常用3000單,passport;ticket;reservation
+492,sentence,"At the end of the trip, every student wrote a short reflection about the suitcase, baggage, and travel map and what they had learned.",旅行結束時，每位學生都寫了一篇關於行李箱、行李和旅行地圖以及自己學到什麼的短文反思。,medium,Travel-常用3000單,suitcase;baggage;map
+493,sentence,"At the end of the trip, every student wrote a short reflection about the airline, airplane, and departure gate and what they had learned.",旅行結束時，每位學生都寫了一篇關於航空公司、飛機和出發登機門以及自己學到什麼的短文反思。,medium,Travel-常用3000單,airline;airplane;gate
+494,sentence,"At the end of the trip, every student wrote a short reflection about the train station, platform, and route and what they had learned.",旅行結束時，每位學生都寫了一篇關於火車站、月台和路線以及自己學到什麼的短文反思。,medium,Travel-常用3000單,station;platform;route
+495,sentence,"At the end of the trip, every student wrote a short reflection about the hotel room, city center, and local market and what they had learned.",旅行結束時，每位學生都寫了一篇關於飯店房間、市中心和當地市場以及自己學到什麼的短文反思。,medium,Travel-常用3000單,hotel;city;market
+496,sentence,"At the end of the trip, every student wrote a short reflection about the guide, museum, and historical district and what they had learned.",旅行結束時，每位學生都寫了一篇關於導遊、博物館和歷史區以及自己學到什麼的短文反思。,medium,Travel-常用3000單,guide;museum;district
+497,sentence,"At the end of the trip, every student wrote a short reflection about the railroad, passenger, and information desk and what they had learned.",旅行結束時，每位學生都寫了一篇關於鐵路、乘客和服務台以及自己學到什麼的短文反思。,medium,Travel-常用3000單,railroad;passenger;information
+498,sentence,"At the end of the trip, every student wrote a short reflection about the country, city, and cultural environment and what they had learned.",旅行結束時，每位學生都寫了一篇關於國家、城市和文化環境以及自己學到什麼的短文反思。,medium,Travel-常用3000單,country;city;environment
+499,sentence,"At the end of the trip, every student wrote a short reflection about the souvenir, photo, and pleasant memory and what they had learned.",旅行結束時，每位學生都寫了一篇關於紀念品、照片和愉快回憶以及自己學到什麼的短文反思。,medium,Travel-常用3000單,souvenir;photo;pleasant
+500,sentence,"At the end of the trip, every student wrote a short reflection about the taxi, bridge, and quiet avenue and what they had learned.",旅行結束時，每位學生都寫了一篇關於計程車、橋和安靜的大街以及自己學到什麼的短文反思。,medium,Travel-常用3000單,taxi;bridge;avenue
