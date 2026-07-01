@@ -1,21 +1,16 @@
-# 英文聽力練習系統 v5
+# 英文聽力練習系統 v7
 
-這版修正 Streamlit Cloud 可能出現的：
+## 本版重點
 
-```text
-NotADirectoryError
-```
-
-原因通常是 GitHub 上的 `audio` 被上傳成「檔案」，不是資料夾；程式再嘗試建立 `audio/intermediate/shopping` 時就會失敗。
-
-v5 已改成：
-
-```text
-音檔不再寫入專案的 audio/ 資料夾
-改寫入 Streamlit Cloud 的暫存資料夾 /tmp/english_listening_audio
-```
-
-所以即使 GitHub 裡面有錯誤的 `audio` 檔案，也不會影響產生音檔。
+1. 目前七大類型都放在「中級 Level 2 / Intermediate」。
+2. 題目會依照目前選定的「等級 + 類型」隨機出題。
+3. 新增「出題來源」選項：
+   - 一般隨機出題：從目前類型的 CSV 題庫隨機出題。
+   - 錯題記錄出題：只從目前類型的錯題記錄出題。
+4. 錯題模式下，答對後會把該句子從 `wrong_records.csv` 移除。
+5. 一般模式下，答錯會加入錯題記錄；答對也會順手移除同一句的舊錯題。
+6. 音檔仍使用暫存資料夾，不會寫入專案內的 `audio/`，避免 Streamlit Cloud 出現 `NotADirectoryError`。
+7. 每題按一次播放，英文句子會連續唸兩次。
 
 ## 執行方式
 
@@ -26,40 +21,29 @@ streamlit run app.py
 
 ## 題庫位置
 
-目前七大類都放在中級：
-
 ```text
-topics/intermediate/shopping.csv
-topics/intermediate/restaurant.csv
-topics/intermediate/school.csv
-topics/intermediate/travel.csv
-topics/intermediate/work.csv
-topics/intermediate/family.csv
-topics/intermediate/friends.csv
-```
-
-其中 `shopping.csv` 已擴充為 100 句「Shopping-常用3000單」。
-
-## 上傳 GitHub 建議
-
-請把壓縮檔解開後，將資料夾內的檔案上傳到 repo 根目錄。至少要有：
-
-```text
-app.py
-audio_generator.py
-answer_checker.py
-requirements.txt
 topics/
-README.md
+├─ beginner/
+├─ intermediate/
+│  ├─ shopping.csv
+│  ├─ restaurant.csv
+│  ├─ school.csv
+│  ├─ travel.csv
+│  ├─ work.csv
+│  ├─ family.csv
+│  └─ friends.csv
+└─ advanced/
 ```
 
-`audio/` 不需要上傳，v5 壓縮檔內也已移除 `audio/`。程式會自動使用暫存資料夾產生音檔。
+目前 Shopping-常用3000單 已有 100 句。
 
-如果 GitHub 上已經有一個錯誤的 `audio` 檔案，可以刪掉；但 v5 不刪也能跑。
+## 錯題記錄
 
+系統會自動建立：
 
-## v6 更新
+```text
+wrong_records.csv
+```
 
-- 每個英文題目產生音檔時會自動重複 2 次。
-- 使用者按一次播放鍵，就會聽到同一句英文連續播放兩遍。
-- 音檔檔名改為 `題號_x2.mp3`，避免沿用舊版只播放一次的暫存音檔。
+錯題記錄會依照 `level_key + topic_key + id + english` 判斷同一句。  
+同一句答錯多次時，不會一直新增重複列，而是增加 `wrong_count`。
