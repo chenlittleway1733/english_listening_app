@@ -1,9 +1,501 @@
-﻿id,type,english,chinese,difficulty
-1,sentence,Where is the classroom?,教室在哪裡?,medium
-2,sentence,I forgot my homework.,我忘了帶作業。,medium
-3,sentence,The test is next Monday.,考試在下週一。,medium
-4,sentence,Can you help me with this question?,你可以幫我看這題嗎?,medium
-5,sentence,Please hand in your worksheet.,請交出你的學習單。,medium
-6,sentence,I need to borrow a pencil.,我需要借一支鉛筆。,medium
-7,sentence,The teacher asked us to work in groups.,老師要我們分組合作。,medium
-8,sentence,Please write your answer in complete sentences.,請用完整句子寫出你的答案。,medium
+﻿id,type,english,chinese,difficulty,topic,keywords
+1,sentence,Open your book.,打開你的書。,medium,School-常用3000單,book
+2,sentence,Close your book.,闔上你的書。,medium,School-常用3000單,book
+3,sentence,Read this chapter.,閱讀這個章節。,medium,School-常用3000單,chapter
+4,sentence,Write the answer.,寫下答案。,medium,School-常用3000單,answer
+5,sentence,Answer the question.,回答這個問題。,medium,School-常用3000單,answer;question
+6,sentence,Ask a question.,問一個問題。,medium,School-常用3000單,question
+7,sentence,Use your dictionary.,使用你的字典。,medium,School-常用3000單,dictionary
+8,sentence,Bring your notebook.,帶你的筆記本。,medium,School-常用3000單,notebook
+9,sentence,Take a pencil.,拿一支鉛筆。,medium,School-常用3000單,pencil
+10,sentence,Pass the paper.,傳這張紙。,medium,School-常用3000單,paper
+11,sentence,Find the classroom.,找到教室。,medium,School-常用3000單,classroom
+12,sentence,Enter the classroom.,進入教室。,medium,School-常用3000單,classroom
+13,sentence,Leave the classroom.,離開教室。,medium,School-常用3000單,classroom
+14,sentence,Clean the desk.,清理書桌。,medium,School-常用3000單,desk
+15,sentence,Move the chair.,移動椅子。,medium,School-常用3000單,chair
+16,sentence,Hold the chalk.,拿著粉筆。,medium,School-常用3000單,chalk
+17,sentence,Use the calculator.,使用計算機。,medium,School-常用3000單,calculator
+18,sentence,Check your calculation.,檢查你的計算。,medium,School-常用3000單,calculation
+19,sentence,Start the quiz.,開始小考。,medium,School-常用3000單,quiz
+20,sentence,Finish the test.,完成測驗。,medium,School-常用3000單,test
+21,sentence,Prepare for examination.,準備考試。,medium,School-常用3000單,examination
+22,sentence,Review the course.,複習課程。,medium,School-常用3000單,course
+23,sentence,Follow the instruction.,遵守指示。,medium,School-常用3000單,instruction
+24,sentence,Listen to the teacher.,聽老師說。,medium,School-常用3000單,teacher
+25,sentence,Help the student.,幫助學生。,medium,School-常用3000單,student
+26,sentence,Join the group.,加入小組。,medium,School-常用3000單,group
+27,sentence,Discuss the article.,討論文章。,medium,School-常用3000單,discuss;article
+28,sentence,Study the syllabus.,研讀課程大綱。,medium,School-常用3000單,syllabus
+29,sentence,Read the curriculum.,閱讀課程。,medium,School-常用3000單,curriculum
+30,sentence,Meet the instructor.,見指導老師。,medium,School-常用3000單,instructor
+31,sentence,Visit the campus.,參觀校園。,medium,School-常用3000單,campus
+32,sentence,Go to the library.,去圖書館。,medium,School-常用3000單,library
+33,sentence,Borrow a dictionary.,借一本字典。,medium,School-常用3000單,dictionary
+34,sentence,Return the book.,歸還書本。,medium,School-常用3000單,book
+35,sentence,Write the assignment.,寫作業。,medium,School-常用3000單,assignment
+36,sentence,Submit the report.,繳交報告。,medium,School-常用3000單,report
+37,sentence,Begin the lesson.,開始課程。,medium,School-常用3000單,lesson
+38,sentence,End the lesson.,結束課程。,medium,School-常用3000單,lesson
+39,sentence,Review after class.,課後複習。,medium,School-常用3000單,class
+40,sentence,Speak in English.,用英文說話。,medium,School-常用3000單,English
+41,sentence,Practice the dialogue.,練習對話。,medium,School-常用3000單,dialogue
+42,sentence,Repeat the sentence.,重複句子。,medium,School-常用3000單,sentence
+43,sentence,Copy the paragraph.,抄寫段落。,medium,School-常用3000單,paragraph
+44,sentence,Mark the answer.,標記答案。,medium,School-常用3000單,answer
+45,sentence,Correct the mistake.,改正錯誤。,medium,School-常用3000單,correct;mistake
+46,sentence,Check the score.,查看分數。,medium,School-常用3000單,score
+47,sentence,Improve your grade.,改善你的成績。,medium,School-常用3000單,grade
+48,sentence,Respect the rule.,尊重規則。,medium,School-常用3000單,rule
+49,sentence,Follow the schedule.,遵守時間表。,medium,School-常用3000單,schedule
+50,sentence,Choose a course.,選擇一門課。,medium,School-常用3000單,choose;course
+51,sentence,Join the class.,加入班級。,medium,School-常用3000單,class
+52,sentence,Stand near the board.,站在黑板旁。,medium,School-常用3000單,stand;board
+53,sentence,Write on the board.,在黑板上寫字。,medium,School-常用3000單,write;board
+54,sentence,Read the notice.,閱讀公告。,medium,School-常用3000單,notice
+55,sentence,Check the list.,檢查清單。,medium,School-常用3000單,list
+56,sentence,Open the file.,打開檔案。,medium,School-常用3000單,file
+57,sentence,Save the document.,儲存文件。,medium,School-常用3000單,document
+58,sentence,Print the worksheet.,列印學習單。,medium,School-常用3000單,worksheet
+59,sentence,Share your idea.,分享你的想法。,medium,School-常用3000單,idea
+60,sentence,Explain your reason.,說明你的理由。,medium,School-常用3000單,explain;reason
+61,sentence,Support your opinion.,支持你的意見。,medium,School-常用3000單,support;opinion
+62,sentence,Compare two answers.,比較兩個答案。,medium,School-常用3000單,compare;answer
+63,sentence,Select the correct word.,選出正確單字。,medium,School-常用3000單,select;correct;word
+64,sentence,Underline the phrase.,在片語下畫線。,medium,School-常用3000單,phrase
+65,sentence,Circle the letter.,圈選字母。,medium,School-常用3000單,circle;letter
+66,sentence,Spell the word.,拼出單字。,medium,School-常用3000單,spell;word
+67,sentence,Review the vocabulary.,複習字彙。,medium,School-常用3000單,vocabulary
+68,sentence,Learn the definition.,學習定義。,medium,School-常用3000單,definition
+69,sentence,Remember the example.,記住例子。,medium,School-常用3000單,example
+70,sentence,Make a sentence.,造一個句子。,medium,School-常用3000單,sentence
+71,sentence,Take notes.,做筆記。,medium,School-常用3000單,notes
+72,sentence,Open the notebook.,打開筆記本。,medium,School-常用3000單,notebook
+73,sentence,Close the window.,關上窗戶。,medium,School-常用3000單,window
+74,sentence,Turn on the light.,開燈。,medium,School-常用3000單,light
+75,sentence,Look at the screen.,看著螢幕。,medium,School-常用3000單,screen
+76,sentence,Use the computer.,使用電腦。,medium,School-常用3000單,computer
+77,sentence,Start the project.,開始專題。,medium,School-常用3000單,project
+78,sentence,Finish the project.,完成專題。,medium,School-常用3000單,project
+79,sentence,Plan the presentation.,規劃簡報。,medium,School-常用3000單,plan;presentation
+80,sentence,Practice the speech.,練習演說。,medium,School-常用3000單,speech
+81,sentence,Give a presentation.,進行簡報。,medium,School-常用3000單,presentation
+82,sentence,Join the discussion.,加入討論。,medium,School-常用3000單,discussion
+83,sentence,Respect your classmates.,尊重你的同學。,medium,School-常用3000單,respect;classmates
+84,sentence,Help your group.,幫助你的小組。,medium,School-常用3000單,group
+85,sentence,Share the textbook.,分享課本。,medium,School-常用3000單,textbook
+86,sentence,Review the grammar.,複習文法。,medium,School-常用3000單,grammar
+87,sentence,Listen carefully.,仔細聽。,medium,School-常用3000單,listen
+88,sentence,Write clearly.,清楚地寫。,medium,School-常用3000單,write
+89,sentence,Read silently.,安靜地閱讀。,medium,School-常用3000單,read
+90,sentence,Work together.,一起合作。,medium,School-常用3000單,work
+91,sentence,Study every day.,每天讀書。,medium,School-常用3000單,study
+92,sentence,Arrive on time.,準時到達。,medium,School-常用3000單,time
+93,sentence,Do not interrupt.,不要打斷。,medium,School-常用3000單,interrupt
+94,sentence,Wait your turn.,等你的輪次。,medium,School-常用3000單,turn
+95,sentence,Raise your hand.,舉起你的手。,medium,School-常用3000單,hand
+96,sentence,Ask the instructor.,詢問指導老師。,medium,School-常用3000單,instructor
+97,sentence,Find the answer.,找出答案。,medium,School-常用3000單,answer
+98,sentence,Complete the assignment.,完成作業。,medium,School-常用3000單,assignment
+99,sentence,Review before examination.,考前複習。,medium,School-常用3000單,examination
+100,sentence,Keep the classroom quiet.,保持教室安靜。,medium,School-常用3000單,classroom;quiet
+101,sentence,"During English class, the teacher asked us to read the chapter.",在英文課中，老師要我們閱讀章節。,medium,School-常用3000單,teacher;English;read;chapter
+102,sentence,"During mathematics class, the teacher asked us to organize the notebook.",在數學課中，老師要我們整理筆記本。,medium,School-常用3000單,teacher;mathematics;organize;notebook
+103,sentence,"During science class, the teacher asked us to read the chapter.",在科學課中，老師要我們閱讀章節。,medium,School-常用3000單,teacher;science;read;chapter
+104,sentence,"During history class, the teacher asked us to organize the notebook.",在歷史課中，老師要我們整理筆記本。,medium,School-常用3000單,teacher;history;organize;notebook
+105,sentence,"During art class, the teacher asked us to read the chapter.",在藝術課中，老師要我們閱讀章節。,medium,School-常用3000單,teacher;art;read;chapter
+106,sentence,"During music class, the teacher asked us to organize the notebook.",在音樂課中，老師要我們整理筆記本。,medium,School-常用3000單,teacher;music;organize;notebook
+107,sentence,"During computer class, the teacher asked us to read the chapter.",在電腦課中，老師要我們閱讀章節。,medium,School-常用3000單,teacher;computer;read;chapter
+108,sentence,"During grammar class, the teacher asked us to organize the notebook.",在文法課中，老師要我們整理筆記本。,medium,School-常用3000單,teacher;grammar;organize;notebook
+109,sentence,"During reading class, the teacher asked us to read the chapter.",在閱讀課中，老師要我們閱讀章節。,medium,School-常用3000單,teacher;reading;read;chapter
+110,sentence,"During writing class, the teacher asked us to organize the notebook.",在寫作課中，老師要我們整理筆記本。,medium,School-常用3000單,teacher;writing;organize;notebook
+111,sentence,"After the lesson, each student used the calculator to answer the question.",課後，每位學生都用計算機回答問題。,medium,School-常用3000單,lesson;student;calculator;answer;question
+112,sentence,"After the lesson, each student used the board to practice the dialogue.",課後，每位學生都用黑板練習對話。,medium,School-常用3000單,lesson;student;board;practice;dialogue
+113,sentence,"After the lesson, each student used the pencil to answer the question.",課後，每位學生都用鉛筆回答問題。,medium,School-常用3000單,lesson;student;pencil;answer;question
+114,sentence,"After the lesson, each student used the notebook to practice the dialogue.",課後，每位學生都用筆記本練習對話。,medium,School-常用3000單,lesson;student;notebook;practice;dialogue
+115,sentence,"After the lesson, each student used the paper to answer the question.",課後，每位學生都用紙回答問題。,medium,School-常用3000單,lesson;student;paper;answer;question
+116,sentence,"After the lesson, each student used the computer to practice the dialogue.",課後，每位學生都用電腦練習對話。,medium,School-常用3000單,lesson;student;computer;practice;dialogue
+117,sentence,"After the lesson, each student used the textbook to answer the question.",課後，每位學生都用課本回答問題。,medium,School-常用3000單,lesson;student;textbook;answer;question
+118,sentence,"After the lesson, each student used the dictionary to practice the dialogue.",課後，每位學生都用字典練習對話。,medium,School-常用3000單,lesson;student;dictionary;practice;dialogue
+119,sentence,"After the lesson, each student used the screen to answer the question.",課後，每位學生都用螢幕回答問題。,medium,School-常用3000單,lesson;student;screen;answer;question
+120,sentence,"After the lesson, each student used the worksheet to practice the dialogue.",課後，每位學生都用學習單練習對話。,medium,School-常用3000單,lesson;student;worksheet;practice;dialogue
+121,sentence,"Before the quiz, our group had to correct the assignment carefully.",小考前，我們小組必須仔細訂正作業。,medium,School-常用3000單,quiz;group;correct;assignment
+122,sentence,"Before the quiz, our group had to review the vocabulary carefully.",小考前，我們小組必須仔細複習字彙。,medium,School-常用3000單,quiz;group;review;vocabulary
+123,sentence,"Before the quiz, our group had to correct the assignment carefully, today.",小考前，我們小組必須仔細訂正作業，今天。,medium,School-常用3000單,quiz;group;correct;assignment;today
+124,sentence,"Before the quiz, our group had to review the vocabulary carefully, today.",小考前，我們小組必須仔細複習字彙，今天。,medium,School-常用3000單,quiz;group;review;vocabulary;today
+125,sentence,"Before the quiz, our group had to correct the assignment carefully, after class.",小考前，我們小組必須仔細訂正作業，下課後。,medium,School-常用3000單,quiz;group;correct;assignment;after;class
+126,sentence,"Before the quiz, our group had to review the vocabulary carefully, after class.",小考前，我們小組必須仔細複習字彙，下課後。,medium,School-常用3000單,quiz;group;review;vocabulary;after;class
+127,sentence,"Before the quiz, our group had to correct the assignment carefully, in the classroom.",小考前，我們小組必須仔細訂正作業，在教室裡。,medium,School-常用3000單,quiz;group;correct;assignment;in;the;classroom
+128,sentence,"Before the quiz, our group had to review the vocabulary carefully, in the classroom.",小考前，我們小組必須仔細複習字彙，在教室裡。,medium,School-常用3000單,quiz;group;review;vocabulary;in;the;classroom
+129,sentence,"Before the quiz, our group had to correct the assignment carefully, with my group.",小考前，我們小組必須仔細訂正作業，和我的小組一起。,medium,School-常用3000單,quiz;group;correct;assignment;with;my;group
+130,sentence,"Before the quiz, our group had to review the vocabulary carefully, with my group.",小考前，我們小組必須仔細複習字彙，和我的小組一起。,medium,School-常用3000單,quiz;group;review;vocabulary;with;my;group
+131,sentence,The instructor gave clear instruction and told us to check the calculation.,指導老師給了清楚的指示，並要我們檢查計算。,medium,School-常用3000單,instructor;instruction;check;calculation
+132,sentence,The instructor gave clear instruction and told us to prepare the report.,指導老師給了清楚的指示，並要我們準備報告。,medium,School-常用3000單,instructor;instruction;prepare;report
+133,sentence,"The instructor gave clear instruction and told us to check the calculation, today.",指導老師給了清楚的指示，並要我們檢查計算，今天。,medium,School-常用3000單,instructor;instruction;check;calculation;today
+134,sentence,"The instructor gave clear instruction and told us to prepare the report, today.",指導老師給了清楚的指示，並要我們準備報告，今天。,medium,School-常用3000單,instructor;instruction;prepare;report;today
+135,sentence,"The instructor gave clear instruction and told us to check the calculation, after class.",指導老師給了清楚的指示，並要我們檢查計算，下課後。,medium,School-常用3000單,instructor;instruction;check;calculation;after;class
+136,sentence,"The instructor gave clear instruction and told us to prepare the report, after class.",指導老師給了清楚的指示，並要我們準備報告，下課後。,medium,School-常用3000單,instructor;instruction;prepare;report;after;class
+137,sentence,"The instructor gave clear instruction and told us to check the calculation, in the classroom.",指導老師給了清楚的指示，並要我們檢查計算，在教室裡。,medium,School-常用3000單,instructor;instruction;check;calculation;in;the;classroom
+138,sentence,"The instructor gave clear instruction and told us to prepare the report, in the classroom.",指導老師給了清楚的指示，並要我們準備報告，在教室裡。,medium,School-常用3000單,instructor;instruction;prepare;report;in;the;classroom
+139,sentence,"The instructor gave clear instruction and told us to check the calculation, with my group.",指導老師給了清楚的指示，並要我們檢查計算，和我的小組一起。,medium,School-常用3000單,instructor;instruction;check;calculation;with;my;group
+140,sentence,"The instructor gave clear instruction and told us to prepare the report, with my group.",指導老師給了清楚的指示，並要我們準備報告，和我的小組一起。,medium,School-常用3000單,instructor;instruction;prepare;report;with;my;group
+141,sentence,I went to the music room after class to discuss the article.,我下課後到音樂教室討論文章。,medium,School-常用3000單,music room;class;discuss;article
+142,sentence,I went to the study room after class to explain the example.,我下課後到自習室說明例子。,medium,School-常用3000單,study room;class;explain;example
+143,sentence,I went to the classroom after class to discuss the article.,我下課後到教室討論文章。,medium,School-常用3000單,classroom;class;discuss;article
+144,sentence,I went to the art room after class to explain the example.,我下課後到美術教室說明例子。,medium,School-常用3000單,art room;class;explain;example
+145,sentence,I went to the campus center after class to discuss the article.,我下課後到校園中心討論文章。,medium,School-常用3000單,campus center;class;discuss;article
+146,sentence,I went to the reading corner after class to explain the example.,我下課後到閱讀角說明例子。,medium,School-常用3000單,reading corner;class;explain;example
+147,sentence,I went to the computer room after class to discuss the article.,我下課後到電腦教室討論文章。,medium,School-常用3000單,computer room;class;discuss;article
+148,sentence,I went to the science room after class to explain the example.,我下課後到科學教室說明例子。,medium,School-常用3000單,science room;class;explain;example
+149,sentence,I went to the school hall after class to discuss the article.,我下課後到學校大廳討論文章。,medium,School-常用3000單,school hall;class;discuss;article
+150,sentence,I went to the library after class to explain the example.,我下課後到圖書館說明例子。,medium,School-常用3000單,library;class;explain;example
+151,sentence,The class used the pencil while studying the music lesson.,全班在學習音樂課時使用鉛筆。,medium,School-常用3000單,class;pencil;music;lesson
+152,sentence,The class used the notebook while studying the computer lesson.,全班在學習電腦課時使用筆記本。,medium,School-常用3000單,class;notebook;computer;lesson
+153,sentence,The class used the paper while studying the grammar lesson.,全班在學習文法課時使用紙。,medium,School-常用3000單,class;paper;grammar;lesson
+154,sentence,The class used the computer while studying the reading lesson.,全班在學習閱讀課時使用電腦。,medium,School-常用3000單,class;computer;reading;lesson
+155,sentence,The class used the textbook while studying the writing lesson.,全班在學習寫作課時使用課本。,medium,School-常用3000單,class;textbook;writing;lesson
+156,sentence,The class used the dictionary while studying the English lesson.,全班在學習英文課時使用字典。,medium,School-常用3000單,class;dictionary;English;lesson
+157,sentence,The class used the screen while studying the mathematics lesson.,全班在學習數學課時使用螢幕。,medium,School-常用3000單,class;screen;mathematics;lesson
+158,sentence,The class used the worksheet while studying the science lesson.,全班在學習科學課時使用學習單。,medium,School-常用3000單,class;worksheet;science;lesson
+159,sentence,The class used the calculator while studying the history lesson.,全班在學習歷史課時使用計算機。,medium,School-常用3000單,class;calculator;history;lesson
+160,sentence,The class used the board while studying the art lesson.,全班在學習藝術課時使用黑板。,medium,School-常用3000單,class;board;art;lesson
+161,sentence,My classmate helped me practice the dialogue during the lesson.,我的同學在課堂中幫我練習對話。,medium,School-常用3000單,classmate;lesson;practice;dialogue
+162,sentence,My classmate helped me answer the question during the lesson.,我的同學在課堂中幫我回答問題。,medium,School-常用3000單,classmate;lesson;answer;question
+163,sentence,"My classmate helped me practice the dialogue during the lesson, today.",我的同學在課堂中幫我練習對話，今天。,medium,School-常用3000單,classmate;lesson;practice;dialogue;today
+164,sentence,"My classmate helped me answer the question during the lesson, today.",我的同學在課堂中幫我回答問題，今天。,medium,School-常用3000單,classmate;lesson;answer;question;today
+165,sentence,"My classmate helped me practice the dialogue during the lesson, after class.",我的同學在課堂中幫我練習對話，下課後。,medium,School-常用3000單,classmate;lesson;practice;dialogue;after;class
+166,sentence,"My classmate helped me answer the question during the lesson, after class.",我的同學在課堂中幫我回答問題，下課後。,medium,School-常用3000單,classmate;lesson;answer;question;after;class
+167,sentence,"My classmate helped me practice the dialogue during the lesson, in the classroom.",我的同學在課堂中幫我練習對話，在教室裡。,medium,School-常用3000單,classmate;lesson;practice;dialogue;in;the;classroom
+168,sentence,"My classmate helped me answer the question during the lesson, in the classroom.",我的同學在課堂中幫我回答問題，在教室裡。,medium,School-常用3000單,classmate;lesson;answer;question;in;the;classroom
+169,sentence,"My classmate helped me practice the dialogue during the lesson, with my group.",我的同學在課堂中幫我練習對話，和我的小組一起。,medium,School-常用3000單,classmate;lesson;practice;dialogue;with;my;group
+170,sentence,"My classmate helped me answer the question during the lesson, with my group.",我的同學在課堂中幫我回答問題，和我的小組一起。,medium,School-常用3000單,classmate;lesson;answer;question;with;my;group
+171,sentence,The teacher checked our work after we learned to review the vocabulary.,我們學習複習字彙後，老師檢查我們的作品。,medium,School-常用3000單,teacher;work;learn;review;vocabulary
+172,sentence,The teacher checked our work after we learned to correct the assignment.,我們學習訂正作業後，老師檢查我們的作品。,medium,School-常用3000單,teacher;work;learn;correct;assignment
+173,sentence,"The teacher checked our work after we learned to review the vocabulary, today.",我們學習複習字彙後，老師檢查我們的作品，今天。,medium,School-常用3000單,teacher;work;learn;review;vocabulary;today
+174,sentence,"The teacher checked our work after we learned to correct the assignment, today.",我們學習訂正作業後，老師檢查我們的作品，今天。,medium,School-常用3000單,teacher;work;learn;correct;assignment;today
+175,sentence,"The teacher checked our work after we learned to review the vocabulary, after class.",我們學習複習字彙後，老師檢查我們的作品，下課後。,medium,School-常用3000單,teacher;work;learn;review;vocabulary;after;class
+176,sentence,"The teacher checked our work after we learned to correct the assignment, after class.",我們學習訂正作業後，老師檢查我們的作品，下課後。,medium,School-常用3000單,teacher;work;learn;correct;assignment;after;class
+177,sentence,"The teacher checked our work after we learned to review the vocabulary, in the classroom.",我們學習複習字彙後，老師檢查我們的作品，在教室裡。,medium,School-常用3000單,teacher;work;learn;review;vocabulary;in;the;classroom
+178,sentence,"The teacher checked our work after we learned to correct the assignment, in the classroom.",我們學習訂正作業後，老師檢查我們的作品，在教室裡。,medium,School-常用3000單,teacher;work;learn;correct;assignment;in;the;classroom
+179,sentence,"The teacher checked our work after we learned to review the vocabulary, with my group.",我們學習複習字彙後，老師檢查我們的作品，和我的小組一起。,medium,School-常用3000單,teacher;work;learn;review;vocabulary;with;my;group
+180,sentence,"The teacher checked our work after we learned to correct the assignment, with my group.",我們學習訂正作業後，老師檢查我們的作品，和我的小組一起。,medium,School-常用3000單,teacher;work;learn;correct;assignment;with;my;group
+181,sentence,Every student wrote one answer before the class ended.,每位學生都在下課前寫下一個答案。,medium,School-常用3000單,student;answer;class
+182,sentence,"Every student wrote one answer before the class ended, today.",每位學生都在下課前寫下一個答案，今天。,medium,School-常用3000單,student;answer;class;today
+183,sentence,"Every student wrote one answer before the class ended, after class.",每位學生都在下課前寫下一個答案，下課後。,medium,School-常用3000單,student;answer;class;after;class
+184,sentence,"Every student wrote one answer before the class ended, in the classroom.",每位學生都在下課前寫下一個答案，在教室裡。,medium,School-常用3000單,student;answer;class;in;the;classroom
+185,sentence,"Every student wrote one answer before the class ended, with my group.",每位學生都在下課前寫下一個答案，和我的小組一起。,medium,School-常用3000單,student;answer;class;with;my;group
+186,sentence,"Every student wrote one answer before the class ended, before lunch.",每位學生都在下課前寫下一個答案，午餐前。,medium,School-常用3000單,student;answer;class;before;lunch
+187,sentence,"Every student wrote one answer before the class ended, during the lesson.",每位學生都在下課前寫下一個答案，課堂中。,medium,School-常用3000單,student;answer;class;during;the;lesson
+188,sentence,"Every student wrote one answer before the class ended, after the discussion.",每位學生都在下課前寫下一個答案，討論後。,medium,School-常用3000單,student;answer;class;after;the;discussion
+189,sentence,"Every student wrote one answer before the class ended, before the quiz.",每位學生都在下課前寫下一個答案，小考前。,medium,School-常用3000單,student;answer;class;before;the;quiz
+190,sentence,"Every student wrote one answer before the class ended, in the library.",每位學生都在下課前寫下一個答案，在圖書館。,medium,School-常用3000單,student;answer;class;in;the;library
+191,sentence,Our group shared one idea after we learned to explain the example.,我們學習說明例子後，小組分享了一個想法。,medium,School-常用3000單,group;idea;learn;explain;example
+192,sentence,Our group shared one idea after we learned to discuss the article.,我們學習討論文章後，小組分享了一個想法。,medium,School-常用3000單,group;idea;learn;discuss;article
+193,sentence,"Our group shared one idea after we learned to explain the example, today.",我們學習說明例子後，小組分享了一個想法，今天。,medium,School-常用3000單,group;idea;learn;explain;example;today
+194,sentence,"Our group shared one idea after we learned to discuss the article, today.",我們學習討論文章後，小組分享了一個想法，今天。,medium,School-常用3000單,group;idea;learn;discuss;article;today
+195,sentence,"Our group shared one idea after we learned to explain the example, after class.",我們學習說明例子後，小組分享了一個想法，下課後。,medium,School-常用3000單,group;idea;learn;explain;example;after;class
+196,sentence,"Our group shared one idea after we learned to discuss the article, after class.",我們學習討論文章後，小組分享了一個想法，下課後。,medium,School-常用3000單,group;idea;learn;discuss;article;after;class
+197,sentence,"Our group shared one idea after we learned to explain the example, in the classroom.",我們學習說明例子後，小組分享了一個想法，在教室裡。,medium,School-常用3000單,group;idea;learn;explain;example;in;the;classroom
+198,sentence,"Our group shared one idea after we learned to discuss the article, in the classroom.",我們學習討論文章後，小組分享了一個想法，在教室裡。,medium,School-常用3000單,group;idea;learn;discuss;article;in;the;classroom
+199,sentence,"Our group shared one idea after we learned to explain the example, with my group.",我們學習說明例子後，小組分享了一個想法，和我的小組一起。,medium,School-常用3000單,group;idea;learn;explain;example;with;my;group
+200,sentence,"Our group shared one idea after we learned to discuss the article, with my group.",我們學習討論文章後，小組分享了一個想法，和我的小組一起。,medium,School-常用3000單,group;idea;learn;discuss;article;with;my;group
+201,sentence,"After the English lesson, the teacher asked each group to read the chapter in the classroom.",英文課後，老師要每個小組在教室閱讀章節。,medium,School-常用3000單,teacher;group;English;classroom;read;chapter
+202,sentence,"After the mathematics lesson, the teacher asked each group to review the vocabulary in the art room.",數學課後，老師要每個小組在美術教室複習字彙。,medium,School-常用3000單,teacher;group;mathematics;art room;review;vocabulary
+203,sentence,"After the science lesson, the teacher asked each group to discuss the article in the campus center.",科學課後，老師要每個小組在校園中心討論文章。,medium,School-常用3000單,teacher;group;science;campus center;discuss;article
+204,sentence,"After the history lesson, the teacher asked each group to answer the question in the reading corner.",歷史課後，老師要每個小組在閱讀角回答問題。,medium,School-常用3000單,teacher;group;history;reading corner;answer;question
+205,sentence,"After the art lesson, the teacher asked each group to prepare the report in the computer room.",藝術課後，老師要每個小組在電腦教室準備報告。,medium,School-常用3000單,teacher;group;art;computer room;prepare;report
+206,sentence,"After the music lesson, the teacher asked each group to organize the notebook in the science room.",音樂課後，老師要每個小組在科學教室整理筆記本。,medium,School-常用3000單,teacher;group;music;science room;organize;notebook
+207,sentence,"After the computer lesson, the teacher asked each group to correct the assignment in the school hall.",電腦課後，老師要每個小組在學校大廳訂正作業。,medium,School-常用3000單,teacher;group;computer;school hall;correct;assignment
+208,sentence,"After the grammar lesson, the teacher asked each group to explain the example in the library.",文法課後，老師要每個小組在圖書館說明例子。,medium,School-常用3000單,teacher;group;grammar;library;explain;example
+209,sentence,"After the reading lesson, the teacher asked each group to practice the dialogue in the music room.",閱讀課後，老師要每個小組在音樂教室練習對話。,medium,School-常用3000單,teacher;group;reading;music room;practice;dialogue
+210,sentence,"After the writing lesson, the teacher asked each group to check the calculation in the study room.",寫作課後，老師要每個小組在自習室檢查計算。,medium,School-常用3000單,teacher;group;writing;study room;check;calculation
+211,sentence,"When the quiz started, every student used the calculator and tried to answer the question.",小考開始時，每位學生都使用計算機並試著回答問題。,medium,School-常用3000單,quiz;student;calculator;answer;question
+212,sentence,"When the quiz started, every student used the pencil and tried to prepare the report.",小考開始時，每位學生都使用鉛筆並試著準備報告。,medium,School-常用3000單,quiz;student;pencil;prepare;report
+213,sentence,"When the quiz started, every student used the paper and tried to organize the notebook.",小考開始時，每位學生都使用紙並試著整理筆記本。,medium,School-常用3000單,quiz;student;paper;organize;notebook
+214,sentence,"When the quiz started, every student used the textbook and tried to correct the assignment.",小考開始時，每位學生都使用課本並試著訂正作業。,medium,School-常用3000單,quiz;student;textbook;correct;assignment
+215,sentence,"When the quiz started, every student used the screen and tried to explain the example.",小考開始時，每位學生都使用螢幕並試著說明例子。,medium,School-常用3000單,quiz;student;screen;explain;example
+216,sentence,"When the quiz started, every student used the calculator and tried to practice the dialogue.",小考開始時，每位學生都使用計算機並試著練習對話。,medium,School-常用3000單,quiz;student;calculator;practice;dialogue
+217,sentence,"When the quiz started, every student used the pencil and tried to check the calculation.",小考開始時，每位學生都使用鉛筆並試著檢查計算。,medium,School-常用3000單,quiz;student;pencil;check;calculation
+218,sentence,"When the quiz started, every student used the paper and tried to read the chapter.",小考開始時，每位學生都使用紙並試著閱讀章節。,medium,School-常用3000單,quiz;student;paper;read;chapter
+219,sentence,"When the quiz started, every student used the textbook and tried to review the vocabulary.",小考開始時，每位學生都使用課本並試著複習字彙。,medium,School-常用3000單,quiz;student;textbook;review;vocabulary
+220,sentence,"When the quiz started, every student used the screen and tried to discuss the article.",小考開始時，每位學生都使用螢幕並試著討論文章。,medium,School-常用3000單,quiz;student;screen;discuss;article
+221,sentence,The instructor explained the rule before the class began to correct the assignment.,在全班開始訂正作業前，指導老師說明了規則。,medium,School-常用3000單,instructor;rule;class;correct;assignment
+222,sentence,The instructor explained the rule before the class began to explain the example.,在全班開始說明例子前，指導老師說明了規則。,medium,School-常用3000單,instructor;rule;class;explain;example
+223,sentence,The instructor explained the rule before the class began to practice the dialogue.,在全班開始練習對話前，指導老師說明了規則。,medium,School-常用3000單,instructor;rule;class;practice;dialogue
+224,sentence,The instructor explained the rule before the class began to check the calculation.,在全班開始檢查計算前，指導老師說明了規則。,medium,School-常用3000單,instructor;rule;class;check;calculation
+225,sentence,The instructor explained the rule before the class began to read the chapter.,在全班開始閱讀章節前，指導老師說明了規則。,medium,School-常用3000單,instructor;rule;class;read;chapter
+226,sentence,The instructor explained the rule before the class began to review the vocabulary.,在全班開始複習字彙前，指導老師說明了規則。,medium,School-常用3000單,instructor;rule;class;review;vocabulary
+227,sentence,The instructor explained the rule before the class began to discuss the article.,在全班開始討論文章前，指導老師說明了規則。,medium,School-常用3000單,instructor;rule;class;discuss;article
+228,sentence,The instructor explained the rule before the class began to answer the question.,在全班開始回答問題前，指導老師說明了規則。,medium,School-常用3000單,instructor;rule;class;answer;question
+229,sentence,The instructor explained the rule before the class began to prepare the report.,在全班開始準備報告前，指導老師說明了規則。,medium,School-常用3000單,instructor;rule;class;prepare;report
+230,sentence,The instructor explained the rule before the class began to organize the notebook.,在全班開始整理筆記本前，指導老師說明了規則。,medium,School-常用3000單,instructor;rule;class;organize;notebook
+231,sentence,"During group work, the students used the textbook to check the calculation together.",小組合作時，學生們一起用課本檢查計算。,medium,School-常用3000單,group;students;textbook;check;calculation
+232,sentence,"During group work, the students used the screen to read the chapter together.",小組合作時，學生們一起用螢幕閱讀章節。,medium,School-常用3000單,group;students;screen;read;chapter
+233,sentence,"During group work, the students used the calculator to review the vocabulary together.",小組合作時，學生們一起用計算機複習字彙。,medium,School-常用3000單,group;students;calculator;review;vocabulary
+234,sentence,"During group work, the students used the pencil to discuss the article together.",小組合作時，學生們一起用鉛筆討論文章。,medium,School-常用3000單,group;students;pencil;discuss;article
+235,sentence,"During group work, the students used the paper to answer the question together.",小組合作時，學生們一起用紙回答問題。,medium,School-常用3000單,group;students;paper;answer;question
+236,sentence,"During group work, the students used the textbook to prepare the report together.",小組合作時，學生們一起用課本準備報告。,medium,School-常用3000單,group;students;textbook;prepare;report
+237,sentence,"During group work, the students used the screen to organize the notebook together.",小組合作時，學生們一起用螢幕整理筆記本。,medium,School-常用3000單,group;students;screen;organize;notebook
+238,sentence,"During group work, the students used the calculator to correct the assignment together.",小組合作時，學生們一起用計算機訂正作業。,medium,School-常用3000單,group;students;calculator;correct;assignment
+239,sentence,"During group work, the students used the pencil to explain the example together.",小組合作時，學生們一起用鉛筆說明例子。,medium,School-常用3000單,group;students;pencil;explain;example
+240,sentence,"During group work, the students used the paper to practice the dialogue together.",小組合作時，學生們一起用紙練習對話。,medium,School-常用3000單,group;students;paper;practice;dialogue
+241,sentence,"Before lunch, our class went to the music room and learned to discuss the article.",午餐前，我們班到音樂教室並學習討論文章。,medium,School-常用3000單,class;music room;discuss;article
+242,sentence,"Before lunch, our class went to the study room and learned to answer the question.",午餐前，我們班到自習室並學習回答問題。,medium,School-常用3000單,class;study room;answer;question
+243,sentence,"Before lunch, our class went to the classroom and learned to prepare the report.",午餐前，我們班到教室並學習準備報告。,medium,School-常用3000單,class;classroom;prepare;report
+244,sentence,"Before lunch, our class went to the art room and learned to organize the notebook.",午餐前，我們班到美術教室並學習整理筆記本。,medium,School-常用3000單,class;art room;organize;notebook
+245,sentence,"Before lunch, our class went to the campus center and learned to correct the assignment.",午餐前，我們班到校園中心並學習訂正作業。,medium,School-常用3000單,class;campus center;correct;assignment
+246,sentence,"Before lunch, our class went to the reading corner and learned to explain the example.",午餐前，我們班到閱讀角並學習說明例子。,medium,School-常用3000單,class;reading corner;explain;example
+247,sentence,"Before lunch, our class went to the computer room and learned to practice the dialogue.",午餐前，我們班到電腦教室並學習練習對話。,medium,School-常用3000單,class;computer room;practice;dialogue
+248,sentence,"Before lunch, our class went to the science room and learned to check the calculation.",午餐前，我們班到科學教室並學習檢查計算。,medium,School-常用3000單,class;science room;check;calculation
+249,sentence,"Before lunch, our class went to the school hall and learned to read the chapter.",午餐前，我們班到學校大廳並學習閱讀章節。,medium,School-常用3000單,class;school hall;read;chapter
+250,sentence,"Before lunch, our class went to the library and learned to review the vocabulary.",午餐前，我們班到圖書館並學習複習字彙。,medium,School-常用3000單,class;library;review;vocabulary
+251,sentence,"The teacher gave an example, so we could organize the notebook without much help.",老師給了一個例子，所以我們能在不太需要幫助下整理筆記本。,medium,School-常用3000單,teacher;example;organize;notebook
+252,sentence,"The teacher gave an example, so we could correct the assignment without much help.",老師給了一個例子，所以我們能在不太需要幫助下訂正作業。,medium,School-常用3000單,teacher;example;correct;assignment
+253,sentence,"The teacher gave an example, so we could explain the example without much help.",老師給了一個例子，所以我們能在不太需要幫助下說明例子。,medium,School-常用3000單,teacher;example;explain;example
+254,sentence,"The teacher gave an example, so we could practice the dialogue without much help.",老師給了一個例子，所以我們能在不太需要幫助下練習對話。,medium,School-常用3000單,teacher;example;practice;dialogue
+255,sentence,"The teacher gave an example, so we could check the calculation without much help.",老師給了一個例子，所以我們能在不太需要幫助下檢查計算。,medium,School-常用3000單,teacher;example;check;calculation
+256,sentence,"The teacher gave an example, so we could read the chapter without much help.",老師給了一個例子，所以我們能在不太需要幫助下閱讀章節。,medium,School-常用3000單,teacher;example;read;chapter
+257,sentence,"The teacher gave an example, so we could review the vocabulary without much help.",老師給了一個例子，所以我們能在不太需要幫助下複習字彙。,medium,School-常用3000單,teacher;example;review;vocabulary
+258,sentence,"The teacher gave an example, so we could discuss the article without much help.",老師給了一個例子，所以我們能在不太需要幫助下討論文章。,medium,School-常用3000單,teacher;example;discuss;article
+259,sentence,"The teacher gave an example, so we could answer the question without much help.",老師給了一個例子，所以我們能在不太需要幫助下回答問題。,medium,School-常用3000單,teacher;example;answer;question
+260,sentence,"The teacher gave an example, so we could prepare the report without much help.",老師給了一個例子，所以我們能在不太需要幫助下準備報告。,medium,School-常用3000單,teacher;example;prepare;report
+261,sentence,Each student opened the computer and followed the instruction during science class.,每位學生都打開電腦，並在科學課中遵守指示。,medium,School-常用3000單,student;computer;instruction;science
+262,sentence,Each student opened the dictionary and followed the instruction during history class.,每位學生都打開字典，並在歷史課中遵守指示。,medium,School-常用3000單,student;dictionary;instruction;history
+263,sentence,Each student opened the worksheet and followed the instruction during art class.,每位學生都打開學習單，並在藝術課中遵守指示。,medium,School-常用3000單,student;worksheet;instruction;art
+264,sentence,Each student opened the board and followed the instruction during music class.,每位學生都打開黑板，並在音樂課中遵守指示。,medium,School-常用3000單,student;board;instruction;music
+265,sentence,Each student opened the notebook and followed the instruction during computer class.,每位學生都打開筆記本，並在電腦課中遵守指示。,medium,School-常用3000單,student;notebook;instruction;computer
+266,sentence,Each student opened the computer and followed the instruction during grammar class.,每位學生都打開電腦，並在文法課中遵守指示。,medium,School-常用3000單,student;computer;instruction;grammar
+267,sentence,Each student opened the dictionary and followed the instruction during reading class.,每位學生都打開字典，並在閱讀課中遵守指示。,medium,School-常用3000單,student;dictionary;instruction;reading
+268,sentence,Each student opened the worksheet and followed the instruction during writing class.,每位學生都打開學習單，並在寫作課中遵守指示。,medium,School-常用3000單,student;worksheet;instruction;writing
+269,sentence,Each student opened the board and followed the instruction during English class.,每位學生都打開黑板，並在英文課中遵守指示。,medium,School-常用3000單,student;board;instruction;English
+270,sentence,Each student opened the notebook and followed the instruction during mathematics class.,每位學生都打開筆記本，並在數學課中遵守指示。,medium,School-常用3000單,student;notebook;instruction;mathematics
+271,sentence,"After the discussion, our group had enough time to review the vocabulary clearly.",討論後，我們小組有足夠時間清楚地複習字彙。,medium,School-常用3000單,discussion;group;time;review;vocabulary
+272,sentence,"After the discussion, our group had enough time to discuss the article clearly.",討論後，我們小組有足夠時間清楚地討論文章。,medium,School-常用3000單,discussion;group;time;discuss;article
+273,sentence,"After the discussion, our group had enough time to answer the question clearly.",討論後，我們小組有足夠時間清楚地回答問題。,medium,School-常用3000單,discussion;group;time;answer;question
+274,sentence,"After the discussion, our group had enough time to prepare the report clearly.",討論後，我們小組有足夠時間清楚地準備報告。,medium,School-常用3000單,discussion;group;time;prepare;report
+275,sentence,"After the discussion, our group had enough time to organize the notebook clearly.",討論後，我們小組有足夠時間清楚地整理筆記本。,medium,School-常用3000單,discussion;group;time;organize;notebook
+276,sentence,"After the discussion, our group had enough time to correct the assignment clearly.",討論後，我們小組有足夠時間清楚地訂正作業。,medium,School-常用3000單,discussion;group;time;correct;assignment
+277,sentence,"After the discussion, our group had enough time to explain the example clearly.",討論後，我們小組有足夠時間清楚地說明例子。,medium,School-常用3000單,discussion;group;time;explain;example
+278,sentence,"After the discussion, our group had enough time to practice the dialogue clearly.",討論後，我們小組有足夠時間清楚地練習對話。,medium,School-常用3000單,discussion;group;time;practice;dialogue
+279,sentence,"After the discussion, our group had enough time to check the calculation clearly.",討論後，我們小組有足夠時間清楚地檢查計算。,medium,School-常用3000單,discussion;group;time;check;calculation
+280,sentence,"After the discussion, our group had enough time to read the chapter clearly.",討論後，我們小組有足夠時間清楚地閱讀章節。,medium,School-常用3000單,discussion;group;time;read;chapter
+281,sentence,The class stayed quiet while the teacher showed how to prepare the report.,老師示範如何準備報告時，全班保持安靜。,medium,School-常用3000單,class;quiet;teacher;prepare;report
+282,sentence,The class stayed quiet while the teacher showed how to organize the notebook.,老師示範如何整理筆記本時，全班保持安靜。,medium,School-常用3000單,class;quiet;teacher;organize;notebook
+283,sentence,The class stayed quiet while the teacher showed how to correct the assignment.,老師示範如何訂正作業時，全班保持安靜。,medium,School-常用3000單,class;quiet;teacher;correct;assignment
+284,sentence,The class stayed quiet while the teacher showed how to explain the example.,老師示範如何說明例子時，全班保持安靜。,medium,School-常用3000單,class;quiet;teacher;explain;example
+285,sentence,The class stayed quiet while the teacher showed how to practice the dialogue.,老師示範如何練習對話時，全班保持安靜。,medium,School-常用3000單,class;quiet;teacher;practice;dialogue
+286,sentence,The class stayed quiet while the teacher showed how to check the calculation.,老師示範如何檢查計算時，全班保持安靜。,medium,School-常用3000單,class;quiet;teacher;check;calculation
+287,sentence,The class stayed quiet while the teacher showed how to read the chapter.,老師示範如何閱讀章節時，全班保持安靜。,medium,School-常用3000單,class;quiet;teacher;read;chapter
+288,sentence,The class stayed quiet while the teacher showed how to review the vocabulary.,老師示範如何複習字彙時，全班保持安靜。,medium,School-常用3000單,class;quiet;teacher;review;vocabulary
+289,sentence,The class stayed quiet while the teacher showed how to discuss the article.,老師示範如何討論文章時，全班保持安靜。,medium,School-常用3000單,class;quiet;teacher;discuss;article
+290,sentence,The class stayed quiet while the teacher showed how to answer the question.,老師示範如何回答問題時，全班保持安靜。,medium,School-常用3000單,class;quiet;teacher;answer;question
+291,sentence,"At the end of the course, the students went back to the reading corner.",課程結束時，學生們回到閱讀角。,medium,School-常用3000單,course;students;reading corner
+292,sentence,"At the end of the course, the students went back to the computer room.",課程結束時，學生們回到電腦教室。,medium,School-常用3000單,course;students;computer room
+293,sentence,"At the end of the course, the students went back to the science room.",課程結束時，學生們回到科學教室。,medium,School-常用3000單,course;students;science room
+294,sentence,"At the end of the course, the students went back to the school hall.",課程結束時，學生們回到學校大廳。,medium,School-常用3000單,course;students;school hall
+295,sentence,"At the end of the course, the students went back to the library.",課程結束時，學生們回到圖書館。,medium,School-常用3000單,course;students;library
+296,sentence,"At the end of the course, the students went back to the music room.",課程結束時，學生們回到音樂教室。,medium,School-常用3000單,course;students;music room
+297,sentence,"At the end of the course, the students went back to the study room.",課程結束時，學生們回到自習室。,medium,School-常用3000單,course;students;study room
+298,sentence,"At the end of the course, the students went back to the classroom.",課程結束時，學生們回到教室。,medium,School-常用3000單,course;students;classroom
+299,sentence,"At the end of the course, the students went back to the art room.",課程結束時，學生們回到美術教室。,medium,School-常用3000單,course;students;art room
+300,sentence,"At the end of the course, the students went back to the campus center.",課程結束時，學生們回到校園中心。,medium,School-常用3000單,course;students;campus center
+301,sentence,"Before the English lesson ended, each student used the dictionary to read the chapter, so the class could review clearly.",英文課結束前，每位學生都用字典閱讀章節，所以全班能清楚複習。,medium,School-常用3000單,English;student;dictionary;class;review;read;chapter
+302,sentence,"Before the mathematics lesson ended, each student used the notebook to discuss the article, so the class could review clearly.",數學課結束前，每位學生都用筆記本討論文章，所以全班能清楚複習。,medium,School-常用3000單,mathematics;student;notebook;class;review;discuss;article
+303,sentence,"Before the science lesson ended, each student used the worksheet to prepare the report, so the class could review clearly.",科學課結束前，每位學生都用學習單準備報告，所以全班能清楚複習。,medium,School-常用3000單,science;student;worksheet;class;review;prepare;report
+304,sentence,"Before the history lesson ended, each student used the computer to correct the assignment, so the class could review clearly.",歷史課結束前，每位學生都用電腦訂正作業，所以全班能清楚複習。,medium,School-常用3000單,history;student;computer;class;review;correct;assignment
+305,sentence,"Before the art lesson ended, each student used the board to practice the dialogue, so the class could review clearly.",藝術課結束前，每位學生都用黑板練習對話，所以全班能清楚複習。,medium,School-常用3000單,art;student;board;class;review;practice;dialogue
+306,sentence,"Before the music lesson ended, each student used the dictionary to read the chapter, so the class could review clearly.",音樂課結束前，每位學生都用字典閱讀章節，所以全班能清楚複習。,medium,School-常用3000單,music;student;dictionary;class;review;read;chapter
+307,sentence,"Before the computer lesson ended, each student used the notebook to discuss the article, so the class could review clearly.",電腦課結束前，每位學生都用筆記本討論文章，所以全班能清楚複習。,medium,School-常用3000單,computer;student;notebook;class;review;discuss;article
+308,sentence,"Before the grammar lesson ended, each student used the worksheet to prepare the report, so the class could review clearly.",文法課結束前，每位學生都用學習單準備報告，所以全班能清楚複習。,medium,School-常用3000單,grammar;student;worksheet;class;review;prepare;report
+309,sentence,"Before the reading lesson ended, each student used the computer to correct the assignment, so the class could review clearly.",閱讀課結束前，每位學生都用電腦訂正作業，所以全班能清楚複習。,medium,School-常用3000單,reading;student;computer;class;review;correct;assignment
+310,sentence,"Before the writing lesson ended, each student used the board to practice the dialogue, so the class could review clearly.",寫作課結束前，每位學生都用黑板練習對話，所以全班能清楚複習。,medium,School-常用3000單,writing;student;board;class;review;practice;dialogue
+311,sentence,"After the teacher explained the assignment, our group stayed in the library to answer the question carefully.",老師說明作業後，我們小組留在圖書館仔細回答問題。,medium,School-常用3000單,teacher;assignment;group;library;answer;question
+312,sentence,"After the teacher explained the assignment, our group stayed in the campus center to organize the notebook carefully.",老師說明作業後，我們小組留在校園中心仔細整理筆記本。,medium,School-常用3000單,teacher;assignment;group;campus center;organize;notebook
+313,sentence,"After the teacher explained the assignment, our group stayed in the library to explain the example carefully.",老師說明作業後，我們小組留在圖書館仔細說明例子。,medium,School-常用3000單,teacher;assignment;group;library;explain;example
+314,sentence,"After the teacher explained the assignment, our group stayed in the campus center to check the calculation carefully.",老師說明作業後，我們小組留在校園中心仔細檢查計算。,medium,School-常用3000單,teacher;assignment;group;campus center;check;calculation
+315,sentence,"After the teacher explained the assignment, our group stayed in the library to review the vocabulary carefully.",老師說明作業後，我們小組留在圖書館仔細複習字彙。,medium,School-常用3000單,teacher;assignment;group;library;review;vocabulary
+316,sentence,"After the teacher explained the assignment, our group stayed in the campus center to answer the question carefully.",老師說明作業後，我們小組留在校園中心仔細回答問題。,medium,School-常用3000單,teacher;assignment;group;campus center;answer;question
+317,sentence,"After the teacher explained the assignment, our group stayed in the library to organize the notebook carefully.",老師說明作業後，我們小組留在圖書館仔細整理筆記本。,medium,School-常用3000單,teacher;assignment;group;library;organize;notebook
+318,sentence,"After the teacher explained the assignment, our group stayed in the campus center to explain the example carefully.",老師說明作業後，我們小組留在校園中心仔細說明例子。,medium,School-常用3000單,teacher;assignment;group;campus center;explain;example
+319,sentence,"After the teacher explained the assignment, our group stayed in the library to check the calculation carefully.",老師說明作業後，我們小組留在圖書館仔細檢查計算。,medium,School-常用3000單,teacher;assignment;group;library;check;calculation
+320,sentence,"After the teacher explained the assignment, our group stayed in the campus center to review the vocabulary carefully.",老師說明作業後，我們小組留在校園中心仔細複習字彙。,medium,School-常用3000單,teacher;assignment;group;campus center;review;vocabulary
+321,sentence,"When the class became quiet, the instructor wrote on the board and asked us to correct the assignment.",當全班安靜下來時，指導老師在黑板上寫字並要我們訂正作業。,medium,School-常用3000單,class;quiet;instructor;board;correct;assignment
+322,sentence,"When the class became quiet, the instructor wrote on the board and asked us to practice the dialogue.",當全班安靜下來時，指導老師在黑板上寫字並要我們練習對話。,medium,School-常用3000單,class;quiet;instructor;board;practice;dialogue
+323,sentence,"When the class became quiet, the instructor wrote on the board and asked us to read the chapter.",當全班安靜下來時，指導老師在黑板上寫字並要我們閱讀章節。,medium,School-常用3000單,class;quiet;instructor;board;read;chapter
+324,sentence,"When the class became quiet, the instructor wrote on the board and asked us to discuss the article.",當全班安靜下來時，指導老師在黑板上寫字並要我們討論文章。,medium,School-常用3000單,class;quiet;instructor;board;discuss;article
+325,sentence,"When the class became quiet, the instructor wrote on the board and asked us to prepare the report.",當全班安靜下來時，指導老師在黑板上寫字並要我們準備報告。,medium,School-常用3000單,class;quiet;instructor;board;prepare;report
+326,sentence,"When the class became quiet, the instructor wrote on the board and asked us to correct the assignment, today.",當全班安靜下來時，指導老師在黑板上寫字並要我們訂正作業，今天。,medium,School-常用3000單,class;quiet;instructor;board;correct;assignment;today
+327,sentence,"When the class became quiet, the instructor wrote on the board and asked us to practice the dialogue, today.",當全班安靜下來時，指導老師在黑板上寫字並要我們練習對話，今天。,medium,School-常用3000單,class;quiet;instructor;board;practice;dialogue;today
+328,sentence,"When the class became quiet, the instructor wrote on the board and asked us to read the chapter, today.",當全班安靜下來時，指導老師在黑板上寫字並要我們閱讀章節，今天。,medium,School-常用3000單,class;quiet;instructor;board;read;chapter;today
+329,sentence,"When the class became quiet, the instructor wrote on the board and asked us to discuss the article, today.",當全班安靜下來時，指導老師在黑板上寫字並要我們討論文章，今天。,medium,School-常用3000單,class;quiet;instructor;board;discuss;article;today
+330,sentence,"When the class became quiet, the instructor wrote on the board and asked us to prepare the report, today.",當全班安靜下來時，指導老師在黑板上寫字並要我們準備報告，今天。,medium,School-常用3000單,class;quiet;instructor;board;prepare;report;today
+331,sentence,"During the group discussion, one student used the textbook while another student helped to check the calculation.",小組討論時，一位學生使用課本，另一位學生幫忙檢查計算。,medium,School-常用3000單,group;discussion;student;textbook;check;calculation
+332,sentence,"During the group discussion, one student used the pencil while another student helped to review the vocabulary.",小組討論時，一位學生使用鉛筆，另一位學生幫忙複習字彙。,medium,School-常用3000單,group;discussion;student;pencil;review;vocabulary
+333,sentence,"During the group discussion, one student used the screen while another student helped to answer the question.",小組討論時，一位學生使用螢幕，另一位學生幫忙回答問題。,medium,School-常用3000單,group;discussion;student;screen;answer;question
+334,sentence,"During the group discussion, one student used the paper while another student helped to organize the notebook.",小組討論時，一位學生使用紙，另一位學生幫忙整理筆記本。,medium,School-常用3000單,group;discussion;student;paper;organize;notebook
+335,sentence,"During the group discussion, one student used the calculator while another student helped to explain the example.",小組討論時，一位學生使用計算機，另一位學生幫忙說明例子。,medium,School-常用3000單,group;discussion;student;calculator;explain;example
+336,sentence,"During the group discussion, one student used the textbook while another student helped to check the calculation, today.",小組討論時，一位學生使用課本，另一位學生幫忙檢查計算，今天。,medium,School-常用3000單,group;discussion;student;textbook;check;calculation;today
+337,sentence,"During the group discussion, one student used the pencil while another student helped to review the vocabulary, today.",小組討論時，一位學生使用鉛筆，另一位學生幫忙複習字彙，今天。,medium,School-常用3000單,group;discussion;student;pencil;review;vocabulary;today
+338,sentence,"During the group discussion, one student used the screen while another student helped to answer the question, today.",小組討論時，一位學生使用螢幕，另一位學生幫忙回答問題，今天。,medium,School-常用3000單,group;discussion;student;screen;answer;question;today
+339,sentence,"During the group discussion, one student used the paper while another student helped to organize the notebook, today.",小組討論時，一位學生使用紙，另一位學生幫忙整理筆記本，今天。,medium,School-常用3000單,group;discussion;student;paper;organize;notebook;today
+340,sentence,"During the group discussion, one student used the calculator while another student helped to explain the example, today.",小組討論時，一位學生使用計算機，另一位學生幫忙說明例子，今天。,medium,School-常用3000單,group;discussion;student;calculator;explain;example;today
+341,sentence,"Because the quiz was difficult, the teacher gave another example before we tried to discuss the article.",因為小考很難，老師在我們嘗試討論文章前又給了一個例子。,medium,School-常用3000單,quiz;teacher;example;discuss;article
+342,sentence,"Because the quiz was difficult, the teacher gave another example before we tried to prepare the report.",因為小考很難，老師在我們嘗試準備報告前又給了一個例子。,medium,School-常用3000單,quiz;teacher;example;prepare;report
+343,sentence,"Because the quiz was difficult, the teacher gave another example before we tried to correct the assignment.",因為小考很難，老師在我們嘗試訂正作業前又給了一個例子。,medium,School-常用3000單,quiz;teacher;example;correct;assignment
+344,sentence,"Because the quiz was difficult, the teacher gave another example before we tried to practice the dialogue.",因為小考很難，老師在我們嘗試練習對話前又給了一個例子。,medium,School-常用3000單,quiz;teacher;example;practice;dialogue
+345,sentence,"Because the quiz was difficult, the teacher gave another example before we tried to read the chapter.",因為小考很難，老師在我們嘗試閱讀章節前又給了一個例子。,medium,School-常用3000單,quiz;teacher;example;read;chapter
+346,sentence,"Because the quiz was difficult, the teacher gave another example before we tried to discuss the article, today.",因為小考很難，老師在我們嘗試討論文章前又給了一個例子，今天。,medium,School-常用3000單,quiz;teacher;example;discuss;article;today
+347,sentence,"Because the quiz was difficult, the teacher gave another example before we tried to prepare the report, today.",因為小考很難，老師在我們嘗試準備報告前又給了一個例子，今天。,medium,School-常用3000單,quiz;teacher;example;prepare;report;today
+348,sentence,"Because the quiz was difficult, the teacher gave another example before we tried to correct the assignment, today.",因為小考很難，老師在我們嘗試訂正作業前又給了一個例子，今天。,medium,School-常用3000單,quiz;teacher;example;correct;assignment;today
+349,sentence,"Because the quiz was difficult, the teacher gave another example before we tried to practice the dialogue, today.",因為小考很難，老師在我們嘗試練習對話前又給了一個例子，今天。,medium,School-常用3000單,quiz;teacher;example;practice;dialogue;today
+350,sentence,"Because the quiz was difficult, the teacher gave another example before we tried to read the chapter, today.",因為小考很難，老師在我們嘗試閱讀章節前又給了一個例子，今天。,medium,School-常用3000單,quiz;teacher;example;read;chapter;today
+351,sentence,"After lunch, the class returned to the science room and used the pencil for the music lesson.",午餐後，全班回到科學教室，並在音樂課中使用鉛筆。,medium,School-常用3000單,class;science room;pencil;music;lesson
+352,sentence,"After lunch, the class returned to the classroom and used the screen for the computer lesson.",午餐後，全班回到教室，並在電腦課中使用螢幕。,medium,School-常用3000單,class;classroom;screen;computer;lesson
+353,sentence,"After lunch, the class returned to the science room and used the paper for the grammar lesson.",午餐後，全班回到科學教室，並在文法課中使用紙。,medium,School-常用3000單,class;science room;paper;grammar;lesson
+354,sentence,"After lunch, the class returned to the classroom and used the calculator for the reading lesson.",午餐後，全班回到教室，並在閱讀課中使用計算機。,medium,School-常用3000單,class;classroom;calculator;reading;lesson
+355,sentence,"After lunch, the class returned to the science room and used the textbook for the writing lesson.",午餐後，全班回到科學教室，並在寫作課中使用課本。,medium,School-常用3000單,class;science room;textbook;writing;lesson
+356,sentence,"After lunch, the class returned to the classroom and used the pencil for the English lesson.",午餐後，全班回到教室，並在英文課中使用鉛筆。,medium,School-常用3000單,class;classroom;pencil;English;lesson
+357,sentence,"After lunch, the class returned to the science room and used the screen for the mathematics lesson.",午餐後，全班回到科學教室，並在數學課中使用螢幕。,medium,School-常用3000單,class;science room;screen;mathematics;lesson
+358,sentence,"After lunch, the class returned to the classroom and used the paper for the science lesson.",午餐後，全班回到教室，並在科學課中使用紙。,medium,School-常用3000單,class;classroom;paper;science;lesson
+359,sentence,"After lunch, the class returned to the science room and used the calculator for the history lesson.",午餐後，全班回到科學教室，並在歷史課中使用計算機。,medium,School-常用3000單,class;science room;calculator;history;lesson
+360,sentence,"After lunch, the class returned to the classroom and used the textbook for the art lesson.",午餐後，全班回到教室，並在藝術課中使用課本。,medium,School-常用3000單,class;classroom;textbook;art;lesson
+361,sentence,"The students checked the schedule, followed the instruction, and then began to practice the dialogue together.",學生們查看時間表、遵守指示，然後開始一起練習對話。,medium,School-常用3000單,students;schedule;instruction;practice;dialogue
+362,sentence,"The students checked the schedule, followed the instruction, and then began to read the chapter together.",學生們查看時間表、遵守指示，然後開始一起閱讀章節。,medium,School-常用3000單,students;schedule;instruction;read;chapter
+363,sentence,"The students checked the schedule, followed the instruction, and then began to discuss the article together.",學生們查看時間表、遵守指示，然後開始一起討論文章。,medium,School-常用3000單,students;schedule;instruction;discuss;article
+364,sentence,"The students checked the schedule, followed the instruction, and then began to prepare the report together.",學生們查看時間表、遵守指示，然後開始一起準備報告。,medium,School-常用3000單,students;schedule;instruction;prepare;report
+365,sentence,"The students checked the schedule, followed the instruction, and then began to correct the assignment together.",學生們查看時間表、遵守指示，然後開始一起訂正作業。,medium,School-常用3000單,students;schedule;instruction;correct;assignment
+366,sentence,"The students checked the schedule, followed the instruction, and then began to practice the dialogue together, today.",學生們查看時間表、遵守指示，然後開始一起練習對話，今天。,medium,School-常用3000單,students;schedule;instruction;practice;dialogue;today
+367,sentence,"The students checked the schedule, followed the instruction, and then began to read the chapter together, today.",學生們查看時間表、遵守指示，然後開始一起閱讀章節，今天。,medium,School-常用3000單,students;schedule;instruction;read;chapter;today
+368,sentence,"The students checked the schedule, followed the instruction, and then began to discuss the article together, today.",學生們查看時間表、遵守指示，然後開始一起討論文章，今天。,medium,School-常用3000單,students;schedule;instruction;discuss;article;today
+369,sentence,"The students checked the schedule, followed the instruction, and then began to prepare the report together, today.",學生們查看時間表、遵守指示，然後開始一起準備報告，今天。,medium,School-常用3000單,students;schedule;instruction;prepare;report;today
+370,sentence,"The students checked the schedule, followed the instruction, and then began to correct the assignment together, today.",學生們查看時間表、遵守指示，然後開始一起訂正作業，今天。,medium,School-常用3000單,students;schedule;instruction;correct;assignment;today
+371,sentence,"Before the presentation, our group practiced in the study room and learned how to review the vocabulary.",簡報前，我們小組在自習室練習，並學習如何複習字彙。,medium,School-常用3000單,presentation;group;study room;review;vocabulary
+372,sentence,"Before the presentation, our group practiced in the computer room and learned how to answer the question.",簡報前，我們小組在電腦教室練習，並學習如何回答問題。,medium,School-常用3000單,presentation;group;computer room;answer;question
+373,sentence,"Before the presentation, our group practiced in the study room and learned how to organize the notebook.",簡報前，我們小組在自習室練習，並學習如何整理筆記本。,medium,School-常用3000單,presentation;group;study room;organize;notebook
+374,sentence,"Before the presentation, our group practiced in the computer room and learned how to explain the example.",簡報前，我們小組在電腦教室練習，並學習如何說明例子。,medium,School-常用3000單,presentation;group;computer room;explain;example
+375,sentence,"Before the presentation, our group practiced in the study room and learned how to check the calculation.",簡報前，我們小組在自習室練習，並學習如何檢查計算。,medium,School-常用3000單,presentation;group;study room;check;calculation
+376,sentence,"Before the presentation, our group practiced in the computer room and learned how to review the vocabulary.",簡報前，我們小組在電腦教室練習，並學習如何複習字彙。,medium,School-常用3000單,presentation;group;computer room;review;vocabulary
+377,sentence,"Before the presentation, our group practiced in the study room and learned how to answer the question.",簡報前，我們小組在自習室練習，並學習如何回答問題。,medium,School-常用3000單,presentation;group;study room;answer;question
+378,sentence,"Before the presentation, our group practiced in the computer room and learned how to organize the notebook.",簡報前，我們小組在電腦教室練習，並學習如何整理筆記本。,medium,School-常用3000單,presentation;group;computer room;organize;notebook
+379,sentence,"Before the presentation, our group practiced in the study room and learned how to explain the example.",簡報前，我們小組在自習室練習，並學習如何說明例子。,medium,School-常用3000單,presentation;group;study room;explain;example
+380,sentence,"Before the presentation, our group practiced in the computer room and learned how to check the calculation.",簡報前，我們小組在電腦教室練習，並學習如何檢查計算。,medium,School-常用3000單,presentation;group;computer room;check;calculation
+381,sentence,The teacher asked every classmate to share one opinion after we finished the art task.,我們完成藝術任務後，老師要每位同學分享一個意見。,medium,School-常用3000單,teacher;classmate;opinion;art;task
+382,sentence,The teacher asked every classmate to share one opinion after we finished the music task.,我們完成音樂任務後，老師要每位同學分享一個意見。,medium,School-常用3000單,teacher;classmate;opinion;music;task
+383,sentence,The teacher asked every classmate to share one opinion after we finished the computer task.,我們完成電腦任務後，老師要每位同學分享一個意見。,medium,School-常用3000單,teacher;classmate;opinion;computer;task
+384,sentence,The teacher asked every classmate to share one opinion after we finished the grammar task.,我們完成文法任務後，老師要每位同學分享一個意見。,medium,School-常用3000單,teacher;classmate;opinion;grammar;task
+385,sentence,The teacher asked every classmate to share one opinion after we finished the reading task.,我們完成閱讀任務後，老師要每位同學分享一個意見。,medium,School-常用3000單,teacher;classmate;opinion;reading;task
+386,sentence,The teacher asked every classmate to share one opinion after we finished the writing task.,我們完成寫作任務後，老師要每位同學分享一個意見。,medium,School-常用3000單,teacher;classmate;opinion;writing;task
+387,sentence,The teacher asked every classmate to share one opinion after we finished the English task.,我們完成英文任務後，老師要每位同學分享一個意見。,medium,School-常用3000單,teacher;classmate;opinion;English;task
+388,sentence,The teacher asked every classmate to share one opinion after we finished the mathematics task.,我們完成數學任務後，老師要每位同學分享一個意見。,medium,School-常用3000單,teacher;classmate;opinion;mathematics;task
+389,sentence,The teacher asked every classmate to share one opinion after we finished the science task.,我們完成科學任務後，老師要每位同學分享一個意見。,medium,School-常用3000單,teacher;classmate;opinion;science;task
+390,sentence,The teacher asked every classmate to share one opinion after we finished the history task.,我們完成歷史任務後，老師要每位同學分享一個意見。,medium,School-常用3000單,teacher;classmate;opinion;history;task
+391,sentence,"At the end of the lesson, each student wrote a clear answer and corrected one mistake.",課程結束時，每位學生都寫下一個清楚答案並訂正一個錯誤。,medium,School-常用3000單,lesson;student;answer;correct;mistake
+392,sentence,"At the end of the lesson, each student wrote a clear answer and corrected one mistake, today.",課程結束時，每位學生都寫下一個清楚答案並訂正一個錯誤，今天。,medium,School-常用3000單,lesson;student;answer;correct;mistake;today
+393,sentence,"At the end of the lesson, each student wrote a clear answer and corrected one mistake, after class.",課程結束時，每位學生都寫下一個清楚答案並訂正一個錯誤，下課後。,medium,School-常用3000單,lesson;student;answer;correct;mistake;after;class
+394,sentence,"At the end of the lesson, each student wrote a clear answer and corrected one mistake, in the classroom.",課程結束時，每位學生都寫下一個清楚答案並訂正一個錯誤，在教室裡。,medium,School-常用3000單,lesson;student;answer;correct;mistake;in;the;classroom
+395,sentence,"At the end of the lesson, each student wrote a clear answer and corrected one mistake, with my group.",課程結束時，每位學生都寫下一個清楚答案並訂正一個錯誤，和我的小組一起。,medium,School-常用3000單,lesson;student;answer;correct;mistake;with;my;group
+396,sentence,"At the end of the lesson, each student wrote a clear answer and corrected one mistake, before lunch.",課程結束時，每位學生都寫下一個清楚答案並訂正一個錯誤，午餐前。,medium,School-常用3000單,lesson;student;answer;correct;mistake;before;lunch
+397,sentence,"At the end of the lesson, each student wrote a clear answer and corrected one mistake, during the lesson.",課程結束時，每位學生都寫下一個清楚答案並訂正一個錯誤，課堂中。,medium,School-常用3000單,lesson;student;answer;correct;mistake;during;the;lesson
+398,sentence,"At the end of the lesson, each student wrote a clear answer and corrected one mistake, after the discussion.",課程結束時，每位學生都寫下一個清楚答案並訂正一個錯誤，討論後。,medium,School-常用3000單,lesson;student;answer;correct;mistake;after;the;discussion
+399,sentence,"At the end of the lesson, each student wrote a clear answer and corrected one mistake, before the quiz.",課程結束時，每位學生都寫下一個清楚答案並訂正一個錯誤，小考前。,medium,School-常用3000單,lesson;student;answer;correct;mistake;before;the;quiz
+400,sentence,"At the end of the lesson, each student wrote a clear answer and corrected one mistake, in the library.",課程結束時，每位學生都寫下一個清楚答案並訂正一個錯誤，在圖書館。,medium,School-常用3000單,lesson;student;answer;correct;mistake;in;the;library
+401,sentence,"Because the English examination was coming soon, the teacher asked each group to read the chapter, check the calculation, and practice the dialogue before leaving the classroom.",因為英文考試快到了，老師要每個小組在離開教室前閱讀章節、檢查計算並練習對話。,medium,School-常用3000單,English;examination;teacher;group;classroom;read;chapter;check;calculation;practice;dialogue
+402,sentence,"Because the mathematics examination was coming soon, the teacher asked each group to answer the question, discuss the article, and review the vocabulary before leaving the study room.",因為數學考試快到了，老師要每個小組在離開自習室前回答問題、討論文章並複習字彙。,medium,School-常用3000單,mathematics;examination;teacher;group;study room;answer;question;discuss;article;review;vocabulary
+403,sentence,"Because the science examination was coming soon, the teacher asked each group to correct the assignment, organize the notebook, and prepare the report before leaving the music room.",因為科學考試快到了，老師要每個小組在離開音樂教室前訂正作業、整理筆記本並準備報告。,medium,School-常用3000單,science;examination;teacher;group;music room;correct;assignment;organize;notebook;prepare;report
+404,sentence,"Because the history examination was coming soon, the teacher asked each group to check the calculation, practice the dialogue, and explain the example before leaving the library.",因為歷史考試快到了，老師要每個小組在離開圖書館前檢查計算、練習對話並說明例子。,medium,School-常用3000單,history;examination;teacher;group;library;check;calculation;practice;dialogue;explain;example
+405,sentence,"Because the art examination was coming soon, the teacher asked each group to discuss the article, review the vocabulary, and read the chapter before leaving the school hall.",因為藝術考試快到了，老師要每個小組在離開學校大廳前討論文章、複習字彙並閱讀章節。,medium,School-常用3000單,art;examination;teacher;group;school hall;discuss;article;review;vocabulary;read;chapter
+406,sentence,"Because the music examination was coming soon, the teacher asked each group to organize the notebook, prepare the report, and answer the question before leaving the science room.",因為音樂考試快到了，老師要每個小組在離開科學教室前整理筆記本、準備報告並回答問題。,medium,School-常用3000單,music;examination;teacher;group;science room;organize;notebook;prepare;report;answer;question
+407,sentence,"Because the computer examination was coming soon, the teacher asked each group to practice the dialogue, explain the example, and correct the assignment before leaving the computer room.",因為電腦考試快到了，老師要每個小組在離開電腦教室前練習對話、說明例子並訂正作業。,medium,School-常用3000單,computer;examination;teacher;group;computer room;practice;dialogue;explain;example;correct;assignment
+408,sentence,"Because the grammar examination was coming soon, the teacher asked each group to review the vocabulary, read the chapter, and check the calculation before leaving the reading corner.",因為文法考試快到了，老師要每個小組在離開閱讀角前複習字彙、閱讀章節並檢查計算。,medium,School-常用3000單,grammar;examination;teacher;group;reading corner;review;vocabulary;read;chapter;check;calculation
+409,sentence,"Because the reading examination was coming soon, the teacher asked each group to prepare the report, answer the question, and discuss the article before leaving the campus center.",因為閱讀考試快到了，老師要每個小組在離開校園中心前準備報告、回答問題並討論文章。,medium,School-常用3000單,reading;examination;teacher;group;campus center;prepare;report;answer;question;discuss;article
+410,sentence,"Because the writing examination was coming soon, the teacher asked each group to explain the example, correct the assignment, and organize the notebook before leaving the art room.",因為寫作考試快到了，老師要每個小組在離開美術教室前說明例子、訂正作業並整理筆記本。,medium,School-常用3000單,writing;examination;teacher;group;art room;explain;example;correct;assignment;organize;notebook
+411,sentence,"When the instructor noticed that several students were confused, he used the board to explain the rule and helped them answer the question.",當指導老師注意到幾位學生感到困惑時，他用黑板說明規則並幫助他們回答問題。,medium,School-常用3000單,instructor;students;board;rule;answer;question
+412,sentence,"When the instructor noticed that several students were confused, he used the board to explain the rule and helped them correct the assignment.",當指導老師注意到幾位學生感到困惑時，他用黑板說明規則並幫助他們訂正作業。,medium,School-常用3000單,instructor;students;board;rule;correct;assignment
+413,sentence,"When the instructor noticed that several students were confused, he used the board to explain the rule and helped them check the calculation.",當指導老師注意到幾位學生感到困惑時，他用黑板說明規則並幫助他們檢查計算。,medium,School-常用3000單,instructor;students;board;rule;check;calculation
+414,sentence,"When the instructor noticed that several students were confused, he used the board to explain the rule and helped them discuss the article.",當指導老師注意到幾位學生感到困惑時，他用黑板說明規則並幫助他們討論文章。,medium,School-常用3000單,instructor;students;board;rule;discuss;article
+415,sentence,"When the instructor noticed that several students were confused, he used the board to explain the rule and helped them organize the notebook.",當指導老師注意到幾位學生感到困惑時，他用黑板說明規則並幫助他們整理筆記本。,medium,School-常用3000單,instructor;students;board;rule;organize;notebook
+416,sentence,"When the instructor noticed that several students were confused, he used the board to explain the rule and helped them practice the dialogue.",當指導老師注意到幾位學生感到困惑時，他用黑板說明規則並幫助他們練習對話。,medium,School-常用3000單,instructor;students;board;rule;practice;dialogue
+417,sentence,"When the instructor noticed that several students were confused, he used the board to explain the rule and helped them review the vocabulary.",當指導老師注意到幾位學生感到困惑時，他用黑板說明規則並幫助他們複習字彙。,medium,School-常用3000單,instructor;students;board;rule;review;vocabulary
+418,sentence,"When the instructor noticed that several students were confused, he used the board to explain the rule and helped them prepare the report.",當指導老師注意到幾位學生感到困惑時，他用黑板說明規則並幫助他們準備報告。,medium,School-常用3000單,instructor;students;board;rule;prepare;report
+419,sentence,"When the instructor noticed that several students were confused, he used the board to explain the rule and helped them explain the example.",當指導老師注意到幾位學生感到困惑時，他用黑板說明規則並幫助他們說明例子。,medium,School-常用3000單,instructor;students;board;rule;explain;example
+420,sentence,"When the instructor noticed that several students were confused, he used the board to explain the rule and helped them read the chapter.",當指導老師注意到幾位學生感到困惑時，他用黑板說明規則並幫助他們閱讀章節。,medium,School-常用3000單,instructor;students;board;rule;read;chapter
+421,sentence,"After the class finished the first task, every student opened a notebook, checked the answer, and tried to organize the notebook.",全班完成第一個任務後，每位學生都打開筆記本、檢查答案，並試著整理筆記本。,medium,School-常用3000單,class;student;notebook;answer;organize;notebook
+422,sentence,"After the class finished the first task, every student opened a notebook, checked the answer, and tried to practice the dialogue.",全班完成第一個任務後，每位學生都打開筆記本、檢查答案，並試著練習對話。,medium,School-常用3000單,class;student;notebook;answer;practice;dialogue
+423,sentence,"After the class finished the first task, every student opened a notebook, checked the answer, and tried to review the vocabulary.",全班完成第一個任務後，每位學生都打開筆記本、檢查答案，並試著複習字彙。,medium,School-常用3000單,class;student;notebook;answer;review;vocabulary
+424,sentence,"After the class finished the first task, every student opened a notebook, checked the answer, and tried to prepare the report.",全班完成第一個任務後，每位學生都打開筆記本、檢查答案，並試著準備報告。,medium,School-常用3000單,class;student;notebook;answer;prepare;report
+425,sentence,"After the class finished the first task, every student opened a notebook, checked the answer, and tried to explain the example.",全班完成第一個任務後，每位學生都打開筆記本、檢查答案，並試著說明例子。,medium,School-常用3000單,class;student;notebook;answer;explain;example
+426,sentence,"After the class finished the first task, every student opened a notebook, checked the answer, and tried to read the chapter.",全班完成第一個任務後，每位學生都打開筆記本、檢查答案，並試著閱讀章節。,medium,School-常用3000單,class;student;notebook;answer;read;chapter
+427,sentence,"After the class finished the first task, every student opened a notebook, checked the answer, and tried to answer the question.",全班完成第一個任務後，每位學生都打開筆記本、檢查答案，並試著回答問題。,medium,School-常用3000單,class;student;notebook;answer;answer;question
+428,sentence,"After the class finished the first task, every student opened a notebook, checked the answer, and tried to correct the assignment.",全班完成第一個任務後，每位學生都打開筆記本、檢查答案，並試著訂正作業。,medium,School-常用3000單,class;student;notebook;answer;correct;assignment
+429,sentence,"After the class finished the first task, every student opened a notebook, checked the answer, and tried to check the calculation.",全班完成第一個任務後，每位學生都打開筆記本、檢查答案，並試著檢查計算。,medium,School-常用3000單,class;student;notebook;answer;check;calculation
+430,sentence,"After the class finished the first task, every student opened a notebook, checked the answer, and tried to discuss the article.",全班完成第一個任務後，每位學生都打開筆記本、檢查答案，並試著討論文章。,medium,School-常用3000單,class;student;notebook;answer;discuss;article
+431,sentence,"Before the presentation started, our group went to the art room to check the calculation, practice the dialogue, and practice speaking clearly.",簡報開始前，我們小組到美術教室檢查計算、練習對話，並練習清楚說話。,medium,School-常用3000單,presentation;group;art room;check;calculation;practice;dialogue;speaking
+432,sentence,"Before the presentation started, our group went to the classroom to discuss the article, review the vocabulary, and practice speaking clearly.",簡報開始前，我們小組到教室討論文章、複習字彙，並練習清楚說話。,medium,School-常用3000單,presentation;group;classroom;discuss;article;review;vocabulary;speaking
+433,sentence,"Before the presentation started, our group went to the study room to organize the notebook, prepare the report, and practice speaking clearly.",簡報開始前，我們小組到自習室整理筆記本、準備報告，並練習清楚說話。,medium,School-常用3000單,presentation;group;study room;organize;notebook;prepare;report;speaking
+434,sentence,"Before the presentation started, our group went to the music room to practice the dialogue, explain the example, and practice speaking clearly.",簡報開始前，我們小組到音樂教室練習對話、說明例子，並練習清楚說話。,medium,School-常用3000單,presentation;group;music room;practice;dialogue;explain;example;speaking
+435,sentence,"Before the presentation started, our group went to the library to review the vocabulary, read the chapter, and practice speaking clearly.",簡報開始前，我們小組到圖書館複習字彙、閱讀章節，並練習清楚說話。,medium,School-常用3000單,presentation;group;library;review;vocabulary;read;chapter;speaking
+436,sentence,"Before the presentation started, our group went to the school hall to prepare the report, answer the question, and practice speaking clearly.",簡報開始前，我們小組到學校大廳準備報告、回答問題，並練習清楚說話。,medium,School-常用3000單,presentation;group;school hall;prepare;report;answer;question;speaking
+437,sentence,"Before the presentation started, our group went to the science room to explain the example, correct the assignment, and practice speaking clearly.",簡報開始前，我們小組到科學教室說明例子、訂正作業，並練習清楚說話。,medium,School-常用3000單,presentation;group;science room;explain;example;correct;assignment;speaking
+438,sentence,"Before the presentation started, our group went to the computer room to read the chapter, check the calculation, and practice speaking clearly.",簡報開始前，我們小組到電腦教室閱讀章節、檢查計算，並練習清楚說話。,medium,School-常用3000單,presentation;group;computer room;read;chapter;check;calculation;speaking
+439,sentence,"Before the presentation started, our group went to the reading corner to answer the question, discuss the article, and practice speaking clearly.",簡報開始前，我們小組到閱讀角回答問題、討論文章，並練習清楚說話。,medium,School-常用3000單,presentation;group;reading corner;answer;question;discuss;article;speaking
+440,sentence,"Before the presentation started, our group went to the campus center to correct the assignment, organize the notebook, and practice speaking clearly.",簡報開始前，我們小組到校園中心訂正作業、整理筆記本，並練習清楚說話。,medium,School-常用3000單,presentation;group;campus center;correct;assignment;organize;notebook;speaking
+441,sentence,"During the final part of the lesson, the teacher asked the class to discuss the article and support each answer with an example.",課程最後部分，老師要全班討論文章，並用例子支持每個答案。,medium,School-常用3000單,lesson;teacher;class;answer;example;discuss;article
+442,sentence,"During the final part of the lesson, the teacher asked the class to organize the notebook and support each answer with an example.",課程最後部分，老師要全班整理筆記本，並用例子支持每個答案。,medium,School-常用3000單,lesson;teacher;class;answer;example;organize;notebook
+443,sentence,"During the final part of the lesson, the teacher asked the class to practice the dialogue and support each answer with an example.",課程最後部分，老師要全班練習對話，並用例子支持每個答案。,medium,School-常用3000單,lesson;teacher;class;answer;example;practice;dialogue
+444,sentence,"During the final part of the lesson, the teacher asked the class to review the vocabulary and support each answer with an example.",課程最後部分，老師要全班複習字彙，並用例子支持每個答案。,medium,School-常用3000單,lesson;teacher;class;answer;example;review;vocabulary
+445,sentence,"During the final part of the lesson, the teacher asked the class to prepare the report and support each answer with an example.",課程最後部分，老師要全班準備報告，並用例子支持每個答案。,medium,School-常用3000單,lesson;teacher;class;answer;example;prepare;report
+446,sentence,"During the final part of the lesson, the teacher asked the class to explain the example and support each answer with an example.",課程最後部分，老師要全班說明例子，並用例子支持每個答案。,medium,School-常用3000單,lesson;teacher;class;answer;example;explain;example
+447,sentence,"During the final part of the lesson, the teacher asked the class to read the chapter and support each answer with an example.",課程最後部分，老師要全班閱讀章節，並用例子支持每個答案。,medium,School-常用3000單,lesson;teacher;class;answer;example;read;chapter
+448,sentence,"During the final part of the lesson, the teacher asked the class to answer the question and support each answer with an example.",課程最後部分，老師要全班回答問題，並用例子支持每個答案。,medium,School-常用3000單,lesson;teacher;class;answer;example;answer;question
+449,sentence,"During the final part of the lesson, the teacher asked the class to correct the assignment and support each answer with an example.",課程最後部分，老師要全班訂正作業，並用例子支持每個答案。,medium,School-常用3000單,lesson;teacher;class;answer;example;correct;assignment
+450,sentence,"During the final part of the lesson, the teacher asked the class to check the calculation and support each answer with an example.",課程最後部分，老師要全班檢查計算，並用例子支持每個答案。,medium,School-常用3000單,lesson;teacher;class;answer;example;check;calculation
+451,sentence,"After the principal asked every class to keep the campus clean, the students returned to the science room and began to answer the question.",校長要求每個班級保持校園乾淨後，學生們回到科學教室並開始回答問題。,medium,School-常用3000單,principal;class;campus;students;science room;answer;question
+452,sentence,"After the principal asked every class to keep the campus clean, the students returned to the computer room and began to correct the assignment.",校長要求每個班級保持校園乾淨後，學生們回到電腦教室並開始訂正作業。,medium,School-常用3000單,principal;class;campus;students;computer room;correct;assignment
+453,sentence,"After the principal asked every class to keep the campus clean, the students returned to the reading corner and began to check the calculation.",校長要求每個班級保持校園乾淨後，學生們回到閱讀角並開始檢查計算。,medium,School-常用3000單,principal;class;campus;students;reading corner;check;calculation
+454,sentence,"After the principal asked every class to keep the campus clean, the students returned to the campus center and began to discuss the article.",校長要求每個班級保持校園乾淨後，學生們回到校園中心並開始討論文章。,medium,School-常用3000單,principal;class;campus;students;campus center;discuss;article
+455,sentence,"After the principal asked every class to keep the campus clean, the students returned to the art room and began to organize the notebook.",校長要求每個班級保持校園乾淨後，學生們回到美術教室並開始整理筆記本。,medium,School-常用3000單,principal;class;campus;students;art room;organize;notebook
+456,sentence,"After the principal asked every class to keep the campus clean, the students returned to the classroom and began to practice the dialogue.",校長要求每個班級保持校園乾淨後，學生們回到教室並開始練習對話。,medium,School-常用3000單,principal;class;campus;students;classroom;practice;dialogue
+457,sentence,"After the principal asked every class to keep the campus clean, the students returned to the study room and began to review the vocabulary.",校長要求每個班級保持校園乾淨後，學生們回到自習室並開始複習字彙。,medium,School-常用3000單,principal;class;campus;students;study room;review;vocabulary
+458,sentence,"After the principal asked every class to keep the campus clean, the students returned to the music room and began to prepare the report.",校長要求每個班級保持校園乾淨後，學生們回到音樂教室並開始準備報告。,medium,School-常用3000單,principal;class;campus;students;music room;prepare;report
+459,sentence,"After the principal asked every class to keep the campus clean, the students returned to the library and began to explain the example.",校長要求每個班級保持校園乾淨後，學生們回到圖書館並開始說明例子。,medium,School-常用3000單,principal;class;campus;students;library;explain;example
+460,sentence,"After the principal asked every class to keep the campus clean, the students returned to the school hall and began to read the chapter.",校長要求每個班級保持校園乾淨後，學生們回到學校大廳並開始閱讀章節。,medium,School-常用3000單,principal;class;campus;students;school hall;read;chapter
+461,sentence,"Because the course included many new words and phrases, each student used a dictionary and a notebook to practice the dialogue.",因為這門課包含許多新單字和片語，每位學生都用字典和筆記本練習對話。,medium,School-常用3000單,course;words;phrases;student;dictionary;notebook;practice;dialogue
+462,sentence,"Because the course included many new words and phrases, each student used a dictionary and a notebook to review the vocabulary.",因為這門課包含許多新單字和片語，每位學生都用字典和筆記本複習字彙。,medium,School-常用3000單,course;words;phrases;student;dictionary;notebook;review;vocabulary
+463,sentence,"Because the course included many new words and phrases, each student used a dictionary and a notebook to prepare the report.",因為這門課包含許多新單字和片語，每位學生都用字典和筆記本準備報告。,medium,School-常用3000單,course;words;phrases;student;dictionary;notebook;prepare;report
+464,sentence,"Because the course included many new words and phrases, each student used a dictionary and a notebook to explain the example.",因為這門課包含許多新單字和片語，每位學生都用字典和筆記本說明例子。,medium,School-常用3000單,course;words;phrases;student;dictionary;notebook;explain;example
+465,sentence,"Because the course included many new words and phrases, each student used a dictionary and a notebook to read the chapter.",因為這門課包含許多新單字和片語，每位學生都用字典和筆記本閱讀章節。,medium,School-常用3000單,course;words;phrases;student;dictionary;notebook;read;chapter
+466,sentence,"Because the course included many new words and phrases, each student used a dictionary and a notebook to answer the question.",因為這門課包含許多新單字和片語，每位學生都用字典和筆記本回答問題。,medium,School-常用3000單,course;words;phrases;student;dictionary;notebook;answer;question
+467,sentence,"Because the course included many new words and phrases, each student used a dictionary and a notebook to correct the assignment.",因為這門課包含許多新單字和片語，每位學生都用字典和筆記本訂正作業。,medium,School-常用3000單,course;words;phrases;student;dictionary;notebook;correct;assignment
+468,sentence,"Because the course included many new words and phrases, each student used a dictionary and a notebook to check the calculation.",因為這門課包含許多新單字和片語，每位學生都用字典和筆記本檢查計算。,medium,School-常用3000單,course;words;phrases;student;dictionary;notebook;check;calculation
+469,sentence,"Because the course included many new words and phrases, each student used a dictionary and a notebook to discuss the article.",因為這門課包含許多新單字和片語，每位學生都用字典和筆記本討論文章。,medium,School-常用3000單,course;words;phrases;student;dictionary;notebook;discuss;article
+470,sentence,"Because the course included many new words and phrases, each student used a dictionary and a notebook to organize the notebook.",因為這門課包含許多新單字和片語，每位學生都用字典和筆記本整理筆記本。,medium,School-常用3000單,course;words;phrases;student;dictionary;notebook;organize;notebook
+471,sentence,"When the class went to the library for quiet reading, the instructor asked the students to read the chapter before the bell rang.",全班到圖書館安靜閱讀時，指導老師要學生們在鈴聲響前閱讀章節。,medium,School-常用3000單,class;library;reading;instructor;students;read;chapter
+472,sentence,"When the class went to the library for quiet reading, the instructor asked the students to answer the question before the bell rang.",全班到圖書館安靜閱讀時，指導老師要學生們在鈴聲響前回答問題。,medium,School-常用3000單,class;library;reading;instructor;students;answer;question
+473,sentence,"When the class went to the library for quiet reading, the instructor asked the students to correct the assignment before the bell rang.",全班到圖書館安靜閱讀時，指導老師要學生們在鈴聲響前訂正作業。,medium,School-常用3000單,class;library;reading;instructor;students;correct;assignment
+474,sentence,"When the class went to the library for quiet reading, the instructor asked the students to check the calculation before the bell rang.",全班到圖書館安靜閱讀時，指導老師要學生們在鈴聲響前檢查計算。,medium,School-常用3000單,class;library;reading;instructor;students;check;calculation
+475,sentence,"When the class went to the library for quiet reading, the instructor asked the students to discuss the article before the bell rang.",全班到圖書館安靜閱讀時，指導老師要學生們在鈴聲響前討論文章。,medium,School-常用3000單,class;library;reading;instructor;students;discuss;article
+476,sentence,"When the class went to the library for quiet reading, the instructor asked the students to organize the notebook before the bell rang.",全班到圖書館安靜閱讀時，指導老師要學生們在鈴聲響前整理筆記本。,medium,School-常用3000單,class;library;reading;instructor;students;organize;notebook
+477,sentence,"When the class went to the library for quiet reading, the instructor asked the students to practice the dialogue before the bell rang.",全班到圖書館安靜閱讀時，指導老師要學生們在鈴聲響前練習對話。,medium,School-常用3000單,class;library;reading;instructor;students;practice;dialogue
+478,sentence,"When the class went to the library for quiet reading, the instructor asked the students to review the vocabulary before the bell rang.",全班到圖書館安靜閱讀時，指導老師要學生們在鈴聲響前複習字彙。,medium,School-常用3000單,class;library;reading;instructor;students;review;vocabulary
+479,sentence,"When the class went to the library for quiet reading, the instructor asked the students to prepare the report before the bell rang.",全班到圖書館安靜閱讀時，指導老師要學生們在鈴聲響前準備報告。,medium,School-常用3000單,class;library;reading;instructor;students;prepare;report
+480,sentence,"When the class went to the library for quiet reading, the instructor asked the students to explain the example before the bell rang.",全班到圖書館安靜閱讀時，指導老師要學生們在鈴聲響前說明例子。,medium,School-常用3000單,class;library;reading;instructor;students;explain;example
+481,sentence,"After the group discussion, one classmate shared an opinion, another checked the calculation, and the teacher asked them to discuss the article.",小組討論後，一位同學分享意見，另一位檢查計算，老師則要他們討論文章。,medium,School-常用3000單,group;discussion;classmate;opinion;calculation;teacher;discuss;article
+482,sentence,"After the group discussion, one classmate shared an opinion, another checked the calculation, and the teacher asked them to organize the notebook.",小組討論後，一位同學分享意見，另一位檢查計算，老師則要他們整理筆記本。,medium,School-常用3000單,group;discussion;classmate;opinion;calculation;teacher;organize;notebook
+483,sentence,"After the group discussion, one classmate shared an opinion, another checked the calculation, and the teacher asked them to practice the dialogue.",小組討論後，一位同學分享意見，另一位檢查計算，老師則要他們練習對話。,medium,School-常用3000單,group;discussion;classmate;opinion;calculation;teacher;practice;dialogue
+484,sentence,"After the group discussion, one classmate shared an opinion, another checked the calculation, and the teacher asked them to review the vocabulary.",小組討論後，一位同學分享意見，另一位檢查計算，老師則要他們複習字彙。,medium,School-常用3000單,group;discussion;classmate;opinion;calculation;teacher;review;vocabulary
+485,sentence,"After the group discussion, one classmate shared an opinion, another checked the calculation, and the teacher asked them to prepare the report.",小組討論後，一位同學分享意見，另一位檢查計算，老師則要他們準備報告。,medium,School-常用3000單,group;discussion;classmate;opinion;calculation;teacher;prepare;report
+486,sentence,"After the group discussion, one classmate shared an opinion, another checked the calculation, and the teacher asked them to explain the example.",小組討論後，一位同學分享意見，另一位檢查計算，老師則要他們說明例子。,medium,School-常用3000單,group;discussion;classmate;opinion;calculation;teacher;explain;example
+487,sentence,"After the group discussion, one classmate shared an opinion, another checked the calculation, and the teacher asked them to read the chapter.",小組討論後，一位同學分享意見，另一位檢查計算，老師則要他們閱讀章節。,medium,School-常用3000單,group;discussion;classmate;opinion;calculation;teacher;read;chapter
+488,sentence,"After the group discussion, one classmate shared an opinion, another checked the calculation, and the teacher asked them to answer the question.",小組討論後，一位同學分享意見，另一位檢查計算，老師則要他們回答問題。,medium,School-常用3000單,group;discussion;classmate;opinion;calculation;teacher;answer;question
+489,sentence,"After the group discussion, one classmate shared an opinion, another checked the calculation, and the teacher asked them to correct the assignment.",小組討論後，一位同學分享意見，另一位檢查計算，老師則要他們訂正作業。,medium,School-常用3000單,group;discussion;classmate;opinion;calculation;teacher;correct;assignment
+490,sentence,"After the group discussion, one classmate shared an opinion, another checked the calculation, and the teacher asked them to check the calculation.",小組討論後，一位同學分享意見，另一位檢查計算，老師則要他們檢查計算。,medium,School-常用3000單,group;discussion;classmate;opinion;calculation;teacher;check;calculation
+491,sentence,"Before the students left the classroom for lunch, they had to organize the desk, return the book, and explain the example.",學生們離開教室去吃午餐前，必須整理書桌、歸還書本並說明例子。,medium,School-常用3000單,students;classroom;lunch;desk;book;explain;example
+492,sentence,"Before the students left the classroom for lunch, they had to organize the desk, return the book, and read the chapter.",學生們離開教室去吃午餐前，必須整理書桌、歸還書本並閱讀章節。,medium,School-常用3000單,students;classroom;lunch;desk;book;read;chapter
+493,sentence,"Before the students left the classroom for lunch, they had to organize the desk, return the book, and answer the question.",學生們離開教室去吃午餐前，必須整理書桌、歸還書本並回答問題。,medium,School-常用3000單,students;classroom;lunch;desk;book;answer;question
+494,sentence,"Before the students left the classroom for lunch, they had to organize the desk, return the book, and correct the assignment.",學生們離開教室去吃午餐前，必須整理書桌、歸還書本並訂正作業。,medium,School-常用3000單,students;classroom;lunch;desk;book;correct;assignment
+495,sentence,"Before the students left the classroom for lunch, they had to organize the desk, return the book, and check the calculation.",學生們離開教室去吃午餐前，必須整理書桌、歸還書本並檢查計算。,medium,School-常用3000單,students;classroom;lunch;desk;book;check;calculation
+496,sentence,"Before the students left the classroom for lunch, they had to organize the desk, return the book, and discuss the article.",學生們離開教室去吃午餐前，必須整理書桌、歸還書本並討論文章。,medium,School-常用3000單,students;classroom;lunch;desk;book;discuss;article
+497,sentence,"Before the students left the classroom for lunch, they had to organize the desk, return the book, and organize the notebook.",學生們離開教室去吃午餐前，必須整理書桌、歸還書本並整理筆記本。,medium,School-常用3000單,students;classroom;lunch;desk;book;organize;notebook
+498,sentence,"Before the students left the classroom for lunch, they had to organize the desk, return the book, and practice the dialogue.",學生們離開教室去吃午餐前，必須整理書桌、歸還書本並練習對話。,medium,School-常用3000單,students;classroom;lunch;desk;book;practice;dialogue
+499,sentence,"Before the students left the classroom for lunch, they had to organize the desk, return the book, and review the vocabulary.",學生們離開教室去吃午餐前，必須整理書桌、歸還書本並複習字彙。,medium,School-常用3000單,students;classroom;lunch;desk;book;review;vocabulary
+500,sentence,"Before the students left the classroom for lunch, they had to organize the desk, return the book, and prepare the report.",學生們離開教室去吃午餐前，必須整理書桌、歸還書本並準備報告。,medium,School-常用3000單,students;classroom;lunch;desk;book;prepare;report
