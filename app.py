@@ -7,7 +7,7 @@ from audio_generator import get_audio_path
 st.set_page_config(page_title="英文聽力練習系統", layout="centered")
 
 st.title("英文聽力練習系統")
-st.caption("選擇等級 → 選擇類型 → 選擇一般出題或錯題出題 → 聽英文 → 輸入答案 → 系統比對 → 錯題記錄")
+st.caption("先選練習範圍，再開始聽寫。一般出題會從目前類型隨機抽題；錯題出題只練目前類型的錯題，答對後會自動移出錯題記錄。")
 
 # 等級：現在七大類都放在「中級」。
 # 之後要新增初級或高級類型時，只要在 TOPICS_BY_LEVEL 對應等級加入顯示名稱與檔名即可。
@@ -212,31 +212,48 @@ def clear_answer(answer_key: str) -> None:
     st.session_state[answer_key] = ""
 
 
-# ---------- 側邊設定 ----------
-with st.sidebar:
-    st.header("練習設定")
+# ---------- 練習設定：改放主畫面，避免側邊欄被收合時看不到 ----------
+st.markdown("### 練習設定")
 
-    # 目前主題都在中級，所以預設選中級。
-    level_names = list(LEVELS.keys())
-    level_name = st.selectbox("選擇等級", level_names, index=1)
+# 目前主題都在中級，所以預設選中級。
+level_names = list(LEVELS.keys())
+setting_col1, setting_col2 = st.columns(2)
+
+with setting_col1:
+    level_name = st.selectbox("1. 選擇等級", level_names, index=1)
     level_key = LEVELS[level_name]
 
-    available_topics = TOPICS_BY_LEVEL[level_key]
+available_topics = TOPICS_BY_LEVEL[level_key]
 
-    if not available_topics:
-        st.info("這個等級目前還沒有建立類型。之後可以新增新的題庫 CSV。")
-        st.stop()
+if not available_topics:
+    st.info("這個等級目前還沒有建立類型。之後可以新增新的題庫 CSV。")
+    st.stop()
 
-    topic_name = st.selectbox("選擇類型", list(available_topics.keys()))
+with setting_col2:
+    topic_name = st.selectbox("2. 選擇類型", list(available_topics.keys()))
     topic_key = available_topics[topic_name]
 
-    practice_mode = st.radio(
-        "出題來源",
-        ["一般隨機出題", "錯題記錄出題"],
-        index=0,
-        help="一般隨機出題：從目前類型題庫隨機抽題。錯題記錄出題：只從目前類型的錯題中抽題，答對後自動移出錯題。",
-    )
+# 先計算目前類型錯題數，讓學生知道錯題出題是否有題目可用。
+current_wrong_df_for_label = get_wrong_records_for_current_topic(level_key, topic_key)
+current_wrong_count = len(current_wrong_df_for_label)
 
+practice_mode = st.radio(
+    "3. 選擇出題來源",
+    ["一般隨機出題", "錯題記錄出題"],
+    index=0,
+    horizontal=True,
+    help="一般隨機出題：從目前等級與類型的 CSV 題庫抽題。錯題記錄出題：只從目前等級與類型的錯題記錄抽題；答對後會自動移出錯題記錄。",
+)
+
+if practice_mode == "一般隨機出題":
+    st.info("目前模式：一般隨機出題。系統會從你選到的這個類型題庫中隨機抽一句。")
+else:
+    if current_wrong_count > 0:
+        st.warning(f"目前模式：錯題記錄出題。這個類型目前有 {current_wrong_count} 題錯題；答對後會自動移出錯題記錄。")
+    else:
+        st.warning("目前模式：錯題記錄出題。不過這個類型現在還沒有錯題，請先用一般隨機出題練習。")
+
+with st.expander("進階設定"):
     show_chinese_hint = st.checkbox("顯示中文提示", value=False)
     show_answer_after_submit = st.checkbox("答題後顯示正解", value=True)
 
