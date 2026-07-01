@@ -122,6 +122,7 @@ if show_chinese_hint:
 
 # ---------- 音檔 ----------
 audio_path = get_audio_path(level_key, topic_key, q["id"], q["english"])
+st.caption("播放一次會連續唸兩次。")
 st.audio(str(audio_path))
 
 # ---------- 作答 ----------

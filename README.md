@@ -1,128 +1,65 @@
-# 英文聽力練習系統
+# 英文聽力練習系統 v5
 
-## 安裝套件
+這版修正 Streamlit Cloud 可能出現的：
+
+```text
+NotADirectoryError
+```
+
+原因通常是 GitHub 上的 `audio` 被上傳成「檔案」，不是資料夾；程式再嘗試建立 `audio/intermediate/shopping` 時就會失敗。
+
+v5 已改成：
+
+```text
+音檔不再寫入專案的 audio/ 資料夾
+改寫入 Streamlit Cloud 的暫存資料夾 /tmp/english_listening_audio
+```
+
+所以即使 GitHub 裡面有錯誤的 `audio` 檔案，也不會影響產生音檔。
+
+## 執行方式
 
 ```bash
 pip install -r requirements.txt
-```
-
-## 執行
-
-```bash
 streamlit run app.py
 ```
 
-## 目前版本設計
+## 題庫位置
 
-目前採用「先選等級，再選類型」：
+目前七大類都放在中級：
 
 ```text
-初級 Level 1 / Beginner：暫時沒有類型，以後再新增
-中級 Level 2 / Intermediate：目前七大類都放在這裡
-高級 Level 3 / Advanced：暫時沒有類型，以後再新增
+topics/intermediate/shopping.csv
+topics/intermediate/restaurant.csv
+topics/intermediate/school.csv
+topics/intermediate/travel.csv
+topics/intermediate/work.csv
+topics/intermediate/family.csv
+topics/intermediate/friends.csv
 ```
 
-中級目前有七大類：
+其中 `shopping.csv` 已擴充為 100 句「Shopping-常用3000單」。
+
+## 上傳 GitHub 建議
+
+請把壓縮檔解開後，將資料夾內的檔案上傳到 repo 根目錄。至少要有：
 
 ```text
-購物 Shopping-常用3000單
-餐廳 Restaurant-常用3000單
-學校 School-常用3000單
-旅遊 Travel-常用3000單
-工作 Work-常用3000單
-家庭 Family-常用3000單
-朋友 Friends-常用3000單
-```
-
-## 題庫資料夾結構
-
-```text
+app.py
+audio_generator.py
+answer_checker.py
+requirements.txt
 topics/
-├─ beginner/
-│  └─ .gitkeep
-├─ intermediate/
-│  ├─ shopping.csv
-│  ├─ restaurant.csv
-│  ├─ school.csv
-│  ├─ travel.csv
-│  ├─ work.csv
-│  ├─ family.csv
-│  └─ friends.csv
-└─ advanced/
-   └─ .gitkeep
+README.md
 ```
 
-音檔會自動產生到：
+`audio/` 不需要上傳，v5 壓縮檔內也已移除 `audio/`。程式會自動使用暫存資料夾產生音檔。
 
-```text
-audio/等級/類型/
-```
+如果 GitHub 上已經有一個錯誤的 `audio` 檔案，可以刪掉；但 v5 不刪也能跑。
 
-例如：
 
-```text
-audio/intermediate/shopping/1.mp3
-```
+## v6 更新
 
-## 題庫 CSV 必要欄位
-
-```csv
-id,type,english,chinese,difficulty
-```
-
-例如：
-
-```csv
-1,sentence,How much is this?,這個多少錢?,medium
-```
-
-## 以後新增初級類型
-
-假設要在初級新增「日常生活 Daily Life-常用3000單」：
-
-1. 新增檔案：
-
-```text
-topics/beginner/daily_life.csv
-```
-
-2. 在 `app.py` 的 `TOPICS_BY_LEVEL` 中加入：
-
-```python
-"beginner": {
-    "日常生活 Daily Life-常用3000單": "daily_life",
-},
-```
-
-## 以後新增高級類型
-
-假設要在高級新增「商務 Business-常用3000單」：
-
-1. 新增檔案：
-
-```text
-topics/advanced/business.csv
-```
-
-2. 在 `app.py` 的 `TOPICS_BY_LEVEL` 中加入：
-
-```python
-"advanced": {
-    "商務 Business-常用3000單": "business",
-},
-```
-
-## 錯題紀錄
-
-答錯會自動記錄到：
-
-```text
-wrong_records.csv
-```
-
-## v4 更新
-
-- `topics/intermediate/shopping.csv` 已擴充為 100 句。
-- 句子主題：Shopping-常用3000單。
-- 題目欄位：`id,type,english,chinese,difficulty,topic,keywords`。
-- 單字設計原則：主要使用上傳的 3000 單字表中可對應購物情境的字，例如 `bag`、`handbag`、`customer`、`discount`、`credit card`、`counter`、`stationery`、`accessory`、`product`、`market`、`supermarket`、`merchant`、`clerk`、`salesman` 等。
+- 每個英文題目產生音檔時會自動重複 2 次。
+- 使用者按一次播放鍵，就會聽到同一句英文連續播放兩遍。
+- 音檔檔名改為 `題號_x2.mp3`，避免沿用舊版只播放一次的暫存音檔。
