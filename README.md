@@ -47,3 +47,18 @@ wrong_records.csv
 
 錯題記錄會依照 `level_key + topic_key + id + english` 判斷同一句。  
 同一句答錯多次時，不會一直新增重複列，而是增加 `wrong_count`。
+
+
+## v9 更新
+
+- `topics/intermediate/shopping.csv` 已擴充為 200 句。
+- 第 101–200 句刻意加長，每句比前 100 句更接近完整購物情境聽力。
+- 仍維持欄位：`id,type,english,chinese,difficulty,topic,keywords`。
+
+
+## v10 更新
+
+- `topics/intermediate/shopping.csv` 已擴充為 300 句。
+- 新增 `Shopping-常用3000單` 第 201–300 句。
+- 第 201–300 句比第 101–200 句再長一些，較接近完整購物情境對話句。
+- 仍維持欄位：`id,type,english,chinese,difficulty,topic,keywords`。

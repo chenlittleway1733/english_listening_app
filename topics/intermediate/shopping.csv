@@ -99,3 +99,203 @@
 98,sentence,I need more information.,我需要更多資訊。,medium,Shopping-常用3000單,information
 99,sentence,The information is on the card.,資訊在卡上。,medium,Shopping-常用3000單,information card
 100,sentence,This product is from a famous brand.,這個產品來自知名品牌。,medium,Shopping-常用3000單,product brand
+101,sentence,The customer would like to choose a handbag with a famous brand.,這位顧客想選一個有知名品牌的手提包。,medium,Shopping-常用3000單,customer handbag brand choose
+102,sentence,Please show me another option before I make my final selection.,在我做最後選擇前，請給我看另一個選項。,medium,Shopping-常用3000單,option final selection
+103,sentence,This product looks useful but I need more information about its quality.,這個產品看起來有用，但我需要更多關於品質的資訊。,medium,Shopping-常用3000單,product information quality
+104,sentence,The clerk at the counter gave the customer a clear recommendation.,櫃檯的店員給了顧客一個清楚的推薦。,medium,Shopping-常用3000單,clerk counter customer recommendation
+105,sentence,We can use either cash or a credit card for this order.,這筆訂單我們可以使用現金或信用卡。,medium,Shopping-常用3000單,cash credit card order
+106,sentence,The discount is available only in this department before the sale ends.,這個折扣只在這個部門特賣結束前可用。,medium,Shopping-常用3000單,discount department sale
+107,sentence,My account shows that the bank already approved this credit charge.,我的帳戶顯示銀行已經核准這筆信用消費。,medium,Shopping-常用3000單,account bank credit charge
+108,sentence,The manager said the goods would return to the market next week.,經理說這些商品下星期會回到市場上。,medium,Shopping-常用3000單,manager goods return market
+109,sentence,Please put the chocolate and coffee in a separate bag for me.,請幫我把巧克力和咖啡放在另一個袋子裡。,medium,Shopping-常用3000單,chocolate coffee bag
+110,sentence,This suitcase is large enough to carry my new clothes and books.,這個手提箱大到足以裝我的新衣服和書。,medium,Shopping-常用3000單,suitcase large clothes books
+111,sentence,The shop has a special selection of stationery for school students.,這家店有一區特別給學生的文具選擇。,medium,Shopping-常用3000單,shop selection stationery school
+112,sentence,I need a pen and a ruler from the stationery department.,我需要文具部門的一枝筆和一把尺。,medium,Shopping-常用3000單,pen ruler stationery department
+113,sentence,The calculator is optional but the dictionary is necessary for class.,計算機是可選的，但字典對課堂是必要的。,medium,Shopping-常用3000單,calculator optional dictionary class
+114,sentence,The customer asked whether the shirt had a different brand label.,顧客詢問這件襯衫是否有不同的品牌標籤。,medium,Shopping-常用3000單,customer shirt different brand
+115,sentence,This skirt is bright and graceful enough for a formal occasion.,這件裙子明亮又優雅，足夠適合正式場合。,medium,Shopping-常用3000單,skirt bright graceful occasion
+116,sentence,The cap looks simple but the product quality is very good.,這頂帽子看起來簡單，但產品品質很好。,medium,Shopping-常用3000單,cap product quality
+117,sentence,I chose this clock because the design is clean and classic.,我選這個時鐘是因為設計乾淨又經典。,medium,Shopping-常用3000單,clock design classic choose
+118,sentence,The merchant placed the merchandise near the front counter today.,商人今天把商品放在前方櫃檯附近。,medium,Shopping-常用3000單,merchant merchandise counter
+119,sentence,This supermarket has fresh vegetables like cabbage and corn every morning.,這間超市每天早上都有新鮮蔬菜，像高麗菜和玉米。,medium,Shopping-常用3000單,supermarket vegetable cabbage corn
+120,sentence,Please add a pack of popcorn to the same order.,請把一包爆米花加到同一筆訂單裡。,medium,Shopping-常用3000單,popcorn order
+121,sentence,The consumer should check the goods before leaving the shop.,消費者離開商店前應該檢查商品。,medium,Shopping-常用3000單,consumer goods shop check
+122,sentence,The customer found a small flaw in the handbag after the sale.,顧客在特賣後發現手提包有一個小瑕疵。,medium,Shopping-常用3000單,customer flaw handbag sale
+123,sentence,The product has a defect so the manager will handle the problem.,這個產品有缺陷，所以經理會處理這個問題。,medium,Shopping-常用3000單,product defect manager problem
+124,sentence,The clerk said the service counter could help with a return.,店員說服務櫃檯可以協助退貨。,medium,Shopping-常用3000單,clerk service counter return
+125,sentence,This present would be better if we put it in a bright bag.,如果把這份禮物放進明亮的袋子會更好。,medium,Shopping-常用3000單,present bright bag
+126,sentence,I selected this souvenir because it represents the local culture well.,我選這個紀念品是因為它很好地代表當地文化。,medium,Shopping-常用3000單,souvenir represent local culture
+127,sentence,The shop owner gave us information about each product on display.,店主給我們關於展示中每項產品的資訊。,medium,Shopping-常用3000單,shop owner information product
+128,sentence,The brand is famous but this option is still reasonable.,這個品牌很有名，但這個選項仍然合理。,medium,Shopping-常用3000單,brand option reasonable
+129,sentence,The customer wants a product that is useful and not too expensive.,顧客想要一個有用且不太貴的產品。,medium,Shopping-常用3000單,customer product useful expensive
+130,sentence,The counter is crowded because many customers are asking about the discount.,櫃檯很擁擠，因為很多顧客正在詢問折扣。,medium,Shopping-常用3000單,counter customers discount
+131,sentence,Please give me an account of the total charge before I decide.,在我決定前，請告訴我總費用的明細。,medium,Shopping-常用3000單,account charge decide
+132,sentence,The bank card failed so I had to use cash instead.,銀行卡失敗了，所以我只好改用現金。,medium,Shopping-常用3000單,bank card cash
+133,sentence,"This selection includes a handbag, a suitcase, and a new cap.",這個選擇包含一個手提包、一個手提箱和一頂新帽子。,medium,Shopping-常用3000單,selection handbag suitcase cap
+134,sentence,The goods arrived in one large container behind the department store.,這些商品裝在一個大容器裡，到達百貨部門後方。,medium,Shopping-常用3000單,goods large container department
+135,sentence,The manager will allocate more space for popular merchandise this afternoon.,經理今天下午會分配更多空間給熱門商品。,medium,Shopping-常用3000單,manager allocate merchandise
+136,sentence,The customer compared two products and then chose the better quality.,顧客比較兩個產品後選了品質較好的那個。,medium,Shopping-常用3000單,customer compare products quality
+137,sentence,This recommendation is helpful because the product has many good features.,這個推薦很有幫助，因為產品有許多好功能。,medium,Shopping-常用3000單,recommendation helpful product
+138,sentence,The clerk can explain the difference between these two options.,店員可以說明這兩個選項之間的差異。,medium,Shopping-常用3000單,clerk difference options
+139,sentence,The supermarket placed all discount goods near the main entrance.,超市把所有折扣商品放在主要入口附近。,medium,Shopping-常用3000單,supermarket discount goods entrance
+140,sentence,I need to choose a suitcase before I travel next month.,我需要在下個月旅行前選一個手提箱。,medium,Shopping-常用3000單,choose suitcase travel
+141,sentence,The handbag is fashionable but the suitcase is more practical for travel.,手提包很時髦，但手提箱對旅行更實用。,medium,Shopping-常用3000單,handbag suitcase practical travel
+142,sentence,The customer used a credit card because the charge was considerable.,顧客使用信用卡，因為費用相當高。,medium,Shopping-常用3000單,customer credit card charge considerable
+143,sentence,The shop offered a discount after the customer asked politely.,顧客有禮貌地詢問後，商店提供了折扣。,medium,Shopping-常用3000單,shop discount customer polite
+144,sentence,Please keep this bill because it shows the product and charge.,請保留這張帳單，因為上面顯示產品和費用。,medium,Shopping-常用3000單,bill product charge
+145,sentence,The merchant said this merchandise came from a local factory.,商人說這批商品來自當地工廠。,medium,Shopping-常用3000單,merchant merchandise local factory
+146,sentence,The brand uses better material so the product lasts longer.,這個品牌使用較好的材料，所以產品比較耐用。,medium,Shopping-常用3000單,brand material product
+147,sentence,The customer asked for a different color but kept the same brand.,顧客要求不同顏色，但保留同一品牌。,medium,Shopping-常用3000單,customer different brand
+148,sentence,The service was excellent because the clerk answered every question clearly.,服務很好，因為店員清楚回答了每個問題。,medium,Shopping-常用3000單,service clerk answer question
+149,sentence,The shop manager gave the customer an additional discount on the bag.,店經理給顧客這個袋子額外的折扣。,medium,Shopping-常用3000單,shop manager customer discount bag
+150,sentence,This product is popular among students because it is useful in class.,這個產品在學生中很受歡迎，因為上課很有用。,medium,Shopping-常用3000單,product students class useful
+151,sentence,The customer chose the dictionary after reading the information card.,顧客讀了資訊卡後選了這本字典。,medium,Shopping-常用3000單,customer dictionary information card
+152,sentence,The calculator costs more than the ruler but works better.,這台計算機比尺貴，但功能較好。,medium,Shopping-常用3000單,calculator ruler
+153,sentence,The stationery shop keeps pens and books in the front section.,文具店把筆和書放在前方區域。,medium,Shopping-常用3000單,stationery shop pens books section
+154,sentence,The supermarket has a special sale on coffee and chocolate today.,超市今天有咖啡和巧克力特賣。,medium,Shopping-常用3000單,supermarket sale coffee chocolate
+155,sentence,The customer asked the clerk to place the butter in another bag.,顧客請店員把奶油放進另一個袋子。,medium,Shopping-常用3000單,customer clerk butter bag
+156,sentence,The vegetables in this market look fresh and are easy to select.,這個市場的蔬菜看起來新鮮，而且容易挑選。,medium,Shopping-常用3000單,vegetables market select
+157,sentence,The manager said the corn will be on sale this evening.,經理說玉米今晚會特價。,medium,Shopping-常用3000單,manager corn sale
+158,sentence,The customer wanted cabbage but finally chose a different vegetable.,顧客原本想要高麗菜，但最後選了另一種蔬菜。,medium,Shopping-常用3000單,customer cabbage chose vegetable
+159,sentence,This merchandise is part of a new collection from the same brand.,這項商品是同一品牌新系列的一部分。,medium,Shopping-常用3000單,merchandise collection brand
+160,sentence,The consumer should compare the product information before making a choice.,消費者做選擇前應該比較產品資訊。,medium,Shopping-常用3000單,consumer compare product information choice
+161,sentence,The customer has no option but to return the defective product.,顧客別無選擇，只能退回有缺陷的產品。,medium,Shopping-常用3000單,customer option return defective product
+162,sentence,The clerk checked the account and found the old charge.,店員檢查帳戶後找到了舊費用。,medium,Shopping-常用3000單,clerk account charge
+163,sentence,The manager asked the department to improve its customer service.,經理要求部門改善顧客服務。,medium,Shopping-常用3000單,manager department customer service
+164,sentence,The product looks ordinary but the quality is actually excellent.,這個產品看起來普通，但品質其實很好。,medium,Shopping-常用3000單,product quality ordinary excellent
+165,sentence,The customer selected a bright cap for the school activity.,顧客為學校活動選了一頂明亮的帽子。,medium,Shopping-常用3000單,customer selected bright cap school
+166,sentence,The handbag is in the display case beside the main counter.,手提包在主櫃檯旁的展示櫃裡。,medium,Shopping-常用3000單,handbag display case counter
+167,sentence,The suitcase is too large to carry through the crowded market.,這個手提箱太大，無法穿過擁擠的市場。,medium,Shopping-常用3000單,suitcase large carry market
+168,sentence,The shop put popular products near the entrance to attract customers.,商店把熱門產品放在入口附近以吸引顧客。,medium,Shopping-常用3000單,shop products entrance customers
+169,sentence,The customer listened to the recommendation before choosing the final product.,顧客在選擇最終產品前聽了推薦。,medium,Shopping-常用3000單,customer recommendation choosing final product
+170,sentence,The merchant gave a clear explanation of the discount rules.,商人清楚說明了折扣規則。,medium,Shopping-常用3000單,merchant explanation discount rules
+171,sentence,The clerk said this option is more suitable for daily use.,店員說這個選項更適合日常使用。,medium,Shopping-常用3000單,clerk option suitable daily use
+172,sentence,The customer used cash for the bag and credit for the suitcase.,顧客用現金買袋子，用信用買手提箱。,medium,Shopping-常用3000單,customer cash bag credit suitcase
+173,sentence,The bank account record shows the charge from the supermarket.,銀行帳戶紀錄顯示來自超市的費用。,medium,Shopping-常用3000單,bank account charge supermarket
+174,sentence,The shop will ship the order after the manager confirms it.,經理確認後，商店會寄出訂單。,medium,Shopping-常用3000單,shop ship order manager
+175,sentence,The customer asked whether the goods could return before Friday.,顧客詢問商品是否能在星期五前退回。,medium,Shopping-常用3000單,customer goods return Friday
+176,sentence,The product has a small defect but the price is reasonable.,產品有一個小缺陷，但價格合理。,medium,Shopping-常用3000單,product defect reasonable
+177,sentence,The service counter accepted the return because the flaw was obvious.,服務櫃檯接受退貨，因為瑕疵很明顯。,medium,Shopping-常用3000單,service counter return flaw
+178,sentence,The customer chose the brand because it has a good reputation.,顧客選這個品牌，因為它有好名聲。,medium,Shopping-常用3000單,customer brand reputation
+179,sentence,The department manager prepared a new display for the sale.,部門經理為特賣準備了新的展示。,medium,Shopping-常用3000單,department manager display sale
+180,sentence,The market merchant sold fresh corn beside the vegetable counter.,市場商人在蔬菜櫃檯旁賣新鮮玉米。,medium,Shopping-常用3000單,market merchant corn vegetable counter
+181,sentence,The supermarket gave customers a discount on chocolate and coffee.,超市給顧客巧克力和咖啡的折扣。,medium,Shopping-常用3000單,supermarket customers discount chocolate coffee
+182,sentence,The customer added popcorn and butter to the same order.,顧客把爆米花和奶油加到同一筆訂單。,medium,Shopping-常用3000單,customer popcorn butter order
+183,sentence,The stationery department has a good selection of pens and rulers.,文具部門有很多好的筆和尺可選。,medium,Shopping-常用3000單,stationery department selection pens rulers
+184,sentence,The book and dictionary are on the shelf near the calculator.,書和字典在計算機附近的架子上。,medium,Shopping-常用3000單,book dictionary calculator
+185,sentence,The customer asked for information about the shirt material.,顧客詢問襯衫材質的資訊。,medium,Shopping-常用3000單,customer information shirt material
+186,sentence,The skirt and cap are part of the same clothing collection.,裙子和帽子屬於同一服裝系列。,medium,Shopping-常用3000單,skirt cap clothing collection
+187,sentence,The clerk placed the present in a beautiful bright bag.,店員把禮物放進一個漂亮明亮的袋子裡。,medium,Shopping-常用3000單,clerk present bright bag
+188,sentence,The souvenir shop has many local products for foreign visitors.,紀念品店有很多給外國訪客的當地產品。,medium,Shopping-常用3000單,souvenir shop local products visitors
+189,sentence,The customer needed help because the order information was incomplete.,顧客需要幫忙，因為訂單資訊不完整。,medium,Shopping-常用3000單,customer help order information incomplete
+190,sentence,The clerk gave a patient answer about the credit card problem.,店員耐心回答了信用卡問題。,medium,Shopping-常用3000單,clerk answer credit card problem
+191,sentence,The manager said customer service is essential to the shop.,經理說顧客服務對商店很重要。,medium,Shopping-常用3000單,manager customer service shop essential
+192,sentence,The consumer can choose another option if this product is unavailable.,如果這個產品沒有貨，消費者可以選另一個選項。,medium,Shopping-常用3000單,consumer choose option product unavailable
+193,sentence,The merchant will present the new merchandise in the market tomorrow.,商人明天會在市場展示新商品。,medium,Shopping-常用3000單,merchant present merchandise market
+194,sentence,The customer checked the bill before leaving the counter.,顧客離開櫃檯前檢查了帳單。,medium,Shopping-常用3000單,customer bill counter
+195,sentence,The shop accepted cash but did not accept that bank card.,這家店接受現金，但不接受那張銀行卡。,medium,Shopping-常用3000單,shop cash bank card
+196,sentence,The customer kept the account record for future reference.,顧客保留帳戶紀錄以供日後參考。,medium,Shopping-常用3000單,customer account record reference
+197,sentence,The product is not perfect but the discount makes it attractive.,產品並不完美，但折扣讓它很有吸引力。,medium,Shopping-常用3000單,product perfect discount attractive
+198,sentence,The clerk recommended the suitcase because it was practical and strong.,店員推薦這個手提箱，因為它實用又堅固。,medium,Shopping-常用3000單,clerk recommended suitcase practical strong
+199,sentence,The customer chose the handbag after comparing the quality and design.,顧客比較品質和設計後選了這個手提包。,medium,Shopping-常用3000單,customer handbag quality design
+200,sentence,The manager thanked every customer who joined the final sale today.,經理感謝今天參加最後特賣的每位顧客。,medium,Shopping-常用3000單,manager customer final sale
+201,sentence,The customer checked the label carefully because she wanted a reasonable price and reliable quality.,顧客仔細查看標籤，因為她想要合理的價格和可靠的品質。,medium,Shopping-常用3000單,customer label reasonable price quality
+202,sentence,"Before choosing the handbag, the customer asked the clerk for more information about the material.",在選擇手提包之前，顧客向店員詢問更多有關材質的資訊。,medium,Shopping-常用3000單,handbag customer clerk information material
+203,sentence,The manager explained that this discount was only available during the final sale this week.,經理解釋這項折扣只在本週最後特賣期間有效。,medium,Shopping-常用3000單,manager discount available final sale
+204,sentence,My mother compared the price and design of two bags before making her final decision.,我媽媽在做最後決定前比較了兩個包包的價格和設計。,medium,Shopping-常用3000單,mother price design bag final decision
+205,sentence,The clerk helped the customer find a suitable suitcase for a long journey abroad.,店員幫顧客找到一個適合長途出國旅行的手提箱。,medium,Shopping-常用3000單,clerk customer suitcase journey abroad
+206,sentence,"This famous brand is more expensive, but the quality seems better than the cheaper product.",這個知名品牌比較貴，但品質看起來比便宜的產品好。,medium,Shopping-常用3000單,brand expensive quality product
+207,sentence,The customer asked whether the shop could accept both cash and a credit card today.,顧客詢問這家店今天是否可以同時接受現金和信用卡。,medium,Shopping-常用3000單,customer shop accept cash credit card
+208,sentence,"After checking her account, she realized that she had enough money for the merchandise.",檢查帳戶後，她發現自己有足夠的錢買這項商品。,medium,Shopping-常用3000單,account realize money merchandise
+209,sentence,The merchant placed the new merchandise near the front counter to attract more customers.,商人把新商品放在前方櫃檯附近，以吸引更多顧客。,medium,Shopping-常用3000單,merchant merchandise counter attract customer
+210,sentence,The supermarket manager arranged a special discount for students who brought their school cards.,超市經理為帶學生證的學生安排了特別折扣。,medium,Shopping-常用3000單,supermarket manager arrange discount student card
+211,sentence,The customer wanted to know if the product was manufactured by a local company.,顧客想知道這個產品是否由本地公司製造。,medium,Shopping-常用3000單,customer product manufactured local company
+212,sentence,Please keep the bill because you may need it if you return this product later.,請保留帳單，因為你之後退回這個產品時可能會需要它。,medium,Shopping-常用3000單,bill return product later
+213,sentence,The clerk gave me a clear recommendation after I described the kind of bag I needed.,我描述需要哪一種袋子後，店員給了我明確的推薦。,medium,Shopping-常用3000單,clerk recommendation describe bag needed
+214,sentence,The customer did not choose the cheapest option because the design was not attractive.,顧客沒有選最便宜的選項，因為設計不吸引人。,medium,Shopping-常用3000單,customer choose cheapest option design attractive
+215,sentence,The shop owner said the regular price was lower than the price in other stores.,店主說原價比其他商店的價格低。,medium,Shopping-常用3000單,shop owner regular price store
+216,sentence,The customer waited at the counter while the clerk checked the product number in the system.,顧客在櫃檯等待，店員則在系統裡查看產品編號。,medium,Shopping-常用3000單,customer counter clerk product number system
+217,sentence,My father bought a practical briefcase because he needed it for his office work.,我爸爸買了一個實用的公事包，因為他辦公需要用到。,medium,Shopping-常用3000單,father practical briefcase office work
+218,sentence,"The store offered a student concession, so the final price became much more reasonable.",這家店提供學生優惠，所以最後價格變得合理多了。,medium,Shopping-常用3000單,store student concession final price reasonable
+219,sentence,The clerk reminded the customer to check the size before paying for the trousers.,店員提醒顧客在付款買褲子前要先確認尺寸。,medium,Shopping-常用3000單,clerk customer check size trousers paying
+220,sentence,The customer returned to the shop because the product did not match the description online.,顧客回到商店，因為這個產品與網路描述不相符。,medium,Shopping-常用3000單,customer return shop product match description online
+221,sentence,The merchant promised to exchange the goods if the customer found any serious defect.,商人承諾如果顧客發現任何嚴重缺陷，就會更換商品。,medium,Shopping-常用3000單,merchant exchange goods customer defect
+222,sentence,"The manager asked the clerk to arrange the accessories by color, size, and price.",經理請店員依顏色、尺寸和價格整理配件。,medium,Shopping-常用3000單,manager clerk arrange accessories color size price
+223,sentence,The customer felt confident about the purchase because the product had a one year guarantee.,顧客對這次購買很有信心，因為產品有一年保固。,medium,Shopping-常用3000單,customer confident purchase product guarantee
+224,sentence,The shop placed a clear sign near the counter to announce the weekend discount.,商店在櫃檯附近放了一個清楚的標示，宣布週末折扣。,medium,Shopping-常用3000單,shop sign counter announce discount
+225,sentence,The consumer compared several products before deciding which one was the most useful.,消費者比較了幾項產品後，才決定哪一個最有用。,medium,Shopping-常用3000單,consumer compare product decide useful
+226,sentence,The customer asked for a larger bag because the merchandise was too heavy to carry.,顧客要求一個更大的袋子，因為商品太重不好拿。,medium,Shopping-常用3000單,customer larger bag merchandise heavy carry
+227,sentence,"The cashier made a mistake on the bill, but the customer noticed it immediately.",收銀員在帳單上犯了錯，但顧客立刻注意到了。,medium,Shopping-常用3000單,cashier mistake bill customer noticed
+228,sentence,The manager apologized and corrected the account record before the customer left the store.,經理道歉，並在顧客離開商店前修正帳目紀錄。,medium,Shopping-常用3000單,manager apologize correct account record customer store
+229,sentence,"This supermarket sells fresh food, useful tools, and many common household products.",這家超市販售新鮮食物、實用工具和許多常見家庭用品。,medium,Shopping-常用3000單,supermarket fresh food useful tools common household products
+230,sentence,The customer asked whether the famous brand had a cheaper but similar product.,顧客詢問這個知名品牌是否有較便宜但相似的產品。,medium,Shopping-常用3000單,customer famous brand cheaper similar product
+231,sentence,The clerk showed three options and explained the difference between each product carefully.,店員展示三個選項，並仔細解釋每項產品的差異。,medium,Shopping-常用3000單,clerk option difference product carefully
+232,sentence,The customer decided to buy the middle option because it balanced price and quality.,顧客決定買中間的選項，因為它兼顧價格和品質。,medium,Shopping-常用3000單,customer buy middle option price quality
+233,sentence,The shop used a small advertisement to promote the new bags near the entrance.,商店用一個小廣告在入口附近推廣新包包。,medium,Shopping-常用3000單,shop advertisement promote bag entrance
+234,sentence,The merchant said the market was busy because many families were preparing for the festival.,商人說市場很忙，因為許多家庭正在準備節慶。,medium,Shopping-常用3000單,merchant market busy family preparing festival
+235,sentence,"The customer needed a receipt, so the clerk printed one after accepting the payment.",顧客需要收據，所以店員在收款後印了一張。,medium,Shopping-常用3000單,customer receipt clerk accepting payment
+236,sentence,The clerk checked the credit card twice because the machine did not respond at first.,店員檢查信用卡兩次，因為機器一開始沒有反應。,medium,Shopping-常用3000單,clerk credit card machine respond
+237,sentence,The customer became anxious when she could not find her wallet at the counter.,顧客在櫃檯找不到錢包時變得很焦慮。,medium,Shopping-常用3000單,customer anxious wallet counter
+238,sentence,The manager helped her search the shop and finally found the wallet near the bags.,經理幫她在店裡尋找，最後在包包附近找到錢包。,medium,Shopping-常用3000單,manager search shop found wallet bag
+239,sentence,The customer wanted a practical suitcase with enough space for clothes and documents.,顧客想要一個實用的手提箱，有足夠空間放衣服和文件。,medium,Shopping-常用3000單,customer practical suitcase space clothes documents
+240,sentence,The clerk suggested a lighter suitcase because the customer had to carry it upstairs.,店員建議較輕的手提箱，因為顧客必須把它提上樓。,medium,Shopping-常用3000單,clerk suggest lighter suitcase customer carry upstairs
+241,sentence,The customer asked if the store could deliver the heavy product to her apartment.,顧客詢問商店是否能把沉重的產品送到她的公寓。,medium,Shopping-常用3000單,customer store deliver heavy product apartment
+242,sentence,"The shop charged an extra fee for delivery, but the customer considered it reasonable.",商店收取額外配送費，但顧客認為合理。,medium,Shopping-常用3000單,shop charge extra fee delivery customer reasonable
+243,sentence,The customer was satisfied because the product arrived in perfect condition the next day.,顧客很滿意，因為產品隔天以完好狀態送達。,medium,Shopping-常用3000單,customer satisfied product perfect condition next day
+244,sentence,The consumer refused to accept the damaged goods and asked for a full refund.,消費者拒收損壞商品，並要求全額退款。,medium,Shopping-常用3000單,consumer refuse damaged goods full refund
+245,sentence,The clerk examined the product and admitted that the damage happened before delivery.,店員檢查產品，並承認損壞是在配送前發生的。,medium,Shopping-常用3000單,clerk examine product damage delivery
+246,sentence,"The manager offered a new product instead of a refund, but the customer disagreed.",經理提出用新產品替代退款，但顧客不同意。,medium,Shopping-常用3000單,manager offer new product refund customer disagree
+247,sentence,The customer preferred a refund because she no longer needed the same merchandise.,顧客比較想要退款，因為她已經不再需要同樣的商品。,medium,Shopping-常用3000單,customer prefer refund merchandise needed
+248,sentence,The shop finally accepted the return and updated the account record immediately.,商店最後接受退貨，並立刻更新帳目紀錄。,medium,Shopping-常用3000單,shop accept return update account record
+249,sentence,The customer learned to keep every receipt after that unpleasant shopping experience.,那次不愉快的購物經驗後，顧客學會保留每張收據。,medium,Shopping-常用3000單,customer receipt unpleasant shopping experience
+250,sentence,The market became crowded after school because many students wanted snacks and drinks.,放學後市場變得擁擠，因為許多學生想買點心和飲料。,medium,Shopping-常用3000單,market crowded school student snacks drinks
+251,sentence,The shopkeeper placed popular snacks near the entrance to attract young customers quickly.,店主把受歡迎的點心放在入口附近，以快速吸引年輕顧客。,medium,Shopping-常用3000單,shopkeeper popular snacks entrance attract customers
+252,sentence,The customer bought stationery because she had an important assignment due next week.,顧客買文具，因為她下週有重要作業要交。,medium,Shopping-常用3000單,customer stationery important assignment next week
+253,sentence,The clerk recommended a stronger pencil case because the cheaper one broke easily.,店員推薦比較堅固的鉛筆盒，因為便宜的那個很容易壞。,medium,Shopping-常用3000單,clerk recommend stronger pencil case cheaper broke
+254,sentence,The student compared notebooks with different covers before choosing the most colorful one.,學生比較不同封面的筆記本後，選了最鮮豔的一本。,medium,Shopping-常用3000單,student compare notebooks cover choose colorful
+255,sentence,The customer asked the clerk to calculate the total price before she paid.,顧客請店員在她付款前先計算總價。,medium,Shopping-常用3000單,customer clerk calculate total price paid
+256,sentence,The cashier used a calculator because the discount made the final price less obvious.,收銀員使用計算機，因為折扣讓最後價格不太明顯。,medium,Shopping-常用3000單,cashier calculator discount final price obvious
+257,sentence,The customer smiled when she realized the final price was lower than expected.,顧客發現最後價格比預期低時笑了。,medium,Shopping-常用3000單,customer realize final price lower expected
+258,sentence,The clerk packed the goods carefully so the glass bottle would not break.,店員仔細包裝商品，這樣玻璃瓶才不會破。,medium,Shopping-常用3000單,clerk pack goods carefully glass bottle break
+259,sentence,The customer asked for an extra bag because she wanted to separate food from books.,顧客要求多一個袋子，因為她想把食物和書分開。,medium,Shopping-常用3000單,customer extra bag separate food books
+260,sentence,The manager reminded every clerk to treat each customer with patience and respect.,經理提醒每位店員要有耐心並尊重每位顧客。,medium,Shopping-常用3000單,manager clerk treat customer patience respect
+261,sentence,The regular customer returned to the same shop because the service was always friendly.,老顧客回到同一家店，因為服務總是很友善。,medium,Shopping-常用3000單,regular customer shop service friendly
+262,sentence,"The new clerk felt nervous, but the manager gave clear instructions at the counter.",新店員感到緊張，但經理在櫃檯給了清楚指示。,medium,Shopping-常用3000單,new clerk nervous manager instructions counter
+263,sentence,"The customer asked a simple question, and the clerk answered in a polite manner.",顧客問了一個簡單問題，店員以禮貌的方式回答。,medium,Shopping-常用3000單,customer question clerk answer polite manner
+264,sentence,The customer was confused because two products had similar names and different prices.,顧客感到困惑，因為兩項產品名稱相似但價格不同。,medium,Shopping-常用3000單,customer confused products similar names different prices
+265,sentence,The clerk used the product code to explain which item was on sale.,店員用產品編號解釋哪一項商品正在特價。,medium,Shopping-常用3000單,clerk product code explain item sale
+266,sentence,The shop announced that all accessories near the window were available at a discount.,商店宣布窗邊所有配件都可以打折購買。,medium,Shopping-常用3000單,shop announce accessories window available discount
+267,sentence,The girl chose a simple accessory because it matched her dress and shoes.,女孩選了一個簡單配件，因為它和她的洋裝與鞋子相配。,medium,Shopping-常用3000單,girl choose accessory matched dress shoes
+268,sentence,"The customer wanted to buy a gift, but she was uncertain about her friend’s taste.",顧客想買禮物，但她不確定朋友的品味。,medium,Shopping-常用3000單,customer buy gift uncertain friend taste
+269,sentence,The clerk suggested a gift card because it would give her friend more options.,店員建議禮物卡，因為它會給她朋友更多選擇。,medium,Shopping-常用3000單,clerk suggest gift card friend options
+270,sentence,"The customer agreed that a gift card was practical, flexible, and easy to use.",顧客同意禮物卡很實用、彈性大且容易使用。,medium,Shopping-常用3000單,customer agree gift card practical flexible easy use
+271,sentence,The customer asked whether the store had a special package for birthday gifts.,顧客詢問商店是否有生日禮物的特殊包裝。,medium,Shopping-常用3000單,customer store special package birthday gifts
+272,sentence,The clerk wrapped the gift carefully and added a small card with a message.,店員仔細包裝禮物，並加上一張有訊息的小卡片。,medium,Shopping-常用3000單,clerk wrap gift card message
+273,sentence,The customer thanked the clerk because the arrangement looked simple but beautiful.,顧客感謝店員，因為這個安排看起來簡單但漂亮。,medium,Shopping-常用3000單,customer thanked clerk arrangement simple beautiful
+274,sentence,The merchant offered a lower price after the customer bought several products together.,顧客一起買了幾項產品後，商人提供較低價格。,medium,Shopping-常用3000單,merchant lower price customer bought several products
+275,sentence,The customer asked if there was any advantage to becoming a regular member.,顧客詢問成為固定會員是否有任何好處。,medium,Shopping-常用3000單,customer advantage regular member
+276,sentence,The clerk explained that members could collect points and receive future discounts.,店員解釋會員可以累積點數並獲得未來折扣。,medium,Shopping-常用3000單,clerk explain members collect points future discounts
+277,sentence,The customer filled in the form because she wanted to join the membership program.,顧客填寫表格，因為她想加入會員方案。,medium,Shopping-常用3000單,customer form join membership program
+278,sentence,The manager protected customer information and kept the account record in a secure system.,經理保護顧客資訊，並把帳目紀錄保存在安全系統中。,medium,Shopping-常用3000單,manager protect customer information account record secure system
+279,sentence,The customer asked whether her personal data would be used for advertisements.,顧客詢問她的個人資料是否會被用於廣告。,medium,Shopping-常用3000單,customer personal data advertisements
+280,sentence,The clerk promised that the shop would not share her information with another company.,店員承諾商店不會把她的資訊分享給其他公司。,medium,Shopping-常用3000單,clerk promise shop share information company
+281,sentence,The customer felt relieved and completed the form at the service counter.,顧客感到放心，並在服務櫃檯完成表格。,medium,Shopping-常用3000單,customer relieved completed form service counter
+282,sentence,"The supermarket used a clear classification system to place food, tools, and stationery.",超市使用清楚的分類系統來擺放食物、工具和文具。,medium,Shopping-常用3000單,supermarket classification system food tools stationery
+283,sentence,The customer found the correct section quickly because the signs were simple and accurate.,顧客很快找到正確區域，因為標示簡單又準確。,medium,Shopping-常用3000單,customer correct section signs simple accurate
+284,sentence,The clerk noticed that one price label was inaccurate and corrected it immediately.,店員注意到一張價格標籤不準確，並立刻修正。,medium,Shopping-常用3000單,clerk price label inaccurate correct immediately
+285,sentence,The manager said accurate price labels were essential to customer trust.,經理說準確的價格標籤對顧客信任很重要。,medium,Shopping-常用3000單,manager accurate price labels essential customer trust
+286,sentence,The customer complained politely because the price at the counter was higher than the label.,顧客禮貌地抱怨，因為櫃檯價格比標籤高。,medium,Shopping-常用3000單,customer complain politely price counter label
+287,sentence,The clerk apologized and charged the lower price shown on the label.,店員道歉，並收取標籤上顯示的較低價格。,medium,Shopping-常用3000單,clerk apologize charge lower price label
+288,sentence,The customer appreciated the fair response and decided to return to the shop later.,顧客感謝公平的回應，並決定之後再回到這家店。,medium,Shopping-常用3000單,customer appreciate fair response return shop
+289,sentence,The shop developed a good reputation because it handled mistakes in a responsible way.,這家店因為以負責任的方式處理錯誤而建立好名聲。,medium,Shopping-常用3000單,shop reputation handled mistakes responsible way
+290,sentence,The manager believed that honest service could help the business grow steadily.,經理相信誠實服務可以幫助生意穩定成長。,medium,Shopping-常用3000單,manager believe honest service business grow steadily
+291,sentence,The customer asked for advice because she wanted a useful product for her grandmother.,顧客尋求建議，因為她想替祖母買一個實用產品。,medium,Shopping-常用3000單,customer advice useful product grandmother
+292,sentence,The clerk recommended a comfortable chair because older people need strong support.,店員推薦一張舒適的椅子，因為年長者需要穩固支撐。,medium,Shopping-常用3000單,clerk recommend comfortable chair older people support
+293,sentence,The customer considered the recommendation carefully before choosing the most comfortable option.,顧客仔細考慮這項推薦後，選擇了最舒適的選項。,medium,Shopping-常用3000單,customer consider recommendation choose comfortable option
+294,sentence,The store arranged delivery because the chair was too large for the customer’s car.,商店安排配送，因為椅子太大，顧客的車放不下。,medium,Shopping-常用3000單,store arrange delivery chair large customer car
+295,sentence,The customer paid by credit card and kept the bill inside her handbag.,顧客用信用卡付款，並把帳單放進手提包裡。,medium,Shopping-常用3000單,customer paid credit card bill handbag
+296,sentence,The clerk told her to call the shop if there was any problem after delivery.,店員告訴她，如果配送後有任何問題可以打電話給商店。,medium,Shopping-常用3000單,clerk call shop problem delivery
+297,sentence,The customer was pleased because the chair arrived on time and without damage.,顧客很高興，因為椅子準時且沒有損壞地送達。,medium,Shopping-常用3000單,customer pleased chair arrived time damage
+298,sentence,The family thanked the store for its careful service and reasonable delivery charge.,這家人感謝商店細心的服務和合理的配送費。,medium,Shopping-常用3000單,family thanked store careful service reasonable delivery charge
+299,sentence,The manager recorded the positive feedback because it showed the team had improved.,經理記錄了正面回饋，因為這顯示團隊已經進步。,medium,Shopping-常用3000單,manager recorded positive feedback team improved
+300,sentence,The shop used the feedback to improve future service and create a better shopping experience.,商店利用回饋改善未來服務，並創造更好的購物經驗。,medium,Shopping-常用3000單,shop feedback improve future service shopping experience
