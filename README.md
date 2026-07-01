@@ -119,3 +119,10 @@ topics/advanced/business.csv
 ```text
 wrong_records.csv
 ```
+
+## v4 更新
+
+- `topics/intermediate/shopping.csv` 已擴充為 100 句。
+- 句子主題：Shopping-常用3000單。
+- 題目欄位：`id,type,english,chinese,difficulty,topic,keywords`。
+- 單字設計原則：主要使用上傳的 3000 單字表中可對應購物情境的字，例如 `bag`、`handbag`、`customer`、`discount`、`credit card`、`counter`、`stationery`、`accessory`、`product`、`market`、`supermarket`、`merchant`、`clerk`、`salesman` 等。

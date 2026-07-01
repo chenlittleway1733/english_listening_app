@@ -1,9 +1,101 @@
-﻿id,type,english,chinese,difficulty
-1,sentence,How much is this?,這個多少錢?,medium
-2,sentence,I would like to buy this one.,我想買這一個。,medium
-3,sentence,Can I try it on?,我可以試穿嗎?,medium
-4,sentence,Is there a discount today?,今天有折扣嗎?,medium
-5,sentence,Do you have this in a larger size?,這個有大一點的尺寸嗎?,medium
-6,sentence,I am looking for a gift for my friend.,我正在找一份給朋友的禮物。,medium
-7,sentence,Could you tell me where the fitting room is?,你可以告訴我試衣間在哪裡嗎?,medium
-8,sentence,"I bought this yesterday, but it does not fit me.",我昨天買了這個，但是它不合身。,medium
+﻿id,type,english,chinese,difficulty,topic,keywords
+1,sentence,How much is this bag?,這個袋子多少錢？,medium,Shopping-常用3000單,bag
+2,sentence,How much is this handbag?,這個手提包多少錢？,medium,Shopping-常用3000單,handbag
+3,sentence,I would like this bag.,我想要這個袋子。,medium,Shopping-常用3000單,bag
+4,sentence,I would like this handbag.,我想要這個手提包。,medium,Shopping-常用3000單,handbag
+5,sentence,Please put it in a bag.,請把它放進袋子裡。,medium,Shopping-常用3000單,bag
+6,sentence,Can I use a credit card?,我可以使用信用卡嗎？,medium,Shopping-常用3000單,credit card
+7,sentence,Can I use cash?,我可以使用現金嗎？,medium,Shopping-常用3000單,cash
+8,sentence,Where is the counter?,櫃檯在哪裡？,medium,Shopping-常用3000單,counter
+9,sentence,The customer needs help.,這位顧客需要幫忙。,medium,Shopping-常用3000單,customer
+10,sentence,I am a regular customer.,我是常客。,medium,Shopping-常用3000單,regular customer
+11,sentence,The clerk is very kind.,店員很親切。,medium,Shopping-常用3000單,clerk
+12,sentence,The salesman can help you.,銷售員可以幫你。,medium,Shopping-常用3000單,salesman
+13,sentence,The manager is at the counter.,經理在櫃檯。,medium,Shopping-常用3000單,manager counter
+14,sentence,This merchant is honest.,這位商人很誠實。,medium,Shopping-常用3000單,merchant
+15,sentence,The dealer has many goods.,這位商家有很多商品。,medium,Shopping-常用3000單,dealer goods
+16,sentence,Do you have one other option?,你們有另一個選擇嗎？,medium,Shopping-常用3000單,option
+17,sentence,This option is good for me.,這個選擇對我很好。,medium,Shopping-常用3000單,option
+18,sentence,I have no option.,我沒有選擇。,medium,Shopping-常用3000單,option
+19,sentence,I will choose this one.,我會選這一個。,medium,Shopping-常用3000單,choose
+20,sentence,Please help me choose one.,請幫我選一個。,medium,Shopping-常用3000單,choose
+21,sentence,Can I select this one?,我可以挑選這一個嗎？,medium,Shopping-常用3000單,select
+22,sentence,This selection is excellent.,這個選擇很棒。,medium,Shopping-常用3000單,selection
+23,sentence,I will pick this one.,我會挑這一個。,medium,Shopping-常用3000單,pick
+24,sentence,This product is good.,這個產品很好。,medium,Shopping-常用3000單,product
+25,sentence,This product is new.,這個產品是新的。,medium,Shopping-常用3000單,product
+26,sentence,This product is expensive.,這個產品很貴。,medium,Shopping-常用3000單,product expensive
+27,sentence,This product is reasonable.,這個產品很合理。,medium,Shopping-常用3000單,product reasonable
+28,sentence,The quality is excellent.,品質很優秀。,medium,Shopping-常用3000單,quality excellent
+29,sentence,This brand is famous.,這個品牌很有名。,medium,Shopping-常用3000單,brand
+30,sentence,This brand has good quality.,這個品牌品質很好。,medium,Shopping-常用3000單,brand quality
+31,sentence,The merchandise is on the market.,這項商品正在市場上出售。,medium,Shopping-常用3000單,merchandise market
+32,sentence,This shop has various goods.,這家店有各種商品。,medium,Shopping-常用3000單,shop goods
+33,sentence,This shop has many goods.,這家店有很多商品。,medium,Shopping-常用3000單,shop goods
+34,sentence,Many people are in the market.,很多人在市場裡。,medium,Shopping-常用3000單,market people
+35,sentence,The supermarket has much merchandise.,超級市場有很多商品。,medium,Shopping-常用3000單,supermarket merchandise
+36,sentence,I am in the supermarket.,我在超級市場。,medium,Shopping-常用3000單,supermarket
+37,sentence,I need some stationery.,我需要一些文具。,medium,Shopping-常用3000單,stationery
+38,sentence,Where is the stationery section?,文具區在哪裡？,medium,Shopping-常用3000單,stationery section
+39,sentence,I need a new pen.,我需要一支新筆。,medium,Shopping-常用3000單,pen
+40,sentence,I need a calculator.,我需要一台計算器。,medium,Shopping-常用3000單,calculator
+41,sentence,This book is on sale.,這本書在特價。,medium,Shopping-常用3000單,book sale
+42,sentence,The books are on sale.,這些書在特價。,medium,Shopping-常用3000單,books sale
+43,sentence,I would like this book.,我想要這本書。,medium,Shopping-常用3000單,book
+44,sentence,This shop has a large collection of books.,這家店有大量書籍收藏。,medium,Shopping-常用3000單,collection books
+45,sentence,Can I look at this book?,我可以看這本書嗎？,medium,Shopping-常用3000單,book
+46,sentence,I need a shirt.,我需要一件襯衫。,medium,Shopping-常用3000單,shirt
+47,sentence,Can I try this shirt on?,我可以試穿這件襯衫嗎？,medium,Shopping-常用3000單,shirt
+48,sentence,This shirt is expensive.,這件襯衫很貴。,medium,Shopping-常用3000單,shirt expensive
+49,sentence,The shirt has good material.,這件襯衫材質很好。,medium,Shopping-常用3000單,shirt material
+50,sentence,I need new pants.,我需要新的長褲。,medium,Shopping-常用3000單,pants
+51,sentence,Can I try the pants on?,我可以試穿這件長褲嗎？,medium,Shopping-常用3000單,pants
+52,sentence,I would like the jeans.,我想要這件牛仔褲。,medium,Shopping-常用3000單,jeans
+53,sentence,The trousers are on sale.,這件褲子正在特價。,medium,Shopping-常用3000單,trousers sale
+54,sentence,This skirt is very comfortable.,這件裙子很舒服。,medium,Shopping-常用3000單,skirt comfortable
+55,sentence,I need a new cap.,我需要一頂新帽子。,medium,Shopping-常用3000單,cap
+56,sentence,This accessory is for my friend.,這個配件是給我朋友的。,medium,Shopping-常用3000單,accessory friend
+57,sentence,She would like to shop for accessories.,她想買配件。,medium,Shopping-常用3000單,accessories
+58,sentence,This handbag is a classic.,這個手提包是經典款。,medium,Shopping-常用3000單,handbag classic
+59,sentence,This suitcase is very large.,這個手提箱很大。,medium,Shopping-常用3000單,suitcase large
+60,sentence,The baggage is large.,這件行李很大。,medium,Shopping-常用3000單,baggage
+61,sentence,Please carry this bag.,請拿這個袋子。,medium,Shopping-常用3000單,carry bag
+62,sentence,Can you show me that bag?,你可以給我看那個袋子嗎？,medium,Shopping-常用3000單,show bag
+63,sentence,Can you show me this product?,你可以給我看這個產品嗎？,medium,Shopping-常用3000單,show product
+64,sentence,Can you show me one other product?,你可以給我看另一項產品嗎？,medium,Shopping-常用3000單,show product
+65,sentence,Please give me a discount.,請給我折扣。,medium,Shopping-常用3000單,discount
+66,sentence,Is there a discount?,有折扣嗎？,medium,Shopping-常用3000單,discount
+67,sentence,The discount is only for students.,這個折扣只給學生。,medium,Shopping-常用3000單,discount student
+68,sentence,This product is at a discount.,這個產品有折扣。,medium,Shopping-常用3000單,product discount
+69,sentence,Can I take this at a discount?,我可以用折扣拿這個嗎？,medium,Shopping-常用3000單,discount
+70,sentence,The final charge is reasonable.,最後費用很合理。,medium,Shopping-常用3000單,charge reasonable
+71,sentence,What is the charge?,費用是多少？,medium,Shopping-常用3000單,charge
+72,sentence,The charge is on my account.,這筆費用在我的帳戶上。,medium,Shopping-常用3000單,account charge
+73,sentence,I need my account number.,我需要我的帳號。,medium,Shopping-常用3000單,account number
+74,sentence,This card is for my account.,這張卡是我的帳戶用的。,medium,Shopping-常用3000單,card account
+75,sentence,Can I use this card?,我可以使用這張卡嗎？,medium,Shopping-常用3000單,card
+76,sentence,The clerk can take cash.,店員可以收現金。,medium,Shopping-常用3000單,cash
+77,sentence,Can I use cash at the counter?,我可以在櫃檯用現金嗎？,medium,Shopping-常用3000單,cash counter
+78,sentence,Please calculate the final charge.,請計算最後費用。,medium,Shopping-常用3000單,calculate charge
+79,sentence,This calculator is useful.,這台計算器很有用。,medium,Shopping-常用3000單,calculator
+80,sentence,There is no charge for this bag.,這個袋子不收費。,medium,Shopping-常用3000單,charge bag
+81,sentence,This card has no credit.,這張卡沒有信用額度。,medium,Shopping-常用3000單,credit card
+82,sentence,I have a credit card.,我有一張信用卡。,medium,Shopping-常用3000單,credit card
+83,sentence,The customer can use credit.,顧客可以使用信用。,medium,Shopping-常用3000單,customer credit
+84,sentence,The consumer needs clear information.,消費者需要清楚資訊。,medium,Shopping-常用3000單,consumer information
+85,sentence,The buyer needs a clear answer.,買方需要清楚回答。,medium,Shopping-常用3000單,buyer answer
+86,sentence,The purchaser can return the product.,購買者可以退回產品。,medium,Shopping-常用3000單,purchaser return product
+87,sentence,Can I return this product?,我可以退回這個產品嗎？,medium,Shopping-常用3000單,return product
+88,sentence,Can I return this shirt?,我可以退回這件襯衫嗎？,medium,Shopping-常用3000單,return shirt
+89,sentence,Can I return the pants?,我可以退回這件長褲嗎？,medium,Shopping-常用3000單,return pants
+90,sentence,Can I change this product?,我可以更換這個產品嗎？,medium,Shopping-常用3000單,change product
+91,sentence,The product has a defect.,這個產品有瑕疵。,medium,Shopping-常用3000單,product defect
+92,sentence,This product is not acceptable.,這個產品不能接受。,medium,Shopping-常用3000單,acceptable product
+93,sentence,This service is excellent.,這項服務很棒。,medium,Shopping-常用3000單,service
+94,sentence,The shop provides good service.,這家店提供良好服務。,medium,Shopping-常用3000單,service
+95,sentence,Please recommend a product.,請推薦一項產品。,medium,Shopping-常用3000單,recommend product
+96,sentence,This recommendation is good.,這項推薦很好。,medium,Shopping-常用3000單,recommendation
+97,sentence,Can you suggest one other option?,你可以建議另一個選擇嗎？,medium,Shopping-常用3000單,suggest option
+98,sentence,I need more information.,我需要更多資訊。,medium,Shopping-常用3000單,information
+99,sentence,The information is on the card.,資訊在卡上。,medium,Shopping-常用3000單,information card
+100,sentence,This product is from a famous brand.,這個產品來自知名品牌。,medium,Shopping-常用3000單,product brand
