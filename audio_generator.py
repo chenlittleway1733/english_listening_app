@@ -11,7 +11,6 @@ MALE_VOICE = "en-US-GuyNeural"
 
 RATE_BY_SPEED = {
     "normal": "+0%",
-    "slow_075": "-25%",  # about 0.75x speed in Edge TTS
 }
 
 
@@ -80,7 +79,7 @@ def _fallback_gtts(final_path: Path, text: str, repeat_count: int, playback_spee
     from gtts import gTTS
 
     repeated_text = (text + ". ") * max(1, int(repeat_count))
-    # gTTS only supports normal or slow, not exact 0.75x.
+    # gTTS fallback uses normal speed by default.
     slow = playback_speed_key == "slow_075"
     tts = gTTS(text=repeated_text, lang="en", slow=slow)
     tts.save(str(final_path))
@@ -99,7 +98,7 @@ def get_audio_path(
     Primary mode:
     - play the sentence once in a female voice
     - then play the same sentence once in a male voice
-    - support normal speed or about 0.75x speed
+    - use normal TTS speed; users can adjust speed in the browser audio player when supported.
 
     The project audio/ folder is intentionally avoided because an accidental
     GitHub file named audio can break folder creation on Streamlit Cloud.

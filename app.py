@@ -37,10 +37,6 @@ QUESTION_RANGE_OPTIONS = [
     "錯題出題",
 ]
 
-PLAYBACK_SPEEDS = {
-    "正常速": "normal",
-    "0.75倍速": "slow_075",
-}
 
 BASE_DIR = Path(__file__).resolve().parent
 WRONG_FILE = BASE_DIR / "wrong_records.csv"
@@ -219,7 +215,7 @@ def clear_answer(answer_key: str) -> None:
     st.session_state[answer_key] = ""
 
 
-def make_audio_or_show_error(level_key: str, topic_key: str, q: dict, playback_speed_key: str):
+def make_audio_or_show_error(level_key: str, topic_key: str, q: dict):
     """Try to generate audio. If TTS fails, keep the app alive and show details."""
     try:
         from audio_generator import get_audio_path
@@ -229,7 +225,6 @@ def make_audio_or_show_error(level_key: str, topic_key: str, q: dict, playback_s
             q["id"],
             q["english"],
             repeat_count=2,
-            playback_speed_key=playback_speed_key,
         )
         st.audio(str(audio_path))
         st.caption("按一次播放鈕會播放兩次：第一次女聲，第二次男聲。")
@@ -269,13 +264,6 @@ def main() -> None:
         help="選擇題號區間時，系統會從目前等級與類型的 CSV 題庫中隨機抽題。選擇錯題出題時，系統只會從目前等級與類型的錯題記錄抽題；答對後會自動移出錯題記錄。",
     )
 
-    playback_speed_label = st.selectbox(
-        "4. 選擇播放速度",
-        list(PLAYBACK_SPEEDS.keys()),
-        index=0,
-        help="正常速適合一般練習；0.75倍速適合較長句或第一次聽寫練習。",
-    )
-    playback_speed_key = PLAYBACK_SPEEDS[playback_speed_label]
 
     mode_key = "wrong" if question_range == "錯題出題" else "normal"
     if mode_key == "normal":
@@ -321,12 +309,12 @@ def main() -> None:
         st.info("目前這個類型沒有錯題記錄。請先用一般隨機出題練習，答錯後會自動加入錯題記錄。")
     else:
         st.subheader(f"等級：{level_name}")
-        st.write(f"類型：{topic_name}　｜　題型：{q['type']}　｜　出題範圍：{question_range}　｜　播放速度：{playback_speed_label}　｜　題號：{q['id']}")
+        st.write(f"類型：{topic_name}　｜　題型：{q['type']}　｜　出題範圍：{question_range}　｜　題號：{q['id']}")
 
         if show_chinese_hint:
             st.info(f"中文提示：{q['chinese']}")
 
-        make_audio_or_show_error(level_key, topic_key, q, playback_speed_key)
+        make_audio_or_show_error(level_key, topic_key, q)
 
         user_answer = st.text_input("請輸入你聽到的英文", key=answer_key)
 
