@@ -1,6 +1,16 @@
-id,type,english,chinese,difficulty
-1,sentence,How much is this?,這個多少錢?,easy
-2,sentence,I would like to buy this one.,我想買這一個。,easy
-3,sentence,Do you have this in a larger size?,這個有大一點的尺寸嗎?,medium
-4,sentence,Can I try it on?,我可以試穿嗎?,easy
-5,sentence,Is there a discount today?,今天有折扣嗎?,medium
+from pathlib import Path
+from gtts import gTTS
+
+
+def get_audio_path(topic_key: str, question_id, english_text: str) -> Path:
+    """若音檔不存在，就自動用 gTTS 產生 mp3。"""
+    folder = Path("audio") / topic_key
+    folder.mkdir(parents=True, exist_ok=True)
+
+    audio_path = folder / f"{question_id}.mp3"
+
+    if not audio_path.exists():
+        tts = gTTS(text=str(english_text), lang="en")
+        tts.save(str(audio_path))
+
+    return audio_path
