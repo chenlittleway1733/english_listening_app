@@ -1,9 +1,501 @@
-﻿id,type,english,chinese,difficulty
-1,sentence,This is my family.,這是我的家人。,medium
-2,sentence,My brother is tall.,我的哥哥很高。,medium
-3,sentence,My mother is cooking dinner.,我媽媽正在煮晚餐。,medium
-4,sentence,We usually eat breakfast together.,我們通常一起吃早餐。,medium
-5,sentence,My father works in Taipei.,我爸爸在台北工作。,medium
-6,sentence,I help my parents clean the house.,我幫父母打掃房子。,medium
-7,sentence,My grandmother told me an interesting story.,我奶奶告訴我一個有趣的故事。,medium
-8,sentence,Our family likes to go hiking on weekends.,我們家喜歡在週末去爬山。,medium
+﻿id,type,english,chinese,difficulty,topic,keywords
+1,sentence,My father is kind.,我爸爸很親切。,medium,Family-常用3000單,father;kind
+2,sentence,My father helps me at home.,我爸爸在家幫助我。,medium,Family-常用3000單,father;help;home
+3,sentence,My father cooks dinner for us.,我爸爸為我們煮晚餐。,medium,Family-常用3000單,father;cook;dinner
+4,sentence,My father talks with me every day.,我爸爸每天和我說話。,medium,Family-常用3000單,father;talk;day
+5,sentence,My father keeps the house clean.,我爸爸保持家裡乾淨。,medium,Family-常用3000單,father;house;clean
+6,sentence,My mother is kind.,我媽媽很親切。,medium,Family-常用3000單,mother;kind
+7,sentence,My mother helps me at home.,我媽媽在家幫助我。,medium,Family-常用3000單,mother;help;home
+8,sentence,My mother cooks dinner for us.,我媽媽為我們煮晚餐。,medium,Family-常用3000單,mother;cook;dinner
+9,sentence,My mother talks with me every day.,我媽媽每天和我說話。,medium,Family-常用3000單,mother;talk;day
+10,sentence,My mother keeps the house clean.,我媽媽保持家裡乾淨。,medium,Family-常用3000單,mother;house;clean
+11,sentence,My older brother is kind.,我哥哥很親切。,medium,Family-常用3000單,brother;kind
+12,sentence,My older brother helps me at home.,我哥哥在家幫助我。,medium,Family-常用3000單,brother;help;home
+13,sentence,My older brother cooks dinner for us.,我哥哥為我們煮晚餐。,medium,Family-常用3000單,brother;cook;dinner
+14,sentence,My older brother talks with me every day.,我哥哥每天和我說話。,medium,Family-常用3000單,brother;talk;day
+15,sentence,My older brother keeps the house clean.,我哥哥保持家裡乾淨。,medium,Family-常用3000單,brother;house;clean
+16,sentence,My younger sister is kind.,我妹妹很親切。,medium,Family-常用3000單,sister;kind
+17,sentence,My younger sister helps me at home.,我妹妹在家幫助我。,medium,Family-常用3000單,sister;help;home
+18,sentence,My younger sister cooks dinner for us.,我妹妹為我們煮晚餐。,medium,Family-常用3000單,sister;cook;dinner
+19,sentence,My younger sister talks with me every day.,我妹妹每天和我說話。,medium,Family-常用3000單,sister;talk;day
+20,sentence,My younger sister keeps the house clean.,我妹妹保持家裡乾淨。,medium,Family-常用3000單,sister;house;clean
+21,sentence,My grandmother is kind.,我奶奶很親切。,medium,Family-常用3000單,grandmother;kind
+22,sentence,My grandmother helps me at home.,我奶奶在家幫助我。,medium,Family-常用3000單,grandmother;help;home
+23,sentence,My grandmother cooks dinner for us.,我奶奶為我們煮晚餐。,medium,Family-常用3000單,grandmother;cook;dinner
+24,sentence,My grandmother talks with me every day.,我奶奶每天和我說話。,medium,Family-常用3000單,grandmother;talk;day
+25,sentence,My grandmother keeps the house clean.,我奶奶保持家裡乾淨。,medium,Family-常用3000單,grandmother;house;clean
+26,sentence,My grandfather is kind.,我爺爺很親切。,medium,Family-常用3000單,grandfather;kind
+27,sentence,My grandfather helps me at home.,我爺爺在家幫助我。,medium,Family-常用3000單,grandfather;help;home
+28,sentence,My grandfather cooks dinner for us.,我爺爺為我們煮晚餐。,medium,Family-常用3000單,grandfather;cook;dinner
+29,sentence,My grandfather talks with me every day.,我爺爺每天和我說話。,medium,Family-常用3000單,grandfather;talk;day
+30,sentence,My grandfather keeps the house clean.,我爺爺保持家裡乾淨。,medium,Family-常用3000單,grandfather;house;clean
+31,sentence,My uncle is kind.,我叔叔很親切。,medium,Family-常用3000單,uncle;kind
+32,sentence,My uncle helps me at home.,我叔叔在家幫助我。,medium,Family-常用3000單,uncle;help;home
+33,sentence,My uncle cooks dinner for us.,我叔叔為我們煮晚餐。,medium,Family-常用3000單,uncle;cook;dinner
+34,sentence,My uncle talks with me every day.,我叔叔每天和我說話。,medium,Family-常用3000單,uncle;talk;day
+35,sentence,My uncle keeps the house clean.,我叔叔保持家裡乾淨。,medium,Family-常用3000單,uncle;house;clean
+36,sentence,My aunt is kind.,我阿姨很親切。,medium,Family-常用3000單,aunt;kind
+37,sentence,My aunt helps me at home.,我阿姨在家幫助我。,medium,Family-常用3000單,aunt;help;home
+38,sentence,My aunt cooks dinner for us.,我阿姨為我們煮晚餐。,medium,Family-常用3000單,aunt;cook;dinner
+39,sentence,My aunt talks with me every day.,我阿姨每天和我說話。,medium,Family-常用3000單,aunt;talk;day
+40,sentence,My aunt keeps the house clean.,我阿姨保持家裡乾淨。,medium,Family-常用3000單,aunt;house;clean
+41,sentence,My cousin is kind.,我表親很親切。,medium,Family-常用3000單,cousin;kind
+42,sentence,My cousin helps me at home.,我表親在家幫助我。,medium,Family-常用3000單,cousin;help;home
+43,sentence,My cousin cooks dinner for us.,我表親為我們煮晚餐。,medium,Family-常用3000單,cousin;cook;dinner
+44,sentence,My cousin talks with me every day.,我表親每天和我說話。,medium,Family-常用3000單,cousin;talk;day
+45,sentence,My cousin keeps the house clean.,我表親保持家裡乾淨。,medium,Family-常用3000單,cousin;house;clean
+46,sentence,My son is kind.,我兒子很親切。,medium,Family-常用3000單,son;kind
+47,sentence,My son helps me at home.,我兒子在家幫助我。,medium,Family-常用3000單,son;help;home
+48,sentence,My son cooks dinner for us.,我兒子為我們煮晚餐。,medium,Family-常用3000單,son;cook;dinner
+49,sentence,My son talks with me every day.,我兒子每天和我說話。,medium,Family-常用3000單,son;talk;day
+50,sentence,My son keeps the house clean.,我兒子保持家裡乾淨。,medium,Family-常用3000單,son;house;clean
+51,sentence,My daughter is kind.,我女兒很親切。,medium,Family-常用3000單,daughter;kind
+52,sentence,My daughter helps me at home.,我女兒在家幫助我。,medium,Family-常用3000單,daughter;help;home
+53,sentence,My daughter cooks dinner for us.,我女兒為我們煮晚餐。,medium,Family-常用3000單,daughter;cook;dinner
+54,sentence,My daughter talks with me every day.,我女兒每天和我說話。,medium,Family-常用3000單,daughter;talk;day
+55,sentence,My daughter keeps the house clean.,我女兒保持家裡乾淨。,medium,Family-常用3000單,daughter;house;clean
+56,sentence,My wife is kind.,我太太很親切。,medium,Family-常用3000單,wife;kind
+57,sentence,My wife helps me at home.,我太太在家幫助我。,medium,Family-常用3000單,wife;help;home
+58,sentence,My wife cooks dinner for us.,我太太為我們煮晚餐。,medium,Family-常用3000單,wife;cook;dinner
+59,sentence,My wife talks with me every day.,我太太每天和我說話。,medium,Family-常用3000單,wife;talk;day
+60,sentence,My wife keeps the house clean.,我太太保持家裡乾淨。,medium,Family-常用3000單,wife;house;clean
+61,sentence,My husband is kind.,我先生很親切。,medium,Family-常用3000單,husband;kind
+62,sentence,My husband helps me at home.,我先生在家幫助我。,medium,Family-常用3000單,husband;help;home
+63,sentence,My husband cooks dinner for us.,我先生為我們煮晚餐。,medium,Family-常用3000單,husband;cook;dinner
+64,sentence,My husband talks with me every day.,我先生每天和我說話。,medium,Family-常用3000單,husband;talk;day
+65,sentence,My husband keeps the house clean.,我先生保持家裡乾淨。,medium,Family-常用3000單,husband;house;clean
+66,sentence,My parents are kind.,我父母很親切。,medium,Family-常用3000單,parents;kind
+67,sentence,My parents help me at home.,我父母在家幫助我。,medium,Family-常用3000單,parents;help;home
+68,sentence,My parents cook dinner for us.,我父母為我們煮晚餐。,medium,Family-常用3000單,parents;cook;dinner
+69,sentence,My parents talk with me every day.,我父母每天和我說話。,medium,Family-常用3000單,parents;talk;day
+70,sentence,My parents keep the house clean.,我父母保持家裡乾淨。,medium,Family-常用3000單,parents;house;clean
+71,sentence,My children are kind.,我的孩子們很親切。,medium,Family-常用3000單,children;kind
+72,sentence,My children help me at home.,我的孩子們在家幫助我。,medium,Family-常用3000單,children;help;home
+73,sentence,My children cook dinner for us.,我的孩子們為我們煮晚餐。,medium,Family-常用3000單,children;cook;dinner
+74,sentence,My children talk with me every day.,我的孩子們每天和我說話。,medium,Family-常用3000單,children;talk;day
+75,sentence,My children keep the house clean.,我的孩子們保持家裡乾淨。,medium,Family-常用3000單,children;house;clean
+76,sentence,My grandparents are kind.,我的祖父母很親切。,medium,Family-常用3000單,grandparents;kind
+77,sentence,My grandparents help me at home.,我的祖父母在家幫助我。,medium,Family-常用3000單,grandparents;help;home
+78,sentence,My grandparents cook dinner for us.,我的祖父母為我們煮晚餐。,medium,Family-常用3000單,grandparents;cook;dinner
+79,sentence,My grandparents talk with me every day.,我的祖父母每天和我說話。,medium,Family-常用3000單,grandparents;talk;day
+80,sentence,My grandparents keep the house clean.,我的祖父母保持家裡乾淨。,medium,Family-常用3000單,grandparents;house;clean
+81,sentence,My family is kind.,我的家人很親切。,medium,Family-常用3000單,family;kind
+82,sentence,My family helps me at home.,我的家人在家幫助我。,medium,Family-常用3000單,family;help;home
+83,sentence,My family cooks dinner for us.,我的家人為我們煮晚餐。,medium,Family-常用3000單,family;cook;dinner
+84,sentence,My family talks with me every day.,我的家人每天和我說話。,medium,Family-常用3000單,family;talk;day
+85,sentence,My family keeps the house clean.,我的家人保持家裡乾淨。,medium,Family-常用3000單,family;house;clean
+86,sentence,My brother is kind.,我兄弟很親切。,medium,Family-常用3000單,brother;kind
+87,sentence,My brother helps me at home.,我兄弟在家幫助我。,medium,Family-常用3000單,brother;help;home
+88,sentence,My brother cooks dinner for us.,我兄弟為我們煮晚餐。,medium,Family-常用3000單,brother;cook;dinner
+89,sentence,My brother talks with me every day.,我兄弟每天和我說話。,medium,Family-常用3000單,brother;talk;day
+90,sentence,My brother keeps the house clean.,我兄弟保持家裡乾淨。,medium,Family-常用3000單,brother;house;clean
+91,sentence,My sister is kind.,我姊妹很親切。,medium,Family-常用3000單,sister;kind
+92,sentence,My sister helps me at home.,我姊妹在家幫助我。,medium,Family-常用3000單,sister;help;home
+93,sentence,My sister cooks dinner for us.,我姊妹為我們煮晚餐。,medium,Family-常用3000單,sister;cook;dinner
+94,sentence,My sister talks with me every day.,我姊妹每天和我說話。,medium,Family-常用3000單,sister;talk;day
+95,sentence,My sister keeps the house clean.,我姊妹保持家裡乾淨。,medium,Family-常用3000單,sister;house;clean
+96,sentence,My relatives are kind.,我的親戚們很親切。,medium,Family-常用3000單,relatives;kind
+97,sentence,My relatives help me at home.,我的親戚們在家幫助我。,medium,Family-常用3000單,relatives;help;home
+98,sentence,My relatives cook dinner for us.,我的親戚們為我們煮晚餐。,medium,Family-常用3000單,relatives;cook;dinner
+99,sentence,My relatives talk with me every day.,我的親戚們每天和我說話。,medium,Family-常用3000單,relatives;talk;day
+100,sentence,My relatives keep the house clean.,我的親戚們保持家裡乾淨。,medium,Family-常用3000單,relatives;house;clean
+101,sentence,My father usually prepares breakfast before everyone leaves home.,我爸爸通常在大家離家前準備早餐。,medium,Family-常用3000單,father;breakfast;home
+102,sentence,My father often reminds me to finish my homework after dinner.,我爸爸常常提醒我晚餐後完成作業。,medium,Family-常用3000單,father;homework;dinner
+103,sentence,My father likes to share simple stories at the dinner table.,我爸爸喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,father;share;story;dinner
+104,sentence,My father sometimes visits our house during the weekend.,我爸爸有時週末來我們家拜訪。,medium,Family-常用3000單,father;visit;house;weekend
+105,sentence,My father always listens carefully when someone has a problem.,我爸爸總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,father;listen;problem
+106,sentence,My mother usually prepares breakfast before everyone leaves home.,我媽媽通常在大家離家前準備早餐。,medium,Family-常用3000單,mother;breakfast;home
+107,sentence,My mother often reminds me to finish my homework after dinner.,我媽媽常常提醒我晚餐後完成作業。,medium,Family-常用3000單,mother;homework;dinner
+108,sentence,My mother likes to share simple stories at the dinner table.,我媽媽喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,mother;share;story;dinner
+109,sentence,My mother sometimes visits our house during the weekend.,我媽媽有時週末來我們家拜訪。,medium,Family-常用3000單,mother;visit;house;weekend
+110,sentence,My mother always listens carefully when someone has a problem.,我媽媽總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,mother;listen;problem
+111,sentence,My older brother usually prepares breakfast before everyone leaves home.,我哥哥通常在大家離家前準備早餐。,medium,Family-常用3000單,brother;breakfast;home
+112,sentence,My older brother often reminds me to finish my homework after dinner.,我哥哥常常提醒我晚餐後完成作業。,medium,Family-常用3000單,brother;homework;dinner
+113,sentence,My older brother likes to share simple stories at the dinner table.,我哥哥喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,brother;share;story;dinner
+114,sentence,My older brother sometimes visits our house during the weekend.,我哥哥有時週末來我們家拜訪。,medium,Family-常用3000單,brother;visit;house;weekend
+115,sentence,My older brother always listens carefully when someone has a problem.,我哥哥總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,brother;listen;problem
+116,sentence,My younger sister usually prepares breakfast before everyone leaves home.,我妹妹通常在大家離家前準備早餐。,medium,Family-常用3000單,sister;breakfast;home
+117,sentence,My younger sister often reminds me to finish my homework after dinner.,我妹妹常常提醒我晚餐後完成作業。,medium,Family-常用3000單,sister;homework;dinner
+118,sentence,My younger sister likes to share simple stories at the dinner table.,我妹妹喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,sister;share;story;dinner
+119,sentence,My younger sister sometimes visits our house during the weekend.,我妹妹有時週末來我們家拜訪。,medium,Family-常用3000單,sister;visit;house;weekend
+120,sentence,My younger sister always listens carefully when someone has a problem.,我妹妹總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,sister;listen;problem
+121,sentence,My grandmother usually prepares breakfast before everyone leaves home.,我奶奶通常在大家離家前準備早餐。,medium,Family-常用3000單,grandmother;breakfast;home
+122,sentence,My grandmother often reminds me to finish my homework after dinner.,我奶奶常常提醒我晚餐後完成作業。,medium,Family-常用3000單,grandmother;homework;dinner
+123,sentence,My grandmother likes to share simple stories at the dinner table.,我奶奶喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,grandmother;share;story;dinner
+124,sentence,My grandmother sometimes visits our house during the weekend.,我奶奶有時週末來我們家拜訪。,medium,Family-常用3000單,grandmother;visit;house;weekend
+125,sentence,My grandmother always listens carefully when someone has a problem.,我奶奶總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,grandmother;listen;problem
+126,sentence,My grandfather usually prepares breakfast before everyone leaves home.,我爺爺通常在大家離家前準備早餐。,medium,Family-常用3000單,grandfather;breakfast;home
+127,sentence,My grandfather often reminds me to finish my homework after dinner.,我爺爺常常提醒我晚餐後完成作業。,medium,Family-常用3000單,grandfather;homework;dinner
+128,sentence,My grandfather likes to share simple stories at the dinner table.,我爺爺喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,grandfather;share;story;dinner
+129,sentence,My grandfather sometimes visits our house during the weekend.,我爺爺有時週末來我們家拜訪。,medium,Family-常用3000單,grandfather;visit;house;weekend
+130,sentence,My grandfather always listens carefully when someone has a problem.,我爺爺總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,grandfather;listen;problem
+131,sentence,My uncle usually prepares breakfast before everyone leaves home.,我叔叔通常在大家離家前準備早餐。,medium,Family-常用3000單,uncle;breakfast;home
+132,sentence,My uncle often reminds me to finish my homework after dinner.,我叔叔常常提醒我晚餐後完成作業。,medium,Family-常用3000單,uncle;homework;dinner
+133,sentence,My uncle likes to share simple stories at the dinner table.,我叔叔喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,uncle;share;story;dinner
+134,sentence,My uncle sometimes visits our house during the weekend.,我叔叔有時週末來我們家拜訪。,medium,Family-常用3000單,uncle;visit;house;weekend
+135,sentence,My uncle always listens carefully when someone has a problem.,我叔叔總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,uncle;listen;problem
+136,sentence,My aunt usually prepares breakfast before everyone leaves home.,我阿姨通常在大家離家前準備早餐。,medium,Family-常用3000單,aunt;breakfast;home
+137,sentence,My aunt often reminds me to finish my homework after dinner.,我阿姨常常提醒我晚餐後完成作業。,medium,Family-常用3000單,aunt;homework;dinner
+138,sentence,My aunt likes to share simple stories at the dinner table.,我阿姨喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,aunt;share;story;dinner
+139,sentence,My aunt sometimes visits our house during the weekend.,我阿姨有時週末來我們家拜訪。,medium,Family-常用3000單,aunt;visit;house;weekend
+140,sentence,My aunt always listens carefully when someone has a problem.,我阿姨總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,aunt;listen;problem
+141,sentence,My cousin usually prepares breakfast before everyone leaves home.,我表親通常在大家離家前準備早餐。,medium,Family-常用3000單,cousin;breakfast;home
+142,sentence,My cousin often reminds me to finish my homework after dinner.,我表親常常提醒我晚餐後完成作業。,medium,Family-常用3000單,cousin;homework;dinner
+143,sentence,My cousin likes to share simple stories at the dinner table.,我表親喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,cousin;share;story;dinner
+144,sentence,My cousin sometimes visits our house during the weekend.,我表親有時週末來我們家拜訪。,medium,Family-常用3000單,cousin;visit;house;weekend
+145,sentence,My cousin always listens carefully when someone has a problem.,我表親總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,cousin;listen;problem
+146,sentence,My son usually prepares breakfast before everyone leaves home.,我兒子通常在大家離家前準備早餐。,medium,Family-常用3000單,son;breakfast;home
+147,sentence,My son often reminds me to finish my homework after dinner.,我兒子常常提醒我晚餐後完成作業。,medium,Family-常用3000單,son;homework;dinner
+148,sentence,My son likes to share simple stories at the dinner table.,我兒子喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,son;share;story;dinner
+149,sentence,My son sometimes visits our house during the weekend.,我兒子有時週末來我們家拜訪。,medium,Family-常用3000單,son;visit;house;weekend
+150,sentence,My son always listens carefully when someone has a problem.,我兒子總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,son;listen;problem
+151,sentence,My daughter usually prepares breakfast before everyone leaves home.,我女兒通常在大家離家前準備早餐。,medium,Family-常用3000單,daughter;breakfast;home
+152,sentence,My daughter often reminds me to finish my homework after dinner.,我女兒常常提醒我晚餐後完成作業。,medium,Family-常用3000單,daughter;homework;dinner
+153,sentence,My daughter likes to share simple stories at the dinner table.,我女兒喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,daughter;share;story;dinner
+154,sentence,My daughter sometimes visits our house during the weekend.,我女兒有時週末來我們家拜訪。,medium,Family-常用3000單,daughter;visit;house;weekend
+155,sentence,My daughter always listens carefully when someone has a problem.,我女兒總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,daughter;listen;problem
+156,sentence,My wife usually prepares breakfast before everyone leaves home.,我太太通常在大家離家前準備早餐。,medium,Family-常用3000單,wife;breakfast;home
+157,sentence,My wife often reminds me to finish my homework after dinner.,我太太常常提醒我晚餐後完成作業。,medium,Family-常用3000單,wife;homework;dinner
+158,sentence,My wife likes to share simple stories at the dinner table.,我太太喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,wife;share;story;dinner
+159,sentence,My wife sometimes visits our house during the weekend.,我太太有時週末來我們家拜訪。,medium,Family-常用3000單,wife;visit;house;weekend
+160,sentence,My wife always listens carefully when someone has a problem.,我太太總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,wife;listen;problem
+161,sentence,My husband usually prepares breakfast before everyone leaves home.,我先生通常在大家離家前準備早餐。,medium,Family-常用3000單,husband;breakfast;home
+162,sentence,My husband often reminds me to finish my homework after dinner.,我先生常常提醒我晚餐後完成作業。,medium,Family-常用3000單,husband;homework;dinner
+163,sentence,My husband likes to share simple stories at the dinner table.,我先生喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,husband;share;story;dinner
+164,sentence,My husband sometimes visits our house during the weekend.,我先生有時週末來我們家拜訪。,medium,Family-常用3000單,husband;visit;house;weekend
+165,sentence,My husband always listens carefully when someone has a problem.,我先生總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,husband;listen;problem
+166,sentence,My parents usually prepare breakfast before everyone leaves home.,我父母通常在大家離家前準備早餐。,medium,Family-常用3000單,parents;breakfast;home
+167,sentence,My parents often remind me to finish my homework after dinner.,我父母常常提醒我晚餐後完成作業。,medium,Family-常用3000單,parents;homework;dinner
+168,sentence,My parents like to share simple stories at the dinner table.,我父母喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,parents;share;story;dinner
+169,sentence,My parents sometimes visit our house during the weekend.,我父母有時週末來我們家拜訪。,medium,Family-常用3000單,parents;visit;house;weekend
+170,sentence,My parents always listen carefully when someone has a problem.,我父母總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,parents;listen;problem
+171,sentence,My children usually prepare breakfast before everyone leaves home.,我的孩子們通常在大家離家前準備早餐。,medium,Family-常用3000單,children;breakfast;home
+172,sentence,My children often remind me to finish my homework after dinner.,我的孩子們常常提醒我晚餐後完成作業。,medium,Family-常用3000單,children;homework;dinner
+173,sentence,My children like to share simple stories at the dinner table.,我的孩子們喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,children;share;story;dinner
+174,sentence,My children sometimes visit our house during the weekend.,我的孩子們有時週末來我們家拜訪。,medium,Family-常用3000單,children;visit;house;weekend
+175,sentence,My children always listen carefully when someone has a problem.,我的孩子們總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,children;listen;problem
+176,sentence,My grandparents usually prepare breakfast before everyone leaves home.,我的祖父母通常在大家離家前準備早餐。,medium,Family-常用3000單,grandparents;breakfast;home
+177,sentence,My grandparents often remind me to finish my homework after dinner.,我的祖父母常常提醒我晚餐後完成作業。,medium,Family-常用3000單,grandparents;homework;dinner
+178,sentence,My grandparents like to share simple stories at the dinner table.,我的祖父母喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,grandparents;share;story;dinner
+179,sentence,My grandparents sometimes visit our house during the weekend.,我的祖父母有時週末來我們家拜訪。,medium,Family-常用3000單,grandparents;visit;house;weekend
+180,sentence,My grandparents always listen carefully when someone has a problem.,我的祖父母總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,grandparents;listen;problem
+181,sentence,My family usually prepares breakfast before everyone leaves home.,我的家人通常在大家離家前準備早餐。,medium,Family-常用3000單,family;breakfast;home
+182,sentence,My family often reminds me to finish my homework after dinner.,我的家人常常提醒我晚餐後完成作業。,medium,Family-常用3000單,family;homework;dinner
+183,sentence,My family likes to share simple stories at the dinner table.,我的家人喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,family;share;story;dinner
+184,sentence,My family sometimes visits our house during the weekend.,我的家人有時週末來我們家拜訪。,medium,Family-常用3000單,family;visit;house;weekend
+185,sentence,My family always listens carefully when someone has a problem.,我的家人總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,family;listen;problem
+186,sentence,My brother usually prepares breakfast before everyone leaves home.,我兄弟通常在大家離家前準備早餐。,medium,Family-常用3000單,brother;breakfast;home
+187,sentence,My brother often reminds me to finish my homework after dinner.,我兄弟常常提醒我晚餐後完成作業。,medium,Family-常用3000單,brother;homework;dinner
+188,sentence,My brother likes to share simple stories at the dinner table.,我兄弟喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,brother;share;story;dinner
+189,sentence,My brother sometimes visits our house during the weekend.,我兄弟有時週末來我們家拜訪。,medium,Family-常用3000單,brother;visit;house;weekend
+190,sentence,My brother always listens carefully when someone has a problem.,我兄弟總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,brother;listen;problem
+191,sentence,My sister usually prepares breakfast before everyone leaves home.,我姊妹通常在大家離家前準備早餐。,medium,Family-常用3000單,sister;breakfast;home
+192,sentence,My sister often reminds me to finish my homework after dinner.,我姊妹常常提醒我晚餐後完成作業。,medium,Family-常用3000單,sister;homework;dinner
+193,sentence,My sister likes to share simple stories at the dinner table.,我姊妹喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,sister;share;story;dinner
+194,sentence,My sister sometimes visits our house during the weekend.,我姊妹有時週末來我們家拜訪。,medium,Family-常用3000單,sister;visit;house;weekend
+195,sentence,My sister always listens carefully when someone has a problem.,我姊妹總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,sister;listen;problem
+196,sentence,My relatives usually prepare breakfast before everyone leaves home.,我的親戚們通常在大家離家前準備早餐。,medium,Family-常用3000單,relatives;breakfast;home
+197,sentence,My relatives often remind me to finish my homework after dinner.,我的親戚們常常提醒我晚餐後完成作業。,medium,Family-常用3000單,relatives;homework;dinner
+198,sentence,My relatives like to share simple stories at the dinner table.,我的親戚們喜歡在餐桌上分享簡單的故事。,medium,Family-常用3000單,relatives;share;story;dinner
+199,sentence,My relatives sometimes visit our house during the weekend.,我的親戚們有時週末來我們家拜訪。,medium,Family-常用3000單,relatives;visit;house;weekend
+200,sentence,My relatives always listen carefully when someone has a problem.,我的親戚們總是在有人遇到問題時仔細聆聽。,medium,Family-常用3000單,relatives;listen;problem
+201,sentence,My father takes care of the house when other family members are busy.,我爸爸在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,father;take care;house;busy
+202,sentence,My father encourages me to stay calm when I feel nervous before a test.,我爸爸在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,father;encourage;calm;test
+203,sentence,My father explains family rules clearly so everyone knows what to do.,我爸爸清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,father;family;rule;explain
+204,sentence,My father enjoys taking a walk with us after a simple evening meal.,我爸爸喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,father;walk;meal;evening
+205,sentence,My father teaches me to be responsible for my own room and things.,我爸爸教我要對自己的房間和物品負責。,medium,Family-常用3000單,father;teach;responsible;room
+206,sentence,My mother takes care of the house when other family members are busy.,我媽媽在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,mother;take care;house;busy
+207,sentence,My mother encourages me to stay calm when I feel nervous before a test.,我媽媽在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,mother;encourage;calm;test
+208,sentence,My mother explains family rules clearly so everyone knows what to do.,我媽媽清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,mother;family;rule;explain
+209,sentence,My mother enjoys taking a walk with us after a simple evening meal.,我媽媽喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,mother;walk;meal;evening
+210,sentence,My mother teaches me to be responsible for my own room and things.,我媽媽教我要對自己的房間和物品負責。,medium,Family-常用3000單,mother;teach;responsible;room
+211,sentence,My older brother takes care of the house when other family members are busy.,我哥哥在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,brother;take care;house;busy
+212,sentence,My older brother encourages me to stay calm when I feel nervous before a test.,我哥哥在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,brother;encourage;calm;test
+213,sentence,My older brother explains family rules clearly so everyone knows what to do.,我哥哥清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,brother;family;rule;explain
+214,sentence,My older brother enjoys taking a walk with us after a simple evening meal.,我哥哥喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,brother;walk;meal;evening
+215,sentence,My older brother teaches me to be responsible for my own room and things.,我哥哥教我要對自己的房間和物品負責。,medium,Family-常用3000單,brother;teach;responsible;room
+216,sentence,My younger sister takes care of the house when other family members are busy.,我妹妹在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,sister;take care;house;busy
+217,sentence,My younger sister encourages me to stay calm when I feel nervous before a test.,我妹妹在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,sister;encourage;calm;test
+218,sentence,My younger sister explains family rules clearly so everyone knows what to do.,我妹妹清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,sister;family;rule;explain
+219,sentence,My younger sister enjoys taking a walk with us after a simple evening meal.,我妹妹喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,sister;walk;meal;evening
+220,sentence,My younger sister teaches me to be responsible for my own room and things.,我妹妹教我要對自己的房間和物品負責。,medium,Family-常用3000單,sister;teach;responsible;room
+221,sentence,My grandmother takes care of the house when other family members are busy.,我奶奶在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,grandmother;take care;house;busy
+222,sentence,My grandmother encourages me to stay calm when I feel nervous before a test.,我奶奶在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,grandmother;encourage;calm;test
+223,sentence,My grandmother explains family rules clearly so everyone knows what to do.,我奶奶清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,grandmother;family;rule;explain
+224,sentence,My grandmother enjoys taking a walk with us after a simple evening meal.,我奶奶喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,grandmother;walk;meal;evening
+225,sentence,My grandmother teaches me to be responsible for my own room and things.,我奶奶教我要對自己的房間和物品負責。,medium,Family-常用3000單,grandmother;teach;responsible;room
+226,sentence,My grandfather takes care of the house when other family members are busy.,我爺爺在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,grandfather;take care;house;busy
+227,sentence,My grandfather encourages me to stay calm when I feel nervous before a test.,我爺爺在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,grandfather;encourage;calm;test
+228,sentence,My grandfather explains family rules clearly so everyone knows what to do.,我爺爺清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,grandfather;family;rule;explain
+229,sentence,My grandfather enjoys taking a walk with us after a simple evening meal.,我爺爺喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,grandfather;walk;meal;evening
+230,sentence,My grandfather teaches me to be responsible for my own room and things.,我爺爺教我要對自己的房間和物品負責。,medium,Family-常用3000單,grandfather;teach;responsible;room
+231,sentence,My uncle takes care of the house when other family members are busy.,我叔叔在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,uncle;take care;house;busy
+232,sentence,My uncle encourages me to stay calm when I feel nervous before a test.,我叔叔在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,uncle;encourage;calm;test
+233,sentence,My uncle explains family rules clearly so everyone knows what to do.,我叔叔清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,uncle;family;rule;explain
+234,sentence,My uncle enjoys taking a walk with us after a simple evening meal.,我叔叔喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,uncle;walk;meal;evening
+235,sentence,My uncle teaches me to be responsible for my own room and things.,我叔叔教我要對自己的房間和物品負責。,medium,Family-常用3000單,uncle;teach;responsible;room
+236,sentence,My aunt takes care of the house when other family members are busy.,我阿姨在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,aunt;take care;house;busy
+237,sentence,My aunt encourages me to stay calm when I feel nervous before a test.,我阿姨在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,aunt;encourage;calm;test
+238,sentence,My aunt explains family rules clearly so everyone knows what to do.,我阿姨清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,aunt;family;rule;explain
+239,sentence,My aunt enjoys taking a walk with us after a simple evening meal.,我阿姨喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,aunt;walk;meal;evening
+240,sentence,My aunt teaches me to be responsible for my own room and things.,我阿姨教我要對自己的房間和物品負責。,medium,Family-常用3000單,aunt;teach;responsible;room
+241,sentence,My cousin takes care of the house when other family members are busy.,我表親在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,cousin;take care;house;busy
+242,sentence,My cousin encourages me to stay calm when I feel nervous before a test.,我表親在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,cousin;encourage;calm;test
+243,sentence,My cousin explains family rules clearly so everyone knows what to do.,我表親清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,cousin;family;rule;explain
+244,sentence,My cousin enjoys taking a walk with us after a simple evening meal.,我表親喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,cousin;walk;meal;evening
+245,sentence,My cousin teaches me to be responsible for my own room and things.,我表親教我要對自己的房間和物品負責。,medium,Family-常用3000單,cousin;teach;responsible;room
+246,sentence,My son takes care of the house when other family members are busy.,我兒子在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,son;take care;house;busy
+247,sentence,My son encourages me to stay calm when I feel nervous before a test.,我兒子在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,son;encourage;calm;test
+248,sentence,My son explains family rules clearly so everyone knows what to do.,我兒子清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,son;family;rule;explain
+249,sentence,My son enjoys taking a walk with us after a simple evening meal.,我兒子喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,son;walk;meal;evening
+250,sentence,My son teaches me to be responsible for my own room and things.,我兒子教我要對自己的房間和物品負責。,medium,Family-常用3000單,son;teach;responsible;room
+251,sentence,My daughter takes care of the house when other family members are busy.,我女兒在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,daughter;take care;house;busy
+252,sentence,My daughter encourages me to stay calm when I feel nervous before a test.,我女兒在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,daughter;encourage;calm;test
+253,sentence,My daughter explains family rules clearly so everyone knows what to do.,我女兒清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,daughter;family;rule;explain
+254,sentence,My daughter enjoys taking a walk with us after a simple evening meal.,我女兒喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,daughter;walk;meal;evening
+255,sentence,My daughter teaches me to be responsible for my own room and things.,我女兒教我要對自己的房間和物品負責。,medium,Family-常用3000單,daughter;teach;responsible;room
+256,sentence,My wife takes care of the house when other family members are busy.,我太太在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,wife;take care;house;busy
+257,sentence,My wife encourages me to stay calm when I feel nervous before a test.,我太太在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,wife;encourage;calm;test
+258,sentence,My wife explains family rules clearly so everyone knows what to do.,我太太清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,wife;family;rule;explain
+259,sentence,My wife enjoys taking a walk with us after a simple evening meal.,我太太喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,wife;walk;meal;evening
+260,sentence,My wife teaches me to be responsible for my own room and things.,我太太教我要對自己的房間和物品負責。,medium,Family-常用3000單,wife;teach;responsible;room
+261,sentence,My husband takes care of the house when other family members are busy.,我先生在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,husband;take care;house;busy
+262,sentence,My husband encourages me to stay calm when I feel nervous before a test.,我先生在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,husband;encourage;calm;test
+263,sentence,My husband explains family rules clearly so everyone knows what to do.,我先生清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,husband;family;rule;explain
+264,sentence,My husband enjoys taking a walk with us after a simple evening meal.,我先生喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,husband;walk;meal;evening
+265,sentence,My husband teaches me to be responsible for my own room and things.,我先生教我要對自己的房間和物品負責。,medium,Family-常用3000單,husband;teach;responsible;room
+266,sentence,My parents take care of the house when other family members are busy.,我父母在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,parents;take care;house;busy
+267,sentence,My parents encourage me to stay calm when I feel nervous before a test.,我父母在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,parents;encourage;calm;test
+268,sentence,My parents explain family rules clearly so everyone knows what to do.,我父母清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,parents;family;rule;explain
+269,sentence,My parents enjoy taking a walk with us after a simple evening meal.,我父母喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,parents;walk;meal;evening
+270,sentence,My parents teach me to be responsible for my own room and things.,我父母教我要對自己的房間和物品負責。,medium,Family-常用3000單,parents;teach;responsible;room
+271,sentence,My children take care of the house when other family members are busy.,我的孩子們在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,children;take care;house;busy
+272,sentence,My children encourage me to stay calm when I feel nervous before a test.,我的孩子們在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,children;encourage;calm;test
+273,sentence,My children explain family rules clearly so everyone knows what to do.,我的孩子們清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,children;family;rule;explain
+274,sentence,My children enjoy taking a walk with us after a simple evening meal.,我的孩子們喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,children;walk;meal;evening
+275,sentence,My children teach me to be responsible for my own room and things.,我的孩子們教我要對自己的房間和物品負責。,medium,Family-常用3000單,children;teach;responsible;room
+276,sentence,My grandparents take care of the house when other family members are busy.,我的祖父母在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,grandparents;take care;house;busy
+277,sentence,My grandparents encourage me to stay calm when I feel nervous before a test.,我的祖父母在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,grandparents;encourage;calm;test
+278,sentence,My grandparents explain family rules clearly so everyone knows what to do.,我的祖父母清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,grandparents;family;rule;explain
+279,sentence,My grandparents enjoy taking a walk with us after a simple evening meal.,我的祖父母喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,grandparents;walk;meal;evening
+280,sentence,My grandparents teach me to be responsible for my own room and things.,我的祖父母教我要對自己的房間和物品負責。,medium,Family-常用3000單,grandparents;teach;responsible;room
+281,sentence,My family takes care of the house when other family members are busy.,我的家人在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,family;take care;house;busy
+282,sentence,My family encourages me to stay calm when I feel nervous before a test.,我的家人在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,family;encourage;calm;test
+283,sentence,My family explains family rules clearly so everyone knows what to do.,我的家人清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,family;family;rule;explain
+284,sentence,My family enjoys taking a walk with us after a simple evening meal.,我的家人喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,family;walk;meal;evening
+285,sentence,My family teaches me to be responsible for my own room and things.,我的家人教我要對自己的房間和物品負責。,medium,Family-常用3000單,family;teach;responsible;room
+286,sentence,My brother takes care of the house when other family members are busy.,我兄弟在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,brother;take care;house;busy
+287,sentence,My brother encourages me to stay calm when I feel nervous before a test.,我兄弟在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,brother;encourage;calm;test
+288,sentence,My brother explains family rules clearly so everyone knows what to do.,我兄弟清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,brother;family;rule;explain
+289,sentence,My brother enjoys taking a walk with us after a simple evening meal.,我兄弟喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,brother;walk;meal;evening
+290,sentence,My brother teaches me to be responsible for my own room and things.,我兄弟教我要對自己的房間和物品負責。,medium,Family-常用3000單,brother;teach;responsible;room
+291,sentence,My sister takes care of the house when other family members are busy.,我姊妹在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,sister;take care;house;busy
+292,sentence,My sister encourages me to stay calm when I feel nervous before a test.,我姊妹在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,sister;encourage;calm;test
+293,sentence,My sister explains family rules clearly so everyone knows what to do.,我姊妹清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,sister;family;rule;explain
+294,sentence,My sister enjoys taking a walk with us after a simple evening meal.,我姊妹喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,sister;walk;meal;evening
+295,sentence,My sister teaches me to be responsible for my own room and things.,我姊妹教我要對自己的房間和物品負責。,medium,Family-常用3000單,sister;teach;responsible;room
+296,sentence,My relatives take care of the house when other family members are busy.,我的親戚們在其他家人忙碌時照顧家裡。,medium,Family-常用3000單,relatives;take care;house;busy
+297,sentence,My relatives encourage me to stay calm when I feel nervous before a test.,我的親戚們在我考試前緊張時鼓勵我保持冷靜。,medium,Family-常用3000單,relatives;encourage;calm;test
+298,sentence,My relatives explain family rules clearly so everyone knows what to do.,我的親戚們清楚說明家規，讓每個人知道該做什麼。,medium,Family-常用3000單,relatives;family;rule;explain
+299,sentence,My relatives enjoy taking a walk with us after a simple evening meal.,我的親戚們喜歡在簡單晚餐後和我們散步。,medium,Family-常用3000單,relatives;walk;meal;evening
+300,sentence,My relatives teach me to be responsible for my own room and things.,我的親戚們教我要對自己的房間和物品負責。,medium,Family-常用3000單,relatives;teach;responsible;room
+301,sentence,"My father helps plan our family schedule, because everyone has different work, school, and rest time.",我爸爸幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,father;family;schedule;work;school;rest
+302,sentence,"My father speaks gently during family conversations, even when people have different opinions about small things.",我爸爸在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,father;conversation;opinion;gentle
+303,sentence,My father checks the kitchen before bedtime and makes sure the door and windows are closed.,我爸爸睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,father;kitchen;bedtime;door;window
+304,sentence,"My father comforts younger family members when they are sad, tired, or afraid of making mistakes.",我爸爸在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,father;comfort;sad;tired;mistake
+305,sentence,My father keeps old family photos in a box and tells us the stories behind them.,我爸爸把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,father;photo;box;story
+306,sentence,"My mother helps plan our family schedule, because everyone has different work, school, and rest time.",我媽媽幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,mother;family;schedule;work;school;rest
+307,sentence,"My mother speaks gently during family conversations, even when people have different opinions about small things.",我媽媽在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,mother;conversation;opinion;gentle
+308,sentence,My mother checks the kitchen before bedtime and makes sure the door and windows are closed.,我媽媽睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,mother;kitchen;bedtime;door;window
+309,sentence,"My mother comforts younger family members when they are sad, tired, or afraid of making mistakes.",我媽媽在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,mother;comfort;sad;tired;mistake
+310,sentence,My mother keeps old family photos in a box and tells us the stories behind them.,我媽媽把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,mother;photo;box;story
+311,sentence,"My older brother helps plan our family schedule, because everyone has different work, school, and rest time.",我哥哥幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,brother;family;schedule;work;school;rest
+312,sentence,"My older brother speaks gently during family conversations, even when people have different opinions about small things.",我哥哥在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,brother;conversation;opinion;gentle
+313,sentence,My older brother checks the kitchen before bedtime and makes sure the door and windows are closed.,我哥哥睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,brother;kitchen;bedtime;door;window
+314,sentence,"My older brother comforts younger family members when they are sad, tired, or afraid of making mistakes.",我哥哥在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,brother;comfort;sad;tired;mistake
+315,sentence,My older brother keeps old family photos in a box and tells us the stories behind them.,我哥哥把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,brother;photo;box;story
+316,sentence,"My younger sister helps plan our family schedule, because everyone has different work, school, and rest time.",我妹妹幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,sister;family;schedule;work;school;rest
+317,sentence,"My younger sister speaks gently during family conversations, even when people have different opinions about small things.",我妹妹在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,sister;conversation;opinion;gentle
+318,sentence,My younger sister checks the kitchen before bedtime and makes sure the door and windows are closed.,我妹妹睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,sister;kitchen;bedtime;door;window
+319,sentence,"My younger sister comforts younger family members when they are sad, tired, or afraid of making mistakes.",我妹妹在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,sister;comfort;sad;tired;mistake
+320,sentence,My younger sister keeps old family photos in a box and tells us the stories behind them.,我妹妹把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,sister;photo;box;story
+321,sentence,"My grandmother helps plan our family schedule, because everyone has different work, school, and rest time.",我奶奶幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,grandmother;family;schedule;work;school;rest
+322,sentence,"My grandmother speaks gently during family conversations, even when people have different opinions about small things.",我奶奶在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,grandmother;conversation;opinion;gentle
+323,sentence,My grandmother checks the kitchen before bedtime and makes sure the door and windows are closed.,我奶奶睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,grandmother;kitchen;bedtime;door;window
+324,sentence,"My grandmother comforts younger family members when they are sad, tired, or afraid of making mistakes.",我奶奶在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,grandmother;comfort;sad;tired;mistake
+325,sentence,My grandmother keeps old family photos in a box and tells us the stories behind them.,我奶奶把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,grandmother;photo;box;story
+326,sentence,"My grandfather helps plan our family schedule, because everyone has different work, school, and rest time.",我爺爺幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,grandfather;family;schedule;work;school;rest
+327,sentence,"My grandfather speaks gently during family conversations, even when people have different opinions about small things.",我爺爺在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,grandfather;conversation;opinion;gentle
+328,sentence,My grandfather checks the kitchen before bedtime and makes sure the door and windows are closed.,我爺爺睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,grandfather;kitchen;bedtime;door;window
+329,sentence,"My grandfather comforts younger family members when they are sad, tired, or afraid of making mistakes.",我爺爺在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,grandfather;comfort;sad;tired;mistake
+330,sentence,My grandfather keeps old family photos in a box and tells us the stories behind them.,我爺爺把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,grandfather;photo;box;story
+331,sentence,"My uncle helps plan our family schedule, because everyone has different work, school, and rest time.",我叔叔幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,uncle;family;schedule;work;school;rest
+332,sentence,"My uncle speaks gently during family conversations, even when people have different opinions about small things.",我叔叔在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,uncle;conversation;opinion;gentle
+333,sentence,My uncle checks the kitchen before bedtime and makes sure the door and windows are closed.,我叔叔睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,uncle;kitchen;bedtime;door;window
+334,sentence,"My uncle comforts younger family members when they are sad, tired, or afraid of making mistakes.",我叔叔在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,uncle;comfort;sad;tired;mistake
+335,sentence,My uncle keeps old family photos in a box and tells us the stories behind them.,我叔叔把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,uncle;photo;box;story
+336,sentence,"My aunt helps plan our family schedule, because everyone has different work, school, and rest time.",我阿姨幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,aunt;family;schedule;work;school;rest
+337,sentence,"My aunt speaks gently during family conversations, even when people have different opinions about small things.",我阿姨在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,aunt;conversation;opinion;gentle
+338,sentence,My aunt checks the kitchen before bedtime and makes sure the door and windows are closed.,我阿姨睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,aunt;kitchen;bedtime;door;window
+339,sentence,"My aunt comforts younger family members when they are sad, tired, or afraid of making mistakes.",我阿姨在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,aunt;comfort;sad;tired;mistake
+340,sentence,My aunt keeps old family photos in a box and tells us the stories behind them.,我阿姨把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,aunt;photo;box;story
+341,sentence,"My cousin helps plan our family schedule, because everyone has different work, school, and rest time.",我表親幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,cousin;family;schedule;work;school;rest
+342,sentence,"My cousin speaks gently during family conversations, even when people have different opinions about small things.",我表親在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,cousin;conversation;opinion;gentle
+343,sentence,My cousin checks the kitchen before bedtime and makes sure the door and windows are closed.,我表親睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,cousin;kitchen;bedtime;door;window
+344,sentence,"My cousin comforts younger family members when they are sad, tired, or afraid of making mistakes.",我表親在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,cousin;comfort;sad;tired;mistake
+345,sentence,My cousin keeps old family photos in a box and tells us the stories behind them.,我表親把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,cousin;photo;box;story
+346,sentence,"My son helps plan our family schedule, because everyone has different work, school, and rest time.",我兒子幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,son;family;schedule;work;school;rest
+347,sentence,"My son speaks gently during family conversations, even when people have different opinions about small things.",我兒子在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,son;conversation;opinion;gentle
+348,sentence,My son checks the kitchen before bedtime and makes sure the door and windows are closed.,我兒子睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,son;kitchen;bedtime;door;window
+349,sentence,"My son comforts younger family members when they are sad, tired, or afraid of making mistakes.",我兒子在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,son;comfort;sad;tired;mistake
+350,sentence,My son keeps old family photos in a box and tells us the stories behind them.,我兒子把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,son;photo;box;story
+351,sentence,"My daughter helps plan our family schedule, because everyone has different work, school, and rest time.",我女兒幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,daughter;family;schedule;work;school;rest
+352,sentence,"My daughter speaks gently during family conversations, even when people have different opinions about small things.",我女兒在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,daughter;conversation;opinion;gentle
+353,sentence,My daughter checks the kitchen before bedtime and makes sure the door and windows are closed.,我女兒睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,daughter;kitchen;bedtime;door;window
+354,sentence,"My daughter comforts younger family members when they are sad, tired, or afraid of making mistakes.",我女兒在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,daughter;comfort;sad;tired;mistake
+355,sentence,My daughter keeps old family photos in a box and tells us the stories behind them.,我女兒把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,daughter;photo;box;story
+356,sentence,"My wife helps plan our family schedule, because everyone has different work, school, and rest time.",我太太幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,wife;family;schedule;work;school;rest
+357,sentence,"My wife speaks gently during family conversations, even when people have different opinions about small things.",我太太在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,wife;conversation;opinion;gentle
+358,sentence,My wife checks the kitchen before bedtime and makes sure the door and windows are closed.,我太太睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,wife;kitchen;bedtime;door;window
+359,sentence,"My wife comforts younger family members when they are sad, tired, or afraid of making mistakes.",我太太在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,wife;comfort;sad;tired;mistake
+360,sentence,My wife keeps old family photos in a box and tells us the stories behind them.,我太太把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,wife;photo;box;story
+361,sentence,"My husband helps plan our family schedule, because everyone has different work, school, and rest time.",我先生幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,husband;family;schedule;work;school;rest
+362,sentence,"My husband speaks gently during family conversations, even when people have different opinions about small things.",我先生在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,husband;conversation;opinion;gentle
+363,sentence,My husband checks the kitchen before bedtime and makes sure the door and windows are closed.,我先生睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,husband;kitchen;bedtime;door;window
+364,sentence,"My husband comforts younger family members when they are sad, tired, or afraid of making mistakes.",我先生在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,husband;comfort;sad;tired;mistake
+365,sentence,My husband keeps old family photos in a box and tells us the stories behind them.,我先生把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,husband;photo;box;story
+366,sentence,"My parents help plan our family schedule, because everyone has different work, school, and rest time.",我父母幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,parents;family;schedule;work;school;rest
+367,sentence,"My parents speak gently during family conversations, even when people have different opinions about small things.",我父母在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,parents;conversation;opinion;gentle
+368,sentence,My parents check the kitchen before bedtime and make sure the door and windows are closed.,我父母睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,parents;kitchen;bedtime;door;window
+369,sentence,"My parents comfort younger family members when they are sad, tired, or afraid of making mistakes.",我父母在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,parents;comfort;sad;tired;mistake
+370,sentence,My parents keep old family photos in a box and tell us the stories behind them.,我父母把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,parents;photo;box;story
+371,sentence,"My children help plan our family schedule, because everyone has different work, school, and rest time.",我的孩子們幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,children;family;schedule;work;school;rest
+372,sentence,"My children speak gently during family conversations, even when people have different opinions about small things.",我的孩子們在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,children;conversation;opinion;gentle
+373,sentence,My children check the kitchen before bedtime and make sure the door and windows are closed.,我的孩子們睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,children;kitchen;bedtime;door;window
+374,sentence,"My children comfort younger family members when they are sad, tired, or afraid of making mistakes.",我的孩子們在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,children;comfort;sad;tired;mistake
+375,sentence,My children keep old family photos in a box and tell us the stories behind them.,我的孩子們把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,children;photo;box;story
+376,sentence,"My grandparents help plan our family schedule, because everyone has different work, school, and rest time.",我的祖父母幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,grandparents;family;schedule;work;school;rest
+377,sentence,"My grandparents speak gently during family conversations, even when people have different opinions about small things.",我的祖父母在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,grandparents;conversation;opinion;gentle
+378,sentence,My grandparents check the kitchen before bedtime and make sure the door and windows are closed.,我的祖父母睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,grandparents;kitchen;bedtime;door;window
+379,sentence,"My grandparents comfort younger family members when they are sad, tired, or afraid of making mistakes.",我的祖父母在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,grandparents;comfort;sad;tired;mistake
+380,sentence,My grandparents keep old family photos in a box and tell us the stories behind them.,我的祖父母把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,grandparents;photo;box;story
+381,sentence,"My family helps plan our family schedule, because everyone has different work, school, and rest time.",我的家人幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,family;family;schedule;work;school;rest
+382,sentence,"My family speaks gently during family conversations, even when people have different opinions about small things.",我的家人在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,family;conversation;opinion;gentle
+383,sentence,My family checks the kitchen before bedtime and makes sure the door and windows are closed.,我的家人睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,family;kitchen;bedtime;door;window
+384,sentence,"My family comforts younger family members when they are sad, tired, or afraid of making mistakes.",我的家人在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,family;comfort;sad;tired;mistake
+385,sentence,My family keeps old family photos in a box and tells us the stories behind them.,我的家人把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,family;photo;box;story
+386,sentence,"My brother helps plan our family schedule, because everyone has different work, school, and rest time.",我兄弟幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,brother;family;schedule;work;school;rest
+387,sentence,"My brother speaks gently during family conversations, even when people have different opinions about small things.",我兄弟在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,brother;conversation;opinion;gentle
+388,sentence,My brother checks the kitchen before bedtime and makes sure the door and windows are closed.,我兄弟睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,brother;kitchen;bedtime;door;window
+389,sentence,"My brother comforts younger family members when they are sad, tired, or afraid of making mistakes.",我兄弟在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,brother;comfort;sad;tired;mistake
+390,sentence,My brother keeps old family photos in a box and tells us the stories behind them.,我兄弟把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,brother;photo;box;story
+391,sentence,"My sister helps plan our family schedule, because everyone has different work, school, and rest time.",我姊妹幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,sister;family;schedule;work;school;rest
+392,sentence,"My sister speaks gently during family conversations, even when people have different opinions about small things.",我姊妹在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,sister;conversation;opinion;gentle
+393,sentence,My sister checks the kitchen before bedtime and makes sure the door and windows are closed.,我姊妹睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,sister;kitchen;bedtime;door;window
+394,sentence,"My sister comforts younger family members when they are sad, tired, or afraid of making mistakes.",我姊妹在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,sister;comfort;sad;tired;mistake
+395,sentence,My sister keeps old family photos in a box and tells us the stories behind them.,我姊妹把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,sister;photo;box;story
+396,sentence,"My relatives help plan our family schedule, because everyone has different work, school, and rest time.",我的親戚們幫忙安排家庭行程，因為每個人的工作、上學和休息時間都不同。,medium,Family-常用3000單,relatives;family;schedule;work;school;rest
+397,sentence,"My relatives speak gently during family conversations, even when people have different opinions about small things.",我的親戚們在家庭談話中溫和地說話，即使大家對小事有不同意見。,medium,Family-常用3000單,relatives;conversation;opinion;gentle
+398,sentence,My relatives check the kitchen before bedtime and make sure the door and windows are closed.,我的親戚們睡前檢查廚房，並確認門窗都關好。,medium,Family-常用3000單,relatives;kitchen;bedtime;door;window
+399,sentence,"My relatives comfort younger family members when they are sad, tired, or afraid of making mistakes.",我的親戚們在年幼家人難過、疲倦或害怕犯錯時安慰他們。,medium,Family-常用3000單,relatives;comfort;sad;tired;mistake
+400,sentence,My relatives keep old family photos in a box and tell us the stories behind them.,我的親戚們把舊家庭照片收在盒子裡，並告訴我們照片背後的故事。,medium,Family-常用3000單,relatives;photo;box;story
+401,sentence,"My father believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我爸爸相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,father;peaceful;home;patience;communication;argument
+402,sentence,"My father reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我爸爸提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,father;share;housework;clean;cook;wash
+403,sentence,"My father helps younger children understand that family members may disagree, but they should still respect one another.",我爸爸幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,father;children;family;disagree;respect
+404,sentence,"My father uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我爸爸用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,father;simple;problem;home;family;safe
+405,sentence,"My father remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我爸爸記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,father;family;gift;card;celebrate
+406,sentence,"My mother believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我媽媽相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,mother;peaceful;home;patience;communication;argument
+407,sentence,"My mother reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我媽媽提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,mother;share;housework;clean;cook;wash
+408,sentence,"My mother helps younger children understand that family members may disagree, but they should still respect one another.",我媽媽幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,mother;children;family;disagree;respect
+409,sentence,"My mother uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我媽媽用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,mother;simple;problem;home;family;safe
+410,sentence,"My mother remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我媽媽記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,mother;family;gift;card;celebrate
+411,sentence,"My older brother believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我哥哥相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,brother;peaceful;home;patience;communication;argument
+412,sentence,"My older brother reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我哥哥提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,brother;share;housework;clean;cook;wash
+413,sentence,"My older brother helps younger children understand that family members may disagree, but they should still respect one another.",我哥哥幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,brother;children;family;disagree;respect
+414,sentence,"My older brother uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我哥哥用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,brother;simple;problem;home;family;safe
+415,sentence,"My older brother remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我哥哥記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,brother;family;gift;card;celebrate
+416,sentence,"My younger sister believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我妹妹相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,sister;peaceful;home;patience;communication;argument
+417,sentence,"My younger sister reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我妹妹提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,sister;share;housework;clean;cook;wash
+418,sentence,"My younger sister helps younger children understand that family members may disagree, but they should still respect one another.",我妹妹幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,sister;children;family;disagree;respect
+419,sentence,"My younger sister uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我妹妹用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,sister;simple;problem;home;family;safe
+420,sentence,"My younger sister remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我妹妹記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,sister;family;gift;card;celebrate
+421,sentence,"My grandmother believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我奶奶相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,grandmother;peaceful;home;patience;communication;argument
+422,sentence,"My grandmother reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我奶奶提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,grandmother;share;housework;clean;cook;wash
+423,sentence,"My grandmother helps younger children understand that family members may disagree, but they should still respect one another.",我奶奶幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,grandmother;children;family;disagree;respect
+424,sentence,"My grandmother uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我奶奶用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,grandmother;simple;problem;home;family;safe
+425,sentence,"My grandmother remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我奶奶記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,grandmother;family;gift;card;celebrate
+426,sentence,"My grandfather believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我爺爺相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,grandfather;peaceful;home;patience;communication;argument
+427,sentence,"My grandfather reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我爺爺提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,grandfather;share;housework;clean;cook;wash
+428,sentence,"My grandfather helps younger children understand that family members may disagree, but they should still respect one another.",我爺爺幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,grandfather;children;family;disagree;respect
+429,sentence,"My grandfather uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我爺爺用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,grandfather;simple;problem;home;family;safe
+430,sentence,"My grandfather remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我爺爺記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,grandfather;family;gift;card;celebrate
+431,sentence,"My uncle believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我叔叔相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,uncle;peaceful;home;patience;communication;argument
+432,sentence,"My uncle reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我叔叔提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,uncle;share;housework;clean;cook;wash
+433,sentence,"My uncle helps younger children understand that family members may disagree, but they should still respect one another.",我叔叔幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,uncle;children;family;disagree;respect
+434,sentence,"My uncle uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我叔叔用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,uncle;simple;problem;home;family;safe
+435,sentence,"My uncle remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我叔叔記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,uncle;family;gift;card;celebrate
+436,sentence,"My aunt believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我阿姨相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,aunt;peaceful;home;patience;communication;argument
+437,sentence,"My aunt reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我阿姨提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,aunt;share;housework;clean;cook;wash
+438,sentence,"My aunt helps younger children understand that family members may disagree, but they should still respect one another.",我阿姨幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,aunt;children;family;disagree;respect
+439,sentence,"My aunt uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我阿姨用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,aunt;simple;problem;home;family;safe
+440,sentence,"My aunt remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我阿姨記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,aunt;family;gift;card;celebrate
+441,sentence,"My cousin believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我表親相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,cousin;peaceful;home;patience;communication;argument
+442,sentence,"My cousin reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我表親提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,cousin;share;housework;clean;cook;wash
+443,sentence,"My cousin helps younger children understand that family members may disagree, but they should still respect one another.",我表親幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,cousin;children;family;disagree;respect
+444,sentence,"My cousin uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我表親用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,cousin;simple;problem;home;family;safe
+445,sentence,"My cousin remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我表親記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,cousin;family;gift;card;celebrate
+446,sentence,"My son believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我兒子相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,son;peaceful;home;patience;communication;argument
+447,sentence,"My son reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我兒子提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,son;share;housework;clean;cook;wash
+448,sentence,"My son helps younger children understand that family members may disagree, but they should still respect one another.",我兒子幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,son;children;family;disagree;respect
+449,sentence,"My son uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我兒子用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,son;simple;problem;home;family;safe
+450,sentence,"My son remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我兒子記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,son;family;gift;card;celebrate
+451,sentence,"My daughter believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我女兒相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,daughter;peaceful;home;patience;communication;argument
+452,sentence,"My daughter reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我女兒提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,daughter;share;housework;clean;cook;wash
+453,sentence,"My daughter helps younger children understand that family members may disagree, but they should still respect one another.",我女兒幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,daughter;children;family;disagree;respect
+454,sentence,"My daughter uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我女兒用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,daughter;simple;problem;home;family;safe
+455,sentence,"My daughter remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我女兒記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,daughter;family;gift;card;celebrate
+456,sentence,"My wife believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我太太相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,wife;peaceful;home;patience;communication;argument
+457,sentence,"My wife reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我太太提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,wife;share;housework;clean;cook;wash
+458,sentence,"My wife helps younger children understand that family members may disagree, but they should still respect one another.",我太太幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,wife;children;family;disagree;respect
+459,sentence,"My wife uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我太太用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,wife;simple;problem;home;family;safe
+460,sentence,"My wife remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我太太記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,wife;family;gift;card;celebrate
+461,sentence,"My husband believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我先生相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,husband;peaceful;home;patience;communication;argument
+462,sentence,"My husband reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我先生提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,husband;share;housework;clean;cook;wash
+463,sentence,"My husband helps younger children understand that family members may disagree, but they should still respect one another.",我先生幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,husband;children;family;disagree;respect
+464,sentence,"My husband uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我先生用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,husband;simple;problem;home;family;safe
+465,sentence,"My husband remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我先生記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,husband;family;gift;card;celebrate
+466,sentence,"My parents believe that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我父母相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,parents;peaceful;home;patience;communication;argument
+467,sentence,"My parents remind everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我父母提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,parents;share;housework;clean;cook;wash
+468,sentence,"My parents help younger children understand that family members may disagree, but they should still respect one another.",我父母幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,parents;children;family;disagree;respect
+469,sentence,"My parents use simple words to explain difficult problems at home, which makes the whole family feel safer.",我父母用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,parents;simple;problem;home;family;safe
+470,sentence,"My parents remember important family days, prepare a small gift, and write a warm card for the person we celebrate.",我父母記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,parents;family;gift;card;celebrate
+471,sentence,"My children believe that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我的孩子們相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,children;peaceful;home;patience;communication;argument
+472,sentence,"My children remind everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我的孩子們提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,children;share;housework;clean;cook;wash
+473,sentence,"My children help younger children understand that family members may disagree, but they should still respect one another.",我的孩子們幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,children;children;family;disagree;respect
+474,sentence,"My children use simple words to explain difficult problems at home, which makes the whole family feel safer.",我的孩子們用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,children;simple;problem;home;family;safe
+475,sentence,"My children remember important family days, prepare a small gift, and write a warm card for the person we celebrate.",我的孩子們記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,children;family;gift;card;celebrate
+476,sentence,"My grandparents believe that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我的祖父母相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,grandparents;peaceful;home;patience;communication;argument
+477,sentence,"My grandparents remind everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我的祖父母提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,grandparents;share;housework;clean;cook;wash
+478,sentence,"My grandparents help younger children understand that family members may disagree, but they should still respect one another.",我的祖父母幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,grandparents;children;family;disagree;respect
+479,sentence,"My grandparents use simple words to explain difficult problems at home, which makes the whole family feel safer.",我的祖父母用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,grandparents;simple;problem;home;family;safe
+480,sentence,"My grandparents remember important family days, prepare a small gift, and write a warm card for the person we celebrate.",我的祖父母記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,grandparents;family;gift;card;celebrate
+481,sentence,"My family believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我的家人相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,family;peaceful;home;patience;communication;argument
+482,sentence,"My family reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我的家人提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,family;share;housework;clean;cook;wash
+483,sentence,"My family helps younger children understand that family members may disagree, but they should still respect one another.",我的家人幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,family;children;family;disagree;respect
+484,sentence,"My family uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我的家人用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,family;simple;problem;home;family;safe
+485,sentence,"My family remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我的家人記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,family;family;gift;card;celebrate
+486,sentence,"My brother believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我兄弟相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,brother;peaceful;home;patience;communication;argument
+487,sentence,"My brother reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我兄弟提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,brother;share;housework;clean;cook;wash
+488,sentence,"My brother helps younger children understand that family members may disagree, but they should still respect one another.",我兄弟幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,brother;children;family;disagree;respect
+489,sentence,"My brother uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我兄弟用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,brother;simple;problem;home;family;safe
+490,sentence,"My brother remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我兄弟記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,brother;family;gift;card;celebrate
+491,sentence,"My sister believes that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我姊妹相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,sister;peaceful;home;patience;communication;argument
+492,sentence,"My sister reminds everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我姊妹提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,sister;share;housework;clean;cook;wash
+493,sentence,"My sister helps younger children understand that family members may disagree, but they should still respect one another.",我姊妹幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,sister;children;family;disagree;respect
+494,sentence,"My sister uses simple words to explain difficult problems at home, which makes the whole family feel safer.",我姊妹用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,sister;simple;problem;home;family;safe
+495,sentence,"My sister remembers important family days, prepares a small gift, and writes a warm card for the person we celebrate.",我姊妹記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,sister;family;gift;card;celebrate
+496,sentence,"My relatives believe that a peaceful home needs patience, honest communication, and a habit of saying sorry after an argument.",我的親戚們相信平和的家庭需要耐心、誠實溝通，以及爭吵後道歉的習慣。,medium,Family-常用3000單,relatives;peaceful;home;patience;communication;argument
+497,sentence,"My relatives remind everyone to share housework fairly, so no single person has to clean, cook, and wash everything alone.",我的親戚們提醒大家公平分擔家事，這樣就不會只有一個人必須獨自打掃、煮飯和清洗所有東西。,medium,Family-常用3000單,relatives;share;housework;clean;cook;wash
+498,sentence,"My relatives help younger children understand that family members may disagree, but they should still respect one another.",我的親戚們幫助年幼的孩子理解家人可能意見不同，但仍然應該彼此尊重。,medium,Family-常用3000單,relatives;children;family;disagree;respect
+499,sentence,"My relatives use simple words to explain difficult problems at home, which makes the whole family feel safer.",我的親戚們用簡單的話解釋家裡困難的問題，讓全家人感到更安心。,medium,Family-常用3000單,relatives;simple;problem;home;family;safe
+500,sentence,"My relatives remember important family days, prepare a small gift, and write a warm card for the person we celebrate.",我的親戚們記得重要的家庭日子，準備小禮物，並為我們慶祝的人寫一張溫暖的卡片。,medium,Family-常用3000單,relatives;family;gift;card;celebrate
