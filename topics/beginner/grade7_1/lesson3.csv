@@ -1,0 +1,101 @@
+﻿id,type,english,tts_text,chinese,difficulty,topic,keywords,lesson,unit_name,source_note
+1,sentence,This is a living room.,This is a living room.,這是一間客廳。,beginner,七上 Lesson 3-國中2000單字,living room,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Vocabulary: rooms
+2,sentence,This is a bedroom.,This is a bedroom.,這是一間臥室。,beginner,七上 Lesson 3-國中2000單字,bedroom,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Vocabulary: rooms
+3,sentence,This is a bathroom.,This is a bathroom.,這是一間浴室。,beginner,七上 Lesson 3-國中2000單字,bathroom,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Vocabulary: rooms
+4,sentence,This is a dining room.,This is a dining room.,這是一間飯廳。,beginner,七上 Lesson 3-國中2000單字,dining room,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Vocabulary: rooms
+5,sentence,Jay is in the bedroom.,Jay is in the bedroom.,Jay 在臥室裡。,beginner,七上 Lesson 3-國中2000單字,bedroom;in,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Vocabulary Skills: prepositions
+6,sentence,Ivy is in the bathroom.,Ivy is in the bathroom.,Ivy 在浴室裡。,beginner,七上 Lesson 3-國中2000單字,bathroom;in,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Vocabulary Skills: prepositions
+7,sentence,Hank is in the dining room.,Hank is in the dining room.,Hank 在飯廳裡。,beginner,七上 Lesson 3-國中2000單字,dining room;in,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Vocabulary Skills: prepositions
+8,sentence,The book is on the table.,The book is on the table.,書在桌上。,beginner,七上 Lesson 3-國中2000單字,on;table,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1: where and prepositions
+9,sentence,The bag is under the table.,The bag is under the table.,袋子在桌子下面。,beginner,七上 Lesson 3-國中2000單字,under;table,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1: where and prepositions
+10,sentence,The chair is near the table.,The chair is near the table.,椅子在桌子附近。,beginner,七上 Lesson 3-國中2000單字,near;table;chair,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Vocabulary Skills: prepositions
+11,sentence,The cat is behind the chair.,The cat is behind the chair.,貓在椅子後面。,beginner,七上 Lesson 3-國中2000單字,behind;chair,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Vocabulary Skills: prepositions
+12,sentence,The dog is in front of the chair.,The dog is in front of the chair.,狗在椅子前面。,beginner,七上 Lesson 3-國中2000單字,in front of;chair,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Vocabulary Skills: prepositions
+13,sentence,The box is next to the bag.,The box is next to the bag.,盒子在袋子旁邊。,beginner,七上 Lesson 3-國中2000單字,next to;box;bag,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Vocabulary Skills: prepositions
+14,sentence,The cat is between the boxes.,The cat is between the boxes.,貓在盒子中間。,beginner,七上 Lesson 3-國中2000單字,between;box,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Vocabulary Skills: prepositions
+15,sentence,The robot dog is near the TV.,The robot dog is near the TV.,機器狗在電視附近。,beginner,七上 Lesson 3-國中2000單字,near;robot dog;TV,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1: where and prepositions
+16,sentence,Lucy is in the box.,Lucy is in the box.,Lucy 在盒子裡。,beginner,七上 Lesson 3-國中2000單字,in;box,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1 practice
+17,sentence,Billy is between the box and the chair.,Billy is between the box and the chair.,Billy 在盒子和椅子中間。,beginner,七上 Lesson 3-國中2000單字,between;box;chair,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1 practice
+18,sentence,Milo is on the table.,Milo is on the table.,Milo 在桌上。,beginner,七上 Lesson 3-國中2000單字,on;table,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1 practice
+19,sentence,Tommy is under the table.,Tommy is under the table.,Tommy 在桌子下面。,beginner,七上 Lesson 3-國中2000單字,under;table,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1 practice
+20,sentence,Puffy is next to the robot dog.,Puffy is next to the robot dog.,Puffy 在機器狗旁邊。,beginner,七上 Lesson 3-國中2000單字,next to;robot dog,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1 practice
+21,sentence,"Welcome, Bella.","Welcome, Bella.",歡迎，Bella。,beginner,七上 Lesson 3-國中2000單字,welcome,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue
+22,sentence,Please come in.,Please come in.,請進來。,beginner,七上 Lesson 3-國中2000單字,please;come in,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue and Grammar 2
+23,sentence,Your house is nice and quiet.,Your house is nice and quiet.,你的房子很棒又安靜。,beginner,七上 Lesson 3-國中2000單字,house;nice;quiet,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue
+24,sentence,It is not really my style.,It is not really my style.,這不是真的符合我的風格。,beginner,七上 Lesson 3-國中2000單字,style,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue
+25,sentence,What about a makeover?,What about a makeover?,改造一下怎麼樣？,beginner,七上 Lesson 3-國中2000單字,what about;makeover,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue
+26,sentence,That is a great idea.,That is a great idea.,那是一個很棒的點子。,beginner,七上 Lesson 3-國中2000單字,great;idea,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue
+27,sentence,Let's get some ideas.,Let's get some ideas.,我們一起找一些點子吧。,beginner,七上 Lesson 3-國中2000單字,let's;get;some;ideas,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue and Grammar 2
+28,sentence,Let's get some ideas from RoomGPT.,Let's get some ideas from Room G P T.,我們一起從 RoomGPT 找一些點子吧。,beginner,七上 Lesson 3-國中2000單字,let's;RoomGPT;ideas,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue
+29,sentence,What is RoomGPT?,What is Room G P T?,RoomGPT 是什麼？,beginner,七上 Lesson 3-國中2000單字,RoomGPT;what,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue
+30,sentence,It is an AI tool.,It is an A I tool.,它是一個 AI 工具。,beginner,七上 Lesson 3-國中2000單字,AI;tool,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue
+31,sentence,Where is my smartphone?,Where is my smartphone?,我的智慧型手機在哪裡？,beginner,七上 Lesson 3-國中2000單字,where;smartphone,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue
+32,sentence,It is on the table.,It is on the table.,它在桌上。,beginner,七上 Lesson 3-國中2000單字,on;table,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue and Grammar 1
+33,sentence,Look at this.,Look at this.,看這個。,beginner,七上 Lesson 3-國中2000單字,look at,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue
+34,sentence,"Step one, upload a photo.","Step one, upload a photo.",步驟一，上傳一張照片。,beginner,七上 Lesson 3-國中2000單字,step;upload;photo,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue RoomGPT steps
+35,sentence,"Step two, choose a room type.","Step two, choose a room type.",步驟二，選擇房間種類。,beginner,七上 Lesson 3-國中2000單字,step;choose;room type,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue RoomGPT steps
+36,sentence,Choose a room theme.,Choose a room theme.,選擇一個房間主題。,beginner,七上 Lesson 3-國中2000單字,choose;room theme,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue RoomGPT steps
+37,sentence,The living room is a room type.,The living room is a room type.,客廳是一種房間種類。,beginner,七上 Lesson 3-國中2000單字,living room;room type,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue RoomGPT steps
+38,sentence,The bathroom is a room type.,The bathroom is a room type.,浴室是一種房間種類。,beginner,七上 Lesson 3-國中2000單字,bathroom;room type,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue RoomGPT steps
+39,sentence,The bedroom is a room type.,The bedroom is a room type.,臥室是一種房間種類。,beginner,七上 Lesson 3-國中2000單字,bedroom;room type,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue RoomGPT steps
+40,sentence,These themes are really cool.,These themes are really cool.,這些主題真的很酷。,beginner,七上 Lesson 3-國中2000單字,theme;really;cool,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue
+41,sentence,A big makeover is expensive.,A big makeover is expensive.,大型改造很昂貴。,beginner,七上 Lesson 3-國中2000單字,big;makeover;expensive,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue
+42,sentence,Are you OK with that?,Are you OK with that?,你可以接受那樣嗎？,beginner,七上 Lesson 3-國中2000單字,with;question,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue
+43,sentence,That is a good question.,That is a good question.,那是一個好問題。,beginner,七上 Lesson 3-國中2000單字,good;question,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Dialogue
+44,sentence,Where is the book?,Where is the book?,書在哪裡？,beginner,七上 Lesson 3-國中2000單字,where;book,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1: Where is
+45,sentence,Where are the books?,Where are the books?,書在哪裡？,beginner,七上 Lesson 3-國中2000單字,where;books,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1: Where are
+46,sentence,Where is the bedroom?,Where is the bedroom?,臥室在哪裡？,beginner,七上 Lesson 3-國中2000單字,where;bedroom,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1
+47,sentence,Where is the bathroom?,Where is the bathroom?,浴室在哪裡？,beginner,七上 Lesson 3-國中2000單字,where;bathroom,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1
+48,sentence,Where is the dining room?,Where is the dining room?,飯廳在哪裡？,beginner,七上 Lesson 3-國中2000單字,where;dining room,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1
+49,sentence,The bedroom is next to the bathroom.,The bedroom is next to the bathroom.,臥室在浴室旁邊。,beginner,七上 Lesson 3-國中2000單字,bedroom;next to;bathroom,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1
+50,sentence,The dining room is near the living room.,The dining room is near the living room.,飯廳在客廳附近。,beginner,七上 Lesson 3-國中2000單字,dining room;near;living room,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1
+51,sentence,The table is in front of the TV.,The table is in front of the TV.,桌子在電視前面。,beginner,七上 Lesson 3-國中2000單字,in front of;table;TV,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1
+52,sentence,The TV is behind the table.,The TV is behind the table.,電視在桌子後面。,beginner,七上 Lesson 3-國中2000單字,behind;TV;table,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1
+53,sentence,They are in front of the TV.,They are in front of the TV.,牠們在電視前面。,beginner,七上 Lesson 3-國中2000單字,they;in front of;TV,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1 practice
+54,sentence,It is not behind the chair.,It is not behind the chair.,它不在椅子後面。,beginner,七上 Lesson 3-國中2000單字,not;behind;chair,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1 practice
+55,sentence,It is under the table.,It is under the table.,它在桌子下面。,beginner,七上 Lesson 3-國中2000單字,under;table,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1 practice
+56,sentence,They are next to the desk.,They are next to the desk.,它們在書桌旁邊。,beginner,七上 Lesson 3-國中2000單字,they;next to;desk,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 1
+57,sentence,Please open the box.,Please open the box.,請打開盒子。,beginner,七上 Lesson 3-國中2000單字,please;open;box,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2: imperative
+58,sentence,"Open the box, please.","Open the box, please.",請打開盒子。,beginner,七上 Lesson 3-國中2000單字,open;box;please,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2: imperative
+59,sentence,Please choose a toy.,Please choose a toy.,請選擇一個玩具。,beginner,七上 Lesson 3-國中2000單字,please;choose;toy,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+60,sentence,"Zoe, choose a toy, please.","Zoe, choose a toy, please.",Zoe，請選擇一個玩具。,beginner,七上 Lesson 3-國中2000單字,choose;toy;please,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+61,sentence,Please be quiet.,Please be quiet.,請安靜。,beginner,七上 Lesson 3-國中2000單字,please;be quiet,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+62,sentence,"Be quiet, please.","Be quiet, please.",請安靜。,beginner,七上 Lesson 3-國中2000單字,be quiet;please,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+63,sentence,Don't be sad.,Don't be sad.,不要難過。,beginner,七上 Lesson 3-國中2000單字,don't;be sad,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2: negative imperative
+64,sentence,Don't run in the house.,Don't run in the house.,不要在房子裡跑。,beginner,七上 Lesson 3-國中2000單字,don't;run;house,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2: negative imperative
+65,sentence,Please don't eat the apple.,Please don't eat the apple.,請不要吃那顆蘋果。,beginner,七上 Lesson 3-國中2000單字,please don't;eat;apple,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2: negative imperative
+66,sentence,"Matt, don't play in the house.","Matt, don't play in the house.",Matt，不要在房子裡玩。,beginner,七上 Lesson 3-國中2000單字,don't;play;house,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+67,sentence,Let's go.,Let's go.,我們走吧。,beginner,七上 Lesson 3-國中2000單字,let's;go,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2: let's
+68,sentence,Let's play here.,Let's play here.,我們在這裡玩吧。,beginner,七上 Lesson 3-國中2000單字,let's;play;here,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2: let's
+69,sentence,Let's not be sad.,Let's not be sad.,我們不要難過。,beginner,七上 Lesson 3-國中2000單字,let's not;be sad,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2: let's not
+70,sentence,Let's not draw on the desk.,Let's not draw on the desk.,我們不要在書桌上畫。,beginner,七上 Lesson 3-國中2000單字,let's not;draw;desk,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2: let's not
+71,sentence,Let's not read.,Let's not read.,我們不要閱讀。,beginner,七上 Lesson 3-國中2000單字,let's not;read,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+72,sentence,Let's go to the park.,Let's go to the park.,我們去公園吧。,beginner,七上 Lesson 3-國中2000單字,let's;go to the park,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+73,sentence,Let's not run.,Let's not run.,我們不要跑。,beginner,七上 Lesson 3-國中2000單字,let's not;run,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+74,sentence,Let's walk.,Let's walk.,我們走路吧。,beginner,七上 Lesson 3-國中2000單字,let's;walk,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+75,sentence,Let's not dance.,Let's not dance.,我們不要跳舞。,beginner,七上 Lesson 3-國中2000單字,let's not;dance,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+76,sentence,Let's be quiet.,Let's be quiet.,我們安靜吧。,beginner,七上 Lesson 3-國中2000單字,let's;be quiet,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+77,sentence,Let's not watch TV.,Let's not watch TV.,我們不要看電視。,beginner,七上 Lesson 3-國中2000單字,let's not;watch TV,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+78,sentence,Let's go to bed.,Let's go to bed.,我們去睡覺吧。,beginner,七上 Lesson 3-國中2000單字,let's;go to bed,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+79,sentence,Let's not eat or drink here.,Let's not eat or drink here.,我們不要在這裡吃或喝。,beginner,七上 Lesson 3-國中2000單字,let's not;eat;drink;here,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+80,sentence,Let's go inside.,Let's go inside.,我們進去吧。,beginner,七上 Lesson 3-國中2000單字,let's;inside,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Grammar 2 practice
+81,sentence,This gift is for me.,This gift is for me.,這份禮物是給我的。,beginner,七上 Lesson 3-國中2000單字,gift;me,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 More to Know: object pronouns
+82,sentence,This gift is for him.,This gift is for him.,這份禮物是給他的。,beginner,七上 Lesson 3-國中2000單字,gift;him,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 More to Know: object pronouns
+83,sentence,Let's prepare gifts for them.,Let's prepare gifts for them.,我們為他們準備禮物吧。,beginner,七上 Lesson 3-國中2000單字,prepare;gifts;them,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 More to Know: object pronouns
+84,sentence,He is a good cook.,He is a good cook.,他是一位好廚師。,beginner,七上 Lesson 3-國中2000單字,cook,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 More to Know
+85,sentence,His food is good.,His food is good.,他的食物很好。,beginner,七上 Lesson 3-國中2000單字,his;food,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 More to Know
+86,sentence,He is nice to her.,He is nice to her.,他對她很好。,beginner,七上 Lesson 3-國中2000單字,nice;her,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 More to Know
+87,sentence,They are in the living room.,They are in the living room.,他們在客廳裡。,beginner,七上 Lesson 3-國中2000單字,they;living room,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 More to Know
+88,sentence,Their friends are nice.,Their friends are nice.,他們的朋友人很好。,beginner,七上 Lesson 3-國中2000單字,their;friends;nice,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 More to Know
+89,sentence,Their daughter is happy with them.,Their daughter is happy with them.,他們的女兒和他們在一起很快樂。,beginner,七上 Lesson 3-國中2000單字,their;daughter;happy;them,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 More to Know
+90,sentence,Mike's birthday is today.,Mike's birthday is today.,Mike 的生日是今天。,beginner,七上 Lesson 3-國中2000單字,birthday;today,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 More to Know practice
+91,sentence,Beds around the world are different.,Beds around the world are different.,世界各地的床都不同。,beginner,七上 Lesson 3-國中2000單字,beds;world;different,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Reading: Beds
+92,sentence,Jenny is an eleven-year-old girl.,Jenny is an eleven-year-old girl.,Jenny 是一個十一歲的女孩。,beginner,七上 Lesson 3-國中2000單字,Jenny;eleven-year-old;girl,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Reading: Beds
+93,sentence,Her house is an igloo.,Her house is an igloo.,她的房子是一間冰屋。,beginner,七上 Lesson 3-國中2000單字,house;igloo,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Reading: Beds
+94,sentence,Her bed is beside the kitchen.,Her bed is beside the kitchen.,她的床在廚房旁邊。,beginner,七上 Lesson 3-國中2000單字,bed;beside;kitchen,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Reading: Beds
+95,sentence,It is a big and hard ice bed.,It is a big and hard ice bed.,它是一張又大又硬的冰床。,beginner,七上 Lesson 3-國中2000單字,big;hard;ice bed,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Reading: Beds
+96,sentence,Jason's house is inside a cave.,Jason's house is inside a cave.,Jason 的房子在洞穴裡面。,beginner,七上 Lesson 3-國中2000單字,Jason;inside;cave,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Reading: Beds
+97,sentence,His bed is an old blanket.,His bed is an old blanket.,他的床是一條舊毛毯。,beginner,七上 Lesson 3-國中2000單字,bed;old;blanket,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Reading: Beds
+98,sentence,The Smiths need three bedrooms.,The Smiths need three bedrooms.,Smith 一家需要三間臥室。,beginner,七上 Lesson 3-國中2000單字,need;three bedrooms,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Read Up optional: house
+99,sentence,The kitchen is next to the living room.,The kitchen is next to the living room.,廚房在客廳旁邊。,beginner,七上 Lesson 3-國中2000單字,kitchen;next to;living room,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Read Up optional: house
+100,sentence,This house is perfect for them.,This house is perfect for them.,這間房子很適合他們。,beginner,七上 Lesson 3-國中2000單字,house;perfect;them,grade7_1_lesson3,Let's Get Some Ideas from RoomGPT,L3 Read Up optional: house

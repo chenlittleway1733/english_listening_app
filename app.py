@@ -37,6 +37,41 @@ QUESTION_RANGE_OPTIONS = [
     "錯題出題",
 ]
 
+BEGINNER_SEMESTERS = {
+    "七上 Grade 7-1 / 國中2000單字": "grade7_1",
+    "七下 Grade 7-2 / 國中2000單字": "grade7_2",
+    "八上 Grade 8-1 / 國中2000單字": "grade8_1",
+    "八下 Grade 8-2 / 國中2000單字": "grade8_2",
+    "九上 Grade 9-1 / 國中2000單字": "grade9_1",
+    "九下 Grade 9-2 / 國中2000單字": "grade9_2",
+}
+
+BEGINNER_UNIT_ORDER = [
+    "lesson1",
+    "lesson2",
+    "review1_2",
+    "lesson3",
+    "lesson4",
+    "review3_4",
+    "lesson5",
+    "lesson6",
+    "review5_6",
+]
+
+BEGINNER_UNIT_LABELS = {
+    "lesson1": "Lesson 1：Who's That Young Man?",
+    "lesson2": "Lesson 2：What Are These?",
+    "review1_2": "複習 1-2：Lesson 1 + Lesson 2",
+    "lesson3": "Lesson 3：Let's Get Some Ideas from RoomGPT",
+    "lesson4": "Lesson 4：I Can Listen to Their Songs Again and Again",
+    "review3_4": "複習 3-4：Lesson 3 + Lesson 4",
+    "lesson5": "Lesson 5：What Are You Doing?",
+    "lesson6": "Lesson 6：Are There Any Shelves Outside the Door?",
+    "review5_6": "複習 5-6：Lesson 5 + Lesson 6",
+}
+
+BEGINNER_RANGE_OPTIONS = ["全部", "錯題出題"]
+
 
 BASE_DIR = Path(__file__).resolve().parent
 WRONG_FILE = BASE_DIR / "wrong_records.csv"
@@ -58,10 +93,19 @@ def load_topic(level_key: str, topic_key: str) -> pd.DataFrame:
     df["id"] = pd.to_numeric(df["id"], errors="coerce")
     df = df.dropna(subset=["id"]).copy()
     df["id"] = df["id"].astype(int)
+
+    # tts_text 是「播放用文字」。若題庫沒有此欄，或內容空白，就使用 english。
+    # 這樣之後可針對 TTS 發音不自然的句子微調播放文字，而不影響答案欄位。
+    if "tts_text" not in df.columns:
+        df["tts_text"] = df["english"]
+    df["tts_text"] = df["tts_text"].fillna("")
+    df.loc[df["tts_text"].astype(str).str.strip() == "", "tts_text"] = df["english"]
     return df
 
 
 def filter_by_question_range(df: pd.DataFrame, range_label: str) -> pd.DataFrame:
+    if range_label == "全部":
+        return df.copy()
     if range_label == "1-500":
         start_id, end_id = 1, 500
     else:
@@ -86,6 +130,7 @@ def _normalize_wrong_df(df: pd.DataFrame) -> pd.DataFrame:
         "id": "",
         "type": "sentence",
         "english": "",
+        "tts_text": "",
         "chinese": "",
         "difficulty": "medium",
         "last_user_answer": "",
@@ -109,6 +154,9 @@ def _normalize_wrong_df(df: pd.DataFrame) -> pd.DataFrame:
     df["id"] = df["id"].astype(str)
     df["wrong_count"] = pd.to_numeric(df["wrong_count"], errors="coerce").fillna(0).astype(int)
     df["last_similarity"] = pd.to_numeric(df["last_similarity"], errors="coerce").fillna(0.0)
+    if "tts_text" in df.columns and "english" in df.columns:
+        df["tts_text"] = df["tts_text"].fillna("")
+        df.loc[df["tts_text"].astype(str).str.strip() == "", "tts_text"] = df["english"]
     return df[list(defaults.keys())]
 
 
@@ -165,6 +213,7 @@ def save_wrong_record(level_name: str, level_key: str, topic_name: str, topic_ke
         wrong_df.loc[idx, "level_name"] = level_name
         wrong_df.loc[idx, "topic_name"] = topic_name
         wrong_df.loc[idx, "type"] = question.get("type", "sentence")
+        wrong_df.loc[idx, "tts_text"] = question.get("tts_text", question.get("english", ""))
         wrong_df.loc[idx, "chinese"] = question.get("chinese", "")
         wrong_df.loc[idx, "difficulty"] = question.get("difficulty", "medium")
         wrong_df.loc[idx, "last_user_answer"] = user_answer
@@ -180,6 +229,7 @@ def save_wrong_record(level_name: str, level_key: str, topic_name: str, topic_ke
             "id": qid,
             "type": question.get("type", "sentence"),
             "english": english,
+            "tts_text": question.get("tts_text", english),
             "chinese": question.get("chinese", ""),
             "difficulty": question.get("difficulty", "medium"),
             "last_user_answer": user_answer,
@@ -223,7 +273,7 @@ def make_audio_or_show_error(level_key: str, topic_key: str, q: dict):
             level_key,
             topic_key,
             q["id"],
-            q["english"],
+            q.get("tts_text", q["english"]),
             repeat_count=2,
         )
         st.audio(str(audio_path))
@@ -238,7 +288,7 @@ def make_audio_or_show_error(level_key: str, topic_key: str, q: dict):
 def main() -> None:
     st.set_page_config(page_title="英文聽力練習系統", layout="centered")
     st.title("英文聽力練習系統")
-    st.caption("先選等級與類型，再選出題範圍。可練指定題號區間，也可改用錯題記錄出題；錯題答對後會自動移出錯題記錄。")
+    st.caption("中級課程依主題出題；初級課程依國中課本冊別與課次出題。錯題答對後會自動移出錯題記錄。")
 
     st.markdown("### 練習設定")
     level_names = list(LEVELS.keys())
@@ -247,32 +297,55 @@ def main() -> None:
         level_name = st.selectbox("1. 選擇等級", level_names, index=1)
         level_key = LEVELS[level_name]
 
-    available_topics = TOPICS_BY_LEVEL[level_key]
-    if not available_topics:
-        st.info("這個等級目前還沒有建立類型。之後可以新增新的題庫 CSV。")
-        st.stop()
+    if level_key == "beginner":
+        with col2:
+            semester_name = st.selectbox("2. 選擇冊別", list(BEGINNER_SEMESTERS.keys()), index=0)
+            semester_key = BEGINNER_SEMESTERS[semester_name]
 
-    with col2:
-        topic_name = st.selectbox("2. 選擇類型", list(available_topics.keys()))
-        topic_key = available_topics[topic_name]
+        unit_name = st.selectbox(
+            "3. 選擇課次",
+            BEGINNER_UNIT_ORDER,
+            format_func=lambda key: BEGINNER_UNIT_LABELS[key],
+            index=0,
+        )
+        unit_label = BEGINNER_UNIT_LABELS[unit_name]
+        topic_key = f"{semester_key}/{unit_name}"
+        topic_name = f"{semester_name} / {unit_label}"
+        question_options = BEGINNER_RANGE_OPTIONS
+        range_label = "4. 選擇出題方式"
+        range_help = "初級課程依課本每課建立題庫。選『全部』會從目前課次隨機抽題；選『錯題出題』會從目前課次的錯題記錄抽題。"
+    else:
+        available_topics = TOPICS_BY_LEVEL[level_key]
+        if not available_topics:
+            st.info("這個等級目前還沒有建立類型。之後可以新增新的題庫 CSV。")
+            st.stop()
+
+        with col2:
+            topic_name = st.selectbox("2. 選擇類型", list(available_topics.keys()))
+            topic_key = available_topics[topic_name]
+        question_options = QUESTION_RANGE_OPTIONS
+        range_label = "3. 選擇出題範圍"
+        range_help = "選擇題號區間時，系統會從目前等級與類型的 CSV 題庫中隨機抽題。選擇錯題出題時，系統只會從目前等級與類型的錯題記錄抽題；答對後會自動移出錯題記錄。"
 
     current_wrong_count = len(get_wrong_records_for_current_topic(level_key, topic_key))
     question_range = st.selectbox(
-        "3. 選擇出題範圍",
-        QUESTION_RANGE_OPTIONS,
+        range_label,
+        question_options,
         index=0,
-        help="選擇題號區間時，系統會從目前等級與類型的 CSV 題庫中隨機抽題。選擇錯題出題時，系統只會從目前等級與類型的錯題記錄抽題；答對後會自動移出錯題記錄。",
+        help=range_help,
     )
-
 
     mode_key = "wrong" if question_range == "錯題出題" else "normal"
     if mode_key == "normal":
-        st.info(f"目前模式：一般隨機出題，範圍：{question_range}。")
+        if level_key == "beginner":
+            st.info(f"目前模式：初級課本課程，冊別與課次：{topic_name}。")
+        else:
+            st.info(f"目前模式：一般隨機出題，範圍：{question_range}。")
     else:
         if current_wrong_count:
-            st.warning(f"目前模式：錯題出題。這個類型目前有 {current_wrong_count} 題錯題；答對後會自動移出錯題記錄。")
+            st.warning(f"目前模式：錯題出題。這個課程目前有 {current_wrong_count} 題錯題；答對後會自動移出錯題記錄。")
         else:
-            st.warning("目前模式：錯題出題。不過這個類型現在還沒有錯題，請先用一般範圍出題練習。")
+            st.warning("目前模式：錯題出題。不過這個課程現在還沒有錯題，請先用一般出題練習。")
 
     with st.expander("進階設定"):
         show_chinese_hint = st.checkbox("顯示中文提示", value=False)
@@ -282,7 +355,10 @@ def main() -> None:
     if mode_key == "normal":
         practice_df = filter_by_question_range(df, question_range)
         if practice_df.empty:
-            st.warning(f"目前類型沒有第 {question_range} 題範圍的題目，請改選其他範圍。")
+            if level_key == "beginner":
+                st.warning("目前這一課還沒有題目。請先提供這一課的課本內容，我會依課本單字與句型建立初級聽力句子。")
+            else:
+                st.warning(f"目前類型沒有第 {question_range} 題範圍的題目，請改選其他範圍。")
             st.stop()
     else:
         practice_df = df

@@ -1,0 +1,55 @@
+﻿semester_key,semester_name,unit_key,unit_label,unit_name,file_path
+grade7_1,七上,lesson1,Lesson 1,Who's That Young Man?,topics/beginner/grade7_1/lesson1.csv
+grade7_1,七上,lesson2,Lesson 2,What Are These?,topics/beginner/grade7_1/lesson2.csv
+grade7_1,七上,review1_2,複習 1-2,Lesson 1 + Lesson 2 Review,topics/beginner/grade7_1/review1_2.csv
+grade7_1,七上,lesson3,Lesson 3,Let's Get Some Ideas from RoomGPT,topics/beginner/grade7_1/lesson3.csv
+grade7_1,七上,lesson4,Lesson 4,I Can Listen to Their Songs Again and Again,topics/beginner/grade7_1/lesson4.csv
+grade7_1,七上,review3_4,複習 3-4,Lesson 3 + Lesson 4 Review,topics/beginner/grade7_1/review3_4.csv
+grade7_1,七上,lesson5,Lesson 5,What Are You Doing?,topics/beginner/grade7_1/lesson5.csv
+grade7_1,七上,lesson6,Lesson 6,Are There Any Shelves Outside the Door?,topics/beginner/grade7_1/lesson6.csv
+grade7_1,七上,review5_6,複習 5-6,Lesson 5 + Lesson 6 Review,topics/beginner/grade7_1/review5_6.csv
+grade7_2,七下,lesson1,Lesson 1,待填：七下單元1名稱,topics/beginner/grade7_2/lesson1.csv
+grade7_2,七下,lesson2,Lesson 2,待填：七下單元2名稱,topics/beginner/grade7_2/lesson2.csv
+grade7_2,七下,review1_2,複習 1-2,七下複習 1-2,topics/beginner/grade7_2/review1_2.csv
+grade7_2,七下,lesson3,Lesson 3,待填：七下單元3名稱,topics/beginner/grade7_2/lesson3.csv
+grade7_2,七下,lesson4,Lesson 4,待填：七下單元4名稱,topics/beginner/grade7_2/lesson4.csv
+grade7_2,七下,review3_4,複習 3-4,七下複習 3-4,topics/beginner/grade7_2/review3_4.csv
+grade7_2,七下,lesson5,Lesson 5,待填：七下單元5名稱,topics/beginner/grade7_2/lesson5.csv
+grade7_2,七下,lesson6,Lesson 6,待填：七下單元6名稱,topics/beginner/grade7_2/lesson6.csv
+grade7_2,七下,review5_6,複習 5-6,七下複習 5-6,topics/beginner/grade7_2/review5_6.csv
+grade8_1,八上,lesson1,Lesson 1,待填：八上單元1名稱,topics/beginner/grade8_1/lesson1.csv
+grade8_1,八上,lesson2,Lesson 2,待填：八上單元2名稱,topics/beginner/grade8_1/lesson2.csv
+grade8_1,八上,review1_2,複習 1-2,八上複習 1-2,topics/beginner/grade8_1/review1_2.csv
+grade8_1,八上,lesson3,Lesson 3,待填：八上單元3名稱,topics/beginner/grade8_1/lesson3.csv
+grade8_1,八上,lesson4,Lesson 4,待填：八上單元4名稱,topics/beginner/grade8_1/lesson4.csv
+grade8_1,八上,review3_4,複習 3-4,八上複習 3-4,topics/beginner/grade8_1/review3_4.csv
+grade8_1,八上,lesson5,Lesson 5,待填：八上單元5名稱,topics/beginner/grade8_1/lesson5.csv
+grade8_1,八上,lesson6,Lesson 6,待填：八上單元6名稱,topics/beginner/grade8_1/lesson6.csv
+grade8_1,八上,review5_6,複習 5-6,八上複習 5-6,topics/beginner/grade8_1/review5_6.csv
+grade8_2,八下,lesson1,Lesson 1,待填：八下單元1名稱,topics/beginner/grade8_2/lesson1.csv
+grade8_2,八下,lesson2,Lesson 2,待填：八下單元2名稱,topics/beginner/grade8_2/lesson2.csv
+grade8_2,八下,review1_2,複習 1-2,八下複習 1-2,topics/beginner/grade8_2/review1_2.csv
+grade8_2,八下,lesson3,Lesson 3,待填：八下單元3名稱,topics/beginner/grade8_2/lesson3.csv
+grade8_2,八下,lesson4,Lesson 4,待填：八下單元4名稱,topics/beginner/grade8_2/lesson4.csv
+grade8_2,八下,review3_4,複習 3-4,八下複習 3-4,topics/beginner/grade8_2/review3_4.csv
+grade8_2,八下,lesson5,Lesson 5,待填：八下單元5名稱,topics/beginner/grade8_2/lesson5.csv
+grade8_2,八下,lesson6,Lesson 6,待填：八下單元6名稱,topics/beginner/grade8_2/lesson6.csv
+grade8_2,八下,review5_6,複習 5-6,八下複習 5-6,topics/beginner/grade8_2/review5_6.csv
+grade9_1,九上,lesson1,Lesson 1,待填：九上單元1名稱,topics/beginner/grade9_1/lesson1.csv
+grade9_1,九上,lesson2,Lesson 2,待填：九上單元2名稱,topics/beginner/grade9_1/lesson2.csv
+grade9_1,九上,review1_2,複習 1-2,九上複習 1-2,topics/beginner/grade9_1/review1_2.csv
+grade9_1,九上,lesson3,Lesson 3,待填：九上單元3名稱,topics/beginner/grade9_1/lesson3.csv
+grade9_1,九上,lesson4,Lesson 4,待填：九上單元4名稱,topics/beginner/grade9_1/lesson4.csv
+grade9_1,九上,review3_4,複習 3-4,九上複習 3-4,topics/beginner/grade9_1/review3_4.csv
+grade9_1,九上,lesson5,Lesson 5,待填：九上單元5名稱,topics/beginner/grade9_1/lesson5.csv
+grade9_1,九上,lesson6,Lesson 6,待填：九上單元6名稱,topics/beginner/grade9_1/lesson6.csv
+grade9_1,九上,review5_6,複習 5-6,九上複習 5-6,topics/beginner/grade9_1/review5_6.csv
+grade9_2,九下,lesson1,Lesson 1,待填：九下單元1名稱,topics/beginner/grade9_2/lesson1.csv
+grade9_2,九下,lesson2,Lesson 2,待填：九下單元2名稱,topics/beginner/grade9_2/lesson2.csv
+grade9_2,九下,review1_2,複習 1-2,九下複習 1-2,topics/beginner/grade9_2/review1_2.csv
+grade9_2,九下,lesson3,Lesson 3,待填：九下單元3名稱,topics/beginner/grade9_2/lesson3.csv
+grade9_2,九下,lesson4,Lesson 4,待填：九下單元4名稱,topics/beginner/grade9_2/lesson4.csv
+grade9_2,九下,review3_4,複習 3-4,九下複習 3-4,topics/beginner/grade9_2/review3_4.csv
+grade9_2,九下,lesson5,Lesson 5,待填：九下單元5名稱,topics/beginner/grade9_2/lesson5.csv
+grade9_2,九下,lesson6,Lesson 6,待填：九下單元6名稱,topics/beginner/grade9_2/lesson6.csv
+grade9_2,九下,review5_6,複習 5-6,九下複習 5-6,topics/beginner/grade9_2/review5_6.csv

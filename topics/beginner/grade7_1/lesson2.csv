@@ -1,0 +1,101 @@
+﻿id,type,english,tts_text,chinese,difficulty,topic,keywords,lesson,unit_name,source_note
+1,sentence,It is a monkey.,It is a monkey.,牠是一隻猴子。,beginner,七上 Lesson 2-國中2000單字,monkey,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+2,sentence,It is a fox.,It is a fox.,牠是一隻狐狸。,beginner,七上 Lesson 2-國中2000單字,fox,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+3,sentence,It is a sheep.,It is a sheep.,牠是一隻綿羊。,beginner,七上 Lesson 2-國中2000單字,sheep,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+4,sentence,It is a tiger.,It is a tiger.,牠是一隻老虎。,beginner,七上 Lesson 2-國中2000單字,tiger,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+5,sentence,It is a zebra.,It is a zebra.,牠是一隻斑馬。,beginner,七上 Lesson 2-國中2000單字,zebra,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+6,sentence,It is a lion.,It is a lion.,牠是一隻獅子。,beginner,七上 Lesson 2-國中2000單字,lion,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+7,sentence,It is a mouse.,It is a mouse.,牠是一隻老鼠。,beginner,七上 Lesson 2-國中2000單字,mouse,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+8,sentence,It is a bear.,It is a bear.,牠是一隻熊。,beginner,七上 Lesson 2-國中2000單字,bear,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+9,sentence,This is a fish.,This is a fish.,這是一條魚。,beginner,七上 Lesson 2-國中2000單字,fish,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+10,sentence,That is a rabbit.,That is a rabbit.,那是一隻兔子。,beginner,七上 Lesson 2-國中2000單字,rabbit,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+11,sentence,What is this?,What is this?,這是什麼？,beginner,七上 Lesson 2-國中2000單字,what;this,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+12,sentence,What is that?,What is that?,那是什麼？,beginner,七上 Lesson 2-國中2000單字,what;that,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+13,sentence,What is it?,What is it?,它是什麼？,beginner,七上 Lesson 2-國中2000單字,what;it,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+14,sentence,This is a pen.,This is a pen.,這是一支筆。,beginner,七上 Lesson 2-國中2000單字,this;pen,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+15,sentence,That is a desk.,That is a desk.,那是一張書桌。,beginner,七上 Lesson 2-國中2000單字,that;desk,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+16,sentence,It is an eraser.,It is an eraser.,它是一個橡皮擦。,beginner,七上 Lesson 2-國中2000單字,it;eraser,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+17,sentence,This is a chair.,This is a chair.,這是一張椅子。,beginner,七上 Lesson 2-國中2000單字,this;chair,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+18,sentence,That is a key.,That is a key.,那是一把鑰匙。,beginner,七上 Lesson 2-國中2000單字,that;key,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+19,sentence,This is a picture.,This is a picture.,這是一張圖片。,beginner,七上 Lesson 2-國中2000單字,picture,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+20,sentence,It is an elephant.,It is an elephant.,牠是一隻大象。,beginner,七上 Lesson 2-國中2000單字,elephant,grade7_1_lesson2,What Are These?,L2 Vocabulary and Grammar: What is this/that/it?
+21,sentence,What are these?,What are these?,這些是什麼？,beginner,七上 Lesson 2-國中2000單字,what;these,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+22,sentence,What are those?,What are those?,那些是什麼？,beginner,七上 Lesson 2-國中2000單字,what;those,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+23,sentence,What are they?,What are they?,牠們是什麼？,beginner,七上 Lesson 2-國中2000單字,what;they,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+24,sentence,These are monkeys.,These are monkeys.,這些是猴子。,beginner,七上 Lesson 2-國中2000單字,these;monkeys,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+25,sentence,Those are foxes.,Those are foxes.,那些是狐狸。,beginner,七上 Lesson 2-國中2000單字,those;foxes,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+26,sentence,They are sheep.,They are sheep.,牠們是綿羊。,beginner,七上 Lesson 2-國中2000單字,they;sheep,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+27,sentence,Those are tigers.,Those are tigers.,那些是老虎。,beginner,七上 Lesson 2-國中2000單字,those;tigers,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+28,sentence,These are zebras.,These are zebras.,這些是斑馬。,beginner,七上 Lesson 2-國中2000單字,these;zebras,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+29,sentence,They are lions.,They are lions.,牠們是獅子。,beginner,七上 Lesson 2-國中2000單字,they;lions,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+30,sentence,These are mice.,These are mice.,這些是老鼠。,beginner,七上 Lesson 2-國中2000單字,these;mice,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+31,sentence,Those are bears.,Those are bears.,那些是熊。,beginner,七上 Lesson 2-國中2000單字,those;bears,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+32,sentence,They are fish.,They are fish.,牠們是魚。,beginner,七上 Lesson 2-國中2000單字,they;fish,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+33,sentence,Those are oxen.,Those are oxen.,那些是公牛。,beginner,七上 Lesson 2-國中2000單字,those;oxen,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+34,sentence,They are children.,They are children.,他們是孩子。,beginner,七上 Lesson 2-國中2000單字,children,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+35,sentence,They are men.,They are men.,他們是男人。,beginner,七上 Lesson 2-國中2000單字,men,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+36,sentence,They are women.,They are women.,她們是女人。,beginner,七上 Lesson 2-國中2000單字,women,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+37,sentence,These are boxes.,These are boxes.,這些是盒子。,beginner,七上 Lesson 2-國中2000單字,boxes,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+38,sentence,Those are watches.,Those are watches.,那些是手錶。,beginner,七上 Lesson 2-國中2000單字,watches,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+39,sentence,These are families.,These are families.,這些是家庭。,beginner,七上 Lesson 2-國中2000單字,families,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+40,sentence,Those are wives.,Those are wives.,那些是妻子。,beginner,七上 Lesson 2-國中2000單字,wives,grade7_1_lesson2,What Are These?,L2 Grammar: plural nouns and What are these/those/they?
+41,sentence,These dolls are cute.,These dolls are cute.,這些玩偶很可愛。,beginner,七上 Lesson 2-國中2000單字,dolls;cute,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+42,sentence,What are these dolls?,What are these dolls?,這些玩偶是什麼？,beginner,七上 Lesson 2-國中2000單字,what;dolls,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+43,sentence,They are animal signs.,They are animal signs.,它們是生肖符號。,beginner,七上 Lesson 2-國中2000單字,animal;signs,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+44,sentence,They are not animal signs.,They are not animal signs.,它們不是生肖符號。,beginner,七上 Lesson 2-國中2000單字,animal;signs,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+45,sentence,Are they Chinese zodiac animal signs?,Are they Chinese zodiac animal signs?,它們是中國生肖符號嗎？,beginner,七上 Lesson 2-國中2000單字,Chinese;zodiac;animal;signs,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+46,sentence,"No, they are not.","No, they are not.",不，它們不是。,beginner,七上 Lesson 2-國中2000單字,no;they,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+47,sentence,The rat is an animal sign.,The rat is an animal sign.,老鼠是一個生肖。,beginner,七上 Lesson 2-國中2000單字,rat;animal sign,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+48,sentence,The ox is an animal sign.,The ox is an animal sign.,牛是一個生肖。,beginner,七上 Lesson 2-國中2000單字,ox;animal sign,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+49,sentence,The dragon is an animal sign.,The dragon is an animal sign.,龍是一個生肖。,beginner,七上 Lesson 2-國中2000單字,dragon;animal sign,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+50,sentence,The snake is an animal sign.,The snake is an animal sign.,蛇是一個生肖。,beginner,七上 Lesson 2-國中2000單字,snake;animal sign,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+51,sentence,The horse is an animal sign.,The horse is an animal sign.,馬是一個生肖。,beginner,七上 Lesson 2-國中2000單字,horse;animal sign,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+52,sentence,The goat is an animal sign.,The goat is an animal sign.,山羊是一個生肖。,beginner,七上 Lesson 2-國中2000單字,goat;animal sign,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+53,sentence,The rooster is an animal sign.,The rooster is an animal sign.,公雞是一個生肖。,beginner,七上 Lesson 2-國中2000單字,rooster;animal sign,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+54,sentence,What is my animal sign?,What is my animal sign?,我的生肖是什麼？,beginner,七上 Lesson 2-國中2000單字,animal sign,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+55,sentence,What is your animal sign?,What is your animal sign?,你的生肖是什麼？,beginner,七上 Lesson 2-國中2000單字,animal sign,grade7_1_lesson2,What Are These?,L2 Dialogue: Chinese zodiac animal signs
+56,sentence,Your birth year is two thousand.,Your birth year is two thousand.,你的出生年是兩千年。,beginner,七上 Lesson 2-國中2000單字,birth year;two thousand,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+57,sentence,You are a dragon.,You are a dragon.,你是屬龍的。,beginner,七上 Lesson 2-國中2000單字,dragon,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+58,sentence,A dragon is smart.,A dragon is smart.,龍很聰明。,beginner,七上 Lesson 2-國中2000單字,dragon;smart,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+59,sentence,A dragon is energetic.,A dragon is energetic.,龍充滿活力。,beginner,七上 Lesson 2-國中2000單字,dragon;energetic,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+60,sentence,That is true.,That is true.,那是真的。,beginner,七上 Lesson 2-國中2000單字,true,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+61,sentence,Bella is a rabbit.,Bella is a rabbit.,Bella 是屬兔的。,beginner,七上 Lesson 2-國中2000單字,rabbit,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+62,sentence,A rabbit is nice.,A rabbit is nice.,兔子很友善。,beginner,七上 Lesson 2-國中2000單字,rabbit;nice,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+63,sentence,A rabbit is warm.,A rabbit is warm.,兔子很溫暖。,beginner,七上 Lesson 2-國中2000單字,rabbit;warm,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+64,sentence,She is a people person.,She is a people person.,她是一個人緣好的人。,beginner,七上 Lesson 2-國中2000單字,people person,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+65,sentence,No wonder she is smart.,No wonder she is smart.,難怪她很聰明。,beginner,七上 Lesson 2-國中2000單字,no wonder;smart,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+66,sentence,Abby is a pig.,Abby is a pig.,Abby 是一隻豬。,beginner,七上 Lesson 2-國中2000單字,pig,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+67,sentence,Her birth year is twenty twenty-four.,Her birth year is twenty twenty-four.,她的出生年是二零二四年。,beginner,七上 Lesson 2-國中2000單字,birth year;twenty twenty-four,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+68,sentence,Scott and Bella are in a movie theater.,Scott and Bella are in a movie theater.,Scott 和 Bella 在電影院裡。,beginner,七上 Lesson 2-國中2000單字,movie theater,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+69,sentence,The Chinese zodiac has twelve animal signs.,The Chinese zodiac has twelve animal signs.,中國生肖有十二個生肖符號。,beginner,七上 Lesson 2-國中2000單字,Chinese zodiac;animal signs,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+70,sentence,These animal signs are cute.,These animal signs are cute.,這些生肖符號很可愛。,beginner,七上 Lesson 2-國中2000單字,animal signs;cute,grade7_1_lesson2,What Are These?,L2 Dialogue: birth year and zodiac personality
+71,sentence,This is my pen.,This is my pen.,這是我的筆。,beginner,七上 Lesson 2-國中2000單字,my;pen,grade7_1_lesson2,What Are These?,L2 More to Know: pronouns and possessives
+72,sentence,That is your desk.,That is your desk.,那是你的書桌。,beginner,七上 Lesson 2-國中2000單字,your;desk,grade7_1_lesson2,What Are These?,L2 More to Know: pronouns and possessives
+73,sentence,This is his robot.,This is his robot.,這是他的機器人。,beginner,七上 Lesson 2-國中2000單字,his;robot,grade7_1_lesson2,What Are These?,L2 More to Know: pronouns and possessives
+74,sentence,That is her picture.,That is her picture.,那是她的圖片。,beginner,七上 Lesson 2-國中2000單字,her;picture,grade7_1_lesson2,What Are These?,L2 More to Know: pronouns and possessives
+75,sentence,These are our chairs.,These are our chairs.,這些是我們的椅子。,beginner,七上 Lesson 2-國中2000單字,our;chairs,grade7_1_lesson2,What Are These?,L2 More to Know: pronouns and possessives
+76,sentence,Those are their toys.,Those are their toys.,那些是他們的玩具。,beginner,七上 Lesson 2-國中2000單字,their;toys,grade7_1_lesson2,What Are These?,L2 More to Know: pronouns and possessives
+77,sentence,That is the girl's desk.,That is the girl's desk.,那是那個女孩的書桌。,beginner,七上 Lesson 2-國中2000單字,girl's desk,grade7_1_lesson2,What Are These?,L2 More to Know: pronouns and possessives
+78,sentence,Those are the girls' desks.,Those are the girls' desks.,那些是那些女孩的書桌。,beginner,七上 Lesson 2-國中2000單字,girls' desks,grade7_1_lesson2,What Are These?,L2 More to Know: pronouns and possessives
+79,sentence,That is the boy's robot.,That is the boy's robot.,那是那個男孩的機器人。,beginner,七上 Lesson 2-國中2000單字,boy's robot,grade7_1_lesson2,What Are These?,L2 More to Know: pronouns and possessives
+80,sentence,Those are the boys' robots.,Those are the boys' robots.,那些是那些男孩的機器人。,beginner,七上 Lesson 2-國中2000單字,boys' robots,grade7_1_lesson2,What Are These?,L2 More to Know: pronouns and possessives
+81,sentence,Look at the picture.,Look at the picture.,看看這張圖片。,beginner,七上 Lesson 2-國中2000單字,look;picture,grade7_1_lesson2,What Are These?,L2 Reading: Asian Elephants vs. African Elephants
+82,sentence,What is the reading about?,What is the reading about?,這篇閱讀是關於什麼？,beginner,七上 Lesson 2-國中2000單字,reading;about,grade7_1_lesson2,What Are These?,L2 Reading: Asian Elephants vs. African Elephants
+83,sentence,These are Asian elephants.,These are Asian elephants.,這些是亞洲象。,beginner,七上 Lesson 2-國中2000單字,Asian elephants,grade7_1_lesson2,What Are These?,L2 Reading: Asian Elephants vs. African Elephants
+84,sentence,Those are African elephants.,Those are African elephants.,那些是非洲象。,beginner,七上 Lesson 2-國中2000單字,African elephants,grade7_1_lesson2,What Are These?,L2 Reading: Asian Elephants vs. African Elephants
+85,sentence,African elephants are very big.,African elephants are very big.,非洲象非常大。,beginner,七上 Lesson 2-國中2000單字,African elephants;very;big,grade7_1_lesson2,What Are These?,L2 Reading: Asian Elephants vs. African Elephants
+86,sentence,"Their ears are big, too.","Their ears are big, too.",牠們的耳朵也很大。,beginner,七上 Lesson 2-國中2000單字,their;ears;big;too,grade7_1_lesson2,What Are These?,L2 Reading: Asian Elephants vs. African Elephants
+87,sentence,Asian elephants are small.,Asian elephants are small.,亞洲象比較小。,beginner,七上 Lesson 2-國中2000單字,Asian elephants;small,grade7_1_lesson2,What Are These?,L2 Reading: Asian Elephants vs. African Elephants
+88,sentence,Their ears are short.,Their ears are short.,牠們的耳朵很短。,beginner,七上 Lesson 2-國中2000單字,their;ears;short,grade7_1_lesson2,What Are These?,L2 Reading: Asian Elephants vs. African Elephants
+89,sentence,African elephants are different from Asian elephants.,African elephants are different from Asian elephants.,非洲象和亞洲象不同。,beginner,七上 Lesson 2-國中2000單字,African elephants;different;Asian elephants,grade7_1_lesson2,What Are These?,L2 Reading: Asian Elephants vs. African Elephants
+90,sentence,An Asian elephant is only about two point seven five meters tall.,An Asian elephant is only about two point seven five meters tall.,一隻亞洲象大約只有二點七五公尺高。,beginner,七上 Lesson 2-國中2000單字,Asian elephant;only;meter;tall,grade7_1_lesson2,What Are These?,L2 Reading: Asian Elephants vs. African Elephants
+91,sentence,African elephants' lifespans are about seventy years.,African elephants' lifespans are about seventy years.,非洲象的壽命大約是七十年。,beginner,七上 Lesson 2-國中2000單字,African elephants;lifespan;seventy,grade7_1_lesson2,What Are These?,L2 Reading: Asian Elephants vs. African Elephants
+92,sentence,Asian elephants' lifespans are about sixty years.,Asian elephants' lifespans are about sixty years.,亞洲象的壽命大約是六十年。,beginner,七上 Lesson 2-國中2000單字,Asian elephants;lifespan;sixty,grade7_1_lesson2,What Are These?,L2 Reading: Asian Elephants vs. African Elephants
+93,sentence,These are my pet horses.,These are my pet horses.,這些是我的寵物馬。,beginner,七上 Lesson 2-國中2000單字,pet;horses,grade7_1_lesson2,What Are These?,L2 Listening and Read Up: animal listening and elephant idioms
+94,sentence,They are big and tall.,They are big and tall.,牠們又大又高。,beginner,七上 Lesson 2-國中2000單字,big;tall,grade7_1_lesson2,What Are These?,L2 Listening and Read Up: animal listening and elephant idioms
+95,sentence,"This is a monkey, and that is a mouse.","This is a monkey, and that is a mouse.",這是一隻猴子，而那是一隻老鼠。,beginner,七上 Lesson 2-國中2000單字,monkey;mouse,grade7_1_lesson2,What Are These?,L2 Listening and Read Up: animal listening and elephant idioms
+96,sentence,"They are goats, not sheep.","They are goats, not sheep.",牠們是山羊，不是綿羊。,beginner,七上 Lesson 2-國中2000單字,goats;sheep,grade7_1_lesson2,What Are These?,L2 Listening and Read Up: animal listening and elephant idioms
+97,sentence,Today is World Elephant Day.,Today is World Elephant Day.,今天是世界大象日。,beginner,七上 Lesson 2-國中2000單字,World Elephant Day,grade7_1_lesson2,What Are These?,L2 Listening and Read Up: animal listening and elephant idioms
+98,sentence,An elephant never forgets.,An elephant never forgets.,大象永遠不會忘記。,beginner,七上 Lesson 2-國中2000單字,elephant;never;forgets,grade7_1_lesson2,What Are These?,L2 Listening and Read Up: animal listening and elephant idioms
+99,sentence,The elephant in the room is a big problem.,The elephant in the room is a big problem.,房間裡的大象是一個大問題。,beginner,七上 Lesson 2-國中2000單字,elephant in the room;problem,grade7_1_lesson2,What Are These?,L2 Listening and Read Up: animal listening and elephant idioms
+100,sentence,My sister wants the lion's share of the pizza.,My sister wants the lion's share of the pizza.,我妹妹想要披薩最大的一份。,beginner,七上 Lesson 2-國中2000單字,lion's share;pizza,grade7_1_lesson2,What Are These?,L2 Listening and Read Up: animal listening and elephant idioms
